@@ -1,0 +1,28 @@
+{
+  "paper_id": "",
+  "annotator": "<LLM model name>",
+  "no_codable_model": false,
+  "input_limitations": ["<note on extraction noise, missing sections, or empty array if none>"],
+  "models": [
+    {
+      "model_label": "<short label distinguishing this model>",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [{"quote": "<verbatim sentence>", "section": "<section>"}],
+          "justification": "<one to two sentences citing the rule/signal applied>"
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [{"quote": "<verbatim sentence>", "section": "<section>"}],
+          "reason": "<one sentence on why the evidence is weak or ambiguous>"
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}
