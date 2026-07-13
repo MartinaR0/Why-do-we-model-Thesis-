@@ -7,33 +7,27 @@ This repository contains everything needed to reproduce the classification study
 
 The study tests whether the six functional goals of modeling identified by Sousa et al. describe the modeling purposes reported in the OntoUML/UFO conceptual modeling literature, and evaluates which large language model is most suitable for extracting and classifying those purposes from academic papers.
 
-# Repository structure 
-.
-├── Dataset/             # The Excel workbooks produced by the analysis
-├── MD/                  # All papers from the revised catalog, converted to Markdown
-├── llm_classification/  # Raw LLM output (pure JSON), per subset
-│   └── scale_up/        # Claude's full classification of the 104 scale-up papers
-├── prompt/              # The exact prompt sent to the model, plus per-block components and codebook
-└── main.py              # Classification runner
-
-
-Dataset/
+## Dataset
 
 The Excel workbooks the analysis was built on:
 
 
-the comparison workbook — the LLM-vs-human evaluation on the 40-paper reference set (per-model KPIs, per-goal accuracy, per-paper agreement, disagreements, and a combined per-model view against the gold reference);
-the scale-up workbook — the goal-frequency counts from Claude's classification of the full corpus;
+the comparison workbook — the LLM-vs-human evaluation on the 40-paper reference set (per-model KPIs, per-goal accuracy, per-paper agreement, disagreements, and a combined per-model view against the gold reference)
 
-MD/
+
+the scale-up workbook — the goal-frequency counts from Claude's classification of the full corpus;
+the manual classification workbook — the human reference: two coders (coder1, coder2) and the reconciled agreed/gold column.
+
+
+## MD
 
 Every paper in the revised OntoUML/UFO catalog, converted from PDF to Markdown with Docling. Image content is removed, since classification is based on text rather than diagrams.
 
-llm_classification/
+## llm_classification
 
-The pure, unedited JSON output from the models, organized per subset. Each file is one model's classification of one paper, following the schema in prompt/components/08_output_format.json.
+The pure, unedited JSON output from the models, organized per subset. Each file is one model's classification of one paper
 
-The scale_up/ subfolder holds the full Claude classification of the 104 papers that were not part of the 40-paper reference set
+The scale_up/ subfolder holds the full Claude classification of the 104 papers that were not part of the 40-paper reference set.
 
 ## Prompt layout
 
