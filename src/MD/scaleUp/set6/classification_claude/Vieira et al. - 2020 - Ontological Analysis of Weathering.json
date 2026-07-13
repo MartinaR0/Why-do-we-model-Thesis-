@@ -1,0 +1,65 @@
+{
+  "paper_id": "Vieira et al. - 2020 - Ontological Analysis of Weathering",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Ontological model of the Weathering process (Physical & Chemical Weathering) based on UFO/GeoCore",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "this paper presents an ontological analysis and proposes an ontological model for the process of weathering, covering its two main types: physical weathering and chemical weathering.",
+              "section": "1. Introduction"
+            },
+            {
+              "quote": "it is intended to (i) help in identifying the chain of events that led the rocks and sediments to the actual situation, (ii) identify the participants and the roles they play in the process, and (iii) indicating the observable properties that change in weathering processes.",
+              "section": "1. Introduction"
+            },
+            {
+              "quote": "the result of this work can help in tracing the past states of sediment and rocks before they are transformed into a weathering event and helps modelers to understand how to model physical occurents.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "this enriched model may improve the understanding of sedimentary occurrences where the data is incomplete, leading the geologists to fill the gaps of information on the geology records",
+              "section": "6. Concluding Remarks"
+            }
+          ],
+          "justification": "The paper's core purpose is to conceptualize/clarify the weathering domain via an ontological analysis, defining participants, situations, and properties. This is a canonical For Understanding goal (domain understanding, clarification, conceptualization)."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "besides enhancing integration of data collected about a region of interest into the context of these occurrences, the model also allows the understanding of sedimentary occurrences where the data is incomplete",
+              "section": "5. Related Work and Discussion"
+            },
+            {
+              "quote": "the weathering model can be integrated with other event models to rebuild the full path of sediments.",
+              "section": "6. Concluding Remarks"
+            }
+          ],
+          "reason": "Integration/simulation is mentioned as a potential use, but no actual implementation or artifact generation is reported; framed as potential benefit rather than the model's realized purpose."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "it helps in identifying the chain of events that can lead rocks and sediments to a given situation, enabling temporal reasoning and simulations.",
+              "section": "5. Related Work and Discussion"
+            }
+          ],
+          "reason": "Supporting geologists' reasoning/inference about past states could be seen as decision support, but the paper does not present decision-making, option analysis, or evaluation activities as the model's aim."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

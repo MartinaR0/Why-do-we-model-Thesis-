@@ -1,0 +1,80 @@
+{
+  "paper_id": "El Ghosh et al. - 2024 - Towards Semantic Interoperability among Heterogeneous Cancer Image Data Models using a Layered Modul",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "EUCAIM Hyper-Ontology",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "For this purpose, hyper-ontology is developed as a common semantic metamodel that bridges the disparate imaging and clinical knowledge of the various repositories in EUCAIM and supports their integration.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "EUCAIM's hyper-ontology is also an application-based ontology targeted for federated semantic querying and image annotation.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "The hyper-ontology will permit applications to exchange queries and provide the semantic labels required for annotating cancer images.",
+              "section": "Section 3 (Requirements Analysis and Specifications)"
+            },
+            {
+              "quote": "We demonstrated that the hyper-ontology supports semantic interoperability by providing a common terminology and set of concepts that can represent and integrate data from OMOP and FHIR, allowing users to formulate queries without needing to know the specifics of each underlying model.",
+              "section": "Conclusion"
+            }
+          ],
+          "justification": "The hyper-ontology is actively developed and deployed (V0.1 beta) as the instrument that enables semantic interoperability, integration, federated querying, and image annotation across heterogeneous cancer data repositories. This matches the For Intervening signal pattern of 'used to enable interoperability' and 'generated artifact'."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "Data users or researchers can use the hyper-ontology to explore or use data in research.",
+              "section": "Section 3 (Requirements Analysis and Specifications)"
+            },
+            {
+              "quote": "The hyper-ontology will support exploring the data collections through the Public Catalogue, Federated Querying (federated search of aggregated data in the collections), and semantic annotation of cancer images.",
+              "section": "Section 3 (Requirements Analysis and Specifications)"
+            }
+          ],
+          "justification": "The hyper-ontology serves as a persistent reference vocabulary/knowledge resource published via the Public Catalogue for asynchronous use by researchers and data users not part of the original modeling process, matching the For Documenting signal of 'reference' and 'knowledge base' for later consumption."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "After a set of meetings with users and experts from the EUCAIM community, we define the following:",
+              "section": "Section 3 (Requirements Analysis and Specifications)"
+            },
+            {
+              "quote": "Intervention of experts : to specify application-related knowledge required in the hyper-ontology (e.g., query criteria), preferences in terminologies/ontologies (e.g., RadLex[12] for imaging), and to supervise mappings curation.",
+              "section": "Section 3 (Knowledge Acquisition)"
+            }
+          ],
+          "reason": "Meetings with experts are described as input to building the ontology, not as use of the ontology itself to communicate between stakeholders; evidence that the model functions as a communication artifact in live discussions is weak."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "The grounding (CL) and anchoring (UL) processes require using foundational ontologies (e.g., UFO [23,24], BFO [22]) as semantic bridges between domain/core concepts, improving the semantic understanding of terms and supporting the mappings of concepts and interoperability [9].",
+              "section": "Section 3 (Design and Conceptualization)"
+            }
+          ],
+          "reason": "The mention of 'semantic understanding' is framed as a means toward interoperability/mappings rather than as the model's primary purpose of supporting domain understanding or meaning negotiation among people."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

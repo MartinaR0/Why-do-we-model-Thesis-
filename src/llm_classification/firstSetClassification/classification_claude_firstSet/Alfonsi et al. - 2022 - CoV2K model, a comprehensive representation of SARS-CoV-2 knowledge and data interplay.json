@@ -1,0 +1,91 @@
+{
+  "paper_id": "Alfonsi et al. - 2022 - CoV2K model, a comprehensive representation of SARS-CoV-2 knowledge and data interplay",
+  "annotator": "claude-opus-4",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "CoV2K abstract model",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The CoV2K abstract model has allowed to provide practical guidance for the design of an integration pipeline that gathers different data sources and their data types within a single infrastructure.",
+              "section": "Results (CoV2K sources integration)"
+            },
+            {
+              "quote": "In building the CoV2K content, we have employed a classical data integration process driven by an abstract model, with pipelines for the integration and harmonization of different data silos, and display of results by means of a flexible application programming interface.",
+              "section": "Discussion"
+            },
+            {
+              "quote": "CoV2K is available for exploration as a graph that can be queried through a RESTful API addressing single entities or paths through their relationships.",
+              "section": "Abstract"
+            }
+          ],
+          "justification": "Positive signal pattern 'used to create/enable interoperability' applies: the model directly guided the design and implementation of a data integration pipeline, MongoDB knowledge base, and a working RESTful API. This is actual implementation, not proposed-only."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "We hereby propose CoV2K, an abstract model for explaining SARS-CoV-2-related concepts and interactions, focusing on viral mutations, their co-occurrence within variants, and their effects.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "CoV2K provides a clear and concise route map for understanding different connected types of information related to the virus",
+              "section": "Abstract"
+            },
+            {
+              "quote": "CoV2K offers a tangible route map for understanding the connections between concepts and data related to SARS-CoV-2.",
+              "section": "Discussion"
+            }
+          ],
+          "justification": "Positive signal pattern 'understand', 'conceptualize' applies: the model is explicitly framed as a means to explain concepts and support understanding of the SARS-CoV-2 domain (knowledge about the domain, not modeling activity)."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "CoV2K can be inspected by means of an interactive API (base URL: http://gmql.eu/cov2k/api/), with documentation of all its endpoints and links to a list of CoV2K entities/attributes and to a taxonomy of effects.",
+              "section": "Data availability"
+            },
+            {
+              "quote": "it thus drives a process of data and knowledge integration that aggregates information from several current resources, harmonizing their content and overcoming incompleteness and inconsistency issues.",
+              "section": "Abstract"
+            }
+          ],
+          "justification": "Positive signal pattern 'knowledge base', 'reference', 'repository' applies: the model serves as a persistent reference/knowledge base accessible asynchronously to others (researchers consuming the API and documentation later). Requires a short inference from described use."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "All operations are needed for resolving the problems of information quality described in the introduction section.",
+              "section": "Results (CoV2K sources integration)"
+            }
+          ],
+          "reason": "The evidence describes resolving data-quality problems via the integration pipeline (implementation), not the model itself being used to analyze options or guide stakeholder decisions; per disambiguation rule, implementation-only evidence codes as Intervening, not Problem-solving."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "However, it is hampered by a lack of (1) coordination of terms and concepts being used, (2) methods to handle their heterogeneity and evolution in time, (3) an instrument that allows to connect concepts.",
+              "section": "Introduction"
+            }
+          ],
+          "reason": "The paper hints at coordinating terms across organizations but does not explicitly state the model is used for synchronous discussion, meetings, or live explanation between distinct stakeholder groups."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

@@ -1,0 +1,97 @@
+{
+  "paper_file": "Morales Ramineze et al. - An ontology of online user feedback in software engineering.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "An Ontology of Online User Feedback in Software Engineering",
+    "annotator": "LLM model name",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "User Feedback Ontology",
+        "goals": [
+          {
+            "goal": "For Understanding",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "In our research, we focus on online explicit user feedback (that we refer simply as 'user feedback' from now on) in the context of software services and applications, which can represent a key information source for requirements driven evolution of software services and applications.",
+                "section": "Introduction"
+              },
+              {
+                "quote": "The considered background knowledge to develop the user feedback ontology is the Speech Act Theory (SAT), which has been proposed in the research field of philosophy of language, and the communication ontology developed as an extension of the Unified Foundational Ontology (UFO) (Oliveira et al., 2007).",
+                "section": "Introduction"
+              },
+              {
+                "quote": "The advantages of having an ontology are several, and in our case the most important are: (a) a better understanding of the problem context, i.e., user feedback; (b) ontologies represent a scrutiny of all the concepts (including synonyms) that must be taken into account, e.g., user comment is the same as user feedback; and (c) ontologies enable an interoperation of different techniques, for example among systems that use different terminology, an ontology can provide a translation between the concepts used between the diverse methods, paradigms, languages or software tools implemented.",
+                "section": "Introduction"
+              }
+            ],
+            "justification": "The paper explicitly states that the ontology's purpose is to enable a better understanding of the problem context (user feedback), to clarify concepts and synonyms, and to support interoperation across different systems. These are direct indicators of the 'For Understanding' goal, supported by the signal pattern 'clarify' and 'conceptualize'."
+          },
+          {
+            "goal": "For Problem-solving",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "The main problem at interest in the considered scenarios is the analysis of the user feedback for the purpose of identifying new features or requirements to be implemented in next software releases.",
+                "section": "4. Application of the Ontology"
+              },
+              {
+                "quote": "We propose a tool-supported method for the analysis of OSS mailing-list discussions in terms of the linguistic and non-linguistic acts expressed by the participants (Morales-Ramirez et al., 2014a). The method exploits NLP techniques for providing automatic speech-act classification, and an analysis model for this type of online discussion (i.e. OSS user forum), that helps requirements engineers to recognize indicators for bug and feature request descriptions.",
+                "section": "4.4. Scenario 4: Semi-Automated Analysis of User Feedback"
+              }
+            ],
+            "justification": "The ontology is used to guide the analysis of user feedback to identify new features or requirements, which is a decision-making process. The paper frames this as solving the problem of identifying what needs to change in software evolution. This matches the 'For Problem-solving' goal, supported by the signal pattern 'identify shortcomings' and 'what should change'."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "The proposed ontology attempts at providing a way to unify all the different concepts in a single classification.",
+                "section": "3.2. OntoUML Specification of the Ontology"
+              },
+              {
+                "quote": "The use of the ontology when analyzing semi-structured feedback can be beneficial in order to discover patterns of combination of specialized speech acts that are associated with a specific type of feedback classification.",
+                "section": "4.2. Scenario 2: Semi-structured User Feedback"
+              }
+            ],
+            "justification": "The ontology is presented as a unifying framework to align different concepts and enable communication across stakeholders (e.g., developers and users). The paper emphasizes its role in bridging different interpretations and enabling shared understanding, which aligns with 'For Communicating'. The signal pattern 'align stakeholders' and 'bridge between' supports this."
+          },
+          {
+            "goal": "For Documenting",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "The proposed ontology has been used to give a full account of the concepts needed to describe user feedback and its analysis in several application scenarios.",
+                "section": "7. Conclusion and Future Work"
+              },
+              {
+                "quote": "We described how we evolved the ontology through an iterative validation process with the goal of improving its modeling quality, by eliminating possible anti-patterns in OntoUML models.",
+                "section": "7. Conclusion and Future Work"
+              }
+            ],
+            "justification": "The ontology is presented as a persistent, formalized reference for describing user feedback and its analysis across multiple scenarios. It is stored and evolved over time for future use, which fits the 'For Documenting' goal. The signal pattern 'knowledge base' and 'reference' is supported by the paper's description of the ontology as a stable, reusable artifact."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Intervening",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "We propose a tool-supported method for the analysis of OSS mailing-list discussions in terms of the linguistic and non-linguistic acts expressed by the participants (Morales-Ramirez et al., 2014a).",
+                "section": "4.4. Scenario 4: Semi-Automated Analysis of User Feedback"
+              }
+            ],
+            "reason": "The paper mentions a tool-supported method but does not state that the ontology was used to build or implement a system, artifact, or software. The use is described as analytical and evaluative, not as an instrument for direct implementation. The evidence is weak because 'tool-supported' does not imply actual deployment or artifact generation."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"An Ontology of Online User Feedback in Software Engineering\",\n  \"annotator\": \"LLM model name\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"User Feedback Ontology\",\n      \"goals\": [\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"In our research, we focus on online explicit user feedback (that we refer simply as 'user feedback' from now on) in the context of software services and applications, which can represent a key information source for requirements driven evolution of software services and applications.\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"The considered background knowledge to develop the user feedback ontology is the Speech Act Theory (SAT), which has been proposed in the research field of philosophy of language, and the communication ontology developed as an extension of the Unified Foundational Ontology (UFO) (Oliveira et al., 2007).\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"The advantages of having an ontology are several, and in our case the most important are: (a) a better understanding of the problem context, i.e., user feedback; (b) ontologies represent a scrutiny of all the concepts (including synonyms) that must be taken into account, e.g., user comment is the same as user feedback; and (c) ontologies enable an interoperation of different techniques, for example among systems that use different terminology, an ontology can provide a translation between the concepts used between the diverse methods, paradigms, languages or software tools implemented.\",\n              \"section\": \"Introduction\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that the ontology's purpose is to enable a better understanding of the problem context (user feedback), to clarify concepts and synonyms, and to support interoperation across different systems. These are direct indicators of the 'For Understanding' goal, supported by the signal pattern 'clarify' and 'conceptualize'.\"\n        },\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The main problem at interest in the considered scenarios is the analysis of the user feedback for the purpose of identifying new features or requirements to be implemented in next software releases.\",\n              \"section\": \"4. Application of the Ontology\"\n            },\n            {\n              \"quote\": \"We propose a tool-supported method for the analysis of OSS mailing-list discussions in terms of the linguistic and non-linguistic acts expressed by the participants (Morales-Ramirez et al., 2014a). The method exploits NLP techniques for providing automatic speech-act classification, and an analysis model for this type of online discussion (i.e. OSS user forum), that helps requirements engineers to recognize indicators for bug and feature request descriptions.\",\n              \"section\": \"4.4. Scenario 4: Semi-Automated Analysis of User Feedback\"\n            }\n          ],\n          \"justification\": \"The ontology is used to guide the analysis of user feedback to identify new features or requirements, which is a decision-making process. The paper frames this as solving the problem of identifying what needs to change in software evolution. This matches the 'For Problem-solving' goal, supported by the signal pattern 'identify shortcomings' and 'what should change'.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The proposed ontology attempts at providing a way to unify all the different concepts in a single classification.\",\n              \"section\": \"3.2. OntoUML Specification of the Ontology\"\n            },\n            {\n              \"quote\": \"The use of the ontology when analyzing semi-structured feedback can be beneficial in order to discover patterns of combination of specialized speech acts that are associated with a specific type of feedback classification.\",\n              \"section\": \"4.2. Scenario 2: Semi-structured User Feedback\"\n            }\n          ],\n          \"justification\": \"The ontology is presented as a unifying framework to align different concepts and enable communication across stakeholders (e.g., developers and users). The paper emphasizes its role in bridging different interpretations and enabling shared understanding, which aligns with 'For Communicating'. The signal pattern 'align stakeholders' and 'bridge between' supports this.\"\n        },\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The proposed ontology has been used to give a full account of the concepts needed to describe user feedback and its analysis in several application scenarios.\",\n              \"section\": \"7. Conclusion and Future Work\"\n            },\n            {\n              \"quote\": \"We described how we evolved the ontology through an iterative validation process with the goal of improving its modeling quality, by eliminating possible anti-patterns in OntoUML models.\",\n              \"section\": \"7. Conclusion and Future Work\"\n            }\n          ],\n          \"justification\": \"The ontology is presented as a persistent, formalized reference for describing user feedback and its analysis across multiple scenarios. It is stored and evolved over time for future use, which fits the 'For Documenting' goal. The signal pattern 'knowledge base' and 'reference' is supported by the paper's description of the ontology as a stable, reusable artifact.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Intervening\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"We propose a tool-supported method for the analysis of OSS mailing-list discussions in terms of the linguistic and non-linguistic acts expressed by the participants (Morales-Ramirez et al., 2014a).\",\n              \"section\": \"4.4. Scenario 4: Semi-Automated Analysis of User Feedback\"\n            }\n          ],\n          \"reason\": \"The paper mentions a tool-supported method but does not state that the ontology was used to build or implement a system, artifact, or software. The use is described as analytical and evaluative, not as an instrument for direct implementation. The evidence is weak because 'tool-supported' does not imply actual deployment or artifact generation.\"\n        }\n      ]\n    }\n  ],\n  \"outside\\_taxonomy\": []\n}",
+  "seconds": 36.2
+}

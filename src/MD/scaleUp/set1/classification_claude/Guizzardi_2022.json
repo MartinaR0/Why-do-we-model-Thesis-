@@ -1,0 +1,91 @@
+{
+  "paper_id": "Guizzardi_2022",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "UFO (Unified Foundational Ontology)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The idea was to develop a 'Calculus of Content' aimed at supporting the ontological analysis, conceptual clarification, and semantic explicitation of the content embedded in representation artifacts. These, in turn, should support human users in tasks such as domain understanding, problem-solving, and meaning negotiation (Guarino et al., 2020).",
+              "section": "Section 2"
+            },
+            {
+              "quote": "it has been successfully used to provide conceptual clarification in complex domains such as risk, services, trust, law, biodiversity, design science research, among many others (a more comprehensive list is provided in Section 5).",
+              "section": "Section 1"
+            }
+          ],
+          "justification": "The paper explicitly states UFO's purpose is to support domain understanding, conceptual clarification, and meaning negotiation, matching the positive signals 'clarify', 'conceptualize', and 'meaning negotiation' for For Understanding."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "These, in turn, should support human users in tasks such as domain understanding, problem-solving, and meaning negotiation (Guarino et al., 2020).",
+              "section": "Section 2"
+            }
+          ],
+          "justification": "The paper explicitly names 'problem-solving' as one of the tasks UFO is meant to support for human users, directly matching the For Problem-solving goal definition."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Of all UFO's applications, one deserves special attention, namely, the use of UFO in the design of an ontology-driven conceptual modeling language, which later came to be known as OntoUML (Guizzardi, 2005).",
+              "section": "Section 1"
+            },
+            {
+              "quote": "UFO's evolution has also been influenced by its applications over the years. It has been employed as a basis for analyzing, reengineering, and integrating many modeling languages and standards in different domains (e.g., UML, BPMN, ArchiMate), as well as for the development of core and domain ontologies in different areas (Guizzardi et al., 2015b).",
+              "section": "Section 1"
+            },
+            {
+              "quote": "In particular, we call attention to a recent industry standard in the tourism area that is entirely based on UFO-B (AlpineBits Alliance, 2021).",
+              "section": "Section 5"
+            },
+            {
+              "quote": "Besides OntoUML, UFO has been successfully used in the design of a number of ontologies in a multitude of sub-domains in Software Engineering",
+              "section": "Section 5"
+            }
+          ],
+          "justification": "UFO was used to design the OntoUML language, an industry standard (AlpineBits), and numerous domain ontologies. These are concrete artifacts built using UFO, satisfying the For Intervening signal pattern ('used to create', built artifacts)."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "The ultimate goal of this project is, thus, providing well-founded engineering mechanisms for helping modelers to achieve intra-worldview consistency, i.e., ontological consistency when taking the world a certain way, and inter-worldview interoperability, i.e., making explicit the ontological commitments of a worldview such that different worldviews can safely interoperate.",
+              "section": "Section 2"
+            },
+            {
+              "quote": "These, in turn, should support human users in tasks such as domain understanding, problem-solving, and meaning negotiation (Guarino et al., 2020).",
+              "section": "Section 2"
+            }
+          ],
+          "justification": "The paper frames UFO as supporting 'meaning negotiation' and 'inter-worldview interoperability' between distinct worldviews/groups, implying alignment between parties. This requires a short inference that meaning negotiation involves interaction between distinct people/groups."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Several dozens of these models are available at http://purl.org/krdb-core/model-repository/.",
+              "section": "Section 1"
+            }
+          ],
+          "reason": "While there is a model repository mentioned, the paper does not explicitly frame UFO as having documentation/reference purpose; the evidence is indirect and relates to OntoUML models rather than UFO's stated purpose."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

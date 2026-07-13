@@ -1,0 +1,69 @@
+{
+  "paper_id": "de Aguiar et al. - 2019 - OOC-O A Reference Ontology on Object-Oriented Code",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "OOC-O (Reference Ontology on Object-Oriented Code)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "In this paper, we propose OOC-O, a reference ontology on Object-Oriented Code whose purpose is to identify and represent the fundamental concepts present in OO source code.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "The intention is to use the ontology to assist the understanding of different programming languages and to support the development of tools that work with these languages, in the context of polyglot programming and object-oriented frameworks.",
+              "section": "Section 3"
+            },
+            {
+              "quote": "In this context, OOC-O has been used as support for both programmers to understand different syntaxes and semantics of object-oriented constructs, as well as for integrated development tools to interoperate different languages.",
+              "section": "Section 1 Introduction"
+            }
+          ],
+          "justification": "The paper explicitly states the ontology's purpose is to identify and represent fundamental concepts and to assist programmers in understanding different syntaxes and semantics of OO constructs. This matches the For Understanding signal of clarifying/defining domain concepts and developing shared conceptualization."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The ontology has already been used to migrate classes with object/relational mappings from one language to another [30] and is currently being used in an effort to produce a unified solution for identifying smells in OO source code.",
+              "section": "Section 1 Introduction"
+            },
+            {
+              "quote": "Finally, in a separate research effort [30], the OOC-O reference ontology presented in this paper was implemented in OWL, giving rise to its operational version OOC-OWL (also available in the aforementioned website). OOC-OWL was then used by ORM-OWL (Object/Relational Mapping Ontology) to instantiate source code with ORM annotations and migrate it from one language/framework to another using the ontology as an interlingua.",
+              "section": "Section 4 Evaluation"
+            },
+            {
+              "quote": "In this context, OOC-O can be used to support interoperability among them.",
+              "section": "Section 4 Evaluation"
+            }
+          ],
+          "justification": "The ontology has been actively implemented (operational version OOC-OWL) and used to migrate code between languages and to enable interoperability, matching the For Intervening positive signals 'used to enable interoperability' and 'implemented'."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Documentation, to record the results of the development process by means of a Reference Ontology Specification;",
+              "section": "Section 2 Baseline"
+            },
+            {
+              "quote": "More details of the ontology can be found in its specification document [2].",
+              "section": "Section 3"
+            }
+          ],
+          "reason": "The references to a Reference Ontology Specification document concern documenting the ontology development process rather than using the model itself as a documentation/reference artifact for an external audience; the evidence is indirect."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

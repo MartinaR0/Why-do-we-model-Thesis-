@@ -1,0 +1,82 @@
+{
+  "paper_file": "Calhau et al. - 2024 - A System Core Ontology for Capability Emergence Modeling.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "A System Core Ontology for Capability Emergence Modeling",
+    "annotator": "LLM model name",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "System Core Ontology",
+        "goals": [
+          {
+            "goal": "For Understanding",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "To properly understand organizational adaptation and innovation, it is critical to understand the emergence phenomenon, i.e., how the capabilities of a system emerge after changes.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "In pursuit of an understanding of the emergence phenomenon and the nature of those new kinds of systems in organizations, we propose a well-founded system core ontology based on the Unified Foundational Ontology.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "The major implication for Enterprise Architecture of this ontology is to provide guidelines for capabilities emergence modeling and emergence pattern identification in EA notations (e.g., ArchiMate).",
+                "section": "8 Final Remarks"
+              }
+            ],
+            "justification": "The abstract and introduction explicitly state that the ontology is proposed to achieve understanding of the emergence phenomenon and the nature of systems. The goal is framed as foundational knowledge-building, not implementation or decision-making. The signal pattern 'understand' and 'clarify' is directly supported by the text."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "The use of the system ontology to create language patterns in EA notations will be detailed in the following case study.",
+                "section": "5 Capability Emergence Modeling in Enterprise Architecture"
+              },
+              {
+                "quote": "To improve the representation of this emergence pattern, we created an illustrative language pattern in ArchiMate specific to this case, as shown in Fig. 5.",
+                "section": "6 Emergence in the Spotify Company"
+              }
+            ],
+            "justification": "The paper describes creating a language pattern in ArchiMate to represent the ontology's concepts, which is intended to support communication between stakeholders (e.g., architects, developers) about system capabilities and emergence. The use of 'illustrative language pattern' and 'representation' indicates a communicative function, not implementation. This aligns with the signal pattern 'communicate' and 'explain to', and the context suggests bridging different groups in EA."
+          },
+          {
+            "goal": "For Documenting",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "the identified patterns can even be considered as a knowledge items into the knowledge repository of the organization and forming a 'library' of patterns.",
+                "section": "5 Capability Emergence Modeling in Enterprise Architecture"
+              },
+              {
+                "quote": "In this case, the identified patterns can even be considered as a knowledge items into the knowledge repository of the organization and forming a 'library' of patterns.",
+                "section": "5 Capability Emergence Modeling in Enterprise Architecture"
+              }
+            ],
+            "justification": "The paper explicitly states that emergence patterns can be stored in a knowledge repository and form a 'library' for future use. This is a clear case of asynchronous, persistent documentation. The signal pattern 'knowledge base', 'reference', and 'repository' is directly supported by the text, and the context is not live or real-time."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Problem-solving",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "the system ontology can also be used as a reference to integrate ontologies of distinct kinds of systems such as cyber-physical systems, system-of-systems, and digital twins, besides contributing to interoperability and data integration in different knowledge areas.",
+                "section": "8 Final Remarks"
+              }
+            ],
+            "reason": "The mention of interoperability and integration is a general benefit, not tied to a specific decision-making or problem-solving process. There is no evidence that the model was used to analyze options, evaluate alternatives, or identify shortcomings in a concrete context."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"A System Core Ontology for Capability Emergence Modeling\",\n  \"annotator\": \"LLM model name\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"System Core Ontology\",\n      \"goals\": [\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"To properly understand organizational adaptation and innovation, it is critical to understand the emergence phenomenon, i.e., how the capabilities of a system emerge after changes.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"In pursuit of an understanding of the emergence phenomenon and the nature of those new kinds of systems in organizations, we propose a well-founded system core ontology based on the Unified Foundational Ontology.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"The major implication for Enterprise Architecture of this ontology is to provide guidelines for capabilities emergence modeling and emergence pattern identification in EA notations (e.g., ArchiMate).\",\n              \"section\": \"8 Final Remarks\"\n            }\n          ],\n          \"justification\": \"The abstract and introduction explicitly state that the ontology is proposed to achieve understanding of the emergence phenomenon and the nature of systems. The goal is framed as foundational knowledge-building, not implementation or decision-making. The signal pattern 'understand' and 'clarify' is directly supported by the text.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The use of the system ontology to create language patterns in EA notations will be detailed in the following case study.\",\n              \"section\": \"5 Capability Emergence Modeling in Enterprise Architecture\"\n            },\n            {\n              \"quote\": \"To improve the representation of this emergence pattern, we created an illustrative language pattern in ArchiMate specific to this case, as shown in Fig. 5.\",\n              \"section\": \"6 Emergence in the Spotify Company\"\n            }\n          ],\n          \"justification\": \"The paper describes creating a language pattern in ArchiMate to represent the ontology's concepts, which is intended to support communication between stakeholders (e.g., architects, developers) about system capabilities and emergence. The use of 'illustrative language pattern' and 'representation' indicates a communicative function, not implementation. This aligns with the signal pattern 'communicate' and 'explain to', and the context suggests bridging different groups in EA.\"\n        },\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"the identified patterns can even be considered as a knowledge items into the knowledge repository of the organization and forming a 'library' of patterns.\",\n              \"section\": \"5 Capability Emergence Modeling in Enterprise Architecture\"\n            },\n            {\n              \"quote\": \"In this case, the identified patterns can even be considered as a knowledge items into the knowledge repository of the organization and forming a 'library' of patterns.\",\n              \"section\": \"5 Capability Emergence Modeling in Enterprise Architecture\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that emergence patterns can be stored in a knowledge repository and form a 'library' for future use. This is a clear case of asynchronous, persistent documentation. The signal pattern 'knowledge base', 'reference', and 'repository' is directly supported by the text, and the context is not live or real-time.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"the system ontology can also be used as a reference to integrate ontologies of distinct kinds of systems such as cyber-physical systems, system-of-systems, and digital twins, besides contributing to interoperability and data integration in different knowledge areas.\",\n              \"section\": \"8 Final Remarks\"\n            }\n          ],\n          \"reason\": \"The mention of interoperability and integration is a general benefit, not tied to a specific decision-making or problem-solving process. There is no evidence that the model was used to analyze options, evaluate alternatives, or identify shortcomings in a concrete context.\"\n        }\n      ]\n    }\n  ],\n  \"outside\\_taxonomy\": []\n}",
+  "seconds": 17.8
+}

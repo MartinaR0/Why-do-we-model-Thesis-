@@ -1,0 +1,78 @@
+{
+  "paper_id": "Albuquerque et al. - 2015 - OntoBio A Biodiversity Domain Ontology for Amazonian Biological Collected Objects",
+  "annotator": "ChatGPT-5",
+  "no_codable_model": false,
+  "input_limitations": [
+    "The extracted text contains encoding artifacts in author names and mathematical symbols, and figures are represented only as [FIGURE] placeholders."
+  ],
+  "models": [
+    {
+      "model_label": "OntoBio biodiversity domain ontology for Amazonian biological collected objects",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "For the implementation of the biodiversity ontology, ProtΓ©gΓ© ontology editor was used.",
+              "section": "Section 2.3"
+            },
+            {
+              "quote": "The implementation is open to use and reusable on a global scale.",
+              "section": "Section 2.4"
+            },
+            {
+              "quote": "OntoBio  has  already  been  validated  by  NEMO (Nucleus  for  Studies  on  Conceptual  Modelling  and Ontologies).",
+              "section": "Conclusions"
+            }
+          ],
+          "justification": "The paper explicitly states that the biodiversity ontology was implemented and made available for use, and also reports validation of OntoBio. Under the Intervening rule, an ontology encoded as an implementation artifact and made operational counts as use of the model to enable an implemented artifact."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The main purpose of this ontology is to provide a clear and precise conceptualization of the issues raised in  CSD,  independent  of  a  specific  application.",
+              "section": "Section 2.4"
+            },
+            {
+              "quote": "The  development  of  OntoBio  showed  that  even when dealing with a complex domain, it is possible to model structured/semistructured knowledge from preexisting  databases.",
+              "section": "Conclusions"
+            }
+          ],
+          "justification": "The authors explicitly define OntoBio's main purpose as providing a clear and precise conceptualization of the domain issues. This directly fits the Understanding goal because the model is used to clarify and structure domain knowledge."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "Ontology contains an additional classification dimension that allows knowledge recovery and establishes  a  common  vocabulary,  fundamental  for knowledge sharing.",
+              "section": "Conclusions"
+            },
+            {
+              "quote": "OntoBio has contributed  to  knowledge  organization  and  has  been used in real world situations such as INPA's Biological Collection  Program  serving  as  a  central  object  of investigation for the previously mentioned issues.",
+              "section": "Conclusions"
+            }
+          ],
+          "justification": "The paper frames OntoBio as supporting knowledge organization, recovery, and a common vocabulary for knowledge sharing. The link to Documenting requires a modest inference that the ontology functions as a persistent reference or knowledge-management artifact rather than live stakeholder communication."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Applied to the biodiversity  domain,  ontologies  can  be  a  valuable resource  for  strategic  planning  and  its  contribution toward conservation of the Amazon region.",
+              "section": "Abstract"
+            }
+          ],
+          "reason": "The sentence suggests a possible decision-support or planning benefit for ontologies in the domain, but it is generic and does not clearly state that OntoBio itself was used to guide decisions or compare options."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

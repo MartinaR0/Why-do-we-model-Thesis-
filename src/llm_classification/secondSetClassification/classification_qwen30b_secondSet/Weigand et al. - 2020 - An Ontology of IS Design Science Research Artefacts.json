@@ -1,0 +1,74 @@
+{
+  "paper_file": "Weigand et al. - 2020 - An Ontology of IS Design Science Research Artefacts.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "An Ontology of IS Design Science Research Artefacts",
+    "annotator": "LLM model name",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "Ontology of IS Artefacts",
+        "goals": [
+          {
+            "goal": "For Understanding",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "After reviewing previous work, this conceptual paper introduces an ontology of IS artefacts. It starts with an ontological characterization of artefacts and technical objects in general and proceeds to introduce a systematic classification of IS artefacts and compare it with existing work.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "The goal of this conceptual paper is to introduce an ontology of IS artefacts and analyze the practical implications for Design Science Research.",
+                "section": "Introduction"
+              }
+            ],
+            "justification": "The paper explicitly states that the purpose of the ontology is to introduce a systematic classification and analyze implications, which aligns with 'understanding' as it aims to clarify the domain of IS artefacts and their relationships."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "We posit a form event behind any artefact instance, alternatively called making, producing, assembling, reproducing. The form event has a physical input and output, and an intentional input and output.",
+                "section": "3.3 Conceptual Model of the Artefact and Artefact Network"
+              },
+              {
+                "quote": "The main elements of the (technical) artefact are rendered in the conceptual model of Fig. 1 (grounding in UFO is not in this paper).",
+                "section": "3.3 Conceptual Model of the Artefact and Artefact Network"
+              }
+            ],
+            "justification": "The conceptual model and its visual representation (Fig. 1) are used to convey the structure of artefacts and their relationships, supporting communication between researchers and stakeholders about the domain, which fits 'Communicating' as it facilitates shared understanding through visual and textual explanation."
+          },
+          {
+            "goal": "For Documenting",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "We are currently working on a formal presentation of our artefact ontology grounded in UFO. We are also working on how to represent social artefacts such as laws in the ontology.",
+                "section": "5 Conclusion"
+              }
+            ],
+            "justification": "The paper frames the ontology as a reference for future work and formalization, indicating it is intended to serve as a persistent knowledge base for researchers, which aligns with 'Documenting' as an asynchronous reference for future use."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Problem-solving",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "Our claim is that software program and IS application are the core domain artefact types in Computer Science and Information Systems.",
+                "section": "4.4 Summary"
+              }
+            ],
+            "reason": "The statement is presented as a claim rather than evidence of using the model to identify shortcomings, evaluate options, or make decisions; it lacks explicit reference to problem-solving actions or decisions guided by the model."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"An Ontology of IS Design Science Research Artefacts\",\n  \"annotator\": \"LLM model name\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"Ontology of IS Artefacts\",\n      \"goals\": [\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"After reviewing previous work, this conceptual paper introduces an ontology of IS artefacts. It starts with an ontological characterization of artefacts and technical objects in general and proceeds to introduce a systematic classification of IS artefacts and compare it with existing work.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"The goal of this conceptual paper is to introduce an ontology of IS artefacts and analyze the practical implications for Design Science Research.\",\n              \"section\": \"Introduction\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that the purpose of the ontology is to introduce a systematic classification and analyze implications, which aligns with 'understanding' as it aims to clarify the domain of IS artefacts and their relationships.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"We posit a form event behind any artefact instance, alternatively called making, producing, assembling, reproducing. The form event has a physical input and output, and an intentional input and output.\",\n              \"section\": \"3.3 Conceptual Model of the Artefact and Artefact Network\"\n            },\n            {\n              \"quote\": \"The main elements of the (technical) artefact are rendered in the conceptual model of Fig. 1 (grounding in UFO is not in this paper).\",\n              \"section\": \"3.3 Conceptual Model of the Artefact and Artefact Network\"\n            }\n          ],\n          \"justification\": \"The conceptual model and its visual representation (Fig. 1) are used to convey the structure of artefacts and their relationships, supporting communication between researchers and stakeholders about the domain, which fits 'Communicating' as it facilitates shared understanding through visual and textual explanation.\"\n        },\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"We are currently working on a formal presentation of our artefact ontology grounded in UFO. We are also working on how to represent social artefacts such as laws in the ontology.\",\n              \"section\": \"5 Conclusion\"\n            }\n          ],\n          \"justification\": \"The paper frames the ontology as a reference for future work and formalization, indicating it is intended to serve as a persistent knowledge base for researchers, which aligns with 'Documenting' as an asynchronous reference for future use.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"Our claim is that software program and IS application are the core domain artefact types in Computer Science and Information Systems.\",\n              \"section\": \"4.4 Summary\"\n            }\n          ],\n          \"reason\": \"The statement is presented as a claim rather than evidence of using the model to identify shortcomings, evaluate options, or make decisions; it lacks explicit reference to problem-solving actions or decisions guided by the model.\"\n        }\n      ]\n    }\n  ],\n  \"outside_taxonomy\": []\n}",
+  "seconds": 15.1
+}

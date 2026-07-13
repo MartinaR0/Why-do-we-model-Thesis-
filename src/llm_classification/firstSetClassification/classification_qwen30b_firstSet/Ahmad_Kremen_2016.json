@@ -1,0 +1,120 @@
+{
+  "paper_file": "Ahmad_Kremen_2016.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "Ontological Anti-patterns in Aviation Safety Event Models",
+    "annotator": "LLM model name",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "OntoUML Extension with Event Stereotypes and Participant of Relation",
+        "goals": [
+          {
+            "goal": "For Intervening",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "In this case, we can test the event model, detect undesired instances then terminate them.",
+                "section": "Section 7"
+              },
+              {
+                "quote": "We could add new Event stereotype into OLED to represent UFO-B based concepts and relations.",
+                "section": "Section 7"
+              },
+              {
+                "quote": "To solve this undesired consequences, we propose to remove this intersection and add new two associations.",
+                "section": "Section 7.2"
+              }
+            ],
+            "justification": "The paper explicitly states that the extended OntoUML model with new stereotypes and relations is used to detect and eliminate anti-patterns in event models, which directly enables the correction of flawed models. This constitutes active use of the model to change the system (i.e., the model itself), satisfying the definition of For Intervening."
+          },
+          {
+            "goal": "For Problem-solving",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "In this paper, we discuss how ontological anti-patterns cause undesired consequences in ontological conceptual models, especially in Aviation Safety event models, in order to help designer to produce intended model, increase the accuracy of conceptual models and improve a conceptual model assessment tool...",
+                "section": "Section 8"
+              },
+              {
+                "quote": "We intend to detect semantic anti-patterns and avoid their occurrence in particular OntoUML event based models.",
+                "section": "Section 7.2"
+              }
+            ],
+            "justification": "The model is used to identify problematic structures (anti-patterns) and guide the resolution of issues such as imprecise intersections and overlapping subtypes. This aligns with the goal of problem-solving, as the model supports analysis and evaluation of model quality to identify what needs to change."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "In recent decades, in the aviation safety community, there is an increasing amount of requirements especially relating to technology and performance. They understand the challenges facing industry and government today in challenging technologies, applications and procedures for the integration, analysis and presentation of business information to support better business decision-making.",
+                "section": "Introduction"
+              }
+            ],
+            "justification": "The context suggests that the model is intended to support communication between stakeholders (e.g., industry, government, aviation organizations) by enabling shared understanding of safety events and contributing factors. While not explicitly stated as a communication tool, the framing of the model as a means to improve decision-making and information integration supports this interpretation."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Documenting",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "We came across the idea of this paper during our cooperation with the Civil Aviation Authority of the Czech Republic and several Czech aviation organizations...",
+                "section": "Introduction"
+              }
+            ],
+            "reason": "The paper mentions collaboration with organizations but does not state that the model is used as a persistent reference or documentation system. The evidence is too indirect to support a confident classification."
+          }
+        ]
+      },
+      {
+        "model_label": "Imprecise Intersection Anti-pattern",
+        "goals": [
+          {
+            "goal": "For Problem-solving",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "To solve this undesired consequences, we propose to remove this intersection and add new two associations.",
+                "section": "Section 7.2"
+              },
+              {
+                "quote": "This situation may lead to undesired consequences and unintended instances because of this Imprecise Intersection situation.",
+                "section": "Section 7.2"
+              }
+            ],
+            "justification": "The anti-pattern is presented as a problematic structure that leads to unintended model instances. The model is used to identify and resolve such issues, which fits the definition of For Problem-solving: guiding decision-making about what needs to change in the model."
+          }
+        ],
+        "uncertain_goals": []
+      },
+      {
+        "model_label": "Imprecise Abstraction Anti-pattern",
+        "goals": [
+          {
+            "goal": "For Problem-solving",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "This Event model contains similar situation of Imprecise abstraction (ImpAbs) anti-pattern in UFO-A concepts, that defined by Guizzardi in [5,6].",
+                "section": "Section 7.1"
+              },
+              {
+                "quote": "This situation may lead to undesired consequences and unintended instances because of this Imprecise Intersection situation.",
+                "section": "Section 7.2"
+              }
+            ],
+            "justification": "The anti-pattern is described as causing unintended model instances, and the paper proposes solutions to eliminate it. This reflects the use of the model to analyze and resolve problems, consistent with For Problem-solving."
+          }
+        ],
+        "uncertain_goals": []
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"Ontological Anti-patterns in Aviation Safety Event Models\",\n  \"annotator\": \"LLM model name\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"OntoUML Extension with Event Stereotypes and Participant of Relation\",\n      \"goals\": [\n        {\n          \"goal\": \"For Intervening\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"In this case, we can test the event model, detect undesired instances then terminate them.\",\n              \"section\": \"Section 7\"\n            },\n            {\n              \"quote\": \"We could add new Event stereotype into OLED to represent UFO-B based concepts and relations.\",\n              \"section\": \"Section 7\"\n            },\n            {\n              \"quote\": \"To solve this undesired consequences, we propose to remove this intersection and add new two associations.\",\n              \"section\": \"Section 7.2\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that the extended OntoUML model with new stereotypes and relations is used to detect and eliminate anti-patterns in event models, which directly enables the correction of flawed models. This constitutes active use of the model to change the system (i.e., the model itself), satisfying the definition of For Intervening.\"\n        },\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"In this paper, we discuss how ontological anti-patterns cause undesired consequences in ontological conceptual models, especially in Aviation Safety event models, in order to help designer to produce intended model, increase the accuracy of conceptual models and improve a conceptual model assessment tool...\",\n              \"section\": \"Section 8\"\n            },\n            {\n              \"quote\": \"We intend to detect semantic anti-patterns and avoid their occurrence in particular OntoUML event based models.\",\n              \"section\": \"Section 7.2\"\n            }\n          ],\n          \"justification\": \"The model is used to identify problematic structures (anti-patterns) and guide the resolution of issues such as imprecise intersections and overlapping subtypes. This aligns with the goal of problem-solving, as the model supports analysis and evaluation of model quality to identify what needs to change.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"In recent decades, in the aviation safety community, there is an increasing amount of requirements especially relating to technology and performance. They understand the challenges facing industry and government today in challenging technologies, applications and procedures for the integration, analysis and presentation of business information to support better business decision-making.\",\n              \"section\": \"Introduction\"\n            }\n          ],\n          \"justification\": \"The context suggests that the model is intended to support communication between stakeholders (e.g., industry, government, aviation organizations) by enabling shared understanding of safety events and contributing factors. While not explicitly stated as a communication tool, the framing of the model as a means to improve decision-making and information integration supports this interpretation.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"We came across the idea of this paper during our cooperation with the Civil Aviation Authority of the Czech Republic and several Czech aviation organizations...\",\n              \"section\": \"Introduction\"\n            }\n          ],\n          \"reason\": \"The paper mentions collaboration with organizations but does not state that the model is used as a persistent reference or documentation system. The evidence is too indirect to support a confident classification.\"\n        }\n      ]\n    },\n    {\n      \"model_label\": \"Imprecise Intersection Anti-pattern\",\n      \"goals\": [\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"To solve this undesired consequences, we propose to remove this intersection and add new two associations.\",\n              \"section\": \"Section 7.2\"\n            },\n            {\n              \"quote\": \"This situation may lead to undesired consequences and unintended instances because of this Imprecise Intersection situation.\",\n              \"section\": \"Section 7.2\"\n            }\n          ],\n          \"justification\": \"The anti-pattern is presented as a problematic structure that leads to unintended model instances. The model is used to identify and resolve such issues, which fits the definition of For Problem-solving: guiding decision-making about what needs to change in the model.\"\n        }\n      ],\n      \"uncertain_goals\": []\n    },\n    {\n      \"model_label\": \"Imprecise Abstraction Anti-pattern\",\n      \"goals\": [\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"This Event model contains similar situation of Imprecise abstraction (ImpAbs) anti-pattern in UFO-A concepts, that defined by Guizzardi in [5,6].\",\n              \"section\": \"Section 7.1\"\n            },\n            {\n              \"quote\": \"This situation may lead to undesired consequences and unintended instances because of this Imprecise Intersection situation.\",\n              \"section\": \"Section 7.2\"\n            }\n          ],\n          \"justification\": \"The anti-pattern is described as causing unintended model instances, and the paper proposes solutions to eliminate it. This reflects the use of the model to analyze and resolve problems, consistent with For Problem-solving.\"\n        }\n      ],\n      \"uncertain_goals\": []\n    }\n  ],\n  \"outside\\_taxonomy\": []\n}",
+  "seconds": 16.6
+}

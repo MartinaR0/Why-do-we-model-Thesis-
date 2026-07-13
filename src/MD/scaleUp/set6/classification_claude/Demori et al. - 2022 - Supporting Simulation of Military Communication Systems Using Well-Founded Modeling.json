@@ -1,0 +1,76 @@
+{
+  "paper_id": "Demori et al. - 2022 - Supporting Simulation of Military Communication Systems Using Well-Founded Modeling",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Preliminary UFO/OntoUML conceptual model of tactical military communication scenario",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Based on this initial MiniManager project, we have developed an extension that encompasses characteristics of the tactical communication scenario according to the presented conceptual models in Section 4.1.",
+              "section": "5. Modeling Implementation"
+            },
+            {
+              "quote": "Frame 2 shows the results of the packet ( Content ) delivery between stations, working according to the rules presented in Section 4.1",
+              "section": "5. Modeling Implementation"
+            },
+            {
+              "quote": "The idea is to use the ontology to create a reference model that represents the process that was reproduced through simulation and emulation as a conceptual guide giving guidelines for implementation and future directions.",
+              "section": "4. Describing Tactical Communication Networks Using Well-Founded Modeling"
+            }
+          ],
+          "justification": "The conceptual model was actually used to guide/drive the implementation of an extension of MiniManager and the reproduction of a tactical scenario in the network emulator, with the communication rules from the model implemented in the running experiment."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "this article proposes using well-founded conceptual modeling to support an explicit representation of real tactical military scenarios in network simulators and understand its agents' behavior.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "In addition, the use of well-founded conceptual modeling contributed to consolidating the worldview of the scenario to be reproduced and improving the understanding of the semantic value of each represented element and its relations.",
+              "section": "6. Final Considerations and Future Works"
+            },
+            {
+              "quote": "we chose a conceptual model supported by a well-founded ontology to overcome the complexity of the domain and the possible ambiguities.",
+              "section": "1. Introduction"
+            }
+          ],
+          "justification": "Authors explicitly frame the model's purpose as supporting domain understanding, disambiguating concepts (semantic ambiguities in the Glossary of the Armed Forces of Brazil), and consolidating a shared worldview of the tactical communication scenario."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "The idea is to use the ontology to create a reference model that represents the process that was reproduced through simulation and emulation as a conceptual guide giving guidelines for implementation and future directions.",
+              "section": "4. Describing Tactical Communication Networks Using Well-Founded Modeling"
+            }
+          ],
+          "reason": "The 'reference model' framing hints at asynchronous reference/documentation use, but there is no explicit mention of documentation, knowledge base, archival, or use by people outside the modeling process."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "These attributes may affect the decision-making process in the military environment, which is one of the future goals while reproducing this scenario in a network simulator.",
+              "section": "4.1. The Conceptual Model"
+            }
+          ],
+          "reason": "Decision-making support is framed as a future goal rather than a current purpose of the presented model; per disambiguation, same evidence showing implementation is coded as Intervening, not Problem-solving."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

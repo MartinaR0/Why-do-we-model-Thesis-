@@ -1,0 +1,78 @@
+{
+  "paper_file": "Amaral et al. - 2019 - Towards a Reference Ontology of Trust.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "Towards a Reference Ontology of Trust",
+    "annotator": "LLM model name",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "Reference Ontology of Trust",
+        "goals": [
+          {
+            "goal": "For Understanding",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "In this paper we address this issue by means of an in-depth ontological analysis of the notion of trust, grounded in the Unified Foundational Ontology.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "As a result, we propose a concrete artifact, namely, the Reference Ontology for Trust, in which we characterize the general concept of trust and distinguish between two types of trust, namely, social trust and institution-based trust.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "In this paper, we address this issue by means of an in-depth ontological analysis of the notion of trust, grounded in the Unified Foundational Ontology (UFO).",
+                "section": "Introduction"
+              }
+            ],
+            "justification": "The paper explicitly states that the purpose of the model is to conduct an ontological analysis and to characterize the concept of trust, which aligns with 'For Understanding' as it aims to clarify and define the domain concept."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "we advocate for the need of a reference ontology of trust to serve as a basis for communication, consensus and alignment among different approaches and perspectives, as well as to foster interoperability across the heterogeneous application domains.",
+                "section": "Introduction"
+              }
+            ],
+            "justification": "The model is explicitly described as serving as a 'basis for communication, consensus and alignment among different approaches and perspectives', which directly supports the 'For Communicating' goal, especially in bridging diverse viewpoints."
+          },
+          {
+            "goal": "For Documenting",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "we advocate for the need of a reference ontology of trust to serve as a basis for communication, consensus and alignment among different approaches and perspectives, as well as to foster interoperability across the heterogeneous application domains.",
+                "section": "Introduction"
+              },
+              {
+                "quote": "To validate and demonstrate the contribution of our approach, we apply it to model two application examples.",
+                "section": "Introduction"
+              }
+            ],
+            "justification": "The model is presented as a persistent, shared artifact intended for use across domains and application examples, which supports its role as a reference for future use and knowledge management, satisfying the 'For Documenting' goal."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Problem-solving",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "we apply it to model two application examples.",
+                "section": "Introduction"
+              }
+            ],
+            "reason": "The application to examples is described as validation and demonstration, not as a process of identifying problems or evaluating options; the evidence is too weak to support 'For Problem-solving'."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"Towards a Reference Ontology of Trust\",\n  \"annotator\": \"LLM model name\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"Reference Ontology of Trust\",\n      \"goals\": [\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"In this paper we address this issue by means of an in-depth ontological analysis of the notion of trust, grounded in the Unified Foundational Ontology.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"As a result, we propose a concrete artifact, namely, the Reference Ontology for Trust, in which we characterize the general concept of trust and distinguish between two types of trust, namely, social trust and institution-based trust.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"In this paper, we address this issue by means of an in-depth ontological analysis of the notion of trust, grounded in the Unified Foundational Ontology (UFO).\",\n              \"section\": \"Introduction\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that the purpose of the model is to conduct an ontological analysis and to characterize the concept of trust, which aligns with 'For Understanding' as it aims to clarify and define the domain concept.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"we advocate for the need of a reference ontology of trust to serve as a basis for communication, consensus and alignment among different approaches and perspectives, as well as to foster interoperability across the heterogeneous application domains.\",\n              \"section\": \"Introduction\"\n            }\n          ],\n          \"justification\": \"The model is explicitly described as serving as a 'basis for communication, consensus and alignment among different approaches and perspectives', which directly supports the 'For Communicating' goal, especially in bridging diverse viewpoints.\"\n        },\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"we advocate for the need of a reference ontology of trust to serve as a basis for communication, consensus and alignment among different approaches and perspectives, as well as to foster interoperability across the heterogeneous application domains.\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"To validate and demonstrate the contribution of our approach, we apply it to model two application examples.\",\n              \"section\": \"Introduction\"\n            }\n          ],\n          \"justification\": \"The model is presented as a persistent, shared artifact intended for use across domains and application examples, which supports its role as a reference for future use and knowledge management, satisfying the 'For Documenting' goal.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"we apply it to model two application examples.\",\n              \"section\": \"Introduction\"\n            }\n          ],\n          \"reason\": \"The application to examples is described as validation and demonstration, not as a process of identifying problems or evaluating options; the evidence is too weak to support 'For Problem-solving'.\"\n        }\n      ]\n    }\n  ],\n  \"outside_taxonomy\": []\n}",
+  "seconds": 14.5
+}

@@ -1,0 +1,114 @@
+{
+  "paper_id": "Barcelos et al. - 2013 - An Ontology Reference Model for Normative Acts",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Ontology Reference Model for Brazilian Normative Acts (OntoUML)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "In fact,  the  main objective of a  reference model is to assist humans in tasks  such  as  meaning  negotiation  and  consensus  establishment.",
+              "section": "1. Introduction"
+            },
+            {
+              "quote": "Thus, these people must share a  common  comprehension  about  the  terms  and  concepts  related  to  NAs,  in  order  to improve  the  resultant  document.",
+              "section": "1. Introduction"
+            }
+          ],
+          "justification": "Explicit statement that the reference model's main objective is meaning negotiation and consensus establishment, matching the Understanding signal patterns ('meaning negotiation', 'shared understanding')."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "in this paper, we  propose  a  domain  ontology  for Normative  Acts  based  on  official  documents  (the  Brazilian  Constitution  and the Redaction Manual of the Presidency of the Republic) as a reference model that can be used to improve communication, interoperation and automation of Normative  Acts.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "Reference  Models  are  essential  artifacts  when  dealing  with information of a given domain, as they formalize concepts and their relations in a clear and  unambiguous  way,  improving  communication  and  information  exchange  and interoperation.",
+              "section": "1. Introduction"
+            },
+            {
+              "quote": "As a reference model, this ontology aims to make a clear and precise description of  the  domain  elements  for  the  purposes  of  communication,  learning  and  problem solving.",
+              "section": "6. Conclusions"
+            }
+          ],
+          "justification": "The paper explicitly states the model is used to improve communication between people (different organs, stakeholders, society) with different technical and cultural knowledge, matching the Communicating signal pattern ('communicate', 'bridge between')."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "A secondary contribution is the presentation of this ontology`s capabilities to be used as basis for computational implementation.",
+              "section": "1. Introduction"
+            },
+            {
+              "quote": "This ontology can  be used as basis for automation and interoperation of information about this domain.",
+              "section": "6. Conclusions"
+            },
+            {
+              "quote": "A computational implementation of the proposed ontology reference model can also  be  used  in  applications  to  assist  different  stages  of  the  regulatory  and  legislative process,  like  the  NA  edition.",
+              "section": "5. Practical Applications"
+            }
+          ],
+          "justification": "The paper explicitly frames the model's intended purpose as a basis for computational implementation, automation, and interoperation (e.g. RDF/OWL implementations), matching the Intervening signal pattern ('used to enable interoperability', 'used to create')."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "the ontology reference model presented here is a result of the Conceptual Modeling stage, as it aims to make a clear and precise description of the Normative  Acts  (NA)  domain  elements  for  the  purposes  of communication, learning and problem solving, independent of implementation platform or technology.",
+              "section": "5. Practical Applications"
+            },
+            {
+              "quote": "As a reference model, this ontology aims to make a clear and precise description of  the  domain  elements  for  the  purposes  of  communication,  learning  and  problem solving.",
+              "section": "6. Conclusions"
+            }
+          ],
+          "justification": "The paper explicitly names 'problem solving' as one of the purposes of the reference model, as a conceptual-modeling-stage use distinct from implementation, matching the Problem-solving definition (guiding decision making without being the implementation instrument)."
+        },
+        {
+          "goal": "For Learning",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "the ontology reference model presented here is a result of the Conceptual Modeling stage, as it aims to make a clear and precise description of the Normative  Acts  (NA)  domain  elements  for  the  purposes  of communication, learning and problem solving, independent of implementation platform or technology.",
+              "section": "5. Practical Applications"
+            },
+            {
+              "quote": "As a reference model, this ontology aims to make a clear and precise description of  the  domain  elements  for  the  purposes  of  communication,  learning  and  problem solving.",
+              "section": "6. Conclusions"
+            }
+          ],
+          "justification": "The paper explicitly states 'learning' as one of the reference model's purposes. Although the taxonomy defines 'Learning' as gaining modeling knowledge (not domain), the paper couples 'learning' with 'communication and problem solving' as generic purposes of a reference model; the ontology reference model is also linked to an ontology engineering course (URL to nemo.inf.ufes.br/en/courses/ontologyengineering), which supports a modeling-learning reading. Coded Medium given the inference from the coupling with the course context."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "in Brazil, a federal law ensures that every public organ or entity must publish, in detail, the formats used to structure their information.",
+              "section": "1. Introduction"
+            },
+            {
+              "quote": "The ontology, in its conceptual or computational form, can be used to adequate public organs to the Federal Information Access Law, as every public organ or entity must  use  the  Internet to publish, in detail, the formats  used  to  structure  their information.",
+              "section": "6. Conclusions"
+            }
+          ],
+          "reason": "The paper mentions the ontology can help satisfy publication/reference requirements, hinting at documentation use, but does not frame documentation as an explicit purpose of the model in the taxonomy sense (asynchronous reference for absent parties); evidence is weak and indirect."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

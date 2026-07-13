@@ -1,0 +1,69 @@
+{
+  "paper_id": "Porello et al. - 2020 - A Core Ontology for Economic Exchanges",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Core OntoUML ontology of economic exchanges based on ATE (grounded in UFO)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The goal of this paper is to use the ATE as a guide to lay down the main aspects of a core ontology of economic interactions.",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "In the subsequent sections, we shall develop an ontological account of economic transactions according to the ATE.",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "Two important issues regarding the nature of economic exchanges -which are quite pressing for a fruitful ontological understanding of economic interactions- are the nature of the things being exchanged and the matter of the agreement between the transacting agents.",
+              "section": "1 Introduction"
+            }
+          ],
+          "justification": "The paper's explicit stated purpose is to clarify/conceptualize the nature of economic exchanges via a core ontology, matching the 'For Understanding' signals (understand, clarify, conceptualize, ontological understanding of the domain)."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "To demonstrate the expressiveness and generality of our core ontology, we use it to analyze and ground both REA and UFO-S.",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "We confront now our OntoUML model of ATE with UFO-S.",
+              "section": "4 ATE at Work: Generalising REA and UFO-S"
+            },
+            {
+              "quote": "Therefore, our modeling provides, on the one hand, a generalisation of REA to transactions involving any type of services and, on the other hand, an explanation of why the transaction occurs",
+              "section": "4 ATE at Work: Generalising REA and UFO-S"
+            }
+          ],
+          "justification": "The authors use their model to analyze, evaluate, and compare existing standards (REA and UFO-S), identifying shortcomings (e.g., REA's partial perspective, lack of explanation) and showing how they can be generalized. This matches the 'analyze options', 'evaluate', 'identify shortcomings' signals for Problem-solving without constituting actual implementation."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "So to put the ATE to work in modeling applications, we present a reusable OntoUML model of economic exchanges.",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "To make our investigation precise and applicable to designing wellfounded Information Systems, we shall place our analysis within the Unified Foundational Ontology (UFO) [7-9].",
+              "section": "1 Introduction"
+            }
+          ],
+          "reason": "The model is described as 'reusable' and 'applicable to designing well-founded Information Systems', but no actual implementation, deployment, or generated artifact is reported; this is framed as potential future applicability rather than an executed intervention."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

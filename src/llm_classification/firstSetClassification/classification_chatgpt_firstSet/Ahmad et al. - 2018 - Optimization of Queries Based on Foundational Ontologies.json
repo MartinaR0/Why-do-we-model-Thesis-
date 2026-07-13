@@ -1,0 +1,73 @@
+{
+  "paper_id": "Ahmad et al. - 2018 - Optimization of Queries Based on Foundational Ontologies",
+  "annotator": "ChatGPT-5",
+  "no_codable_model": false,
+  "input_limitations": [
+    "The markdown extraction contains encoding artifacts for some symbols and figure placeholders, but the main sections and purpose statements are readable."
+  ],
+  "models": [
+    {
+      "model_label": "UFO-based RDF index tables",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "This paper presents how proper foundational-ontology-based knowledge can be used to design a generic index, which can help in answering a wide range of queries compliant with the foundational ontology.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "From previous points, this paper optimizes RDF query evaluation by means of an index based on actual knowledge structure provided by the conceptual model-based ontology.",
+              "section": "Section 1 Introduction"
+            },
+            {
+              "quote": "Therefore, our proposal in this approach is to divide Table 2 physically into two tables; one for each category (Perdurant and Endurant).",
+              "section": "Section 4.1 UFO Index Tables Approaches Discussion"
+            },
+            {
+              "quote": "Finally, we tested one of the native triple stores (RDF4J 15 ) that physically designed bases on B-Tree indexing triple tables with context, by comparing the execution time of these queries with and without UFO index tables.",
+              "section": "Section 5.2 Benchmark of Queries"
+            }
+          ],
+          "justification": "The authors explicitly frame the UFO-based model as a design for generic index tables and use it to change RDF query execution behavior. This qualifies as For Intervening because the model directly guides creation and evaluation of a system artifact."
+        }
+      ],
+      "uncertain_goals": []
+    },
+    {
+      "model_label": "Aviation Safety Ontology",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "We designed Aviation Safety Ontology for describing safety issues in aviation organizations, and to increase the awareness of analytical methods and tools in the aviation community for safety analysis in the aviation domain [20].",
+              "section": "Section 5.1 Aviation Safety Ontology"
+            },
+            {
+              "quote": "Our strategy is to analyze safety events that lead to incidents or accidents and explain factors, that contribute to these safety events.",
+              "section": "Section 5.1 Aviation Safety Ontology"
+            }
+          ],
+          "justification": "The ontology is explicitly described as supporting description, awareness, analysis, and explanation of aviation safety issues. These are domain understanding functions rather than implementation or modeling-method learning."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Users in Aviation Safety Domain are interested in having answers to domain-specific questions like: knowing who is responsible for an aviation safety event.",
+              "section": "Section 5.2 Benchmark of Queries"
+            }
+          ],
+          "reason": "The quote hints at supporting safety analysis and responsibility identification, but it does not clearly state that the ontology guides decisions or identifies changes to make."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

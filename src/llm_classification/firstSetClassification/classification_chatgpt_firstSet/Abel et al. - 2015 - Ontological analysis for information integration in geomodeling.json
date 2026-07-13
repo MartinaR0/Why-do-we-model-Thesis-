@@ -1,0 +1,105 @@
+{
+  "paper_id": "Abel et al. - 2015 - Ontological analysis for information integration in geomodeling",
+  "annotator": "ChatGPT-5",
+  "no_codable_model": false,
+  "input_limitations": [
+    "Markdown extraction contains figure placeholders instead of full figures and some character encoding noise, but the main text, captions, and table content needed for classification are available."
+  ],
+  "models": [
+    {
+      "model_label": "Mineral crystal knowledge model",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "Some knowledge model would abstract the common characteristics of these particular instances and create an abstract model that can represent them.",
+              "section": "Knowledge building: an example"
+            },
+            {
+              "quote": "Our model aims to represent the three above entities that are supposed to be the ones accessible in the universe of discourse of this modeler.",
+              "section": "Knowledge building: an example"
+            }
+          ],
+          "justification": "The model is described as abstracting and representing common characteristics of mineral crystal instances. This supports domain understanding, although the example is illustrative rather than an extensively developed model."
+        }
+      ],
+      "uncertain_goals": []
+    },
+    {
+      "model_label": "Mineral crystal domain ontology",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "For developing a domain ontology about mineral crystals, having access to the same instances, the questions that would raise are:",
+              "section": "Knowledge building: an example"
+            },
+            {
+              "quote": "The resulting model showed in Fig. 5 would consider capturing the essential of all existent mineral crystals.",
+              "section": "Knowledge building: an example"
+            }
+          ],
+          "justification": "The ontology model is explicitly framed as capturing the essential nature of mineral crystals. This directly matches the Understanding goal of clarifying domain concepts and meaning."
+        }
+      ],
+      "uncertain_goals": []
+    },
+    {
+      "model_label": "Petroleum system conceptual model",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "We have been specially attached to identifying the concepts that represent real instances in the raw data and that can be mapped from one model to another.",
+              "section": "The Petroleum system case study"
+            },
+            {
+              "quote": "However, the model clearly expresses that only Kinds and Quantities will have instances and can be associated to the raw data in order to be further mapped to other applications.",
+              "section": "Modeling of the petroleum system"
+            }
+          ],
+          "justification": "The model is explicitly intended to support mapping raw data and concepts between models and applications. Under the prompt rules, intended use for integration and mapping counts as Intervening."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "The model is an abstraction, which specifies the main conditions requested for a prospect to become a hydrocarbon reservoir.",
+              "section": "The Petroleum system case study"
+            },
+            {
+              "quote": "We showed that few ontological properties inhered to concepts - identity, rigidity, essentiality and unity -are enough to clarify the meaning of the modeled entities and to define the similarities and identities between models and data.",
+              "section": "Discussion and Conclusion"
+            }
+          ],
+          "justification": "The model specifies domain conditions and is part of an ontological analysis that clarifies the meaning and identity of geological entities. The Understanding goal is supported, though partly through the stated purpose of the authors' approach rather than a single direct model-use sentence."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Learning",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "In order to help the understanding of our approach, we have performed an ontological analysis and developed a conceptual model for a petroleum system, based on the original description of Magoon and Wallace.",
+              "section": "Discussion and Conclusion"
+            },
+            {
+              "quote": "Instead, we focused our attention in emphasizing how to select entities in the domain in order to build interoperable models.",
+              "section": "Modeling of the petroleum system"
+            }
+          ],
+          "reason": "The model illustrates the authors' modeling approach, but the paper does not clearly frame it as being created to learn a modeling method, notation, or tool."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

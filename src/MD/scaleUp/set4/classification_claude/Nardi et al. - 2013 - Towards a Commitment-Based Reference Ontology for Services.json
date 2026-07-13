@@ -1,0 +1,60 @@
+{
+  "paper_id": "Nardi et al. - 2013 - Towards a Commitment-Based Reference Ontology for Services",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": ["Figures referenced in the text are not extracted (shown as [FIGURE] placeholders), but the textual descriptions of the model concepts are intact."],
+  "models": [
+    {
+      "model_label": "UFO-S: Commitment-based Core Reference Ontology for Services",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "Given  the importance  of  services  in  enterprise  computing  and  Service Science in general, we believe that a clear account of services and service-related concepts is necessary and would serve as a basis for communication, consensus and alignment of various approaches  and  perspectives.", "section": "Abstract"},
+            {"quote": "Further, both are focused on the description of  technical  services  while  UFO-S  aims  instead at explicating service phenomena in order to support (offline) meaning  negotiation.", "section": "VI. Related Work"},
+            {"quote": "Our  approach  addresses the elements of the phenomena underlying services, providing a foundation that can  be  used  to  articulate  the  semantics  of  service-related terminology.", "section": "VII. Final Considerations"}
+          ],
+          "justification": "The authors explicitly state that UFO-S is intended to provide a clear conceptual account, clarify service concepts, and support meaning negotiation, matching the For Understanding signals 'clarify', 'conceptualize', and 'meaning negotiation'."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "a clear account of services and service-related concepts is necessary and would serve as a basis for communication, consensus and alignment of various approaches  and  perspectives.", "section": "Abstract"},
+            {"quote": "We have argued that the notion of service commitments can  span  the  business  and  technical  perspectives,  with  the potential of promoting a much-needed conceptual integration of business and IT service aspects.", "section": "VII. Final Considerations"},
+            {"quote": "'even if different  communities  of  practice  can  live  with  their  own somewhat inconsistent views of service, conflicting views of service surely cannot facilitate effective  communication between business and IT practitioners and between business and computer science researchers'.", "section": "I. Introduction"}
+          ],
+          "justification": "The authors explicitly frame the ontology as supporting communication and alignment between distinct groups (business and IT practitioners, business and computer science researchers, various disciplinary perspectives), matching the For Communicating signals 'communicate', 'align stakeholders', and 'bridge between'."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "We  have shown that UFO-S is able to explain a number of  perspectives  on  services, including  those  that  emphasize services as value co-creation, services as capabilities, services as application of competences, services as interactions and, finally, services as a technical notion.", "section": "VII. Final Considerations"}
+          ],
+          "reason": "The paper uses UFO-S to evaluate and relate existing service perspectives, but this is framed as explaining/clarifying conceptual perspectives rather than guiding stakeholder decisions or analyzing options for change; the evidence is too weak to code Problem-solving as present."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "UFO-S  aims  instead at explicating service phenomena in order to support (offline) meaning  negotiation.", "section": "VI. Related Work"}
+          ],
+          "reason": "The phrase 'offline meaning negotiation' could suggest asynchronous reference use, but the paper does not explicitly frame UFO-S as a knowledge base, documentation, or persistent reference artifact; the dominant framing is conceptual clarification and communication."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "This includes  formal  verification  of  the  model (guaranteeing  that  the  models  put  forth  here  are  compliant with  the  UFO  ontological  constraints),  validation  of  the model  via visual simulation (relying  on  an  OntoUML infrastructure developed on top of the Alloy Analyzer [43]) as  well  as  the  systematic  implementation  of  UFO-S  in computational level languages such as OWL [44].", "section": "VII. Final Considerations"}
+          ],
+          "reason": "The mention of systematic implementation in OWL refers to tool support availability and is not framed as the model's purpose; no actual implementation is reported in this paper and the framing is potential capability rather than the model's intended use."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

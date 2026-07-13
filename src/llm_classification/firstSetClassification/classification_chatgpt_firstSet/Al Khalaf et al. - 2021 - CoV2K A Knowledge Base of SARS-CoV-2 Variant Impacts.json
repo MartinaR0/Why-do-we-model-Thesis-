@@ -1,0 +1,81 @@
+{
+  "paper_id": "Al Khalaf et al. - 2021 - CoV2K A Knowledge Base of SARS-CoV-2 Variant Impacts",
+  "annotator": "ChatGPT-5",
+  "no_codable_model": false,
+  "input_limitations": [
+    "Markdown extraction includes figure placeholders and some character/encoding artifacts, but substantive sections are readable."
+  ],
+  "models": [
+    {
+      "model_label": "CoV2K knowledge base and taxonomy of SARS-CoV-2 variant impacts",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "CoV2K is integrated with ViruSurf, hosted at Politecnico di Milano; ViruSurf is globally the largest database of curated viral sequences and variants, integrated from deposition repositories such as COG-UK, GenBank, and GISAID.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "The connection of the knowledge base to the database requires building bridges from the variant characterization attributes of the knowledge base to the variants in the database.",
+              "section": "Section 3 Integration with Sequence Data"
+            }
+          ],
+          "justification": "The paper states that CoV2K is integrated with ViruSurf and describes schema-level bridge construction between the knowledge base and database variants. This is active use of the model to enable a system integration, matching the Intervening rule."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "In organizing the knowledge base, we designed categories that well-represent the impact of virus' variants on viral characteristics, arranged according to three main categories (protein stability, epidemiology, immunology) and including levels for these effects (higher, lower, null).",
+              "section": "Section 1 Introduction"
+            },
+            {
+              "quote": "Epidemiology. This category is important to understand SARS-CoV-2 evolutionary epidemiology, viral kinetics and dynamics related studies.",
+              "section": "Section 2.2 Taxonomy of Effects"
+            }
+          ],
+          "justification": "The taxonomy is framed as representing variant impacts and supporting understanding of SARS-CoV-2 epidemiological characteristics. The link to the goal is direct but partly inferred from the taxonomy's organizing function, so confidence is Medium."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Thanks to such integration, variants documented in CoV2K can be analyzed and searched over large volumes of nucleotide and amino acid sequences, e.g., for co-occurrence and impact agreement; the paper sketches some of the data analysis tests that are currently under development.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "The goal is to identify pairs of mutations that co-occur in a statistically significant way in the observed population, which also agree/disagree in their impact, as reported in literature and stored in CoV2K; here we considered all publicly available sequences, but we plan to allow the choice of specific subpopulations.",
+              "section": "Section 4 Data Analysis"
+            },
+            {
+              "quote": "Referring instead to variants that are not yet described in CoV2K, co-occurrence with variants with a known effect may prompt targeted lab experiments.",
+              "section": "Section 4 Data Analysis"
+            }
+          ],
+          "justification": "The paper explicitly uses CoV2K with sequence data to analyze co-occurrence, impact agreement, and potential follow-up experiments. This supports decision-oriented analysis without the model itself being the final implemented change."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "CoV2K is a manually curated knowledge base providing an organized collection of information about SARS-CoV-2 variants, extracted from the scientific literature; it features a taxonomy of variant impacts, organized according to three main categories (protein stability, epidemiology, and immunology) and including levels for these effects (higher, lower, null) resulting from a coherent interpretation of research articles.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "The data acquisition protocol is designed for building a comprehensive and well-organized knowledge base, considering both peer-reviewed articles and preprints, with peer-reviewed articles as the most valuable sources.",
+              "section": "Section 2.1 Data Acquisition"
+            }
+          ],
+          "justification": "The model is explicitly a knowledge base that stores and organizes information extracted from literature. This is persistent reference/documentation for later use, matching the Documenting definition."
+        }
+      ],
+      "uncertain_goals": []
+    }
+  ],
+  "outside_taxonomy": []
+}

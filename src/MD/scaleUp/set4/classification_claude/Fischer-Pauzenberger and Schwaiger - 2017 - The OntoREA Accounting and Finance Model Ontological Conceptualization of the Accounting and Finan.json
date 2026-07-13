@@ -1,0 +1,52 @@
+{
+  "paper_id": "Fischer-Pauzenberger and Schwaiger - 2017 - The OntoREA Accounting and Finance Model Ontological Conceptualization of the Accounting and Finan",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": ["Figures are referenced but not visible (shown as [FIGURE] placeholders); some OCR artifacts (e.g., 'fi' ligatures, spacing irregularities) in the extracted text."],
+  "models": [
+    {
+      "model_label": "OntoREA© Accounting and Finance Model",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "In this article ontological meta-properties of OntoUML are used to specify these peculiarities and to derive the OntoREA © Accounting and Finance Model , which constitutes a valid ontology-based conceptualization of the accounting and fi nance domain.", "section": "Abstract"},
+            {"quote": "This model should be bene fi cial especially for business analysts who have to understand and develop conceptual models for up-to-date enterprise and accounting information systems.", "section": "Abstract"},
+            {"quote": "The deeper integration of the fi nance into the accounting domain by using the OntoUML language for the ontological conceptualization constitutes the primary research objective of this article.", "section": "1 Introduction"}
+          ],
+          "justification": "The model is explicitly framed as an ontology-based conceptualization that clarifies and defines concepts (derivative instruments, balanced reciprocity, ALE) in the accounting and finance domain, matching the 'conceptualize' and 'understand' signals for For Understanding."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "Such systems could be designed and implemented e.g. within a model-driven software development approach (see e.g. Brambilla et al. [28], Stahl and V ö lter [29] or Rybola et al. [30]) by establishing the OntoREA © model fi rst and subsequently transforming it into a software application.", "section": "5 Conclusions"},
+            {"quote": "The resulting model can be used for different purposes. One possibility is its usage in the accounting (AIS -see Steinbart and Romney [26]) as well as enterprise information systems (EIS -see Dunn et al. [27]) research by establishing ontology-based accounting and enterprise information systems.", "section": "5 Conclusions"}
+          ],
+          "justification": "The authors explicitly frame the model's intended use as a foundation for building accounting/enterprise information systems via model-driven software development (transforming the model into a software application), matching the 'used to create' / artifact-generation signal. Coded Medium because the implementation is stated as an intended use ('could be') rather than already executed."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "Depending on the purpose the derivate instruments can be shown on a net basis for fi nancial reporting purposes or on an un-consolidated basis for strategic and management control purposes.", "section": "4 OntoREA © Accounting and Finance Model: Collectives Beyond ALE Phases"},
+            {"quote": "Schwaiger identi fi ed several de fi ciencies concerning the traditional Asset-Liability-Equity (ALE) accounting logic [12].", "section": "2 REA © Accounting Model"}
+          ],
+          "reason": "Mentions of flexibility for management control and identifying deficiencies are incidental and not framed as the model's primary purpose; the disambiguation rule says when evidence shows implementation/conceptualization rather than separate decision-making support, do not double-code For Problem-solving."
+        },
+        {
+          "goal": "For Learning",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "This model should be bene fi cial especially for business analysts who have to understand and develop conceptual models for up-to-date enterprise and accounting information systems.", "section": "Abstract"}
+          ],
+          "reason": "The reference to business analysts developing conceptual models could weakly imply modeling-method learning, but the surrounding context targets domain understanding rather than learning the OntoUML method itself, so the evidence is weak."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

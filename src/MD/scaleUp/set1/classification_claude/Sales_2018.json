@@ -1,0 +1,53 @@
+{
+  "paper_id": "Sales_2018",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": ["Figures are not rendered in the markdown extraction (shown as [FIGURE] placeholders), but the textual descriptions of the ontology are complete."],
+  "models": [
+    {
+      "model_label": "Common Ontology of Value and Risk (COVER)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "In this paper, we address this issue by means of an in-depth ontological analysis of the notion of risk.", "section": "Abstract"},
+            {"quote": "Naturally, having a clear understanding of the ontological nature of risk is fundamental for performing risk analysis, and even more for developing modeling languages to support it.", "section": "1 Introduction"},
+            {"quote": "In this paper, we have presented an ontological analysis of risk which explicits the deep connections between the concepts of value and risk.", "section": "7 Final Remarks"}
+          ],
+          "justification": "The paper explicitly frames the ontology as the result of an in-depth ontological analysis aimed at clarifying the conceptually unclear notion of risk and its relationship to value. This matches the 'understand', 'clarify', 'conceptualize' signal patterns for For Understanding (domain knowledge)."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "Second, following existing methods for ontology-based language evaluation and (re)design [13,28], our proposal can serve as a reference model to assess how well these modeling approaches stand w.r.t to the risk domain in terms of domain appropriateness and comprehensibility appropriateness [13].", "section": "6 Implications for Conceptual Modeling"},
+            {"quote": "More concretely, these methods can be systematically employed for the identification of a number of types of deficiencies that can occur in language design (e.g., construct deficit - when there is concept in the domain that does not have a representation in terms of a construct of the language, and construct overload - when a construct in the language represents more than a domain concept).", "section": "6 Implications for Conceptual Modeling"},
+            {"quote": "For example, such an analysis of RiskML [30] would identify a construct deficit with respect to the representation of vulnerabilities, whilst one in the CORAS approach [22] would identify a construct deficit regarding the explicit representation of goals.", "section": "6 Implications for Conceptual Modeling"}
+          ],
+          "justification": "The ontology is explicitly proposed as a reference model to evaluate existing risk modeling languages and identify shortcomings/deficiencies (construct deficits, construct overloads). This matches the 'evaluate', 'identify shortcomings' signal patterns for For Problem-solving, where the model supports analysis rather than being the implementation instrument itself."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "Third, the ontology we propose allows for the comparison and integration of risk modeling approaches by means of semantic interpretation of the languages' constructs-after all, language integration is a semantic interoperability problem.", "section": "6 Implications for Conceptual Modeling"},
+            {"quote": "Then, we can leverage it to analyze the domain adequacy of existing risk modeling languages and, if needed, redesign them so that they are clearer and more expressive to model risks.", "section": "7 Final Remarks"}
+          ],
+          "reason": "While the paper mentions enabling semantic interoperability and language redesign, these are framed as future possibilities ('allows for', 'we can leverage', 'as future work') rather than as concrete implementations or actually-performed interventions; no artifact is built using the ontology within the paper."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "First, the ontology can provide well-founded real world semantics for existing risk modeling languages, such as CORAS [22], RiskML [30], Goal-Risk Framework [2] and Archimate [6].", "section": "6 Implications for Conceptual Modeling"}
+          ],
+          "reason": "The ontology being a 'reference' for semantics could weakly suggest a documentation/reference function, but the paper does not frame the ontology as a documentation, knowledge base, or archive for absent parties; the reference role is more about analytical grounding than persistent documentation."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

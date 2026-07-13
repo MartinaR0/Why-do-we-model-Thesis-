@@ -1,0 +1,76 @@
+{
+  "paper_id": "Derave et al. - 2019 - Domain Ontology for Digital Marketplaces",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Marketplace Domain Ontology (OntoUML, extending UFO-S)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "A marketplace ontology can help to have a clear account of marketplace concepts which will facilitate communication, consensus and alignment.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "A common terminology and understanding will help future discussions, marketplace developments and research.",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "Increasing the knowledge of marketplace related concepts can, for instance, be vital for the development of smaller, more alternative and socially responsible marketplaces and can thus contribute to the creation of a more socially responsible sharing economy.",
+              "section": "1 Introduction"
+            }
+          ],
+          "justification": "The paper explicitly frames the ontology as a means to clarify concepts and build shared understanding of the marketplace domain (terminology, interconnections of concepts). This matches the For Understanding signals 'clear account', 'common terminology and understanding', and 'consensus'."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "For example, the terminology and interconnections of concepts such as ' listing ' , ' transaction ' ' marketplace ' and ' review ' can be better de fi ned and visualized for better communication between the developer and other stakeholders of a marketplace.",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "A marketplace ontology can help to have a clear account of marketplace concepts which will facilitate communication, consensus and alignment.",
+              "section": "Abstract"
+            }
+          ],
+          "justification": "The paper explicitly states the ontology supports communication between developers and other stakeholders (distinct groups). This matches the For Communicating signals 'communicate', 'bridge between', and 'align stakeholders'."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "we plan to use this ontology as a basis for the development of a conceptual data model for a comprehensive variety of different marketplaces.",
+              "section": "5 Conclusion"
+            },
+            {
+              "quote": "A marketplace ontology, conceptual data model and software reference architecture can accelerate the development of smaller, more alternative and socially responsible marketplaces and can thus contribute to the creation of a more socially responsible sharing economy.",
+              "section": "5 Conclusion"
+            }
+          ],
+          "reason": "Use as a basis for development is framed as future work ('we plan to'), which matches the For Intervening negative signal 'future work'; not coded as present."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "After creating a fi rst version the ontology was validated by UFO-S experts answering the CQ ' s using the OntoUML model. If the response differed from the intended outcome, changes to the model were made and the process was repeated until no more changes were needed.",
+              "section": "4 Marketplace Domain Ontology"
+            }
+          ],
+          "reason": "Expert validation led to changes to the model itself, but this is internal model refinement rather than the model being used to support stakeholder decision-making or option analysis about the domain; evidence is weak for Problem-solving."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

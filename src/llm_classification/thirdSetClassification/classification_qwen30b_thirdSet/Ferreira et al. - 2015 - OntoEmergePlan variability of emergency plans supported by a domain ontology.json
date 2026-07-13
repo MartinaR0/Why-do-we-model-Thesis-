@@ -1,0 +1,104 @@
+{
+  "paper_file": "Ferreira et al. - 2015 - OntoEmergePlan variability of emergency plans supported by a domain ontology.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "OntoEmergePlan",
+    "annotator": "LLM",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "OntoEmergePlan",
+        "goals": [
+          {
+            "goal": "For Intervening",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "We propose the use of OntoEmergePlan in the DPL(EP) methodology to enhance feature modelling when analysing a document family, during the domain engineering phase.",
+                "section": "DPL(EP) supported by OntoEmergePlan"
+              },
+              {
+                "quote": "The feature model provides an overview of the requirements and represents the features of documents and their dependencies",
+                "section": "DPL(EP) supported by OntoEmergePlan"
+              },
+              {
+                "quote": "In this initial experimentation, some variation points (nodes) could be identified in the feature model",
+                "section": "DPL(EP) supported by OntoEmergePlan"
+              }
+            ],
+            "justification": "The paper explicitly states that OntoEmergePlan is used to enhance feature modeling in the domain engineering phase of DPL(EP), which directly supports the generation of a feature model. The feature model is then used to generate a customized emergency plan editor, which is a system artifact. This constitutes active use of the model to enable the creation of a system (the editor), satisfying the definition of 'For Intervening'."
+          },
+          {
+            "goal": "For Problem-solving",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "DPL(EP) does not address this requirement successfully, which can affect the plans quality and, hence, the emergency actions during the response phase.",
+                "section": "ABSTRACT"
+              },
+              {
+                "quote": "To overcome these shortcomings of the DPL method, we propose the usage of well-founded ontologies for feature modeling generation.",
+                "section": "DOCUMENT PRODUCT LINE AND VARIABILITY OF EMERGENCY PLANS"
+              }
+            ],
+            "justification": "The model is introduced to solve the problem of inadequate feature modeling in DPL(EP), which leads to poor plan quality. The paper frames the use of OntoEmergePlan as a direct response to identified shortcomings in the existing method, aligning with the 'For Problem-solving' goal of guiding decision-making and identifying what needs to change."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "It brings definitions to respond competency questions such as what is an emergency, emergency types, processes, plans, plans compositions, installations and evacuation routes, involved business activities, types of risks and hazards, among others.",
+                "section": "EMERGENCY PLANS SUPPORTED BY WELL-FOUNDED ONTOLOGY"
+              },
+              {
+                "quote": "The main goal of OntoEmergePlan is to support the generation of emergency plans, serving as a reference for common understanding and communication among people, systems and organizations.",
+                "section": "EMERGENCY PLANS SUPPORTED BY WELL-FOUNDED ONTOLOGY"
+              }
+            ],
+            "justification": "The paper explicitly states that the ontology serves as a reference for 'common understanding and communication among people, systems and organizations'. This directly supports the goal of facilitating communication between distinct parties, satisfying the 'For Communicating' criterion. The use of competency questions further indicates its role in aligning understanding across stakeholders."
+          },
+          {
+            "goal": "For Documenting",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "The main goal of OntoEmergePlan is to support the generation of emergency plans, serving as a reference for common understanding and communication among people, systems and organizations.",
+                "section": "EMERGENCY PLANS SUPPORTED BY WELL-FOUNDED ONTOLOGY"
+              }
+            ],
+            "justification": "While the model is described as a 'reference', the primary framing is as a tool for communication and understanding. The reference function is secondary and not explicitly tied to asynchronous use or archival. However, the persistent nature of the ontology as a shared resource supports a medium-confidence classification for 'For Documenting'."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Understanding",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "It brings definitions to respond competency questions such as what is an emergency, emergency types, processes, plans, plans compositions, installations and evacuation routes, involved business activities, types of risks and hazards, among others.",
+                "section": "EMERGENCY PLANS SUPPORTED BY WELL-FOUNDED ONTOLOGY"
+              }
+            ],
+            "reason": "While the model provides definitions, the paper frames this as part of a broader communication and problem-solving function. There is no explicit statement that the model was created to build internal domain knowledge or support meaning negotiation within the modeling team. The evidence is too weak to confidently assign 'For Understanding'."
+          },
+          {
+            "goal": "For Learning",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "OntoUML has been successfully adopted in many domains, such as News Information Management (Carolo and Burlamaqui, 2011) and Bioinformatics (Gonçalves, Guizzardi and Filho, 2011).",
+                "section": "WELL FOUNDED DOMAIN ONTOLOGIES"
+              }
+            ],
+            "reason": "The paper mentions OntoUML's prior use in other domains but does not state that OntoEmergePlan was developed to teach modeling methods, tools, or techniques. The reference to OntoUML is contextual, not evaluative of the model's purpose. No evidence supports 'For Learning' as a goal."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"OntoEmergePlan\",\n  \"annotator\": \"LLM\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"OntoEmergePlan\",\n      \"goals\": [\n        {\n          \"goal\": \"For Intervening\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"We propose the use of OntoEmergePlan in the DPL(EP) methodology to enhance feature modelling when analysing a document family, during the domain engineering phase.\",\n              \"section\": \"DPL(EP) supported by OntoEmergePlan\"\n            },\n            {\n              \"quote\": \"The feature model provides an overview of the requirements and represents the features of documents and their dependencies\",\n              \"section\": \"DPL(EP) supported by OntoEmergePlan\"\n            },\n            {\n              \"quote\": \"In this initial experimentation, some variation points (nodes) could be identified in the feature model\",\n              \"section\": \"DPL(EP) supported by OntoEmergePlan\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that OntoEmergePlan is used to enhance feature modeling in the domain engineering phase of DPL(EP), which directly supports the generation of a feature model. The feature model is then used to generate a customized emergency plan editor, which is a system artifact. This constitutes active use of the model to enable the creation of a system (the editor), satisfying the definition of 'For Intervening'.\"\n        },\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"DPL(EP) does not address this requirement successfully, which can affect the plans quality and, hence, the emergency actions during the response phase.\",\n              \"section\": \"ABSTRACT\"\n            },\n            {\n              \"quote\": \"To overcome these shortcomings of the DPL method, we propose the usage of well-founded ontologies for feature modeling generation.\",\n              \"section\": \"DOCUMENT PRODUCT LINE AND VARIABILITY OF EMERGENCY PLANS\"\n            }\n          ],\n          \"justification\": \"The model is introduced to solve the problem of inadequate feature modeling in DPL(EP), which leads to poor plan quality. The paper frames the use of OntoEmergePlan as a direct response to identified shortcomings in the existing method, aligning with the 'For Problem-solving' goal of guiding decision-making and identifying what needs to change.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"It brings definitions to respond competency questions such as what is an emergency, emergency types, processes, plans, plans compositions, installations and evacuation routes, involved business activities, types of risks and hazards, among others.\",\n              \"section\": \"EMERGENCY PLANS SUPPORTED BY WELL-FOUNDED ONTOLOGY\"\n            },\n            {\n              \"quote\": \"The main goal of OntoEmergePlan is to support the generation of emergency plans, serving as a reference for common understanding and communication among people, systems and organizations.\",\n              \"section\": \"EMERGENCY PLANS SUPPORTED BY WELL-FOUNDED ONTOLOGY\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that the ontology serves as a reference for 'common understanding and communication among people, systems and organizations'. This directly supports the goal of facilitating communication between distinct parties, satisfying the 'For Communicating' criterion. The use of competency questions further indicates its role in aligning understanding across stakeholders.\"\n        },\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The main goal of OntoEmergePlan is to support the generation of emergency plans, serving as a reference for common understanding and communication among people, systems and organizations.\",\n              \"section\": \"EMERGENCY PLANS SUPPORTED BY WELL-FOUNDED ONTOLOGY\"\n            }\n          ],\n          \"justification\": \"While the model is described as a 'reference', the primary framing is as a tool for communication and understanding. The reference function is secondary and not explicitly tied to asynchronous use or archival. However, the persistent nature of the ontology as a shared resource supports a medium-confidence classification for 'For Documenting'.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"It brings definitions to respond competency questions such as what is an emergency, emergency types, processes, plans, plans compositions, installations and evacuation routes, involved business activities, types of risks and hazards, among others.\",\n              \"section\": \"EMERGENCY PLANS SUPPORTED BY WELL-FOUNDED ONTOLOGY\"\n            }\n          ],\n          \"reason\": \"While the model provides definitions, the paper frames this as part of a broader communication and problem-solving function. There is no explicit statement that the model was created to build internal domain knowledge or support meaning negotiation within the modeling team. The evidence is too weak to confidently assign 'For Understanding'.\"\n        },\n        {\n          \"goal\": \"For Learning\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"OntoUML has been successfully adopted in many domains, such as News Information Management (Carolo and Burlamaqui, 2011) and Bioinformatics (Gonçalves, Guizzardi and Filho, 2011).\",\n              \"section\": \"WELL FOUNDED DOMAIN ONTOLOGIES\"\n            }\n          ],\n          \"reason\": \"The paper mentions OntoUML's prior use in other domains but does not state that OntoEmergePlan was developed to teach modeling methods, tools, or techniques. The reference to OntoUML is contextual, not evaluative of the model's purpose. No evidence supports 'For Learning' as a goal.\"\n        }\n      ]\n    }\n  ],\n  \"outside_taxonomy\": []\n}",
+  "seconds": 18.9
+}

@@ -1,0 +1,103 @@
+{
+  "paper_id": "Khantong_2020",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Flood response domain ontology (endurant + perdurant)",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "In this stage, the ontology is implemented in OWL and OWL-S using Prot  eg  e, a prominent ontology development tool.",
+              "section": "Section 4.4 Implementation"
+            },
+            {
+              "quote": "These conceptual models of the ontology are then transformed to be represented in the ontology implementation languages. By using the Prot  eg  e tool, the endurant ontology was represented in OWL and the perdurant ontology was represented in OWL-S.",
+              "section": "Section 3.3 Design and development"
+            },
+            {
+              "quote": "Based on the ontological model shown in Fig. 3, these information sources are structured and organized, which can be depicted by RDF graph in Fig. 4 and represented in OWL and OWL-S, as shown in Fig. 5 as an example.",
+              "section": "Section 5 Demonstration of the ontology usage"
+            }
+          ],
+          "justification": "The model is actively transformed and implemented in OWL/OWL-S using Protege, and used to structure case-study information sources represented in RDF/OWL/OWL-S. This satisfies the For Intervening positive signals (\"implemented\", \"generated artifact\") with the model serving as the instrument for artifact generation."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "This paper proposes an ontology as a model to organize and structure information in order to improve the information management and sharing in disaster response management.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "More speci fi cally, the proposed ontology serves as a model to manage the different pieces of information that are created by different processes handled by different organizations, as well as to structure the information in order to enable it to be shared among the organizations.",
+              "section": "Section 1 Introduction"
+            },
+            {
+              "quote": "In terms of completeness, vocabularies provided by the ontology are complete and meet the requirements for representing, storing and sharing the information.",
+              "section": "Section 6 Evaluation"
+            },
+            {
+              "quote": "The ontology is proposed as a model to organize and structure information in order to improve the information management and sharing in disaster response.",
+              "section": "Section 8 Conclusion"
+            }
+          ],
+          "justification": "The stated purpose is to organize, structure, store, manage and share information across organizations/systems asynchronously. This matches For Documenting positive signals (\"knowledge management\", \"stored\", \"repository\") describing persistent, cross-organization information reference rather than live discussion."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "The design science is a problem solving paradigm, aiming to build new artefacts in order to improve or extend the capabilities of humans and organizations [11].",
+              "section": "Section 1 Introduction"
+            },
+            {
+              "quote": "The main activity of this stage is to determine the specific problem and justify the value of a solution to the problem. As discussed in Section 1, the problem identi fi ed in this study is about the information management and sharing in disaster response.",
+              "section": "Section 3.1 Problem identification and motivation"
+            },
+            {
+              "quote": "In this paper, an ontology is proposed as a solution.",
+              "section": "Section 3.1 Problem identification and motivation"
+            }
+          ],
+          "justification": "The paper frames the ontology as a Design Science solution to an identified information-management problem. One short inference links the explicit problem-solving framing to the model's purpose, supporting Medium confidence."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Foundational ontologies can help ontology developers to design and understand the domain by providing a rich vocabulary that describes that domain.",
+              "section": "Section 2.2.2 The role of foundational ontology in domain ontology development"
+            },
+            {
+              "quote": "The foundational ontologies utilized in this research provide a rich vocabulary to describe the domain from both static and dynamic aspects.",
+              "section": "Section 8 Conclusion"
+            }
+          ],
+          "reason": "These statements discuss benefits of foundational ontologies generally rather than explicitly stating that this model's purpose is to support domain understanding/meaning negotiation, so the link to For Understanding is weak."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "By committing to this ontology, terms and concepts that represent information are used consistently and unambiguously throughout the entire system of flood response in which several organizations participate.",
+              "section": "Section 7 Discussion and implications"
+            }
+          ],
+          "reason": "The text emphasizes consistent representation/sharing across systems rather than synchronous human-to-human communication or live discussion; evidence for distinct-parties live interaction is indirect."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

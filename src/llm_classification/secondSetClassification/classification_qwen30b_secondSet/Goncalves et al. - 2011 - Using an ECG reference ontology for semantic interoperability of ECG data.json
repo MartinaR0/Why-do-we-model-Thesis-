@@ -1,0 +1,86 @@
+{
+  "paper_file": "Goncalves et al. - 2011 - Using an ECG reference ontology for semantic interoperability of ECG data.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "Gonçalves2010_ECG_Ontology",
+    "annotator": "LLM",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "ECG Ontology",
+        "goals": [
+          {
+            "goal": "For Intervening",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "Our hypothesis is tested by means of an integration experiment that uses, on the one hand, an ECG Ontology and, on the other hand, elicited conceptual models of the ECG standards.",
+                "section": "Introduction"
+              },
+              {
+                "quote": "We then turn to the SCP-ECG conceptual model, in order to find correspondence between its elements and the ECG Ontology entities (see Fig. 5).",
+                "section": "4. The integration experiment"
+              },
+              {
+                "quote": "As a conclusion, we advocate that our integration experiment provides evidence for the following statement: a reference ontology of the ECG domain can be effectively used to foster semantic interoperability between the ECG standards.",
+                "section": "4. The integration experiment"
+              }
+            ],
+            "justification": "The ECG Ontology is used as an instrument to perform semantic integration across ECG standards, directly enabling the creation of correspondence links and supporting the design of interoperable versions of data formats. The experiment explicitly uses the ontology to guide integration, fulfilling the definition of 'For Intervening' where the model is actively used to build or enable a system (interoperability)."
+          },
+          {
+            "goal": "For Problem-solving",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "We then argue that a shared anchor, the biomedical reality under scrutiny, can effectively support the semantic integration of these ECG standards into a coherent ECG representation for the sake of a unified Electronic Health Record (EHR) model.",
+                "section": "Introduction"
+              },
+              {
+                "quote": "In face of this, if we consider the three different ECG domain conceptualizations that underlie the data formats just mentioned, a number of question begging issues arise, namely: (i) what is the 'correct' conceptualization for the ECG domain (if any)? (ii) As each of them addresses different purposes and requirements, how to evaluate which purposes and requirements are more fair?",
+                "section": "3.4. Discussion"
+              },
+              {
+                "quote": "The challenge of semantic integration still requires, rather, careful investigations by using the state-of-the-art tools of Formal Ontology and Conceptual Modeling.",
+                "section": "5.1. Related Work"
+              }
+            ],
+            "justification": "The paper uses the ECG Ontology to analyze and resolve conceptual heterogeneity among ECG standards, identifying shortcomings and inconsistencies in existing models. This aligns with 'For Problem-solving' as the model is used to evaluate, analyze, and identify what needs to change in order to achieve interoperability, without being used to directly build an artifact."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "The methodology proposed here can be applied in other domains.",
+                "section": "6. Conclusions"
+              },
+              {
+                "quote": "The methodology proposed here then complements the methods commonly employed in the literature (which rely on term and structural comparison of concepts) by reaching the semantic level.",
+                "section": "6. Conclusions"
+              }
+            ],
+            "justification": "The paper positions the ECG Ontology as a shared reference to bridge different conceptualizations across standards, implying its use in aligning perspectives between different communities (e.g., standard developers, EHR designers). The discussion of 'how' to integrate and the emphasis on shared understanding supports communication between stakeholders, though not in a live or explicit meeting context."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Documenting",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "The ECG Ontology used in this article, furthermore, has been carefully developed over the years by employing ontological principles coming from the discipline of Formal Ontology in Philosophy [11].",
+                "section": "Introduction"
+              }
+            ],
+            "reason": "The statement refers to the development history of the ontology, not its use as a persistent reference or documentation system. There is no explicit claim that the ontology is stored or used for future reference by absent parties."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"Gonçalves2010_ECG_Ontology\",\n  \"annotator\": \"LLM\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"ECG Ontology\",\n      \"goals\": [\n        {\n          \"goal\": \"For Intervening\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"Our hypothesis is tested by means of an integration experiment that uses, on the one hand, an ECG Ontology and, on the other hand, elicited conceptual models of the ECG standards.\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"We then turn to the SCP-ECG conceptual model, in order to find correspondence between its elements and the ECG Ontology entities (see Fig. 5).\",\n              \"section\": \"4. The integration experiment\"\n            },\n            {\n              \"quote\": \"As a conclusion, we advocate that our integration experiment provides evidence for the following statement: a reference ontology of the ECG domain can be effectively used to foster semantic interoperability between the ECG standards.\",\n              \"section\": \"4. The integration experiment\"\n            }\n          ],\n          \"justification\": \"The ECG Ontology is used as an instrument to perform semantic integration across ECG standards, directly enabling the creation of correspondence links and supporting the design of interoperable versions of data formats. The experiment explicitly uses the ontology to guide integration, fulfilling the definition of 'For Intervening' where the model is actively used to build or enable a system (interoperability).\"\n        },\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"We then argue that a shared anchor, the biomedical reality under scrutiny, can effectively support the semantic integration of these ECG standards into a coherent ECG representation for the sake of a unified Electronic Health Record (EHR) model.\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"In face of this, if we consider the three different ECG domain conceptualizations that underlie the data formats just mentioned, a number of question begging issues arise, namely: (i) what is the 'correct' conceptualization for the ECG domain (if any)? (ii) As each of them addresses different purposes and requirements, how to evaluate which purposes and requirements are more fair?\",\n              \"section\": \"3.4. Discussion\"\n            },\n            {\n              \"quote\": \"The challenge of semantic integration still requires, rather, careful investigations by using the state-of-the-art tools of Formal Ontology and Conceptual Modeling.\",\n              \"section\": \"5.1. Related Work\"\n            }\n          ],\n          \"justification\": \"The paper uses the ECG Ontology to analyze and resolve conceptual heterogeneity among ECG standards, identifying shortcomings and inconsistencies in existing models. This aligns with 'For Problem-solving' as the model is used to evaluate, analyze, and identify what needs to change in order to achieve interoperability, without being used to directly build an artifact.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The methodology proposed here can be applied in other domains.\",\n              \"section\": \"6. Conclusions\"\n            },\n            {\n              \"quote\": \"The methodology proposed here then complements the methods commonly employed in the literature (which rely on term and structural comparison of concepts) by reaching the semantic level.\",\n              \"section\": \"6. Conclusions\"\n            }\n          ],\n          \"justification\": \"The paper positions the ECG Ontology as a shared reference to bridge different conceptualizations across standards, implying its use in aligning perspectives between different communities (e.g., standard developers, EHR designers). The discussion of 'how' to integrate and the emphasis on shared understanding supports communication between stakeholders, though not in a live or explicit meeting context.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The ECG Ontology used in this article, furthermore, has been carefully developed over the years by employing ontological principles coming from the discipline of Formal Ontology in Philosophy [11].\",\n              \"section\": \"Introduction\"\n            }\n          ],\n          \"reason\": \"The statement refers to the development history of the ontology, not its use as a persistent reference or documentation system. There is no explicit claim that the ontology is stored or used for future reference by absent parties.\"\n        }\n      ]\n    }\n  ],\n  \"outside_taxonomy\": []\n}",
+  "seconds": 21.0
+}

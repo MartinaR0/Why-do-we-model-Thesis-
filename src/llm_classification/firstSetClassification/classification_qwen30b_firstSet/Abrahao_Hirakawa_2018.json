@@ -1,0 +1,74 @@
+{
+  "paper_file": "Abrahao_Hirakawa_2018.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "Complex Task Ontology Conceptual Modelling",
+    "annotator": "LLM",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "AGROPTO",
+        "goals": [
+          {
+            "goal": "For Intervening",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "An implementation of AGROPTO in the OWL (W3C, 2004) format is available at http://agropto.org.",
+                "section": "Conclusion"
+              },
+              {
+                "quote": "The solutions proposed were used on the Agriculture Operations Task Ontology, a generic task ontology for the agriculture domain in order to describe structural and behavioural aspects of the task execution and generate a well-founded implementation in OWL format.",
+                "section": "Conclusion"
+              }
+            ],
+            "justification": "The paper explicitly states that AGROPTO was implemented in OWL format and used to generate a well-founded implementation, which meets the definition of 'For Intervening' as the model directly enables the creation of a system (the OWL ontology)."
+          },
+          {
+            "goal": "For Problem-solving",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "This paper presents possible solutions in the next subsection.",
+                "section": "3.2 Complex Task's Model"
+              },
+              {
+                "quote": "Although the E-OntoUML addresses the basic elements of a task ontology, the proposed solutions presented here goes towards the direction of complement complex task elements descriptions considering well founded ontology development guidelines.",
+                "section": "3.2 Complex Task's Model"
+              }
+            ],
+            "justification": "The model is used to identify and address shortcomings in E-OntoUML (e.g., lack of representation for task objectives, pre/post conditions, external events), which aligns with 'For Problem-solving' as it guides the identification of what needs to change in the modeling approach."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "The solutions proposed were used on the Agriculture Operations Task Ontology, a generic task ontology for the agriculture domain in order to describe structural and behavioural aspects of the task execution...",
+                "section": "Conclusion"
+              }
+            ],
+            "justification": "The model is presented as a shared formal representation to describe task execution aspects across stakeholders in agriculture operations, supporting alignment and discussion between different parties, which qualifies as 'For Communicating'."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Understanding",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "The development of knowledge-based systems is directly related to knowledge acquisition, representation, reuse and sharing.",
+                "section": "1 INTRODUCTION"
+              }
+            ],
+            "reason": "The statement is general and does not link the model specifically to internal sense-making or meaning negotiation; it only frames knowledge representation broadly."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"Complex Task Ontology Conceptual Modelling\",\n  \"annotator\": \"LLM\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"AGROPTO\",\n      \"goals\": [\n        {\n          \"goal\": \"For Intervening\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"An implementation of AGROPTO in the OWL (W3C, 2004) format is available at http://agropto.org.\",\n              \"section\": \"Conclusion\"\n            },\n            {\n              \"quote\": \"The solutions proposed were used on the Agriculture Operations Task Ontology, a generic task ontology for the agriculture domain in order to describe structural and behavioural aspects of the task execution and generate a well-founded implementation in OWL format.\",\n              \"section\": \"Conclusion\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that AGROPTO was implemented in OWL format and used to generate a well-founded implementation, which meets the definition of 'For Intervening' as the model directly enables the creation of a system (the OWL ontology).\"\n        },\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"This paper presents possible solutions in the next subsection.\",\n              \"section\": \"3.2 Complex Task's Model\"\n            },\n            {\n              \"quote\": \"Although the E-OntoUML addresses the basic elements of a task ontology, the proposed solutions presented here goes towards the direction of complement complex task elements descriptions considering well founded ontology development guidelines.\",\n              \"section\": \"3.2 Complex Task's Model\"\n            }\n          ],\n          \"justification\": \"The model is used to identify and address shortcomings in E-OntoUML (e.g., lack of representation for task objectives, pre/post conditions, external events), which aligns with 'For Problem-solving' as it guides the identification of what needs to change in the modeling approach.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The solutions proposed were used on the Agriculture Operations Task Ontology, a generic task ontology for the agriculture domain in order to describe structural and behavioural aspects of the task execution...\",\n              \"section\": \"Conclusion\"\n            }\n          ],\n          \"justification\": \"The model is presented as a shared formal representation to describe task execution aspects across stakeholders in agriculture operations, supporting alignment and discussion between different parties, which qualifies as 'For Communicating'.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The development of knowledge-based systems is directly related to knowledge acquisition, representation, reuse and sharing.\",\n              \"section\": \"1 INTRODUCTION\"\n            }\n          ],\n          \"reason\": \"The statement is general and does not link the model specifically to internal sense-making or meaning negotiation; it only frames knowledge representation broadly.\"\n        }\n      ]\n    }\n  ],\n  \"outside_taxonomy\": []\n}",
+  "seconds": 13.2
+}

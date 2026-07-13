@@ -1,0 +1,100 @@
+{
+  "paper_file": "Oliveira et al. - 2025 - An Ontological Model of the Phishing Attack Process.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "An_Ontological_Model_of_the_Phishing_Attack_Process",
+    "annotator": "LLM",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "Phishing Attack Process Ontology (PAPO)",
+        "goals": [
+          {
+            "goal": "For Intervening",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "By providing ontological foundations for the investigation and fight against phishing attacks, PAPO paves the way for rigorous representation of corresponding real-world scenarios and enhanced applications, such as systems interoperability, data modeling, knowledge-based systems, discrete event simulations, design of phishing detection systems, and evaluation of security mechanisms' effectiveness.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "Once we have established ontological foundations of phishing attacks, we intend to employ them to support risk treatment activities (the design and evaluation of security mechanisms) and phishing research, including experiments, empirical phishing research, simulations, and RDF knowledge graph construction (for example, via phishing dataset integrations).",
+                "section": "Conclusion"
+              }
+            ],
+            "justification": "The paper explicitly states that PAPO enables the design of phishing detection systems and supports the evaluation of security mechanisms, which constitutes direct use of the model to build or guide the development of systems—clear evidence of intervening. The future intent to use PAPO for system design and evaluation is framed as a direct consequence of the model's purpose, satisfying the 'intended use' criterion for intervening."
+          },
+          {
+            "goal": "For Problem-solving",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "The purpose of PAPO is to serve as a reference artifact for activities related to risk assessment regarding phishing attacks, particularly risk identification. The ISO 31000 [17] describes risk assessment as a process that includes (a) risk identification, (b) risk analysis, and (c) risk evaluation, which informs risk treatment decisions.",
+                "section": "3.1 Ontology Requirements"
+              },
+              {
+                "quote": "This is the first model of the phishing attack process that satisfies several important quality requirements (detailed in Sect. 3.1). PAPO stands out for complying with FAIR principles for scientific artifacts and a level of generality that allows the representation of different forms of phishing (email, SMS, social network, in-person communication, etc.).",
+                "section": "Conclusion"
+              }
+            ],
+            "justification": "The model is explicitly created to support risk identification under ISO 31000, which is a core problem-solving activity. The paper frames PAPO as a tool to analyze and identify risks in phishing attacks, directly aligning with the 'problem-solving' goal. The evaluation section further confirms this by showing how PAPO enables analysis of real incidents to inform risk treatment decisions."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "PAPO, however, is limited to the overall attack description. It does not include security elements, which can be placed to counteract each phase of the phishing attack process. Moreover, a detailed taxonomy of phishing attacks is not included in PAPO by default, but can be added by subtyping PAPO's classes.",
+                "section": "Conclusion"
+              }
+            ],
+            "justification": "The mention of subtyping and extending PAPO for security elements implies that the model is intended to be used in collaborative or interdisciplinary discussions (e.g., between security engineers and domain experts), suggesting its use in aligning understanding across groups. This supports the 'communicating' goal, though the evidence is indirect and requires inference about stakeholder alignment."
+          },
+          {
+            "goal": "For Documenting",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "All files related to PAPO are publicly available under the Apache 2.0 license: 1",
+                "section": "3.1 Ontology Requirements"
+              },
+              {
+                "quote": "PAPO is publicly available following FAIR principles (QR6): stably findable and accessible in multiple formats, including metadata, reusable, and interoperable with other ontologies, powered by explicit ontological commitments— a key requirement for interoperability [13].",
+                "section": "4 Ontology Evaluation"
+              }
+            ],
+            "justification": "The model is explicitly described as publicly available, findable, accessible, and reusable in multiple formats (VPP, JSON, TTL, HTML), which directly satisfies the definition of documenting. The FAIR principles are cited as a core quality requirement, reinforcing that the model is intended as a persistent, shared reference artifact."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Understanding",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "We show that this ontological model supports risk identification, according to ISO 31000, and satisfies important quality requirements, including domain adequacy, transparency, logical and ontological coherence, generality, as well as the FAIR principles.",
+                "section": "Abstract"
+              }
+            ],
+            "reason": "While the model is described as transparent and coherent, the paper does not claim it was created to help individuals or teams develop shared understanding or negotiate meaning. The focus is on functional use (risk identification, system design), not internal sense-making or meaning negotiation, making the evidence for 'Understanding' weak and ambiguous."
+          },
+          {
+            "goal": "For Learning",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "PAPO, however, is limited to the overall attack description. It does not include security elements, which can be placed to counteract each phase of the phishing attack process.",
+                "section": "Conclusion"
+              }
+            ],
+            "reason": "The paper discusses the model's limitations and potential extensions, but there is no mention of using PAPO to learn modeling methods, tools, or techniques. The focus is on domain application, not on teaching or learning modeling practices, so the evidence for 'Learning' is insufficient."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"An_Ontological_Model_of_the_Phishing_Attack_Process\",\n  \"annotator\": \"LLM\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"Phishing Attack Process Ontology (PAPO)\",\n      \"goals\": [\n        {\n          \"goal\": \"For Intervening\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"By providing ontological foundations for the investigation and fight against phishing attacks, PAPO paves the way for rigorous representation of corresponding real-world scenarios and enhanced applications, such as systems interoperability, data modeling, knowledge-based systems, discrete event simulations, design of phishing detection systems, and evaluation of security mechanisms' effectiveness.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"Once we have established ontological foundations of phishing attacks, we intend to employ them to support risk treatment activities (the design and evaluation of security mechanisms) and phishing research, including experiments, empirical phishing research, simulations, and RDF knowledge graph construction (for example, via phishing dataset integrations).\",\n              \"section\": \"Conclusion\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that PAPO enables the design of phishing detection systems and supports the evaluation of security mechanisms, which constitutes direct use of the model to build or guide the development of systems—clear evidence of intervening. The future intent to use PAPO for system design and evaluation is framed as a direct consequence of the model's purpose, satisfying the 'intended use' criterion for intervening.\"\n        },\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The purpose of PAPO is to serve as a reference artifact for activities related to risk assessment regarding phishing attacks, particularly risk identification. The ISO 31000 [17] describes risk assessment as a process that includes (a) risk identification, (b) risk analysis, and (c) risk evaluation, which informs risk treatment decisions.\",\n              \"section\": \"3.1 Ontology Requirements\"\n            },\n            {\n              \"quote\": \"This is the first model of the phishing attack process that satisfies several important quality requirements (detailed in Sect. 3.1). PAPO stands out for complying with FAIR principles for scientific artifacts and a level of generality that allows the representation of different forms of phishing (email, SMS, social network, in-person communication, etc.).\",\n              \"section\": \"Conclusion\"\n            }\n          ],\n          \"justification\": \"The model is explicitly created to support risk identification under ISO 31000, which is a core problem-solving activity. The paper frames PAPO as a tool to analyze and identify risks in phishing attacks, directly aligning with the 'problem-solving' goal. The evaluation section further confirms this by showing how PAPO enables analysis of real incidents to inform risk treatment decisions.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"PAPO, however, is limited to the overall attack description. It does not include security elements, which can be placed to counteract each phase of the phishing attack process. Moreover, a detailed taxonomy of phishing attacks is not included in PAPO by default, but can be added by subtyping PAPO's classes.\",\n              \"section\": \"Conclusion\"\n            }\n          ],\n          \"justification\": \"The mention of subtyping and extending PAPO for security elements implies that the model is intended to be used in collaborative or interdisciplinary discussions (e.g., between security engineers and domain experts), suggesting its use in aligning understanding across groups. This supports the 'communicating' goal, though the evidence is indirect and requires inference about stakeholder alignment.\"\n        },\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"All files related to PAPO are publicly available under the Apache 2.0 license: 1\",\n              \"section\": \"3.1 Ontology Requirements\"\n            },\n            {\n              \"quote\": \"PAPO is publicly available following FAIR principles (QR6): stably findable and accessible in multiple formats, including metadata, reusable, and interoperable with other ontologies, powered by explicit ontological commitments— a key requirement for interoperability [13].\",\n              \"section\": \"4 Ontology Evaluation\"\n            }\n          ],\n          \"justification\": \"The model is explicitly described as publicly available, findable, accessible, and reusable in multiple formats (VPP, JSON, TTL, HTML), which directly satisfies the definition of documenting. The FAIR principles are cited as a core quality requirement, reinforcing that the model is intended as a persistent, shared reference artifact.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"We show that this ontological model supports risk identification, according to ISO 31000, and satisfies important quality requirements, including domain adequacy, transparency, logical and ontological coherence, generality, as well as the FAIR principles.\",\n              \"section\": \"Abstract\"\n            }\n          ],\n          \"reason\": \"While the model is described as transparent and coherent, the paper does not claim it was created to help individuals or teams develop shared understanding or negotiate meaning. The focus is on functional use (risk identification, system design), not internal sense-making or meaning negotiation, making the evidence for 'Understanding' weak and ambiguous.\"\n        },\n        {\n          \"goal\": \"For Learning\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"PAPO, however, is limited to the overall attack description. It does not include security elements, which can be placed to counteract each phase of the phishing attack process.\",\n              \"section\": \"Conclusion\"\n            }\n          ],\n          \"reason\": \"The paper discusses the model's limitations and potential extensions, but there is no mention of using PAPO to learn modeling methods, tools, or techniques. The focus is on domain application, not on teaching or learning modeling practices, so the evidence for 'Learning' is insufficient.\"\n        }\n      ]\n    }\n  ],\n  \"outside_taxonomy\": []\n}",
+  "seconds": 23.4
+}

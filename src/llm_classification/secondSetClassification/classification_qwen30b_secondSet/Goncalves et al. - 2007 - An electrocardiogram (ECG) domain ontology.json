@@ -1,0 +1,81 @@
+{
+  "paper_file": "Goncalves et al. - 2007 - An electrocardiogram (ECG) domain ontology.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "An_Electrocardiogram_(ECG)_Domain_Ontology",
+    "annotator": "LLM",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "ECG Domain Ontology",
+        "goals": [
+          {
+            "goal": "For Intervening",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "This work has presented an ontology of the electrocardiogram domain. This ontology focuses on structural concepts existing in this domain, leaving dynamic concerns as a matter of future work. We advocate that the theory of the ECG conveyed in this paper provides ... (ii) a reference conceptual model that may be used for promoting interoperability in Health Informatics; and (iii) a usefulness formal model for ECG analysis systems.",
+                "section": "Section 6"
+              }
+            ],
+            "justification": "The paper states the ontology is intended to be used as a 'reference conceptual model' for promoting interoperability and as a 'usefulness formal model' for ECG analysis systems, indicating it is designed to be actively used in system development and integration, satisfying the criteria for For Intervening. The use of 'may be used' implies intended implementation, which is acceptable under the signal pattern for 'used to enable interoperability'."
+          },
+          {
+            "goal": "For Problem-solving",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "This initiative then addresses the need for semantic interoperability, in general, and data integration, in particular, in Health Informatics.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "The proposed ontology covers the domain from multiple complementary viewpoints. In this way we provide an integral view of the heart activity from the microscopic perspective to the macroscopic one.",
+                "section": "Introduction"
+              }
+            ],
+            "justification": "The paper explicitly frames the ontology as a response to a specific problem: the lack of semantic interoperability and data integration in Health Informatics. The model is developed to analyze and resolve these issues, which aligns with the definition of For Problem-solving. The evidence is direct and unambiguous."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "This work has presented an ontology of the electrocardiogram domain. This ontology focuses on structural concepts existing in this domain, leaving dynamic concerns as a matter of future work. We advocate that the theory of the ECG conveyed in this paper provides ... (i) a knowledge repository about this universe of discourse;",
+                "section": "Section 6"
+              }
+            ],
+            "justification": "The paper states the ontology serves as a 'knowledge repository about this universe of discourse', which implies it is intended to support communication of domain knowledge. While not explicitly about stakeholder alignment or discussion, the purpose of conveying shared understanding across experts supports the goal of Communicating, especially given the context of interdisciplinary healthcare systems."
+          },
+          {
+            "goal": "For Documenting",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "This work has presented an ontology of the electrocardiogram domain. This ontology focuses on structural concepts existing in this domain, leaving dynamic concerns as a matter of future work. We advocate that the theory of the ECG conveyed in this paper provides ... (i) a knowledge repository about this universe of discourse;",
+                "section": "Section 6"
+              }
+            ],
+            "justification": "The paper explicitly describes the ontology as a 'knowledge repository about this universe of discourse', which directly matches the positive signal pattern for Documenting. The use of 'repository' and 'knowledge' indicates the model is intended for persistent, asynchronous reference, satisfying the definition of For Documenting."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Understanding",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "The ECG ontology has been developed in the context of the TeleCardio project [Andreão et al. 2006]. TeleCardio is a telehomecare system for remote monitoring of patients with cardiological syndromes.",
+                "section": "Introduction"
+              }
+            ],
+            "reason": "While the ontology is developed in the context of a project, the text does not state that it was used to build shared understanding or clarify concepts within the team or between stakeholders. The evidence is indirect and speculative, resting on the assumption that the model supports internal sense-making, which is not explicitly stated."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"An_Electrocardiogram_(ECG)_Domain_Ontology\",\n  \"annotator\": \"LLM\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"ECG Domain Ontology\",\n      \"goals\": [\n        {\n          \"goal\": \"For Intervening\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"This work has presented an ontology of the electrocardiogram domain. This ontology focuses on structural concepts existing in this domain, leaving dynamic concerns as a matter of future work. We advocate that the theory of the ECG conveyed in this paper provides ... (ii) a reference conceptual model that may be used for promoting interoperability in Health Informatics; and (iii) a usefulness formal model for ECG analysis systems.\",\n              \"section\": \"Section 6\"\n            }\n          ],\n          \"justification\": \"The paper states the ontology is intended to be used as a 'reference conceptual model' for promoting interoperability and as a 'usefulness formal model' for ECG analysis systems, indicating it is designed to be actively used in system development and integration, satisfying the criteria for For Intervening. The use of 'may be used' implies intended implementation, which is acceptable under the signal pattern for 'used to enable interoperability'.\"\n        },\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"This initiative then addresses the need for semantic interoperability, in general, and data integration, in particular, in Health Informatics.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"The proposed ontology covers the domain from multiple complementary viewpoints. In this way we provide an integral view of the heart activity from the microscopic perspective to the macroscopic one.\",\n              \"section\": \"Introduction\"\n            }\n          ],\n          \"justification\": \"The paper explicitly frames the ontology as a response to a specific problem: the lack of semantic interoperability and data integration in Health Informatics. The model is developed to analyze and resolve these issues, which aligns with the definition of For Problem-solving. The evidence is direct and unambiguous.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"This work has presented an ontology of the electrocardiogram domain. This ontology focuses on structural concepts existing in this domain, leaving dynamic concerns as a matter of future work. We advocate that the theory of the ECG conveyed in this paper provides ... (i) a knowledge repository about this universe of discourse;\",\n              \"section\": \"Section 6\"\n            }\n          ],\n          \"justification\": \"The paper states the ontology serves as a 'knowledge repository about this universe of discourse', which implies it is intended to support communication of domain knowledge. While not explicitly about stakeholder alignment or discussion, the purpose of conveying shared understanding across experts supports the goal of Communicating, especially given the context of interdisciplinary healthcare systems.\"\n        },\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"This work has presented an ontology of the electrocardiogram domain. This ontology focuses on structural concepts existing in this domain, leaving dynamic concerns as a matter of future work. We advocate that the theory of the ECG conveyed in this paper provides ... (i) a knowledge repository about this universe of discourse;\",\n              \"section\": \"Section 6\"\n            }\n          ],\n          \"justification\": \"The paper explicitly describes the ontology as a 'knowledge repository about this universe of discourse', which directly matches the positive signal pattern for Documenting. The use of 'repository' and 'knowledge' indicates the model is intended for persistent, asynchronous reference, satisfying the definition of For Documenting.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The ECG ontology has been developed in the context of the TeleCardio project [Andreão et al. 2006]. TeleCardio is a telehomecare system for remote monitoring of patients with cardiological syndromes.\",\n              \"section\": \"Introduction\"\n            }\n          ],\n          \"reason\": \"While the ontology is developed in the context of a project, the text does not state that it was used to build shared understanding or clarify concepts within the team or between stakeholders. The evidence is indirect and speculative, resting on the assumption that the model supports internal sense-making, which is not explicitly stated.\"\n        }\n      ]\n    }\n  ],\n  \"outside_taxonomy\": []\n}",
+  "seconds": 18.7
+}

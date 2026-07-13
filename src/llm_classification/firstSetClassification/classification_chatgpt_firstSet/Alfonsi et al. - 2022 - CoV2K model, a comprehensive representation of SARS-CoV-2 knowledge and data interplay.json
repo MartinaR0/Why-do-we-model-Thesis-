@@ -1,0 +1,74 @@
+{
+  "paper_id": "Alfonsi et al. - 2022 - CoV2K model, a comprehensive representation of SARS-CoV-2 knowledge and data interplay",
+  "annotator": "ChatGPT-5",
+  "no_codable_model": false,
+  "input_limitations": [
+    "Paper text contains extraction artifacts such as figure placeholders, repeated page headers, and mojibake symbols, but the main sections and purpose statements are readable."
+  ],
+  "models": [
+    {
+      "model_label": "CoV2K abstract model",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "CoV2K provides a clear and concise route map for understanding different connected types of information related to the virus; it thus drives a process of data and knowledge integration that aggregates information from several current resources, harmonizing their content and overcoming incompleteness and inconsistency issues.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "In building the CoV2K content, we have employed a classical data integration process driven by an abstract model, with pipelines for the integration and harmonization of different data silos, and display of results by means of a flexible application programming interface.",
+              "section": "Discussion"
+            }
+          ],
+          "justification": "The paper explicitly says the abstract model drives data integration and harmonization pipelines, with results exposed through an application programming interface. Under the Intervening vs. Problem-solving rule, this is coded as Intervening because the model guides and enables an implemented infrastructure."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "We hereby propose CoV2K, an abstract model for explaining SARS-CoV-2-related concepts and interactions, focusing on viral mutations, their co-occurrence within variants, and their effects.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "CoV2K offers a tangible route map for understanding the connections between concepts and data related to SARS-CoV-2.",
+              "section": "Discussion"
+            }
+          ],
+          "justification": "The authors explicitly frame CoV2K as explaining domain concepts and providing a route map for understanding connections between SARS-CoV-2 concepts and data. This directly matches the domain understanding goal."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "CoV2K is available for exploration as a graph that can be queried through a RESTful API addressing single entities or paths through their relationships.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "CoV2K can be inspected by means of an interactive API (base URL: http://gmql.eu/cov2k/api/), with documentation of all its endpoints and links to a list of CoV2K entities/attributes and to a taxonomy of effects.",
+              "section": "Data availability"
+            }
+          ],
+          "justification": "The model is made available as a persistent graph/API with documented endpoints, entity and attribute lists, and a taxonomy, supporting later asynchronous inspection by users. This maps to Documenting, although the paper emphasizes exploration and querying more than documentation as a named goal."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Practical use cases demonstrate its application to current knowledge inquiries.",
+              "section": "Abstract"
+            }
+          ],
+          "reason": "The use cases show query answering and domain inquiry, but the paper does not clearly frame the model as supporting decisions, option comparison, or identifying what should change."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

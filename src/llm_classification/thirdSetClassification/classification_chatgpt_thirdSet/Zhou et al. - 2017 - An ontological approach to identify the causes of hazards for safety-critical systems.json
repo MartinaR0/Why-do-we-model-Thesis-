@@ -1,0 +1,63 @@
+{
+  "paper_id": "Zhou et al. - 2017 - An ontological approach to identify the causes of hazards for safety-critical systems",
+  "annotator": "GPT-5",
+  "no_codable_model": false,
+  "input_limitations": [
+    "The markdown extraction contains spacing artifacts, mojibake in some characters, and figures/tables represented as placeholders such as [FIGURE]."
+  ],
+  "models": [
+    {
+      "model_label": "OCH ontological hazard-cause model using the Hazard Ontology",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "In  our  earlier  work  [1],  we  have  presented  an ontological  interpretation  of  the  hazard  concept,  i.e.,  the Hazard Ontology (HO), aiming to achieve a better understanding of the hazard domain.",
+              "section": "Introduction"
+            },
+            {
+              "quote": "This first step in the OCH approach is to assist analysts to achieve  a  common  understanding  of  the  selected  hazard description  (HD),  which  is  considered  important  for  safety analysis [1].",
+              "section": "Section III-B"
+            }
+          ],
+          "justification": "The paper explicitly frames the ontology and the first OCH modeling step as supporting domain understanding and a common understanding of hazard descriptions."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "In  this paper,  our  main  contribution  is  to  propose  an approach, called OCH, to identify the causes associated with the  hazard  descriptions  from  a  PHA  worksheet.",
+              "section": "Introduction"
+            },
+            {
+              "quote": "The expanded description (ED) formalizes the portion of the system description related to the corresponding categorized  hazard  description  (CHD),  which  provides  an analysis basis for the identification of causes.",
+              "section": "Section III-D"
+            },
+            {
+              "quote": "The OCH identified 244 causes associated with the 49 hazards in total.",
+              "section": "Evaluation"
+            }
+          ],
+          "justification": "The model is used to analyze hazard descriptions and identify associated causes, which supports problem analysis and subsequent safety decision making rather than directly implementing a system."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "The  causes  identification  can  provide  a  heuristic  and negotiation basis for safety requirements  elicitation.",
+              "section": "Conclusion and Future Work"
+            }
+          ],
+          "reason": "The quote hints at negotiation, but it does not clearly describe live communication or alignment between distinct stakeholders through the model."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

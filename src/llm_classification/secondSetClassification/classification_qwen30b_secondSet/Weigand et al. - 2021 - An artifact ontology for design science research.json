@@ -1,0 +1,126 @@
+{
+  "paper_file": "Weigand et al. - 2021 - An artifact ontology for design science research.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "Weigand2021_AnArtifactOntology",
+    "annotator": "LLM",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "General Artifact Ontology (UFO-based)",
+        "goals": [
+          {
+            "goal": "For Understanding",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "The goal of this conceptual paper is to introduce a general artifact ontology for use in DSR, rooted in the foundational ontology UFO [2,3] and from there develop an ontology of IS artifacts.",
+                "section": "Introduction"
+              },
+              {
+                "quote": "The theoretical contribution of this paper is to work out an ontological account of the artifact and the related design process. This account can be useful for the further development of DSR methods.",
+                "section": "Introduction"
+              }
+            ],
+            "justification": "The paper explicitly states that the purpose of the model is to provide an ontological account of the artifact concept and to support the further development of DSR methods, which aligns with 'For Understanding' as it aims to clarify and conceptualize a domain (DSR artifacts) through a formal framework."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "We posit that for an artifact universal the user role should include other agents; so an object that is made for personal use only is a technical object but not an artifact.",
+                "section": "4.9"
+              },
+              {
+                "quote": "The design conversation between designer and user is easy to recognize, there is also a conversation with the maker.",
+                "section": "4.9"
+              }
+            ],
+            "justification": "The model is presented as a framework for structuring conversations (designer-user, designer-maker) and is used to align understanding across roles. The explicit focus on communication between distinct agents (designer, user, maker) supports 'For Communicating' as it facilitates alignment and negotiation between stakeholders."
+          },
+          {
+            "goal": "For Documenting",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "The model accounts for the situation of unsuccessful production of technical objects. The technical object isa result, but not the other way round. The result also includes unplanned output or a waste by-product.",
+                "section": "4.4"
+              },
+              {
+                "quote": "The artifact universal (the meta-artifact in [16,58]) evolves over time when the design is adapted (1-1 relationship).",
+                "section": "4.8"
+              }
+            ],
+            "justification": "The model provides a formal structure for documenting artifact design, evolution, and lifecycle phases (e.g., make plan, use plan, lifecycle phases), which supports persistent, asynchronous reference for future use by researchers and practitioners, satisfying 'For Documenting'."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Problem-solving",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "We claim that the DSR artifact is an artifact universal, or, in traditional terms, an artifact kind.",
+                "section": "6"
+              }
+            ],
+            "reason": "The statement is a claim about classification, not evidence of using the model to identify problems, evaluate options, or make decisions. No explicit use of the model for analysis, evaluation, or decision-making is described."
+          }
+        ]
+      },
+      {
+        "model_label": "IS Artifact Classification (Primary and Secondary)",
+        "goals": [
+          {
+            "goal": "For Understanding",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "We claim that software program (IT application) and IS application are the primary domain artifact kinds in Computer Science and Information Systems, respectively.",
+                "section": "5.5"
+              },
+              {
+                "quote": "Our ontological analysis confirms the importance of most artifact types mentioned by March & Smith, but, to the best of our knowledge, is the first to provide a systematic account.",
+                "section": "5.4.1"
+              }
+            ],
+            "justification": "The model is developed to systematically classify IS artifacts (e.g., algorithms, programs, IS applications) and explain their relationships, which serves to clarify and structure domain knowledge—core to 'For Understanding'."
+          },
+          {
+            "goal": "For Documenting",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "The IS application is what is used by the human agent according to its use plan (the prescribed user interaction) to generate and transform data objects in an organizational context.",
+                "section": "5.1"
+              },
+              {
+                "quote": "The model is a make plan for the technical artifact database.",
+                "section": "5.4"
+              }
+            ],
+            "justification": "The model provides a formalized structure for documenting the design and use of IS artifacts (e.g., ER model as a make plan), serving as a persistent reference for future design and evaluation, which fits 'For Documenting'."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Communicating",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "The design conversation between designer and user is easy to recognize, there is also a conversation with the maker.",
+                "section": "4.9"
+              }
+            ],
+            "reason": "While the model references conversations, it does not describe using the model to facilitate real-time or live communication between stakeholders. The reference is conceptual, not functional in communication."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"Weigand2021_AnArtifactOntology\",\n  \"annotator\": \"LLM\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"General Artifact Ontology (UFO-based)\",\n      \"goals\": [\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The goal of this conceptual paper is to introduce a general artifact ontology for use in DSR, rooted in the foundational ontology UFO [2,3] and from there develop an ontology of IS artifacts.\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"The theoretical contribution of this paper is to work out an ontological account of the artifact and the related design process. This account can be useful for the further development of DSR methods.\",\n              \"section\": \"Introduction\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that the purpose of the model is to provide an ontological account of the artifact concept and to support the further development of DSR methods, which aligns with 'For Understanding' as it aims to clarify and conceptualize a domain (DSR artifacts) through a formal framework.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"We posit that for an artifact universal the user role should include other agents; so an object that is made for personal use only is a technical object but not an artifact.\",\n              \"section\": \"4.9\"\n            },\n            {\n              \"quote\": \"The design conversation between designer and user is easy to recognize, there is also a conversation with the maker.\",\n              \"section\": \"4.9\"\n            }\n          ],\n          \"justification\": \"The model is presented as a framework for structuring conversations (designer-user, designer-maker) and is used to align understanding across roles. The explicit focus on communication between distinct agents (designer, user, maker) supports 'For Communicating' as it facilitates alignment and negotiation between stakeholders.\"\n        },\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The model accounts for the situation of unsuccessful production of technical objects. The technical object isa result, but not the other way round. The result also includes unplanned output or a waste by-product.\",\n              \"section\": \"4.4\"\n            },\n            {\n              \"quote\": \"The artifact universal (the meta-artifact in [16,58]) evolves over time when the design is adapted (1-1 relationship).\",\n              \"section\": \"4.8\"\n            }\n          ],\n          \"justification\": \"The model provides a formal structure for documenting artifact design, evolution, and lifecycle phases (e.g., make plan, use plan, lifecycle phases), which supports persistent, asynchronous reference for future use by researchers and practitioners, satisfying 'For Documenting'.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"We claim that the DSR artifact is an artifact universal, or, in traditional terms, an artifact kind.\",\n              \"section\": \"6\"\n            }\n          ],\n          \"reason\": \"The statement is a claim about classification, not evidence of using the model to identify problems, evaluate options, or make decisions. No explicit use of the model for analysis, evaluation, or decision-making is described.\"\n        }\n      ]\n    },\n    {\n      \"model_label\": \"IS Artifact Classification (Primary and Secondary)\",\n      \"goals\": [\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"We claim that software program (IT application) and IS application are the primary domain artifact kinds in Computer Science and Information Systems, respectively.\",\n              \"section\": \"5.5\"\n            },\n            {\n              \"quote\": \"Our ontological analysis confirms the importance of most artifact types mentioned by March & Smith, but, to the best of our knowledge, is the first to provide a systematic account.\",\n              \"section\": \"5.4.1\"\n            }\n          ],\n          \"justification\": \"The model is developed to systematically classify IS artifacts (e.g., algorithms, programs, IS applications) and explain their relationships, which serves to clarify and structure domain knowledge—core to 'For Understanding'.\"\n        },\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The IS application is what is used by the human agent according to its use plan (the prescribed user interaction) to generate and transform data objects in an organizational context.\",\n              \"section\": \"5.1\"\n            },\n            {\n              \"quote\": \"The model is a make plan for the technical artifact database.\",\n              \"section\": \"5.4\"\n            }\n          ],\n          \"justification\": \"The model provides a formalized structure for documenting the design and use of IS artifacts (e.g., ER model as a make plan), serving as a persistent reference for future design and evaluation, which fits 'For Documenting'.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The design conversation between designer and user is easy to recognize, there is also a conversation with the maker.\",\n              \"section\": \"4.9\"\n            }\n          ],\n          \"reason\": \"While the model references conversations, it does not describe using the model to facilitate real-time or live communication between stakeholders. The reference is conceptual, not functional in communication.\"\n        }\n      ]\n    }\n  ],\n  \"outside_taxonomy\": []\n}",
+  "seconds": 34.6
+}

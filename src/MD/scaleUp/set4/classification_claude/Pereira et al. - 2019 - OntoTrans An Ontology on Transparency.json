@@ -1,0 +1,52 @@
+{
+  "paper_id": "Pereira et al. - 2019 - OntoTrans An Ontology on Transparency",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": ["Very short TREO Talk paper (abstract-only style); limited methodological detail beyond the abstract."],
+  "models": [
+    {
+      "model_label": "OntoTrans - domain ontology on Transparency",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "Our research aims to go further by discussing how to use this conceptualization to support the analysis, sharing and reuse of such knowledge as well as to develop a computational artifact capable of contributing to the understanding and processing of the relations between transparency related concepts.", "section": "Abstract"},
+            {"quote": "First, we consider the representation of transparency concepts and relations as an ontology based on the benefits  that  such  artifact  can  bring,  such  as  facilitating  the  sharing  of  information  on  the  domain  of transparency, making assumptions more explicit, and assisting the analysis of knowledge and relations in this domain.", "section": "Abstract"},
+            {"quote": "We believe that a defined ontology on transparency is fundamental since a consensus for all government agencies about this concept makes everyone show and evaluate transparency using the same characteristics.", "section": "Abstract"}
+          ],
+          "justification": "The paper explicitly frames the ontology as supporting understanding of transparency concepts, clarifying meaning, making assumptions explicit, and building a shared/consensus conceptualization of the domain — direct match to the For Understanding signals (understand, clarify, shared understanding, meaning negotiation)."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "Having that in mind, we are working on a generic domain ontology on Transparency, well-founded in UFO and using OntoUML as a modeling language (Guizzardi, 2005). OntoTrans is encoded in OWL (Web Ontology  Language)  and  a  prototype  was  built  using  OLED  (Ontouml  Lightweight  EDitor)  tool  and instantiated  on  Protégé  tool.", "section": "Abstract"},
+            {"quote": "Our research aims to go further by discussing how to use this conceptualization to support the analysis, sharing and reuse of such knowledge as well as to develop a computational artifact capable of contributing to the understanding and processing of the relations between transparency related concepts.", "section": "Abstract"}
+          ],
+          "justification": "The ontology was used to build a computational artifact: encoded in OWL and a prototype was actually built in OLED and instantiated in Protégé. This matches the For Intervening signal of an artifact being generated/implemented from the model."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "Moreover, they can understand the shown contents and use the ontology for consultation.", "section": "Abstract"}
+          ],
+          "reason": "The phrase 'use the ontology for consultation' weakly hints at reference/asynchronous use, but the paper does not clearly frame the ontology as a documentation system, knowledge base, or archive — evidence is too indirect to code as present."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "facilitating  the  sharing  of  information  on  the  domain  of transparency", "section": "Abstract"},
+            {"quote": "a consensus for all government agencies about this concept makes everyone show and evaluate transparency using the same characteristics.", "section": "Abstract"}
+          ],
+          "reason": "Sharing of information and consensus across agencies could imply communication between distinct groups, but no explicit synchronous/live communication, meeting, or stakeholder bridging activity is described — too ambiguous to distinguish from Understanding."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

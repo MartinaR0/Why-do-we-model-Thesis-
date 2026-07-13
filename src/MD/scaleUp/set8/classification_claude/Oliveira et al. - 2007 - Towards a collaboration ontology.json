@@ -1,0 +1,65 @@
+{
+  "paper_id": "Oliveira et al. - 2007 - Towards a collaboration ontology",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Collaboration Ontology (Cooperation and Communication sub-ontologies based on the 3C Model)",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "This paper presents a collaboration ontology based on the structure defined by the 3C Model and shows how it can be used to promote integration among collaborative software tools.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "We propose this ontology as the means  to  integrate  several  collaborative  software  applications  aiming  at  effectively collaboration support within organizations.",
+              "section": "1. Introduction"
+            },
+            {
+              "quote": "In face of that, the collaboration ontology becomes useful to provide a common language (both in terms of syntax and semantics) in order to promote interoperability.",
+              "section": "5. Some Applications of the Collaboration Ontology"
+            }
+          ],
+          "justification": "The paper explicitly frames the ontology's purpose as enabling integration/interoperability among collaborative software tools, and demonstrates concrete mappings (Drupal Forum, LEICA framework) that use the ontology as the instrument for tool integration. This matches the 'used to enable interoperability' signal for For Intervening."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Given the importance of the topic, it is crucial to conceptualize and formalize a common vocabulary to represent collaboration.",
+              "section": "1. Introduction"
+            },
+            {
+              "quote": "This ontology is being developed to formalize  knowledge  about  the  domain  in  order  to  provide  a  common  vocabulary, promoting integration within the collaboration domain .",
+              "section": "1. Introduction"
+            },
+            {
+              "quote": "Domain ontology captures the common sense of a particular domain in a generic and formal way to improve reuse and sharing through applications and groups [GómezPérez et al.  2004].",
+              "section": "3. The Ontology Development Methodology"
+            }
+          ],
+          "justification": "The paper explicitly states the ontology's purpose is to conceptualize/formalize a common vocabulary and formalize knowledge about the collaboration domain. This matches the 'conceptualize', 'define', and 'shared understanding' signals for For Understanding."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "(vi) Ontology  documentation:  recording  all  knowledge gathered in the process of ontology development.",
+              "section": "3. The Ontology Development Methodology"
+            }
+          ],
+          "reason": "This describes a generic step in the SABIO methodology rather than an explicit purpose of the specific collaboration ontology presented; evidence is indirect and does not clearly frame the model as documentation for absent parties."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

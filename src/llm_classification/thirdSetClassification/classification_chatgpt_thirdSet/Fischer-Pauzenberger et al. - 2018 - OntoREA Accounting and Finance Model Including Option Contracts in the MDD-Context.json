@@ -1,0 +1,124 @@
+{
+  "paper_id": "Fischer-Pauzenberger et al. - 2018 - OntoREA Accounting and Finance Model Including Option Contracts in the MDD-Context",
+  "annotator": "GPT-5 Codex",
+  "no_codable_model": false,
+  "input_limitations": [
+    "The extracted Markdown contains encoding artifacts such as \"Β©\" and \"β€\", figure placeholders, and an undecoded formula."
+  ],
+  "models": [
+    {
+      "model_label": "OntoREA Accounting and Finance conceptual PIM model",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "After  having  a  deeper  understanding  of  the  hedge  portfolio  in  the  Black/Scholes formula,  the  transformation  of  its  conceptualization  in  the  OntoREAΒ©  Accounting and Finance model - as the Collective class Derivative Instrument with a MemberOf relationship to the Kind class  Economic  Resource - into a MySQL database model can be addressed.",
+              "section": "Section 3 Hedge Portfolio: Switching from PIM- to PSM-Level"
+            },
+            {
+              "quote": "In the MDD context this transformation corresponds to the switch from an abstract conceptual PIM model into a specific database PSM model.",
+              "section": "Section 3 Hedge Portfolio: Switching from PIM- to PSM-Level"
+            }
+          ],
+          "justification": "The paper explicitly frames the conceptual PIM as the source model transformed into a specific database PSM in an MDD context. Under the Intervening rule, intended transformation for system/database development is sufficient evidence."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "OntoREAΒ© is a specification of the Accounting and Finance domain in  the  OntoUML language [1] which includes derivative instruments as  well.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "The hedge portfolio representation of derivative instruments is one of the core features of the OntoREAΒ© model and it is expressed in the upper left part of Figure 1 in form of the Collective class  Derivative Instrument and its MemberOf relationship to the Kind class Economic Resource.",
+              "section": "Section 1 Introduction"
+            }
+          ],
+          "justification": "The model is described as a domain specification and conceptualization of derivative instruments. This directly supports domain understanding and clarification of concepts."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "This proposed model can be useful for business analysts in the finance domain as well as for teaching purposes by explaining derivative instruments in form of conceptual PIM and database specific PSM models.",
+              "section": "Section 4 Conclusion"
+            }
+          ],
+          "justification": "The evidence explicitly mentions explaining derivative instruments for teaching purposes, which indicates communication of domain meaning to others. The confidence is Medium because the paper does not specify a live or interactive communication setting."
+        }
+      ],
+      "uncertain_goals": []
+    },
+    {
+      "model_label": "Refined MySQL database PSM model for derivative instruments and option contracts",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "For  this purpose  a  refined  MySQL database PSM model is constructed that includes the peculiarities of dynamic hedging portfolios as  well,  so  that  un-  and  conditional  derivative  instruments  are  covered  in the proposed PSM model.",
+              "section": "Section 1 Introduction"
+            },
+            {
+              "quote": "With this information the hedge portfolio compositions are determined and the corresponding information processing activities are triggered.",
+              "section": "Section 3 Hedge Portfolio: Switching from PIM- to PSM-Level"
+            },
+            {
+              "quote": "By triggering the events the changes in the hedge portfolio compositions are recognized via balanced double-entries in the accounting system.",
+              "section": "Section 3 Hedge Portfolio: Switching from PIM- to PSM-Level"
+            }
+          ],
+          "justification": "The refined PSM is constructed as a database-specific model and is described as triggering information processing and accounting entries. This is direct evidence that the model functions as an implementation-oriented instrument."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The inclusion of the two tables promotes the understanding of the different financial natures of the two hedge portfolio constituents, i.e. the stock asset (risky income) and the loan liability (fixed income).",
+              "section": "Section 3 Hedge Portfolio: Switching from PIM- to PSM-Level"
+            },
+            {
+              "quote": "The refined PSM model  adequately represents  European  option  contracts  and  it  should  be  especially  useful  for business analysts as well as for educational purposes.",
+              "section": "Abstract"
+            }
+          ],
+          "justification": "The paper explicitly states that part of the model promotes understanding of domain concepts and that the refined PSM is useful for business analysts and educational purposes."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "This proposed model can be useful for business analysts in the finance domain as well as for teaching purposes by explaining derivative instruments in form of conceptual PIM and database specific PSM models.",
+              "section": "Section 4 Conclusion"
+            }
+          ],
+          "justification": "The teaching and explaining purpose indicates use of the model to convey domain meaning to others. The confidence is Medium because the paper does not clearly specify synchronous stakeholder interaction."
+        }
+      ],
+      "uncertain_goals": []
+    }
+  ],
+  "outside_taxonomy": [
+    {
+      "purpose": "Providing proof that the OntoREA conceptual PIM covers dynamic hedge portfolio representations for option contracts.",
+      "evidence_quotes": [
+        {
+          "quote": "The research objective of this article is to provide the proof that the conceptual OntoREAΒ© PIM model incorporates not only the static but also the dynamic hedge portfolio  representation  of  derivative  instruments.",
+          "section": "Section 1 Introduction"
+        },
+        {
+          "quote": "In this sense the research objective is reached by delivering the missing proof in [1] in form of a refined database PSM that covers unconditional as well as conditional derivatives.",
+          "section": "Section 4 Conclusion"
+        }
+      ],
+      "justification": "This is a stated proof and evaluation purpose for model coverage, not a functional use that maps cleanly to the six taxonomy goals."
+    }
+  ]
+}

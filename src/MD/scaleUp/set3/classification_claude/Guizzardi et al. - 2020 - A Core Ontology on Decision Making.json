@@ -1,0 +1,99 @@
+{
+  "paper_id": "Guizzardi et al. - 2020 - A Core Ontology on Decision Making",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Core Ontology on Decision Making (UFO-based OntoUML ontology)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "We argue that for providing better support to Decision Making, it is paramount to understand the nature of a decision and of the process that leads to it.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "We argue that for providing better support to Decision Making, it is paramount to understand, first of all, the nature of Decisions and of the Decision Making process. And to accomplish that, we propose an ontological analysis of the notion of Decision and its related concepts, with the creation of a core ontology on Decision Making.",
+              "section": "1. Introduction"
+            },
+            {
+              "quote": "The Decision Making Ontology (DMO) [Kornyshova and Deneckere 2012] has been developed aiming at: clarifying the concepts of the domain of Decision Making",
+              "section": "5. Related Work"
+            }
+          ],
+          "justification": "Explicit statements that the ontology was created to understand and clarify the nature of decisions, decision-making concepts, and the domain — matches the 'understand', 'clarify', 'conceptualize' signals for For Understanding."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "To illustrate its potential, we here present an example of its use for decision documentation, in a way that previous decisions may inform the decision maker herself and others with whom she collaborates.",
+              "section": "1. Introduction"
+            },
+            {
+              "quote": "One of the direct applications of the proposed ontology is to support the documentation of decisions. For that, a template may be created, whose slots come directly from the ontological concepts.",
+              "section": "4. Applications"
+            },
+            {
+              "quote": "Documented decisions may be used by the decision-maker herself to justify and inform her future decisions. Moreover, when considering an organizational environment, documenting and further reusing the documented decisions may be an adopted practice to make sure that the organizational members act consistently, to guarantee the quality of the Decision Making process and to train newcomers joining the work.",
+              "section": "4. Applications"
+            }
+          ],
+          "justification": "The paper explicitly frames decision documentation as a direct application of the ontology, supporting asynchronous reuse of recorded decisions to inform future decision makers and train newcomers — matches the 'documentation', 'reference', 'for future use' signals for For Documenting."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "Many works within Computer Science have focused on supporting this process, especially by developing decision-supporting systems.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "The proposed core ontology makes explicit what is involved in Decision Making. Thus, it is able to account for the rationale behind a decision. In other words, by relying on such ontology, one is able to determine what are the alternatives (value bearers), how they were valued, what are the applied criteria, who is capable of executing the action resulting from the decision, and so on.",
+              "section": "4. Applications"
+            },
+            {
+              "quote": "Finally, we cite the possibility of using the proposed ontology to grant a decision supporting system with the possibility to explain its own Decision Making process.",
+              "section": "4. Applications"
+            }
+          ],
+          "justification": "The ontology is framed as supporting the decision-making process itself — analyzing alternatives, criteria, and value — which matches the 'decision', 'analyze options', 'evaluate' signals for For Problem-solving. The model guides decision-making rather than serving as the implementation instrument."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Another direction is using the proposed ontology to develop a tool to enable decision documentation.",
+              "section": "6. Final Considerations"
+            },
+            {
+              "quote": "Finally, we cite the possibility of using the proposed ontology to grant a decision supporting system with the possibility to explain its own Decision Making process.",
+              "section": "4. Applications"
+            }
+          ],
+          "reason": "Tool development is mentioned only as future work / a cited possibility, not as actual implementation or a clearly stated current intended purpose — the negative signal 'future work' applies, so For Intervening is not coded as present."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "The Strategic Decision Making (SDM) Ontology [G´ omez et al. 2017]has been created with special focus in managing quality in Agile Software Development processes, although the authors claim it is general enough to be used in other contexts. The SDM Ontology has been developed to enable uniform communication about its domain and to support decisions of the software development process of a specific project named QRapids.",
+              "section": "5. Related Work"
+            }
+          ],
+          "reason": "The communication purpose is attributed to a related-work ontology (SDM Ontology), not the authors' own ontology; no verbatim evidence frames the proposed ontology itself as supporting communication between distinct parties."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

@@ -1,0 +1,66 @@
+{
+  "paper_id": "Amaral et al. - 2021 - Towards Ontological Foundations for Central Bank Digital Currencies (regular paper)",
+  "annotator": "GPT-5 Codex",
+  "no_codable_model": false,
+  "input_limitations": [
+    "Figures are represented as [FIGURE] placeholders in the extracted text; the surrounding textual descriptions were available."
+  ],
+  "models": [
+    {
+      "model_label": "CBDC extension of the Reference Ontology of Money and Virtual Currencies",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "In this paper we address this issue by extending and refining our previous work, the Reference Ontology of Money and Virtual Currencies, to provide a semantic foundation for the concept of CBDC.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "We believe this work clarifies the notion of CBDC, which can serve as a basis for future business ontologies, meaning negotiation, the enactment of law and regulation and the definition of proper governance models.",
+              "section": "Section 5 Final Remarks"
+            }
+          ],
+          "justification": "The paper explicitly frames the model as providing a semantic foundation and clarifying the notion of CBDC. This directly matches the Understanding goal of clarifying concepts and supporting domain meaning."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "In the light of the above, we advocate for the need of a reference conceptual model that provides an ontological account to the concept of CBDC, to serve as a basis for communication, consensus and alignment among different approaches and perspectives, as well as to foster interoperability across different applications in the financial industry.",
+              "section": "Section 1 Introduction"
+            }
+          ],
+          "justification": "The authors explicitly state that the reference conceptual model should serve as a basis for communication, consensus, and alignment among different approaches and perspectives. The context suggests interaction and alignment between distinct viewpoints, satisfying the Communicating criterion."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "In the light of the above, we advocate for the need of a reference conceptual model that provides an ontological account to the concept of CBDC, to serve as a basis for communication, consensus and alignment among different approaches and perspectives, as well as to foster interoperability across different applications in the financial industry.",
+              "section": "Section 1 Introduction"
+            }
+          ],
+          "justification": "The paper frames fostering interoperability across applications as part of the model's purpose, which aligns with the Intervening signal of enabling interoperability or integration. Confidence is Medium because the paper states an intended use rather than reporting an implemented system."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "We believe this work clarifies the notion of CBDC, which can serve as a basis for future business ontologies, meaning negotiation, the enactment of law and regulation and the definition of proper governance models.",
+              "section": "Section 5 Final Remarks"
+            }
+          ],
+          "reason": "The reference to enactment of law and regulation and governance models hints at practical guidance, but it does not clearly show the model being used for decision-making, option analysis, or identifying what should change."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

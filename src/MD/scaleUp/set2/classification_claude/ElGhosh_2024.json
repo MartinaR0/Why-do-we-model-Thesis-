@@ -1,0 +1,44 @@
+{
+  "paper_id": "ElGhosh_2024",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "mCODE ontological conceptual model (OntoUML) grounding the EUCAIM hyper-ontology",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "The operational version of the mCODE ontological model is generated as an OWL file [13].", "section": "Section 4. Results"},
+            {"quote": "The semantic integration experiment with the bottom-up version of the hyper-ontology [13] is conducted as follows.", "section": "Section 4. Results"},
+            {"quote": "The grounding process considers developing the mCODE core ontological model that reflects the main ontological semantics of the oncology domain.", "section": "Section 1. Introduction and Motivation"}
+          ],
+          "justification": "The model is actively used to generate an operational OWL artifact and to integrate/build the hyper-ontology's core and upper layers, matching the Intervening signal of 'generated artifact' and 'used to enable interoperability'."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "Facing this heterogeneity and to clarify these concepts' specifications and medical aspects, we refer to the minimal Common Oncology Data Elements (mCODE) 3 [1] largely adopted within healthcare establishments which are increasingly implementing FHIR 4 .", "section": "Section 1. Introduction and Motivation"},
+            {"quote": "The intended model aims to capture and explicitly and unambiguously represent the basic concepts of the oncology domain and their connections.", "section": "Section 3. Ontology-Oriented Grounding Approach"},
+            {"quote": "The ontological distinctions of UFO have permitted, using OntoUML, to uncover and clarify the nature of real-world entities from the oncology domain (e.g., morphology/disease) and explicitly represent the ontological nature of these entities.", "section": "Section 5. Conclusion"}
+          ],
+          "justification": "The model is explicitly framed as a means to clarify and unambiguously capture oncology concepts and their nature, directly matching the Understanding signals 'clarify', 'conceptualize', and building domain knowledge."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "The top-down approach has helped overcome conflicting or heterogeneous descriptions of oncology concepts, maintaining coherent ontological content and semantic interoperability.", "section": "Abstract"}
+          ],
+          "reason": "The text describes identifying and overcoming heterogeneity, but the same evidence is tightly tied to building the hyper-ontology artifact (Intervening); per the disambiguation rule, when the same evidence shows implementation it should be coded only as Intervening unless separate evidence supports decision-making."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

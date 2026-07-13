@@ -1,0 +1,95 @@
+{
+  "paper_id": "Bastos et al. - 2018 - Using Semantic Documentation to Support Software Project Management",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Software Project Management Ontology (SPMO)",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Then, taking SPMO as a basis, we developed the Infrastructure for Managing Semantic Documents for Software Project Management (IMSD-SPM), an extension of IMSD with specific features to support project management aspects.",
+              "section": "Section 1 Introduction"
+            },
+            {
+              "quote": "Briefly, here, SPMO is used to assign semantics to documents and spreadsheets content, and also to help develop features to support software project management using a semantic documentation approach.",
+              "section": "Section 3 The Software Project Management Ontology (SPMO)"
+            },
+            {
+              "quote": "To address R1 to R6, we explored SPMO conceptualization for developing domain-specific features that were implemented to support scope, time and costs management activities.",
+              "section": "Section 4.2 Supporting Software Project Scope, Time and Costs Management"
+            },
+            {
+              "quote": "For implementing SPMO-OWL, we used Protégé, and the resulting OWL file (spmo.owl) was used to annotate the templates of documents and spreadsheets.",
+              "section": "Section 3.5 SPMO Operational Version: SPMO-OWL"
+            }
+          ],
+          "justification": "The ontology was actively used as the basis to develop and implement the IMSD-SPM tool's domain-specific features and to annotate document/spreadsheet templates. Signal patterns 'used to create', 'implemented', 'generated artifact' apply; this is concrete artifact generation, not future work."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "(iv) annotating project management related resources in a semantic documentation approach.",
+              "section": "Section 3 The Software Project Management Ontology (SPMO)"
+            },
+            {
+              "quote": "This ontology is used to annotate documents and spreadsheets and to develop features to support scope, time and cost management activities.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "SPMO can serve as a reference model for semantic interoperability initiatives and also can provide a common vocabulary and conceptualization for people talk about the software project management domain.",
+              "section": "Section 7 Final Considerations"
+            }
+          ],
+          "justification": "SPMO is explicitly framed as a reference model used to annotate documents/spreadsheets that store project knowledge for later retrieval and asynchronous reuse. Signal patterns 'documentation', 'reference', 'knowledge management', 'repository' apply."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The purpose of SPMO is to establish a common conceptualization about the software project management domain, initially focusing on scope, time and costs planning and monitoring.",
+              "section": "Section 3 The Software Project Management Ontology (SPMO)"
+            },
+            {
+              "quote": "SPMO is intended to be used as a reference model for: (i) supporting human learning on the software project management domain; (ii) integrating project management supporting tools; (iii) structuring and representing knowledge related to software project management; and (iv) annotating project management related resources in a semantic documentation approach.",
+              "section": "Section 3 The Software Project Management Ontology (SPMO)"
+            }
+          ],
+          "justification": "Establishing a common conceptualization and structuring/representing knowledge about the domain matches the 'conceptualize', 'shared understanding' signals for domain understanding."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "SPMO can serve as a reference model for semantic interoperability initiatives and also can provide a common vocabulary and conceptualization for people talk about the software project management domain.",
+              "section": "Section 7 Final Considerations"
+            }
+          ],
+          "reason": "The mention of 'people talk about' suggests communication use, but it is generic and not clearly framed as synchronous discussion/meetings between distinct stakeholder groups; evidence is too thin to code as present."
+        },
+        {
+          "goal": "For Learning",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "SPMO is intended to be used as a reference model for: (i) supporting human learning on the software project management domain;",
+              "section": "Section 3 The Software Project Management Ontology (SPMO)"
+            }
+          ],
+          "reason": "The 'learning' here is explicitly about the project management DOMAIN, not about learning modeling/methods/notation; per disambiguation rule this belongs under Understanding, so Learning is not appropriately coded."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

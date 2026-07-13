@@ -1,0 +1,59 @@
+{
+  "paper_id": "Aguiar et al. - 2018 - Ontological Representation of Relational Databases",
+  "annotator": "ChatGPT-5",
+  "no_codable_model": false,
+  "input_limitations": [
+    "The Markdown extraction contains character encoding noise and figure placeholders, but the relevant abstract, approach, evaluation, and conclusion text is readable."
+  ],
+  "models": [
+    {
+      "model_label": "RDBS-O relational database system ontology and RDBS-OWL operational version",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "In addition to a reference ontology, we also implement and test its operational version, using it to automatic instantiate the ontology from a real database sample.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "Then, an RDF dump describing such extracted information using concepts defined in an ontology is generated, as an instance of RDBS-OWL, with real information from a relational database.",
+              "section": "Section 4. Evaluation"
+            }
+          ],
+          "justification": "The ontology is implemented as RDBS-OWL and used to instantiate ontology data from a real database sample, generating an RDF artifact. This fits the Intervening rule for implementation, transformation, and artifact generation."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The Relational Database System Ontology (RDBS-O) aims to identify and represent key concepts of the relational database domain in the architectural scope, not covering control and execution details.",
+              "section": "Section 3. The Relational Database System Ontology (RDBS-O)"
+            },
+            {
+              "quote": "Therefore, concepts and relationships were identified and defined in a dictionary of terms [Aguiar 2018] to define and ensure consensual understanding of the domain.",
+              "section": "Section 3. The Relational Database System Ontology (RDBS-O)"
+            }
+          ],
+          "justification": "The authors explicitly frame RDBS-O as identifying and representing key domain concepts and ensuring consensual understanding. This directly matches the Understanding goal of clarifying concepts and supporting shared domain meaning."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "The process of formalizing the ontology happened iteratively, in order to address different aspects/refinements at each iteration, and interactively, so domain experts and ontology engineers could discuss the conceptualization of the domain modeled in OntoUML.",
+              "section": "Section 3. The Relational Database System Ontology (RDBS-O)"
+            }
+          ],
+          "reason": "The quote mentions discussion between groups during ontology construction, but it does not clearly state that the final model's purpose was stakeholder communication."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

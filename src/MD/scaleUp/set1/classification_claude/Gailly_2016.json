@@ -1,0 +1,65 @@
+{
+  "paper_id": "Gailly_2016",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Core Value Ontology",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Semantic agreement about the notion of Value can be realized by the development of a core ontology. A core ontology provides a semantic characterization of the core terms used in a specific field that spans different application domains, with the purpose of minimizing ambiguities and misunderstandings [10].",
+              "section": "Section 1 Introduction"
+            },
+            {
+              "quote": "In this paper, a Core Value Ontology is built to realize semantic agreement about the Value concept.",
+              "section": "Section 5 Conclusion and Discussion"
+            },
+            {
+              "quote": "The focus of this analysis is on using the Core Value Ontology to better understand the semantics of these languages with the aim of linking them with related techniques, which focus on business concepts as capabilities, goals, resources, and services.",
+              "section": "Section 5 Conclusion and Discussion"
+            }
+          ],
+          "justification": "The model is explicitly framed as a means to clarify concepts, achieve semantic agreement, minimize ambiguities, and better understand the semantics of enterprise modeling languages. This matches the For Understanding signal patterns (clarify, define, conceptualize, shared understanding)."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "Reusability can be further realized by using the Core Value Ontology to analyze and integrate Enterprise Modeling languages that focus on value.",
+              "section": "Section 5 Conclusion and Discussion"
+            },
+            {
+              "quote": "The focus of this analysis is on using the Core Value Ontology to better understand the semantics of these languages with the aim of linking them with related techniques, which focus on business concepts as capabilities, goals, resources, and services.",
+              "section": "Section 5 Conclusion and Discussion"
+            }
+          ],
+          "justification": "The ontology is positioned as an instrument to analyze enterprise modeling languages, matching the Problem-solving signal 'analyze'. Per the disambiguation rule, this is coded as Problem-solving (not Intervening) because the paper does not show an actual implementation or artifact change driven by the model; analysis is the stated use."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Reusability can be further realized by using the Core Value Ontology to analyze and integrate Enterprise Modeling languages that focus on value.",
+              "section": "Section 5 Conclusion and Discussion"
+            },
+            {
+              "quote": "In future research the Core Value Ontology will be formalized in order to improve the formal precision of the proposed ontology.",
+              "section": "Section 5 Conclusion and Discussion"
+            }
+          ],
+          "reason": "Integration and formalization are mentioned as future or potential reuses; no concrete artifact, system, or implementation is generated from the ontology within the paper, so evidence for Intervening is weak and framed as future work."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

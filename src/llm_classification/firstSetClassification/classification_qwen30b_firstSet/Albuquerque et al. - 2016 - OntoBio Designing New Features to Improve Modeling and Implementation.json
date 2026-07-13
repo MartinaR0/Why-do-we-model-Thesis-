@@ -1,0 +1,104 @@
+{
+  "paper_file": "Albuquerque et al. - 2016 - OntoBio Designing New Features to Improve Modeling and Implementation.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "OntoBio_Designing_New_Features",
+    "annotator": "LLM",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "OntoBio (new version with proposed features)",
+        "goals": [
+          {
+            "goal": "For Intervening",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "This paper presents OntoBio's limitations regarding conceptualization and implementational aspects and new features aiming to indicate accurate recommendations for OntoBio's evolution, by emphasizing several aspects that must be considered when designing a new version of the ontology.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "The new version of OntoBio incorporates more semantics to the model and the availability of a version with features that allow its use in more complex applications (taxonomic classification).",
+                "section": "Introduction"
+              },
+              {
+                "quote": "The application of the conceptual framework to integrate scientific tacit knowledge applied to OntoBio [Albuquerque et al., 2016] suggested some recommendations of change.",
+                "section": "3. OntoBio's Evolution Based on Tacit Knowledge Through a Conceptual Framework"
+              }
+            ],
+            "justification": "The paper explicitly states that the new features are designed to guide the evolution of OntoBio, with the goal of enabling its use in more complex applications such as taxonomic classification. The model is not just described or analyzed but is being actively developed and improved for implementation, satisfying the 'For Intervening' criterion."
+          },
+          {
+            "goal": "For Problem-solving",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "This paper presents OntoBio's limitations regarding conceptualization and implementational aspects and new features aiming to indicate accurate recommendations for OntoBio's evolution...",
+                "section": "Abstract"
+              },
+              {
+                "quote": "Some implementation issues emerged with OntoBio's evaluation and are regarded as ontology modeling language limitations in the specific domain of biodiversity...",
+                "section": "4. Implementational Issues"
+              }
+            ],
+            "justification": "The paper identifies specific problems in OntoBio's conceptualization and implementation (e.g., cardinality limitations, lack of support for taxonomic hierarchy), and proposes changes to address them. The model is used to analyze shortcomings and evaluate improvements, which aligns with 'For Problem-solving'."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "The framework guides the management of scientific tacit knowledge presenting different levels of representation, and allowing to retain knowledge to answer questions that OntoBio cannot currently respond.",
+                "section": "3. OntoBio's Evolution Based on Tacit Knowledge Through a Conceptual Framework"
+              }
+            ],
+            "justification": "The conceptual framework is described as a tool to integrate specialists' mental models and map semantic components, suggesting it facilitates communication between experts with different knowledge backgrounds. While not explicitly about real-time discussion, the purpose is to align and bridge understanding across stakeholders, supporting 'For Communicating'."
+          },
+          {
+            "goal": "For Documenting",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "The original OntoBio and a trial version of OntoBio with some of these changes can be found at portal.inpa.gov.br/ctin/lis/ontobio/.",
+                "section": "3. OntoBio's Evolution Based on Tacit Knowledge Through a Conceptual Framework"
+              },
+              {
+                "quote": "More details of the framework and the formalization files used to apply it to generate OntoBio's recommendations for evolution can be found at portal.inpa.gov.br/ctin/lis/frameworkconceitual/.",
+                "section": "3. OntoBio's Evolution Based on Tacit Knowledge Through a Conceptual Framework"
+              }
+            ],
+            "justification": "The model is made publicly available as a persistent resource for future access and reuse, with URLs provided for both the ontology and the framework. This supports asynchronous access by users not involved in the original modeling process, satisfying 'For Documenting'."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Understanding",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "A conceptual framework can be used to integrate specialists' mental models, aiming to map semantic components of attachable structures to formal ontologies.",
+                "section": "3. OntoBio's Evolution Based on Tacit Knowledge Through a Conceptual Framework"
+              }
+            ],
+            "reason": "While the framework aims to integrate mental models, the primary purpose is not internal sense-making or domain understanding but rather guiding evolution and implementation. The evidence is too indirect to confidently assign 'For Understanding'."
+          },
+          {
+            "goal": "For Learning",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "OntoUML is a well-founded language to build ontologies.",
+                "section": "2. OntoBio's New Features"
+              }
+            ],
+            "reason": "The paper discusses OntoUML as a modeling language but does not frame the model as a tool for learning modeling methods, tools, or notation. The focus is on domain application, not pedagogical use of the model."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"OntoBio_Designing_New_Features\",\n  \"annotator\": \"LLM\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"OntoBio (new version with proposed features)\",\n      \"goals\": [\n        {\n          \"goal\": \"For Intervening\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"This paper presents OntoBio's limitations regarding conceptualization and implementational aspects and new features aiming to indicate accurate recommendations for OntoBio's evolution, by emphasizing several aspects that must be considered when designing a new version of the ontology.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"The new version of OntoBio incorporates more semantics to the model and the availability of a version with features that allow its use in more complex applications (taxonomic classification).\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"The application of the conceptual framework to integrate scientific tacit knowledge applied to OntoBio [Albuquerque et al., 2016] suggested some recommendations of change.\",\n              \"section\": \"3. OntoBio's Evolution Based on Tacit Knowledge Through a Conceptual Framework\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that the new features are designed to guide the evolution of OntoBio, with the goal of enabling its use in more complex applications such as taxonomic classification. The model is not just described or analyzed but is being actively developed and improved for implementation, satisfying the 'For Intervening' criterion.\"\n        },\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"This paper presents OntoBio's limitations regarding conceptualization and implementational aspects and new features aiming to indicate accurate recommendations for OntoBio's evolution...\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"Some implementation issues emerged with OntoBio's evaluation and are regarded as ontology modeling language limitations in the specific domain of biodiversity...\",\n              \"section\": \"4. Implementational Issues\"\n            }\n          ],\n          \"justification\": \"The paper identifies specific problems in OntoBio's conceptualization and implementation (e.g., cardinality limitations, lack of support for taxonomic hierarchy), and proposes changes to address them. The model is used to analyze shortcomings and evaluate improvements, which aligns with 'For Problem-solving'.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The framework guides the management of scientific tacit knowledge presenting different levels of representation, and allowing to retain knowledge to answer questions that OntoBio cannot currently respond.\",\n              \"section\": \"3. OntoBio's Evolution Based on Tacit Knowledge Through a Conceptual Framework\"\n            }\n          ],\n          \"justification\": \"The conceptual framework is described as a tool to integrate specialists' mental models and map semantic components, suggesting it facilitates communication between experts with different knowledge backgrounds. While not explicitly about real-time discussion, the purpose is to align and bridge understanding across stakeholders, supporting 'For Communicating'.\"\n        },\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The original OntoBio and a trial version of OntoBio with some of these changes can be found at portal.inpa.gov.br/ctin/lis/ontobio/.\",\n              \"section\": \"3. OntoBio's Evolution Based on Tacit Knowledge Through a Conceptual Framework\"\n            },\n            {\n              \"quote\": \"More details of the framework and the formalization files used to apply it to generate OntoBio's recommendations for evolution can be found at portal.inpa.gov.br/ctin/lis/frameworkconceitual/.\",\n              \"section\": \"3. OntoBio's Evolution Based on Tacit Knowledge Through a Conceptual Framework\"\n            }\n          ],\n          \"justification\": \"The model is made publicly available as a persistent resource for future access and reuse, with URLs provided for both the ontology and the framework. This supports asynchronous access by users not involved in the original modeling process, satisfying 'For Documenting'.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"A conceptual framework can be used to integrate specialists' mental models, aiming to map semantic components of attachable structures to formal ontologies.\",\n              \"section\": \"3. OntoBio's Evolution Based on Tacit Knowledge Through a Conceptual Framework\"\n            }\n          ],\n          \"reason\": \"While the framework aims to integrate mental models, the primary purpose is not internal sense-making or domain understanding but rather guiding evolution and implementation. The evidence is too indirect to confidently assign 'For Understanding'.\"\n        },\n        {\n          \"goal\": \"For Learning\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"OntoUML is a well-founded language to build ontologies.\",\n              \"section\": \"2. OntoBio's New Features\"\n            }\n          ],\n          \"reason\": \"The paper discusses OntoUML as a modeling language but does not frame the model as a tool for learning modeling methods, tools, or notation. The focus is on domain application, not pedagogical use of the model.\"\n        }\n      ]\n    }\n  ],\n  \"outside_taxonomy\": []\n}",
+  "seconds": 15.5
+}

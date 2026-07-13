@@ -1,0 +1,99 @@
+{
+  "paper_id": "Xhani et al. - 2024 - XMLPO An Ontology for Explainable Machine Learning Pipeline",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "XMLPO (Explainable ML Pipeline Ontology) - OntoUML conceptual model and OWL operational ontology",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "XMLPO is designed as an OntoUML conceptual model, and implemented as an OWL-based operational ontology based on gUFO.",
+              "section": "Section 7. Conclusion"
+            },
+            {
+              "quote": "These models were exported hen to gUFO (a lightweight implementation of UFO in OWL) by using the OntoUML plugin, and imported in the Prot´ eg´ e ontology development tool (in OWL).",
+              "section": "Section 5.1. Operational Ontology Implementation"
+            },
+            {
+              "quote": "The XMLPO ontology was implemented in a manufacturing company whose goal was to understand the behavior of the ML models and its generated output.",
+              "section": "Section 5.1. Operational Ontology Implementation"
+            }
+          ],
+          "justification": "The conceptual model was actually implemented as an operational OWL ontology in Protege via automated transformation, and deployed in a manufacturing company case study. This matches the For Intervening signal patterns 'implemented' and 'used to create' an artifact (the operational ontology)."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "XMLPO offers a deeper understanding of the entire ML pipeline, encompassing data input, pre-processing, model training and testing, and explanation processes.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "the results of this validation showed that the ontology helps data scientists to better comprehend a ML pipeline and the features that influence the ML prediction model the most.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "An ontology can serve as an effective tool for precisely and clearly establishing the semantics of the essential components of a ML pipeline and explanation processes [11].",
+              "section": "Section 1. Introduction"
+            },
+            {
+              "quote": "The stakeholders confirmed that this ontology gives a better understanding of the decision process within the ML pipeline, and that the top features identified with the SHAP model that affected the predictions the most align with their intuitive understanding of the domain.",
+              "section": "Section 6. Validation"
+            }
+          ],
+          "justification": "The paper explicitly states the ontology's purpose is to establish semantics, conceptualize the ML pipeline domain, and help data scientists comprehend it. Signal pattern 'understand' and 'conceptualize' apply directly to domain understanding."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The purpose of this ontology is to provide information and metadata on how the ML pipeline is built, including the input data, data preparation and pre-processing, ML models, ML model evaluations, XAI models, and XAI model evaluations.",
+              "section": "Section 4.2. XMLPO Requirements"
+            },
+            {
+              "quote": "to provide understandable insights into the processes of the ML pipeline so that the produced models can be reused and changed in the future if needed (i.e., it would be easy for other data scientists to understand how the current models were built by considering data input, pre-processing, and model training and testing)",
+              "section": "Section 6. Validation"
+            },
+            {
+              "quote": "The ontology covers main metadata attributes about various aspects of data components in the ML pipeline.",
+              "section": "Section 7. Conclusion"
+            }
+          ],
+          "justification": "The ontology explicitly serves as a persistent reference/metadata repository so that other data scientists (not part of the original modeling process) can later understand and reuse the ML pipeline. This matches signal patterns 'reference', 'for future use', and asynchronous knowledge transfer."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "To demonstrate this, we presented the results from the SPARQL queries to a group of stakeholders in the company.",
+              "section": "Section 6. Validation"
+            }
+          ],
+          "reason": "The presentation to stakeholders was for validation purposes rather than explicitly framed as the model's purpose to support communication; the model itself is not stated to bridge groups in live discussion."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "We have identified four main issues in the conceptualization of this ontology, namely the lack of feature categorization, the lack of data pre-processing methods, the shallow description of metadata related to training and testing, and the lack of detailed representation of XAI approaches and metrics.",
+              "section": "Abstract"
+            }
+          ],
+          "reason": "The identification of shortcomings refers to the prior ontology, not XMLPO itself; XMLPO is the resulting implementation rather than a tool used to evaluate options, so per the disambiguation rule this evidence is governed by For Intervening."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

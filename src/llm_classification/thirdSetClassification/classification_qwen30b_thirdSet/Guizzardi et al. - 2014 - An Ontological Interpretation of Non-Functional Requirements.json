@@ -1,0 +1,100 @@
+{
+  "paper_file": "Guizzardi et al. - 2014 - An Ontological Interpretation of Non-Functional Requirements.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "An Ontological Interpretation of Non-Functional Requirements",
+    "annotator": "LLM model name",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "Ontological Interpretation of NFRs based on UFO",
+        "goals": [
+          {
+            "goal": "For Understanding",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "The main contributions of this paper are as follows: - Providing an ontological interpretation of non-functional requirements as requirements over qualities, grounded on UFO [7,8,9].",
+                "section": "Introduction"
+              },
+              {
+                "quote": "In this paper, we propose to treat NFRs as qualities, based on definitions of the UFO foundational ontology.",
+                "section": "Abstract"
+              }
+            ],
+            "justification": "The paper explicitly states that the primary purpose of the model is to provide an ontological interpretation of NFRs, aiming to clarify their nature and resolve conceptual ambiguities, which aligns with 'For Understanding' as defined by the taxonomy."
+          },
+          {
+            "goal": "For Problem-solving",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "This begs again the question: what are NFRs? There have been some recent initiatives to formalize RE foundations with the use of ontologies [3,4]. In particular, Jureta et al. [4] propose a core ontology for requirements based on DOLCE [5]. We consider this work as the baseline for the ontological interpretation presented in this paper, as some of their concepts (e.g. softgoal, quality constraint) are consistent with our view on NFRs and related notions. We believe, however, that this ontology is not appropriate for explaining all ontological phenomena required to effectively defining and dealing with NFRs.",
+                "section": "Introduction"
+              },
+              {
+                "quote": "We have discovered requirements that refer to both qualities and functions. For example, although we can classify the requirement ' the system shall collect real-time traffic information ' as a softgoal according to the core ontology ('real-time', i.e., timeliness, is a quality of traffic information), we are still left with the question 'is it only an NFR?' It seems to be a combination of functional and non-functional requirements, which can eventually be refined into distinct sub-goals.",
+                "section": "1. A Core Ontology for Requirements"
+              }
+            ],
+            "justification": "The paper identifies specific shortcomings in existing ontological accounts (e.g., inability to classify certain requirements) and uses the proposed model to analyze and resolve these problems, which constitutes 'For Problem-solving' as defined by the taxonomy."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "We show in this section how the ontological interpretation of NFRs (1) provides operational guidelines for distinguishing between non-functional and functional requirements (Subsection 4.1); (2) supports the development of an ontology-based requirements specification language (Subsection 4.2); and (3) enables the analysis of the satisfaction of gradable NFRs (Subsection 4.3).",
+                "section": "4. Practical Implications"
+              }
+            ],
+            "justification": "The model is presented as a tool to support communication between stakeholders by enabling clearer distinctions and shared understanding of NFRs, particularly through the development of a formal syntax and guidelines, which supports communication between different parties in RE practice."
+          },
+          {
+            "goal": "For Documenting",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "We introduce ' QU ( BearerT ) :< QRG ' as an abbreviation for ' hasQV ( QU )( BearerT ) :< QRG ', and use ':=' to assign names to expressions, as in Ex.9.",
+                "section": "4.2. Representing Non-functional Requirements"
+              },
+              {
+                "quote": "The interesting point here is that we can use prototype values to represent a region, and then adopt (collated) Voronoi diagrams to reason about the graded membership without the need of inventing made-up numbers as that in fuzzy logic [27].",
+                "section": "4.3. The satisfaction of gradable NFRs"
+              }
+            ],
+            "justification": "The formal syntax and representation rules introduced in Section 4.2 and 4.3 are designed to be used as a persistent reference for modeling NFRs, supporting future use and knowledge management, which aligns with 'For Documenting' as defined by the taxonomy."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Intervening",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "For future work, we intend to conduct more evaluations by means of case studies. Moreover, we also aim at developing our initial requirements analysis methodology [6], by grounding it on the proposed ontology.",
+                "section": "5. Conclusions"
+              }
+            ],
+            "reason": "The paper explicitly frames future work as hypothetical and not yet implemented; no evidence shows that the model has been used to build, deploy, or generate an artifact."
+          },
+          {
+            "goal": "For Learning",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "We propose an ontology-based interpretation of NFRs by adopting and applying the UFO ontology.",
+                "section": "5. Conclusions"
+              }
+            ],
+            "reason": "The paper discusses the model in the context of domain understanding and practical application, not as a vehicle for teaching or learning modeling methods, tools, or techniques."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"An Ontological Interpretation of Non-Functional Requirements\",\n  \"annotator\": \"LLM model name\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"Ontological Interpretation of NFRs based on UFO\",\n      \"goals\": [\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The main contributions of this paper are as follows: - Providing an ontological interpretation of non-functional requirements as requirements over qualities, grounded on UFO [7,8,9].\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"In this paper, we propose to treat NFRs as qualities, based on definitions of the UFO foundational ontology.\",\n              \"section\": \"Abstract\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that the primary purpose of the model is to provide an ontological interpretation of NFRs, aiming to clarify their nature and resolve conceptual ambiguities, which aligns with 'For Understanding' as defined by the taxonomy.\"\n        },\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"This begs again the question: what are NFRs? There have been some recent initiatives to formalize RE foundations with the use of ontologies [3,4]. In particular, Jureta et al. [4] propose a core ontology for requirements based on DOLCE [5]. We consider this work as the baseline for the ontological interpretation presented in this paper, as some of their concepts (e.g. softgoal, quality constraint) are consistent with our view on NFRs and related notions. We believe, however, that this ontology is not appropriate for explaining all ontological phenomena required to effectively defining and dealing with NFRs.\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"We have discovered requirements that refer to both qualities and functions. For example, although we can classify the requirement ' the system shall collect real-time traffic information ' as a softgoal according to the core ontology ('real-time', i.e., timeliness, is a quality of traffic information), we are still left with the question 'is it only an NFR?' It seems to be a combination of functional and non-functional requirements, which can eventually be refined into distinct sub-goals.\",\n              \"section\": \"1. A Core Ontology for Requirements\"\n            }\n          ],\n          \"justification\": \"The paper identifies specific shortcomings in existing ontological accounts (e.g., inability to classify certain requirements) and uses the proposed model to analyze and resolve these problems, which constitutes 'For Problem-solving' as defined by the taxonomy.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"We show in this section how the ontological interpretation of NFRs (1) provides operational guidelines for distinguishing between non-functional and functional requirements (Subsection 4.1); (2) supports the development of an ontology-based requirements specification language (Subsection 4.2); and (3) enables the analysis of the satisfaction of gradable NFRs (Subsection 4.3).\",\n              \"section\": \"4. Practical Implications\"\n            }\n          ],\n          \"justification\": \"The model is presented as a tool to support communication between stakeholders by enabling clearer distinctions and shared understanding of NFRs, particularly through the development of a formal syntax and guidelines, which supports communication between different parties in RE practice.\"\n        },\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"We introduce ' QU ( BearerT ) :< QRG ' as an abbreviation for ' hasQV ( QU )( BearerT ) :< QRG ', and use ':=' to assign names to expressions, as in Ex.9.\",\n              \"section\": \"4.2. Representing Non-functional Requirements\"\n            },\n            {\n              \"quote\": \"The interesting point here is that we can use prototype values to represent a region, and then adopt (collated) Voronoi diagrams to reason about the graded membership without the need of inventing made-up numbers as that in fuzzy logic [27].\",\n              \"section\": \"4.3. The satisfaction of gradable NFRs\"\n            }\n          ],\n          \"justification\": \"The formal syntax and representation rules introduced in Section 4.2 and 4.3 are designed to be used as a persistent reference for modeling NFRs, supporting future use and knowledge management, which aligns with 'For Documenting' as defined by the taxonomy.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Intervening\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"For future work, we intend to conduct more evaluations by means of case studies. Moreover, we also aim at developing our initial requirements analysis methodology [6], by grounding it on the proposed ontology.\",\n              \"section\": \"5. Conclusions\"\n            }\n          ],\n          \"reason\": \"The paper explicitly frames future work as hypothetical and not yet implemented; no evidence shows that the model has been used to build, deploy, or generate an artifact.\"\n        },\n        {\n          \"goal\": \"For Learning\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"We propose an ontology-based interpretation of NFRs by adopting and applying the UFO ontology.\",\n              \"section\": \"5. Conclusions\"\n            }\n          ],\n          \"reason\": \"The paper discusses the model in the context of domain understanding and practical application, not as a vehicle for teaching or learning modeling methods, tools, or techniques.\"\n        }\n      ]\n    }\n  ],\n  \"outside_taxonomy\": []\n}",
+  "seconds": 24.1
+}

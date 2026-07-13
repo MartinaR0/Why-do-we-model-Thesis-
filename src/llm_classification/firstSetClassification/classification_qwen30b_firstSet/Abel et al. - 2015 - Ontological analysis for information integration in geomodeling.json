@@ -1,0 +1,78 @@
+{
+  "paper_file": "Abel et al. - 2015 - Ontological analysis for information integration in geomodeling.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "Abel2015_OntologicalAnalysis",
+    "annotator": "LLM",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "Ontological Model of the Petroleum System",
+        "goals": [
+          {
+            "goal": "For Understanding",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "Our intention has not been to provide a complete and detailed version of the model, but rather to emphasize important aspects of the modeling process.",
+                "section": "The Petroleum system case study"
+              },
+              {
+                "quote": "We will analyze each of the terms identified in the text considering its ontological nature characterized by the metaproperties of existential dependence, identity, unity, rigidity, inseparable part and relational dependence.",
+                "section": "Ontological analysis of the case study"
+              }
+            ],
+            "justification": "The paper explicitly states that the purpose of the model is to emphasize aspects of the modeling process and to analyze the ontological nature of terms, which aligns with the goal of supporting domain understanding through conceptual clarification."
+          },
+          {
+            "goal": "For Problem-solving",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "The main claim of this paper is that many problems related to these heterogeneities can be solved or at least simplified by analyzing the models through the view of Ontology.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "We have presented in this paper a study that discusses how to deal with information heterogeneity and interoperability among systems to be applied to process geological information.",
+                "section": "Discussion and Conclusion"
+              }
+            ],
+            "justification": "The model is presented as a solution to the problem of information heterogeneity in geological modeling, with explicit claims that it helps solve or simplify integration challenges, satisfying the criteria for Problem-solving."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "This paper also discusses how to build good models for further integration, avoiding some common misuse of hierarchical and partonomy relationships, and the limitations of the current available representation languages.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "The resulting model intends to illustrate these choices.",
+                "section": "Modeling of the petroleum system"
+              }
+            ],
+            "justification": "The model is used to communicate the correct ontological choices and to illustrate how to avoid common modeling errors, supporting alignment between modelers and stakeholders in the domain, which qualifies as communication between distinct parties."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Documenting",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "The resulting model intends to illustrate these choices.",
+                "section": "Modeling of the petroleum system"
+              }
+            ],
+            "reason": "The model is presented as a tool for guiding modeling practice rather than as a persistent reference or documentation artifact; there is no indication it is intended for future reference or archival use."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"Abel2015_OntologicalAnalysis\",\n  \"annotator\": \"LLM\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"Ontological Model of the Petroleum System\",\n      \"goals\": [\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"Our intention has not been to provide a complete and detailed version of the model, but rather to emphasize important aspects of the modeling process.\",\n              \"section\": \"The Petroleum system case study\"\n            },\n            {\n              \"quote\": \"We will analyze each of the terms identified in the text considering its ontological nature characterized by the metaproperties of existential dependence, identity, unity, rigidity, inseparable part and relational dependence.\",\n              \"section\": \"Ontological analysis of the case study\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that the purpose of the model is to emphasize aspects of the modeling process and to analyze the ontological nature of terms, which aligns with the goal of supporting domain understanding through conceptual clarification.\"\n        },\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The main claim of this paper is that many problems related to these heterogeneities can be solved or at least simplified by analyzing the models through the view of Ontology.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"We have presented in this paper a study that discusses how to deal with information heterogeneity and interoperability among systems to be applied to process geological information.\",\n              \"section\": \"Discussion and Conclusion\"\n            }\n          ],\n          \"justification\": \"The model is presented as a solution to the problem of information heterogeneity in geological modeling, with explicit claims that it helps solve or simplify integration challenges, satisfying the criteria for Problem-solving.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"This paper also discusses how to build good models for further integration, avoiding some common misuse of hierarchical and partonomy relationships, and the limitations of the current available representation languages.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"The resulting model intends to illustrate these choices.\",\n              \"section\": \"Modeling of the petroleum system\"\n            }\n          ],\n          \"justification\": \"The model is used to communicate the correct ontological choices and to illustrate how to avoid common modeling errors, supporting alignment between modelers and stakeholders in the domain, which qualifies as communication between distinct parties.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The resulting model intends to illustrate these choices.\",\n              \"section\": \"Modeling of the petroleum system\"\n            }\n          ],\n          \"reason\": \"The model is presented as a tool for guiding modeling practice rather than as a persistent reference or documentation artifact; there is no indication it is intended for future reference or archival use.\"\n        }\n      ]\n    }\n  ],\n  \"outside\\_taxonomy\": []\n}",
+  "seconds": 832.9
+}

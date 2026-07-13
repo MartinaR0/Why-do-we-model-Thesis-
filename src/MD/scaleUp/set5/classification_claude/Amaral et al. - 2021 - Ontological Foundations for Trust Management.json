@@ -1,0 +1,57 @@
+{
+  "paper_id": "Amaral et al. - 2021 - Ontological Foundations for Trust Management",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Extended Reference Ontology of Trust (ROT) for Trust Management",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "In this paper, we provide a semantic foundation for trust-related concepts in the light of trust management. We extend our previous work, the Reference Ontology of Trust, to clarify and provide a deeper account of some building blocks of trust, such as beliefs and intentions of a trustor, pieces of evidence that indicate that a trustee is trustworthy (or not), as well as the many factors that influence trust.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "Although a proper conceptualization is fundamental to efficiently manage trust, there is no consensus on a definition of trust in literature [28,33].",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "In this paper, we conducted an ontological analysis to investigate the proper representation of the factors that influence trust as well as other trust-related concepts, such as beliefs and intentions of a trustor and pieces of evidence that indicate a trustee's trustworthiness.",
+              "section": "5 Final Remarks"
+            }
+          ],
+          "justification": "The paper explicitly frames the model as a reference ontology that clarifies and provides a deeper account of trust-related concepts, matching the 'understand', 'clarify', 'conceptualize' signals for For Understanding (building knowledge about the domain of trust)."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "As future work, we plan to use our ontology as a foundation for designing a modeling framework that allows for the quantification and reasoning about trust and trustworthiness.",
+              "section": "5 Final Remarks"
+            }
+          ],
+          "reason": "The intended use as a foundation for a framework is explicitly framed as future work, which the signal pattern flags as a negative indicator for For Intervening; no implementation or artifact generation is described as having occurred."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "To demonstrate the applicability of our proposal, we instantiated our ontology with an example in the context of COVID-19 vaccines.",
+              "section": "5 Final Remarks"
+            }
+          ],
+          "reason": "The COVID-19 vaccine case is presented as an illustrative instantiation to demonstrate applicability rather than as use of the model to guide a real decision or to identify shortcomings in an existing situation; evidence for decision-support is indirect."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

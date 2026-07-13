@@ -1,0 +1,65 @@
+{
+  "paper_id": "Fischer-Pauzenberger and Schwaiger - 2017 - The OntoREA Accounting Model",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "OntoREA Accounting Model (REA-based ALE Accounting Model in OntoUML)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The figure contains the duality relationship named Duality . The capitalized naming intends to indicate a reification of that relationship, which  is introduced  in order  to  enhance  the understandability  of  this  important  concept.",
+              "section": "Section 2"
+            },
+            {
+              "quote": "The reason for this reification  lies  in an enhanced understandability of this essential  concept in the REA accounting model.",
+              "section": "Section 1 (Introduction)"
+            },
+            {
+              "quote": "In this translation the additional vocabulary of the OntoUML language provides the ontological meaning in form of existence, identity, temporality and  modality  to  the  different  classes.",
+              "section": "Section 1 (Introduction)"
+            },
+            {
+              "quote": "The qualitative enhancement relates to the additionally included ontological information in form  of Kind , SubKind , Phase , Relator , Material , Formal , disjoint and complete .  This  added ontological information characterizes the very nature of all the elements (universals) in the REAbased accounting domain with respect to dependent and independent existence, possession and providing  of  identity,  rigidity  and  anti-rigidity  of  instantiations  as  well  as  temporality  and modality of the universals.",
+              "section": "Section 5 (Conclusions)"
+            }
+          ],
+          "justification": "Authors explicitly state the model is created to conceptualize and enhance understandability of the accounting domain (especially the duality relationship and ALE accounting concepts). Signal terms 'conceptualize', 'enhance understandability', and clarifying the 'very nature' of elements map directly to For Understanding (domain knowledge/clarification of concepts)."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Such  systems  could  be  designed  and implemented, e.g. within a model-driven software development approach (see, e.g. Brambilla et al. [15], Stahl and Völter [16] or Pergl et al. [17]) by establishing the OntoREA-based conceptual model first and subsequently transforming it into a software application.",
+              "section": "Section 1 (Introduction)"
+            },
+            {
+              "quote": "For technical validation purposes the OntoREA accounting model presented in Figure 12 was modeled  in  the Sparx  Enterprise  Architect software  application  equipped  with  the  OntoUML plugin as well.",
+              "section": "Section 4"
+            }
+          ],
+          "reason": "The implementation/transformation into a software application is framed as a future possibility ('could be designed and implemented') rather than an actual realized purpose. Modeling in Sparx EA is for 'technical validation' rather than building/deploying a system. Per evidence rules, hypothetical/future uses do not count unless explicitly framed as the model's intended purpose."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Although  the  original  REA  accounting  model  is  intended  to  specify  the  accounting  domain  it does  not cover several important  accounting requirements.  The  following  are  the  main deficiencies of the REA accounting model with respect to the traditional Asset Liability Equity/ALE-accounting logic [21]:",
+              "section": "Section 3"
+            }
+          ],
+          "reason": "The paper identifies shortcomings of prior REA models, but this is about critique of prior models to motivate the new OntoREA model, not the OntoREA model itself being used as an instrument for decision-making or option analysis. Evidence is indirect for the model's own goal."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

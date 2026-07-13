@@ -1,0 +1,55 @@
+{
+  "paper_id": "FischerPauzenberger_2017",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "OntoREA© Accounting and Finance Model (PIM)",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "For demonstration purposes its direct translation into a platform specific (PSM) as well as an implementation specific (ISM) model are demonstrated for a real derivative instrument.", "section": "Abstract"},
+            {"quote": "For demonstrating the MDD process up to the software application a prototypical ISM application will be developed in RStudio Shiny.", "section": "Section 1 Introduction"},
+            {"quote": "The setup of the ISM model in the R programming language finally allowed a direct coding that resulted in a prototypical RStudio Shiny application.", "section": "Section 5 Conclusions"},
+            {"quote": "The Collective conceptualization served as starting point in the MDD's PIM model which was successively transformed in two steps into a MySQL PSM database model and an RStudio Shiny ISM dataframe model.", "section": "Section 5 Conclusions"}
+          ],
+          "justification": "The OntoREA© model serves as the PIM that is actively transformed through MDD into PSM (MySQL database) and ISM (RStudio dataframe) artifacts, culminating in an implemented prototypical RStudio Shiny application. This matches the Intervening signal of 'generated artifact' / 'used to create' / artifact generation through model transformation."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "This abstract conceptualization of derivative instruments  is hard to grasp. In the following this understanding problem is solved by demonstrating the precise meaning of the Collective conceptualization with a stock forward running example.", "section": "Section 1 Introduction"},
+            {"quote": "The  primary  research  objective  is  twofold:  Firstly,  fostering  the  meaning  of OntoREA©'s Collective conceptualization  of  financial  instruments.", "section": "Section 1 Introduction"},
+            {"quote": "By using a stock forward  contract  as  running  example  the  hedge  portfolio  meaning  of  the  derivative instrument's Collective conceptualization  with  a MemberOf relationship  to  two Economic Resources was enlightened and illustrated with a real derivative instrument.", "section": "Section 5 Conclusions"}
+          ],
+          "justification": "The paper explicitly frames a research objective as 'fostering the meaning' of the model's conceptualization and solving the 'understanding problem' of derivative instruments. This matches the Understanding signals 'understand', 'clarify', 'meaning' applied to the domain (derivative instruments)."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "Secondly,  the DSRM validation of this conceptualization in two steps", "section": "Section 1 Introduction"},
+            {"quote": "by evaluating the adequate coverage of the financial instruments' special peculiarities.", "section": "Section 1 Introduction"},
+            {"quote": "The DSRM evaluation activity is performed by showing with the stock forward example that the derivative instruments are adequately represented with respect to their identity-related peculiarity, their temporal modal peculiarities in the asset liability and off-balance phases as well as the exclusivity constraint defined thereupon.", "section": "Section 5 Conclusions"}
+          ],
+          "justification": "Beyond the implementation use, the paper separately uses the model to evaluate/validate whether the derivative instrument requirements are adequately covered — a distinct decision/evaluation activity matching the Problem-solving signals 'evaluate' / 'adequacy'. The evaluation is separate evidence from the implementation, satisfying the disambiguation rule for double-coding with Intervening."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "Due to its publication the model also accomplishes the DSRM communication activity.", "section": "Section 1 Introduction"}
+          ],
+          "reason": "Publication is mentioned as fulfilling a DSRM 'communication' activity, but the paper does not frame the model itself as a documentation/reference artifact; this is a general statement about the research methodology rather than the model's purpose."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

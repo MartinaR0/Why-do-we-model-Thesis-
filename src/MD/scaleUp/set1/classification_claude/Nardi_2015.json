@@ -1,0 +1,43 @@
+{
+  "paper_id": "Nardi_2015",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "UFO-S (commitment-based core reference ontology for services)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "The ontology we present here, named UFO-S, is indeed designed to account for a conceptualization of services that is independent of a particular application domain, and is designed to be applied in an off-line manner to assist humans in tasks such as meaning negotiation and consensus establishment.", "section": "Section 1 Introduction"},
+            {"quote": "A core reference ontology provides a semantic characterization of the core terms used in a specific field that spans different application domains, with the purpose of minimizing ambiguities and misuderstandings [23,24].", "section": "Section 1 Introduction"},
+            {"quote": "Further, both are focused on the description of computational services, while UFO-S aims instead at explicating service phenomena in order to support (offline) meaning negotiation.", "section": "Section 7 Related work"}
+          ],
+          "justification": "The paper explicitly states UFO-S is designed for meaning negotiation, consensus establishment, and explicating/clarifying service concepts — direct match to the For Understanding signal patterns (clarify, define, conceptualize, meaning negotiation, shared understanding)."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "Given their importance in enterprise computing and Service Science in general, we believe that a clear account of services and service-related concepts is necessary and would serve as a basis for communication, consensus and alignment among approaches and perspectives.", "section": "Abstract"},
+            {"quote": "Given the importance of services in Service Computing and Service Science in general, we believe that a clear account of the underlying concepts is necessary and would serve as a basis for communication, consensus and alignment of the various approaches and perspectives.", "section": "Section 1 Introduction"}
+          ],
+          "justification": "The paper explicitly frames UFO-S as a basis for communication between distinct communities/perspectives (Service Science, Service Computing, business and IT practitioners), satisfying the For Communicating signal (bridge between, align stakeholders) — requires a short inference that 'communication... among approaches and perspectives' indicates bridging distinct groups."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "sometimes describing a service offering (this problem in the context of the SOA Healthcare Ontology has been identified by analyzing it with UFO-S [72]).", "section": "Section 8"}
+          ],
+          "reason": "The mention of UFO-S being used to identify a problem in another ontology is incidental and points to a separate cited work rather than framing problem-solving as a stated purpose of the model in this paper."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

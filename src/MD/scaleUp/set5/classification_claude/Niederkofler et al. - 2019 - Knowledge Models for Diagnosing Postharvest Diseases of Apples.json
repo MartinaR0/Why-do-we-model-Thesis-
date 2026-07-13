@@ -1,0 +1,47 @@
+{
+  "paper_id": "Niederkofler et al. - 2019 - Knowledge Models for Diagnosing Postharvest Diseases of Apples",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "DSSApple Reference Ontology (OntoUML conceptual model of apple postharvest diseases, encoded in OWL+SWRL)",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "Since determining the exact disease is often difficult and time-consuming, an ontology-based decision support system is being developed to support this diagnosis process.", "section": "Abstract"},
+            {"quote": "This reference model is represented using the ontology-driven conceptual modeling language OntoUML and it is then encoded as an OWL specification enriched with SWRL rules. The latter will then serve as a basis for supporting automated reasoning in the aforementioned decision support system.", "section": "Abstract"},
+            {"quote": "In particular, this allows for the systematic code generation of an OWL specification representing our conceptual reference model.", "section": "Section 2.2"},
+            {"quote": "In order to support reasoning with actual disease instances according to the descriptions in the specialist literature, we implemented parts of the model in section 3 as an ontology in the OWL language enriched with SWRL rules [24].", "section": "Section 3.6"},
+            {"quote": "In order to get a first experience on how the decision support system would work, we developed a simple diagnostic system for a subset of 5 diseases ( Alternaria Rot, Bitter Rot, Botrytis, Penicillium Rot, and Mucor Rot ).", "section": "Section 4.1"}
+          ],
+          "justification": "The reference ontology was actively used as the instrument from which an OWL+SWRL implementation was generated and a working diagnostic system was built; this is the Intervening signal (implemented, used to create artifact/system) per the disambiguation rule favoring Intervening when the model directly produces an implementation."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "To address this problem, the decision support system DSSApple [4] is being developed that builds on the results of the research project Frudistor [5] in order to support farmers and storage workers in the identification of diseases.", "section": "Section 1"},
+            {"quote": "In this paper we propose a reference ontology to model the life cycle of apples, so that it can be used in a decision support system to support the diagnosis of postharvest defects.", "section": "Section 5"},
+            {"quote": "Finally, first tests of these rules in a simple diagnostic system already showed some promising results for decision support of users.", "section": "Section 5"}
+          ],
+          "justification": "Separate from its role as the implementation source, the model is explicitly framed as serving decision-support/diagnosis for farmers and storage workers (decision, identification, diagnosis) — distinct evidence for Problem-solving beyond the Intervening evidence."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "Literature research revealed that such a model has not yet been developed mapping fruit and disease-related data in such a way that is both extensive and detailed enough for this purpose. To address this gap in the literature, this paper proposes a reference ontology on post-harvest diseases of apples.", "section": "Section 1"},
+            {"quote": "To avoid this problem, we decided to model the scope defined by some of these existing models but to evolve and organize it as a new full-blown reference ontology addressing specific aspects of the apple pathology domain.", "section": "Section 2.2"},
+            {"quote": "In this paper a reference ontology is presented that captures the lifecycle of apples from the orchard to the storage phase.", "section": "Abstract"}
+          ],
+          "justification": "The paper frames the model as a reference ontology that conceptualizes and captures the apple/disease domain, clarifying and defining domain concepts (apple parts, qualities, pathologies, dispositional factors) — domain understanding via conceptualization, requiring one short inference from 'reference ontology...captures the lifecycle' to the Understanding goal."
+        }
+      ],
+      "uncertain_goals": []
+    }
+  ],
+  "outside_taxonomy": []
+}

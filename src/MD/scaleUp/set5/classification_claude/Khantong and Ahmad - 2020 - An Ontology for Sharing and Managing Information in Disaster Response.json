@@ -1,0 +1,63 @@
+{
+  "paper_id": "Khantong and Ahmad - 2020 - An Ontology for Sharing and Managing Information in Disaster Response",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Flood Response Domain Ontology (endurant + perdurant ontology for flood response management)",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "In this stage, the ontology is implemented in OWL and OWL-S using Protégé, 1 a  prominent ontology development tool.", "section": "Section 4.4 Implementation"},
+            {"quote": "By using the Protégé tool, the endurant ontology was represented in OWL and the perdurant ontology was represented in OWL-S.", "section": "Section 3.3 Design and Development"},
+            {"quote": "These conceptual models of the ontology are then transformed to be represented in the ontology implementation languages.", "section": "Section 3.3 Design and Development"}
+          ],
+          "justification": "The conceptual ontology model was actively used as an instrument to generate the OWL/OWL-S implementation artifacts via Protégé, satisfying the Intervening signal of 'implemented' and 'generated artifact' where the model directly enables creation of the implementation."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "This paper proposes an ontology as a solution to reduce the large number of concepts by understanding only on necessary ontological concepts needed in communication via speech act between the organizations.", "section": "Abstract"},
+            {"quote": "Accordingly, this paper aims to develop an ontology that provides a conceptual representation of the disaster response domain from the perspective of communication between the organizations involved.", "section": "Section 1 Introduction"},
+            {"quote": "The main desirable objective of the proposed ontology is to be used for capturing common concepts related to flood response management and their relationships in order to support information management and sharing.", "section": "Section 3.2 Definition of the Objectives of a Solution"}
+          ],
+          "justification": "The ontology is explicitly framed as a conceptual representation that supports shared understanding/conceptualization of the flood response domain and reduces heterogeneous concepts through meaning negotiation across organizations, matching the Understanding signals 'understand', 'conceptualize', and 'shared conceptualization'."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "The vocabularies provided by the ontology can be used to capture and organize information that is generated from different systems.", "section": "Section 6 Evaluation"},
+            {"quote": "Therefore, once several organizations map their information to the ontology model, such information can be effectively shared and used throughout the entire system of flood response, because of its semantic descriptions provided by the ontology.", "section": "Section 6 Evaluation"},
+            {"quote": "In terms of completeness, the interviewees agreed that vocabularies provided by the ontology are complete and meet the requirements for representing, storing and sharing the information.", "section": "Section 6 Evaluation"}
+          ],
+          "justification": "The ontology is described as a persistent reference/knowledge organization artifact used to capture, store, organize and share information across organizations asynchronously (i.e., not real-time meeting use), matching the Documenting signals 'knowledge base', 'stored', and 'reference' for absent parties consuming the information later."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "Accordingly, this paper aims to develop an ontology that provides a conceptual representation of the disaster response domain from the perspective of communication between the organizations involved.", "section": "Section 1 Introduction"},
+            {"quote": "This paper proposes an ontology as a solution to reduce the large number of concepts by understanding only on necessary ontological concepts needed in communication via speech act between the organizations.", "section": "Abstract"}
+          ],
+          "reason": "The paper repeatedly references 'communication between organizations' but uses 'communication' in the technical speech-act/system-interoperation sense (organizations exchanging information via systems) rather than synchronous human-to-human meetings or live explanation; the link to the Communicating goal as defined (bridging distinct human groups in interaction) requires inference and could be disputed."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "However, the interviewee from Bangkok Flood Control Center thinks that the process information represented in the ontology should include more detailed processes.", "section": "Section 6 Evaluation"}
+          ],
+          "reason": "The evaluation interviews surfaced some shortcomings of the ontology but this is feedback on the model rather than the model being used as an instrument to guide decision-making or analyze options about the domain; evidence is weak and indirect."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

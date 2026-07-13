@@ -1,0 +1,74 @@
+{
+  "paper_file": "Khalaf et al. - 2023 - OntoEffect An OntoUML-Based Ontology to Explain SARS-CoV-2 Variants' Effects.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "OntoEffect_SARS-CoV-2_Variants_Impacts",
+    "annotator": "LLM",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "OntoEffect",
+        "goals": [
+          {
+            "goal": "For Understanding",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "In the highly specialized context of virology, we show the powerful ability of ontological models to provide clear and precise explanations of a domain and allow its shared understanding among stakeholders.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "Our current version of the ontology is undergoing continuous updating of information. We designed semi-supervised methods for extracting content from the CORD-19 (Wang et al., 2020) literature corpus to continuously collect instances of knowledge-related entities (Serna Garc´ ıa et al., 2023a). Understanding and mastering the complex domain of SARS-CoV-2 mutation effects has proven extremely useful, in our data-driven analysis of SARS-CoV-2 phenomena, where data science methods were integrated with knowledge-driven hypothesis making (Bernasconi et al., 2021b; Bernasconi et al., 2021a).",
+                "section": "5 VALIDATION AND CONCLUSIONS"
+              }
+            ],
+            "justification": "The paper explicitly states that the model's purpose is to provide clear and precise explanations of a complex domain and to enable shared understanding among stakeholders, which aligns with 'For Understanding'. The repeated emphasis on understanding and mastering the domain supports this goal."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "In the highly specialized context of virology, we show the powerful ability of ontological models to provide clear and precise explanations of a domain and allow its shared understanding among stakeholders.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "All in all, we here defend that OntoEffect presents a first step towards the full understanding of SARS-CoV-2 impacts to non-domain experts, powering intra-domain knowledge exchange and information interoperability.",
+                "section": "5 VALIDATION AND CONCLUSIONS"
+              }
+            ],
+            "justification": "The model is described as enabling shared understanding and knowledge exchange between stakeholders, including non-experts, which constitutes communication across distinct groups. The use of 'powering intra-domain knowledge exchange' indicates a communicative function."
+          },
+          {
+            "goal": "For Documenting",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "The main challenges of this effort are related to the complexity of describing the biological domain with knowledge representation artifacts. Many concepts are entangled or nested, and their semantics are non-homogenous; thus a deep understanding is needed and can be achieved through an ontological representation.",
+                "section": "5 VALIDATION AND CONCLUSIONS"
+              }
+            ],
+            "justification": "The model is presented as a structured, persistent representation of complex domain knowledge, intended for future use in knowledge management and interoperability. While not explicitly labeled as documentation, the persistent, structured nature and reference to future use align with 'For Documenting'."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Problem-solving",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "Understanding and mastering the complex domain of SARS-CoV-2 mutation effects has proven extremely useful, in our data-driven analysis of SARS-CoV-2 phenomena, where data science methods were integrated with knowledge-driven hypothesis making.",
+                "section": "5 VALIDATION AND CONCLUSIONS"
+              }
+            ],
+            "reason": "The text suggests the model supports hypothesis making and data analysis, but does not explicitly describe using the model to identify problems, evaluate options, or make decisions. The link to problem-solving is indirect and speculative."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"OntoEffect_SARS-CoV-2_Variants_Impacts\",\n  \"annotator\": \"LLM\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"OntoEffect\",\n      \"goals\": [\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"In the highly specialized context of virology, we show the powerful ability of ontological models to provide clear and precise explanations of a domain and allow its shared understanding among stakeholders.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"Our current version of the ontology is undergoing continuous updating of information. We designed semi-supervised methods for extracting content from the CORD-19 (Wang et al., 2020) literature corpus to continuously collect instances of knowledge-related entities (Serna Garc´ ıa et al., 2023a). Understanding and mastering the complex domain of SARS-CoV-2 mutation effects has proven extremely useful, in our data-driven analysis of SARS-CoV-2 phenomena, where data science methods were integrated with knowledge-driven hypothesis making (Bernasconi et al., 2021b; Bernasconi et al., 2021a).\",\n              \"section\": \"5 VALIDATION AND CONCLUSIONS\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that the model's purpose is to provide clear and precise explanations of a complex domain and to enable shared understanding among stakeholders, which aligns with 'For Understanding'. The repeated emphasis on understanding and mastering the domain supports this goal.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"In the highly specialized context of virology, we show the powerful ability of ontological models to provide clear and precise explanations of a domain and allow its shared understanding among stakeholders.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"All in all, we here defend that OntoEffect presents a first step towards the full understanding of SARS-CoV-2 impacts to non-domain experts, powering intra-domain knowledge exchange and information interoperability.\",\n              \"section\": \"5 VALIDATION AND CONCLUSIONS\"\n            }\n          ],\n          \"justification\": \"The model is described as enabling shared understanding and knowledge exchange between stakeholders, including non-experts, which constitutes communication across distinct groups. The use of 'powering intra-domain knowledge exchange' indicates a communicative function.\"\n        },\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The main challenges of this effort are related to the complexity of describing the biological domain with knowledge representation artifacts. Many concepts are entangled or nested, and their semantics are non-homogenous; thus a deep understanding is needed and can be achieved through an ontological representation.\",\n              \"section\": \"5 VALIDATION AND CONCLUSIONS\"\n            }\n          ],\n          \"justification\": \"The model is presented as a structured, persistent representation of complex domain knowledge, intended for future use in knowledge management and interoperability. While not explicitly labeled as documentation, the persistent, structured nature and reference to future use align with 'For Documenting'.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"Understanding and mastering the complex domain of SARS-CoV-2 mutation effects has proven extremely useful, in our data-driven analysis of SARS-CoV-2 phenomena, where data science methods were integrated with knowledge-driven hypothesis making.\",\n              \"section\": \"5 VALIDATION AND CONCLUSIONS\"\n            }\n          ],\n          \"reason\": \"The text suggests the model supports hypothesis making and data analysis, but does not explicitly describe using the model to identify problems, evaluate options, or make decisions. The link to problem-solving is indirect and speculative.\"\n        }\n      ]\n    }\n  ],\n  \"outside_taxonomy\": []\n}",
+  "seconds": 16.9
+}

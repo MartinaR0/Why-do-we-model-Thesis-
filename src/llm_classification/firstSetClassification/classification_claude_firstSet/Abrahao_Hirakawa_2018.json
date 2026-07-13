@@ -1,0 +1,51 @@
+{
+  "paper_id": "Abrahao_Hirakawa_2018",
+  "annotator": "claude-opus-4",
+  "no_codable_model": false,
+  "input_limitations": ["Figures are not extractable (shown as [FIGURE] placeholders); coding relies on textual descriptions of the model."],
+  "models": [
+    {
+      "model_label": "AGROPTO (Agriculture Operations Task Ontology) conceptual model in OntoUML/E-OntoUML",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "The solutions proposed were used on the Agriculture Operations Task  Ontology,  a  generic  task  ontology  for  the agriculture  domain  in  order  to  describe  structural and behavioural aspects of the task execution  and generate  a  well-founded implementation in OWL format.", "section": "4 CONCLUSION"},
+            {"quote": "An  implementation  of  AGROPTO  in the  OWL  (W3C,  2004)  format  is  available  at http://agropto.org.", "section": "Section 3.2"}
+          ],
+          "justification": "The conceptual model was actively used to generate a well-founded implementation of AGROPTO in OWL format that is publicly available, satisfying the For Intervening signal of 'generated artifact' / 'implemented'."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "As a model is an abstract representation of a real system, abstraction  can  be  used  to  remove  unnecessary  or irrelevant details from the system, so it can be better understood (Gaffar et al. , 2004).", "section": "Section 1.3"},
+            {"quote": "This paper describes  the  ongoing  research  on  the  Agriculture Operations Task Ontology (AGROPTO) where OntoUML is used to develop conceptual models to describe complex task's aspects and possible modelling solutions based on Unified Foundation Ontology (UFO).", "section": "Abstract"}
+          ],
+          "justification": "The conceptual model is used to describe and conceptualize complex task aspects of the agriculture operations domain, supporting domain understanding through abstraction and formal description of concepts."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "Analyse task ontology structural and behavioural aspects according  to  E-OntoUML;  (C)  Propose  possible solutions not addressed by E-OntoUML as: (1) task objectives,  (2)  external  event  interference,  (3)  pre and post conditions", "section": "Section 1.4"},
+            {"quote": "As EOntoUML did not provide representation for some complex task elements present on agriculture field operations, this paper presents possible solutions in the next subsection.", "section": "Section 3.1"}
+          ],
+          "justification": "The model is used to analyze E-OntoUML and identify shortcomings (elements it does not address), then propose solutions — matching the Problem-solving signal of 'analyze' / 'identify shortcomings'."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "An  implementation  of  AGROPTO  in the  OWL  (W3C,  2004)  format  is  available  at http://agropto.org. Due to lack of space, E- OntoUML  more  detailed  activity  diagrams  for AGROPTO  where  published on the ontology website.", "section": "Section 3.2"}
+          ],
+          "reason": "Publishing the model online makes it persistently available as reference, but the paper does not explicitly frame this as documentation/knowledge base purpose for absent parties."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

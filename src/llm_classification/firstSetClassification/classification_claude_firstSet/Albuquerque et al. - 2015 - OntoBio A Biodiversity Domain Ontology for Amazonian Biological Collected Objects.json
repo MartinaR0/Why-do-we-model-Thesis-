@@ -1,0 +1,95 @@
+{
+  "paper_id": "Albuquerque et al. - 2015 - OntoBio A Biodiversity Domain Ontology for Amazonian Biological Collected Objects",
+  "annotator": "claude-opus-4",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "OntoBio - Biodiversity Domain Ontology",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "For the implementation of the biodiversity ontology, Protégé ontology editor was used.",
+              "section": "Section 2.3 Tools for Development"
+            },
+            {
+              "quote": "The implementation is open to use and reusable on a global scale.  It  is  available  with  sub-ontology  schemas  at http://lis.inpa.gov.br/biodiversityontology/.",
+              "section": "Section 2.4 Competence Questions (CQs)"
+            },
+            {
+              "quote": "OntoBio has contributed  to  knowledge  organization  and  has  been used in real world situations such as INPA's Biological Collection  Program  serving  as  a  central  object  of investigation for the previously mentioned issues.",
+              "section": "Section 3. Conclusions"
+            }
+          ],
+          "justification": "The ontology was actually implemented (in Protégé/OWL), deployed and made available at a URL, and used in INPA's Biological Collection Program. This matches the positive signals 'implemented', 'deployed', and use to enable interoperability for For Intervening."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The main purpose of this ontology is to provide a clear and precise conceptualization of the issues raised in  CSD,  independent  of  a  specific  application.",
+              "section": "Section 2.4 Competence Questions (CQs)"
+            },
+            {
+              "quote": "These ontologies enable, or try  to  enable,  the  creation  of  straightforward,  concise and unambiguous conceptual models.",
+              "section": "Section 1. Introduction"
+            }
+          ],
+          "justification": "The paper explicitly states the main purpose is to provide a clear and precise conceptualization of the domain, matching the positive signals 'clarify', 'conceptualize' for For Understanding."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "Results from previews works indicate that ontologies can drive knowledge  acquisition  processes  for  the  purpose  of comprehensive,  transportable  machine  understanding and knowledge management.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "OntoBio  has  already  been  validated  by  NEMO (Nucleus  for  Studies  on  Conceptual  Modelling  and Ontologies).",
+              "section": "Section 3. Conclusions"
+            },
+            {
+              "quote": "OntoBio has contributed  to  knowledge  organization  and  has  been used in real world situations such as INPA's Biological Collection  Program",
+              "section": "Section 3. Conclusions"
+            }
+          ],
+          "justification": "The ontology is framed for knowledge management/organization and made available as a persistent reference resource (online sub-ontology schemas) for asynchronous use, matching the positive signals 'knowledge management', 'knowledge base', 'reference' for For Documenting."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "It  is  difficult to  interact  with  domain  experts  without  the  use  of graphical resources.",
+              "section": "Section 3. Conclusions"
+            },
+            {
+              "quote": "The use of graphical tools to visualize ontologies is important for capturing the ontology concepts and for training professionals  for  ontology  development.",
+              "section": "Section 3. Conclusions"
+            }
+          ],
+          "reason": "These mention general importance of graphical resources for interaction with domain experts, but do not clearly state that OntoBio itself was used for synchronous communication or bridging between distinct groups."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "(iii) an  evaluation  of  the  reliability  of the proposed  ontology  with  its purpose, and  (iv) identification of inconsistencies.",
+              "section": "Section 2.5 Biodiversity Ontology"
+            }
+          ],
+          "reason": "Evaluation and identification of inconsistencies refers to validating the ontology itself, not using the ontology as a decision-making tool for stakeholders to identify what needs to change in the domain."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

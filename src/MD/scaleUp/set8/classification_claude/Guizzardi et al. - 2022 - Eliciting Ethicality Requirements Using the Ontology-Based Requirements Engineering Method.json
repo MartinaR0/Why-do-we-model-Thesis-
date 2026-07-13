@@ -1,0 +1,92 @@
+{
+  "paper_id": "Guizzardi et al. - 2022 - Eliciting Ethicality Requirements Using the Ontology-Based Requirements Engineering Method",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Ethicality requirements ontology (ObRE applied to driverless cars: Beneficence and Nonmaleficence)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The solution to the targeted issue involves a deep understanding of what the proposed ethical principles mean and how they can be converted in concrete system requirements, which can then guide system design, besides being validated and monitored.",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "ObRE is intended to help by 'semantically unpacking' requirements concepts thereby enabling requirements activities.",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "Our work, on the other hand, uses reference ontologies to provide a deep understanding of NFRs whose semantics are usually subjective and complex, by interpreting these NFRs according to the particular domain of the system-tobe.",
+              "section": "5 Related Works"
+            },
+            {
+              "quote": "ObRE precisely defines the concepts that underlie a class of quality requirements (NFRs) through an ontology and offers these concepts for requirements analysis.",
+              "section": "6 Final Remarks"
+            }
+          ],
+          "justification": "The paper repeatedly frames the ontology as a means to clarify and deeply understand the meaning of ethicality requirements ('deep understanding', 'semantically unpacking', 'precisely defines the concepts'), matching the Understanding signal patterns (understand, clarify, define, conceptualize)."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "use the domain model to guide analysis, resulting in requirements models, such as goal models, requirements tables, user stories etc.",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "In activity 3) Requirements Analysis Method Execution , analysts use the domain model to define and analyze system requirements.",
+              "section": "3 ObRE Method"
+            },
+            {
+              "quote": "having the concepts of gain event or loss event as well as the specialization of ethical requirements may guide the analyst in asking the right questions during requirements elicitation.",
+              "section": "4.3 Requirements Analysis Method Execution"
+            },
+            {
+              "quote": "As a result, ObRE facilitates the communication between analysts and stakeholders, besides assisting in the identification of requirements.",
+              "section": "6 Final Remarks"
+            }
+          ],
+          "justification": "The ontology/domain model is explicitly used to guide requirements elicitation and analysis (identifying and analyzing requirements, guiding what questions to ask), which matches the Problem-solving signals of analyzing/identifying what should change and supporting analyst decisions, without the model itself becoming the implementation."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Note that the ontological analysis of Sect. 4.2 makes very explicit all involved ontological notions used in Table 1, thus supporting the communication and avoiding misunderstandings between the stakeholder and the requirements analyst.",
+              "section": "4.3 Requirements Analysis Method Execution"
+            },
+            {
+              "quote": "As a result, ObRE facilitates the communication between analysts and stakeholders, besides assisting in the identification of requirements.",
+              "section": "6 Final Remarks"
+            }
+          ],
+          "justification": "The paper explicitly states the model supports communication between distinct parties (stakeholders and requirements analysts) to avoid misunderstandings during elicitation, an interaction/alignment context that fits the Communicating disambiguation rule (bridging two groups)."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "The trustworthiness ontology has been recently used in a real case study, reported in [8], showing promising results in defining and monitoring trustworthiness requirements for a particular system.",
+              "section": "3 ObRE Method"
+            },
+            {
+              "quote": "Our agenda for the future includes, firstly, a full fledged implementation and validation of the ObRE method, by doing real case studies and having experts evaluate the results.",
+              "section": "6 Final Remarks"
+            }
+          ],
+          "reason": "The paper explicitly defers full implementation/validation to future work, and the driverless car example is illustrative rather than an actual system built from the model; the negative signal 'future work' applies, so Intervening is not supported."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

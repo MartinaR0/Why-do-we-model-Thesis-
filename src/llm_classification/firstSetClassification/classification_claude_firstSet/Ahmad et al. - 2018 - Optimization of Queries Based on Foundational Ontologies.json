@@ -1,0 +1,77 @@
+{
+  "paper_id": "Ahmad et al. - 2018 - Optimization of Queries Based on Foundational Ontologies",
+  "annotator": "claude-opus-4",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "UFO-based index / Aviation Safety Ontology",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "This paper presents how proper foundational-ontology-based knowledge can be used to design a generic index, which can help in answering a wide range of queries compliant with the foundational ontology.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "The main contribution of this paper is foundational query patterns analysis and foundational-ontology-based index design to make query evaluation more efficient, tailored to RDF data, see Fig. 1.",
+              "section": "Section 1.1 Contribution"
+            },
+            {
+              "quote": "We built our Aviation Safety Ontology on top of the Unified Foundational Ontology (UFO) [10,23].",
+              "section": "Section 5.1 Aviation Safety Ontology"
+            },
+            {
+              "quote": "The previous questions motivate us to create UFO-based physical design index tables that store RDF data according to the main concepts of UFO, Perdurant and Endurant.",
+              "section": "Section 4"
+            },
+            {
+              "quote": "Finally, we tested one of the native triple stores (RDF4J 15 ) that physically designed bases on B-Tree indexing triple tables with context, by comparing the execution time of these queries with and without UFO index tables.",
+              "section": "Section 5.2 Benchmark of Queries"
+            }
+          ],
+          "justification": "The UFO-based model is actively used to design and implement physical index tables and a benchmark in RDF4J. The model directly guides the creation of an artifact (index tables, perdurant/endurant tables) that is implemented and tested, matching the For Intervening signal 'used to create' and 'generated artifact'."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "We discuss several indexing techniques and evaluate our proposal for different UFO-based queries extracted from different query sets.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "In this section, we discuss technical challenges for the indexing and query processing regarding to our novel approach in designing index tables for toplevel ontology concepts (namely UFO).",
+              "section": "Section 4.1 UFO Index Tables Approaches Discussion"
+            },
+            {
+              "quote": "These questions should be analyzed to evaluate the expressiveness of the ontology that is required to represent the competency questions and to characterize their solutions.",
+              "section": "Section 5.2 Benchmark of Queries"
+            }
+          ],
+          "justification": "Separate from implementation, the UFO model is used to analyze and evaluate different indexing techniques (Triple Table, Property Table, Vertical Partitioning) and to characterize solutions, matching For Problem-solving signals 'analyze options' and 'evaluate'."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "It can be understood as the result of an activity of formally describing some aspects of the physical and social world around us for purposes of understanding and communication [23].",
+              "section": "Section 1 Introduction"
+            },
+            {
+              "quote": "The aim of a conceptual model is to express concepts' meaning which can be used to discuss problems in a specific domain and to find the correct relationships between different concepts.",
+              "section": "Section 1 Introduction"
+            }
+          ],
+          "reason": "These statements describe conceptual modeling in general (background), not the specific purpose of this paper's UFO-based index/Aviation Safety Ontology model, so the evidence does not clearly establish For Understanding as the model's own goal."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

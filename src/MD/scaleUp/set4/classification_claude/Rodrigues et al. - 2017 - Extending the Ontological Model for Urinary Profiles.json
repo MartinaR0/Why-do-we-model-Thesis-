@@ -1,0 +1,80 @@
+{
+  "paper_id": "Rodrigues et al. - 2017 - Extending the Ontological Model for Urinary Profiles",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Extended ontological model for urinary profiles (UFO-based)",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "This work integrates the efforts to develop a knowledge-based system for urinalysis,   aiming   to   be   used   both   for   decision   support   during   the   test   and   for professional training. The presented ontological model integrates a larger ontology for urinalysis domain and is being used to model the different possible types of urinary profiles and so explain and reproduce the predictions urinalysis experts make during examination of the specimen.",
+              "section": "Section 4. Discussion and Concluding Remarks"
+            },
+            {
+              "quote": "Since those are majorly knowledge/informational requirements, it seems that a computational support may be able to help.",
+              "section": "Section 1. Introduction"
+            }
+          ],
+          "justification": "The paper explicitly frames the model as part of (integrating) a larger ontology being used to build a knowledge-based system for urinalysis (decision support and training). This matches the For Intervening signal of a model used to enable/build a system, with present-tense framing ('is being used')."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Nevertheless, what we intend to leave as a contribution is the ontological analysis concerning the nature of profiles and the dynamics of profiling (which would include, according to [Rodrigues et al, 2015],  the ability to deal with the uncertain aspect of expectations by disentangling the notion of expectation/possibility that the urine contains/is related to something from the idea of actual containment/relation).",
+              "section": "Section 4. Discussion and Concluding Remarks"
+            },
+            {
+              "quote": "Bearing in mind this diversity of possible relations, we define the concept of Urinary Relatum .",
+              "section": "Section 3. Extending the Model"
+            },
+            {
+              "quote": "Thus, this work presents an extended version of the current ontological model for   urinary   profiles   presented   in   [Rodrigues   et   al.   2015],   based   on   the   Unified Foundational Ontology (UFO) [Guizzardi,  2005]. This extended model is conceived to represent urinary profiles that are based on aspects beyond the contents of urine, while keeping compatibility with its previous version (i.e. being able to represent the contentbased urinary profiles).",
+              "section": "Section 1. Introduction"
+            }
+          ],
+          "justification": "The paper explicitly conceptualizes, defines, and clarifies the nature of urinary profiles via UFO-based ontological analysis. Defining concepts (Urinary Relatum, Profile-Defining Context, etc.) and contributing an 'ontological analysis concerning the nature of profiles' directly matches For Understanding (positive signals: 'define', 'conceptualize', clarify domain meaning)."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "Although this profile is not used to make predictions, but rather to recognize a situation in which the sample must be discarded, it still allows to predict contents - more precisely, the existence of other spermatozoa,   what   could   be   searched   for   in   order   to   confirm   the   occurrence   of contamination.",
+              "section": "Section 3. Extending the Model"
+            },
+            {
+              "quote": "Analyzing the existent model we identified that its limiting factor is its focus on the relation of containment - keeping it centered on the idea that the presence of urinary contents is the only foundation of a urinary profile.",
+              "section": "Section 4. Discussion and Concluding Remarks"
+            },
+            {
+              "quote": "This work integrates the efforts to develop a knowledge-based system for urinalysis,   aiming   to   be   used   both   for   decision   support   during   the   test   and   for professional training.",
+              "section": "Section 4. Discussion and Concluding Remarks"
+            }
+          ],
+          "justification": "Beyond implementation, the paper presents the model as analytically identifying shortcomings of the previous model ('identify shortcomings' signal) and as supporting decision-making (decision support during the test, recognizing situations like contaminated samples that must be discarded). This is separate evidence from implementation per the disambiguation rule."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "The presented ontological model integrates a larger ontology for urinalysis domain and is being used to model the different possible types of urinary profiles and so explain and reproduce the predictions urinalysis experts make during examination of the specimen.",
+              "section": "Section 4. Discussion and Concluding Remarks"
+            }
+          ],
+          "reason": "Integration into a larger ontology hints at a persistent knowledge reference, but the paper does not explicitly frame the model as documentation, knowledge base, or archive for absent parties."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

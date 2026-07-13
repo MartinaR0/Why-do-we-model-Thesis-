@@ -1,0 +1,50 @@
+{
+  "paper_id": "Andersson_Johannesson_2018_AscribingValue",
+  "annotator": "claude-opus-4",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Value Ascription Ontology (VAO)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The goal of this paper is to conceptualize the notion of value ascription, in which an agent ascribes value to some value object.",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "This paper proposes an ontology for conceptualizing the notion of value ascription that is founded on an analysis of context notions, showing how value of objects can be explained in terms of value of states of affairs.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "The main envisioned benefit of the proposed ontology is that it should provide the concepts needed for representing value ascription in a generic sense.",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "is a value ascription ontology (VAO) that includes the concepts required for representing and explaining value ascriptions.",
+              "section": "1 Introduction"
+            }
+          ],
+          "justification": "The paper explicitly frames the model's purpose as conceptualizing, representing, and explaining the notion of value ascription — matching the 'For Understanding' signals (conceptualize, clarify, define). The ontology is built to clarify a notion that 'remains highly ill-defined and elusive.'"
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "From a value analysis point of view at least two fundamental questions about valuations should be answerable: (a) if an object is kept fixed, what happens to its ascribed value when the context changes? and (b) which object out of several will be ascribed the highest value in a context?",
+              "section": "1 Introduction"
+            }
+          ],
+          "reason": "The paper mentions the ontology should help answer value-analysis questions including option comparison, but this is framed as an envisioned analytical capability rather than demonstrated use for decision-making, and the illustration only shows representation rather than a problem-solving application."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

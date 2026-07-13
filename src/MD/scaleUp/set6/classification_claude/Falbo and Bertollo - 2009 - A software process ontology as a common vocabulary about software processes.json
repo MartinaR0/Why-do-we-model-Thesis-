@@ -1,0 +1,80 @@
+{
+  "paper_id": "Falbo and Bertollo - 2009 - A software process ontology as a common vocabulary about software processes",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Software Process Ontology",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "This ontology aims to establish a common vocabulary for software organisations to talk about software processes",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "Thus, we need to establish a common understanding of what is a software process, and which are its main assets. To achieve this common conceptualisation about software processes, we advocate the use of ontologies.",
+              "section": "2 Software process"
+            },
+            {
+              "quote": "To overcome this problem, we need to establish a common conceptualisation about software processes, and thus ontologies can be useful.",
+              "section": "8 Conclusions and future work"
+            }
+          ],
+          "justification": "The ontology's primary stated purpose is to establish a shared conceptualisation and common vocabulary about software processes, i.e., to support domain understanding and meaning negotiation among software organisations."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Finally, we used this ontology in the development of a process infrastructure for Ontology based software Development Environment (ODE)",
+              "section": "8 Conclusions and future work"
+            },
+            {
+              "quote": "the ontology presented in this paper was used to derive the core classes of process control in ODE, supporting tool integration and interoperability in it. This environment is being used by different organisations in practice",
+              "section": "8 Conclusions and future work"
+            }
+          ],
+          "justification": "The ontology was actually used to derive the core classes of the ODE environment and enable tool integration/interoperability, i.e., an implemented artifact was generated from the model."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "One of our main goals is that this ontology is used as an interlingua for mapping concepts from different models and standards, helping software organisations to use them jointly.",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "Ontologies are used to describe ontological commitments for a set of agents (humans and software applications), that is, agreements to use a shared vocabulary in a coherent manner, so that they can communicate about a domain of discourse.",
+              "section": "3 Ontology"
+            },
+            {
+              "quote": "During ontology capture, a graphical language for expressing ontologies should be used to facilitate the communication between ontology engineers and experts.",
+              "section": "3 Ontology"
+            }
+          ],
+          "justification": "The ontology is explicitly framed as an interlingua and a shared vocabulary to enable communication between distinct groups (software organisations, ontology engineers, domain experts, and software applications)."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Finally, for documentation purposes, SABiO advocates the use of hypertexts. Using a hypertext, concepts can be easily linked to relations, properties, ontology diagrams, dictionaries of terms, axioms, and competency questions.",
+              "section": "3 Ontology"
+            }
+          ],
+          "reason": "Documentation is mentioned as a SABiO methodology activity for ontologies generally, not clearly framed as this specific ontology's purpose as a knowledge base."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

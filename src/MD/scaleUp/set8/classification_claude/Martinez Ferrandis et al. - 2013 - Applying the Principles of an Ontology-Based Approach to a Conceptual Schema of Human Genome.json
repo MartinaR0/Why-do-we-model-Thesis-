@@ -1,0 +1,45 @@
+{
+  "paper_id": "Martinez Ferrandis et al. - 2013 - Applying the Principles of an Ontology-Based Approach to a Conceptual Schema of Human Genome",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "OntoUML redesign of the Conceptual Schema of the Human Genome (CSHG)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "Understanding  the  Human  Genome  is  currently  a  significant  challenge. Having a Conceptual Schema of Human Genome (CSHG) is in this context  a  first  step  to  link  a  sound  Information  Systems  Design  approach  with Bioinformatics.  But  this  is  not  enough.    The  use  of  an  adequate  ontological commitment is essential to fix the real-world semantics of the analyzed domain.", "section": "Abstract"},
+            {"quote": "On one side, we can improve consistency and  understandability  of  the  CSHG  through conceptual  clarification .", "section": "Section 1 Introduction"},
+            {"quote": "Moreover, given the complexity of the involved notions as well the clear need for autonomous data interoperability, it is essential that these notions are well understood and that their underlying real-world semantics are made explicit.", "section": "Section 1 Introduction"}
+          ],
+          "justification": "The paper explicitly frames the OntoUML model as a means to make explicit the ontological commitments and clarify concepts of the human genome domain, improving understandability and fixing real-world semantics — matches the 'clarify', 'conceptualize', 'shared understanding' signals for For Understanding."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "As demonstrated in the paper, this ontological analysis is also able to highlight some conceptual drawbacks present in the initial version of the CSHG.", "section": "Abstract"},
+            {"quote": "On the other side, this approach can identify a number of conceptual drawbacks present in the initial version of the quoted CSHG that have been put in evidence and corrected.", "section": "Section 1 Introduction"},
+            {"quote": "identifying  conceptual  problems  in  terms  of uncertainty, inconsistencies, lack of constraints and dubious modeling choices.", "section": "Section 2"},
+            {"quote": "In the redesign of the CSHG as an OntoUML model, a number of implicit assumptions  in  the  original  model  were  made  explicit  as  well  as  a  number  of  conceptual drawbacks  were  identified.", "section": "Section 5 Conclusion"}
+          ],
+          "justification": "The model is used to analyze the CSHG, evaluate it, and identify shortcomings/conceptual drawbacks — matches the 'identify shortcomings', 'evaluate' signals for For Problem-solving. Per disambiguation rule, identifying drawbacks/inconsistencies without direct implementation of a system fits Problem-solving."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "Finally, after validation, we intend to use the OntoUML tool set to automatically generate OWL specifications for the CSHG. These specifications, in turn, will be employed to support semantic annotation and automated reasoning in a Human Genome Wiki environment.", "section": "Section 5 Conclusion"}
+          ],
+          "reason": "The intended use for artifact generation (OWL) and system deployment (Wiki) is explicitly framed as future work after validation, not as an accomplished purpose of the current model — the signal pattern lists 'would be implemented' and 'future work' as negative indicators."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

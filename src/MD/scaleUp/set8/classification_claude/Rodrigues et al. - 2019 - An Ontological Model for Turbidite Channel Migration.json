@@ -1,0 +1,61 @@
+{
+  "paper_id": "Rodrigues et al. - 2019 - An Ontological Model for Turbidite Channel Migration",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Ontological model for turbidite channel lateral migration (based on UFO)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "In order to help in achieving a better understanding of turbidite deposits, this paper proposes an ontological model for the process of lateral migration of turbidite channels",
+              "section": "1. Introduction"
+            },
+            {
+              "quote": "Since  it  is  not  an  instantaneous,  atomic  event,  we  can  go  on  in  our  analysis, breaking it into its main stages, which can give us a better understanding of the way the process occurs.",
+              "section": "4.1. Turbidite Channel Lateral Migration: High-Level Model"
+            },
+            {
+              "quote": "With the conceptual formalization of this important process in the formation of turbidite systems we aim to contribute to a better comprehension of its effects over the final configuration of turbidite deposits, enhancing its predictability.",
+              "section": "5. Concluding Remarks"
+            }
+          ],
+          "justification": "The authors explicitly state the model is proposed to help understand turbidite deposits and the migration process, matching the 'For Understanding' signal (positive keyword 'understand') where the model supports development of domain knowledge and conceptualization."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "The model is based on  the  Unified  Foundational  Ontology  (UFO)  (Guizzardi,  2005)  and  may  help  in developing  a  geological  model  of  the  sedimentation-erosion  process  of  the  lateral migration process, which can further feed the flow model of reservoirs.",
+              "section": "1. Introduction"
+            },
+            {
+              "quote": "our  model  may  provide  a  conceptual  framework  to  guide  simulation  efforts  and  to contextualize their findings",
+              "section": "5. Concluding Remarks"
+            }
+          ],
+          "reason": "Uses hedged/future language ('may help', 'may provide') about hypothetical downstream use for developing geological/simulation models; no actual implementation or artifact generation is reported, matching the 'For Intervening' negative signal ('would be implemented', 'future work', 'proposed only')."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "This can provide basis for further definition of the physical quantities involved (e.g. the model indicates the  general  disposition  of  high  energy  water  of  eroding  sediments  from  outer  banks, which may be further quantified to establish the energy level required to erode different types of sediment).",
+              "section": "5. Concluding Remarks"
+            }
+          ],
+          "reason": "The sentence hints that the model could be a basis for further quantitative work, but this is a speculative future contribution rather than a demonstrated decision-making or option-evaluation use of the model."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

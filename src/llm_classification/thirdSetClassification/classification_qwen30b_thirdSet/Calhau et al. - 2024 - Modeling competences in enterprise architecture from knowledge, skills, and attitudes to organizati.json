@@ -1,0 +1,104 @@
+{
+  "paper_file": "Calhau et al. - 2024 - Modeling competences in enterprise architecture from knowledge, skills, and attitudes to organizati.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "Modeling competences in enterprise architecture: from knowledge, skills, and attitudes to organizational capabilities",
+    "annotator": "LLM model name",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "Competence and Organizational Capability Representation in ArchiMate",
+        "goals": [
+          {
+            "goal": "For Intervening",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "We have applied it to a real-life case study from the literature addressed originally by Bäcklander [21] (but also concerning other references related to the case [21, 74-76]).",
+                "section": "7 Capabilities in spotify"
+              },
+              {
+                "quote": "The model representation using ArchiMate, on the other hand, contributes a set of possibilities to enhancing the Competence Management practice.",
+                "section": "10 Final remarks"
+              }
+            ],
+            "justification": "The paper explicitly states that the ArchiMate-based representation was applied to a real-world case study (Spotify), demonstrating its use in a practical context. The authors also claim it contributes to enhancing Competence Management practice, indicating active use for implementation and improvement, which satisfies the 'For Intervening' criterion."
+          },
+          {
+            "goal": "For Problem-solving",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "The model representation using ArchiMate, on the other hand, contributes a set of possibilities to enhancing the Competence Management practice.",
+                "section": "10 Final remarks"
+              },
+              {
+                "quote": "This combination of detailed and general vision aids in many CoM activities such as competence comparison, planning, and assessment, to name a few.",
+                "section": "10 Final remarks"
+              }
+            ],
+            "justification": "The paper frames the model as a tool to support core Competence Management (CoM) tasks like gap analysis, planning, and assessment. The model is used to identify how competences relate to capabilities and how they can be improved, which is a direct application for problem-solving and decision-making in HR and EA contexts."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "The model representation using ArchiMate, on the other hand, contributes a set of possibilities to enhancing the Competence Management practice.",
+                "section": "10 Final remarks"
+              },
+              {
+                "quote": "The visual representation works as a complementary resource to facilitate communication and understanding.",
+                "section": "10 Final remarks"
+              }
+            ],
+            "justification": "The paper explicitly states that the visual representation of the model is designed to 'facilitate communication and understanding.' This is a direct claim about the model's role in supporting communication between stakeholders, such as HR professionals, EA practitioners, and team members, which aligns with the 'For Communicating' goal."
+          },
+          {
+            "goal": "For Documenting",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "The model representation using ArchiMate, on the other hand, contributes a set of possibilities to enhancing the Competence Management practice.",
+                "section": "10 Final remarks"
+              },
+              {
+                "quote": "The reference ontology has provided us with a semantic foundation that accounts for the relation between organizational capabilities and individual competences, and this is reflected in the representation strategy.",
+                "section": "10 Final remarks"
+              }
+            ],
+            "justification": "The paper presents the model as a formal, structured representation that serves as a persistent reference for understanding the relationships between competences, skills, knowledge, attitudes, and organizational capabilities. The model is intended to be used as a documented, reusable artifact for future reference in EA and CoM activities, satisfying the 'For Documenting' criterion."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Understanding",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "The study presented in this paper aimed to improve competence modeling in the context of Enterprise Architecture by using a reference ontology as a semantic foundation.",
+                "section": "10 Final remarks"
+              }
+            ],
+            "reason": "While the paper discusses the conceptual foundations and aims to clarify relationships, the evidence is too general and indirect to confirm that the primary goal was to build shared understanding or negotiate meaning. The focus is on application and utility, not on internal sense-making or meaning negotiation."
+          },
+          {
+            "goal": "For Learning",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "The model representation using ArchiMate, on the other hand, contributes a set of possibilities to enhancing the Competence Management practice.",
+                "section": "10 Final remarks"
+              }
+            ],
+            "reason": "The paper does not frame the model as a tool for learning how to model, use ArchiMate, or understand modeling methods. The focus is on using the model for practical purposes in HR and EA, not on teaching modeling skills."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"Modeling competences in enterprise architecture: from knowledge, skills, and attitudes to organizational capabilities\",\n  \"annotator\": \"LLM model name\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"Competence and Organizational Capability Representation in ArchiMate\",\n      \"goals\": [\n        {\n          \"goal\": \"For Intervening\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"We have applied it to a real-life case study from the literature addressed originally by Bäcklander [21] (but also concerning other references related to the case [21, 74-76]).\",\n              \"section\": \"7 Capabilities in spotify\"\n            },\n            {\n              \"quote\": \"The model representation using ArchiMate, on the other hand, contributes a set of possibilities to enhancing the Competence Management practice.\",\n              \"section\": \"10 Final remarks\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that the ArchiMate-based representation was applied to a real-world case study (Spotify), demonstrating its use in a practical context. The authors also claim it contributes to enhancing Competence Management practice, indicating active use for implementation and improvement, which satisfies the 'For Intervening' criterion.\"\n        },\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The model representation using ArchiMate, on the other hand, contributes a set of possibilities to enhancing the Competence Management practice.\",\n              \"section\": \"10 Final remarks\"\n            },\n            {\n              \"quote\": \"This combination of detailed and general vision aids in many CoM activities such as competence comparison, planning, and assessment, to name a few.\",\n              \"section\": \"10 Final remarks\"\n            }\n          ],\n          \"justification\": \"The paper frames the model as a tool to support core Competence Management (CoM) tasks like gap analysis, planning, and assessment. The model is used to identify how competences relate to capabilities and how they can be improved, which is a direct application for problem-solving and decision-making in HR and EA contexts.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The model representation using ArchiMate, on the other hand, contributes a set of possibilities to enhancing the Competence Management practice.\",\n              \"section\": \"10 Final remarks\"\n            },\n            {\n              \"quote\": \"The visual representation works as a complementary resource to facilitate communication and understanding.\",\n              \"section\": \"10 Final remarks\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that the visual representation of the model is designed to 'facilitate communication and understanding.' This is a direct claim about the model's role in supporting communication between stakeholders, such as HR professionals, EA practitioners, and team members, which aligns with the 'For Communicating' goal.\"\n        },\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The model representation using ArchiMate, on the other hand, contributes a set of possibilities to enhancing the Competence Management practice.\",\n              \"section\": \"10 Final remarks\"\n            },\n            {\n              \"quote\": \"The reference ontology has provided us with a semantic foundation that accounts for the relation between organizational capabilities and individual competences, and this is reflected in the representation strategy.\",\n              \"section\": \"10 Final remarks\"\n            }\n          ],\n          \"justification\": \"The paper presents the model as a formal, structured representation that serves as a persistent reference for understanding the relationships between competences, skills, knowledge, attitudes, and organizational capabilities. The model is intended to be used as a documented, reusable artifact for future reference in EA and CoM activities, satisfying the 'For Documenting' criterion.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The study presented in this paper aimed to improve competence modeling in the context of Enterprise Architecture by using a reference ontology as a semantic foundation.\",\n              \"section\": \"10 Final remarks\"\n            }\n          ],\n          \"reason\": \"While the paper discusses the conceptual foundations and aims to clarify relationships, the evidence is too general and indirect to confirm that the primary goal was to build shared understanding or negotiate meaning. The focus is on application and utility, not on internal sense-making or meaning negotiation.\"\n        },\n        {\n          \"goal\": \"For Learning\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The model representation using ArchiMate, on the other hand, contributes a set of possibilities to enhancing the Competence Management practice.\",\n              \"section\": \"10 Final remarks\"\n            }\n          ],\n          \"reason\": \"The paper does not frame the model as a tool for learning how to model, use ArchiMate, or understand modeling methods. The focus is on using the model for practical purposes in HR and EA, not on teaching modeling skills.\"\n        }\n      ]\n    }\n  ],\n  \"outside_taxonomy\": []\n}",
+  "seconds": 49.0
+}

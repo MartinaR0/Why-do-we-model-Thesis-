@@ -1,0 +1,67 @@
+{
+  "paper_id": "Debbech_2019",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "GOSMO (Goal-Oriented Safety Management Ontology)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "In this paper, we propose the Goal-Oriented Safety Management Ontology (GOSMO), a domain ontology, which is grounded in the Unified Foundational Ontology (UFO) and provides a conceptualization and a real-world semantic interpretation of the knowledge matching for SCSs.", "section": "Abstract"},
+            {"quote": "GOSMO aims to provide an unambiguous, complete and consistent set of the involved concepts, and to manage safety related decisions in the SCSs design process.", "section": "Section 1 Introduction"},
+            {"quote": "we propose GOSMO, which aims to support the conceptual clarification of the considered domains and the safety decisionmaking management for the SCSs design.", "section": "Section 2.4 Related Work"},
+            {"quote": "Furthermore, GOSMO can be used as a reference model to support the ontological analysis and the conceptual clarification of real-world critical situations.", "section": "Section 5 Conclusion & Future Work"}
+          ],
+          "justification": "The paper explicitly states the model's purpose is conceptualization, semantic interpretation, and conceptual clarification of the safety/GORE/Or-BAC domains — matching the 'conceptualize', 'clarify', 'define' positive signals for For Understanding."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "Thirdly, GOSMO establishes a common vocabulary for the knowledge sharing in order to improve communication between actors domains and avoiding the semantic heterogeneity between them.", "section": "Section 5 Conclusion & Future Work"},
+            {"quote": "Since there are different knowledge domains, there is a lack of a common vocabulary aiming to avoid the semantic heterogeneity between them.", "section": "Abstract"},
+            {"quote": "Then, the conceptualization was not provided in real-world semantics in order to allow a better communication with a common vocabulary.", "section": "Section 2.4 Related Work"}
+          ],
+          "justification": "The paper explicitly states GOSMO is meant to 'improve communication between actors domains' through a common vocabulary — bridging distinct knowledge-domain actor groups, which matches the For Communicating positive signals ('communicate', 'bridge between')."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "GOSMO aims to provide an unambiguous, complete and consistent set of the involved concepts, and to manage safety related decisions in the SCSs design process.", "section": "Section 1 Introduction"},
+            {"quote": "Firstly, GOSMO provides a conceptualization of safety measures nature, its development from a goal oriented view and by a safety reinterpretation of OrBAC concepts in order to improve safety decisions management.", "section": "Section 5 Conclusion & Future Work"},
+            {"quote": "we propose GOSMO, which aims to support the conceptual clarification of the considered domains and the safety decisionmaking management for the SCSs design.", "section": "Section 2.4 Related Work"}
+          ],
+          "justification": "The paper repeatedly frames GOSMO as supporting safety-related decision-making and decisions management — matching the For Problem-solving signals ('decision', 'evaluate'). The model itself is not the implementation instrument; OWL implementation is described as future work."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "Furthermore, GOSMO may be reused for other safety critical domains since it is a domain ontology founded in UFO.", "section": "Section 3"},
+            {"quote": "As a reference domain model, GOSMO may be reused for other safety critical domains since it is based on widely used standards and real-world semantics.", "section": "Section 5 Conclusion & Future Work"},
+            {"quote": "This traceability tool is particularly useful for the GOSMO reuse for other domains.", "section": "Section 4.1 The GOSMO Verification"}
+          ],
+          "justification": "The paper frames GOSMO as a reusable reference model for other domains and an asynchronous traceability tool — matching For Documenting signals ('reference', 'for future use', 'knowledge management'). One reasonable inference connects 'reference model' for reuse by others to asynchronous persistent reference."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "Finally, we are convinced that an operational version of GOSMO (implemented in OWL) can be used to make a semantic annotation of safety concerns in the system design model and components related to the occurrence of failures.", "section": "Section 5 Conclusion & Future Work"},
+            {"quote": "Then, the OWL formalization will improve the reuse of the GOSMO thanks to its powerful capacities in terms of expressiveness.", "section": "Section 5 Conclusion & Future Work"},
+            {"quote": "These aspects can be transformed to architectural constraints in the design model of SCSs in order to improve goal-oriented safety decisions in the first stages.", "section": "Section 4.2 The GOSMO Validation"}
+          ],
+          "reason": "The OWL implementation and use as architectural constraints are explicitly framed as future work ('can be used', 'will improve', 'can be transformed'), matching the negative signals ('would be implemented', 'future work', 'proposed only') for For Intervening rather than its positive signals."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

@@ -1,0 +1,8 @@
+{
+  "paper_id": "Blums_2025",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": true,
+  "input_limitations": ["The markdown extraction contains no readable prose: only empty bullet markers ('- ·' and '- o'), [FIGURE] placeholders, one figure caption ('Figure 3: COFRIS. OntoUML diagram of Legal Positions of Economic Resource. Enterprise view.'), and several data tables. The Abstract, Introduction, Methodology, Case Study, Discussion, and Conclusion narrative text is entirely absent, so no verbatim sentences describing why the model was created or how it was used can be quoted. Per the prompt's evidence rule, absent verbatim evidence, no goal can be coded."],
+  "models": [],
+  "outside_taxonomy": []
+}

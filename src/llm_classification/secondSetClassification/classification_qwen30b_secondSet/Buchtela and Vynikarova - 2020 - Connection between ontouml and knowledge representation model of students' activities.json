@@ -1,0 +1,66 @@
+{
+  "paper_file": "Buchtela and Vynikarova - 2020 - Connection between ontouml and knowledge representation model of students' activities.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "Buchtela_Vynikarová_2020",
+    "annotator": "LLM",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "KRMSA (Knowledge Representation Model of Students' Activities)",
+        "goals": [
+          {
+            "goal": "For Intervening",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "From the conceptual model in OntoUML, it is then possible to derive a specific implementation model usable, for example, for automatic student evaluation in a given course or as the basis of decision support systems in the background of LMS Moodle.",
+                "section": "Conclusion"
+              }
+            ],
+            "justification": "The paper explicitly states that the conceptual model (in OntoUML) is used to derive a specific implementation model, which is intended for use in automatic student evaluation and decision support systems—clear evidence of intervening, as the model directly enables the creation of a system or artifact."
+          },
+          {
+            "goal": "For Problem-solving",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "The students' way through an electronic course (e.g. realized in LMS Moodle) can be described using the Knowledge Representation Model of Students' Activity (KRMSA).",
+                "section": "2. RESULTS AND DISCUSSION"
+              }
+            ],
+            "justification": "The model is presented as a way to describe student progress and conditions for course completion, which supports identifying what needs to change (e.g., missing requirements) or evaluating whether a student meets criteria—consistent with problem-solving, though not explicitly framed as such. The link to decision-making is implied through the use of decision criteria in GLIKREM."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "The resulting KRMSA model situation is based on the Guideline Knowledge Representation Model (GLIKREM) and its subsequent transformation into a conceptual model in OntoUML notation.",
+                "section": "Conclusion"
+              }
+            ],
+            "justification": "The transformation process between GLIKREM and OntoUML suggests the model is used to align different perspectives (e.g., procedural knowledge and conceptual structure), supporting communication between stakeholders (e.g., educators and developers) about student activities and course logic."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Documenting",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "The resulting model is based on the described model situation but is easily adaptable to any other situation according to the requirements for completing the course.",
+                "section": "Conclusion"
+              }
+            ],
+            "reason": "The statement about adaptability suggests future use, but there is no explicit mention of the model being stored or used as a persistent reference for later, asynchronous use by absent parties."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"Buchtela_Vynikarová_2020\",\n  \"annotator\": \"LLM\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"KRMSA (Knowledge Representation Model of Students' Activities)\",\n      \"goals\": [\n        {\n          \"goal\": \"For Intervening\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"From the conceptual model in OntoUML, it is then possible to derive a specific implementation model usable, for example, for automatic student evaluation in a given course or as the basis of decision support systems in the background of LMS Moodle.\",\n              \"section\": \"Conclusion\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that the conceptual model (in OntoUML) is used to derive a specific implementation model, which is intended for use in automatic student evaluation and decision support systems—clear evidence of intervening, as the model directly enables the creation of a system or artifact.\"\n        },\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The students' way through an electronic course (e.g. realized in LMS Moodle) can be described using the Knowledge Representation Model of Students' Activity (KRMSA).\",\n              \"section\": \"2. RESULTS AND DISCUSSION\"\n            }\n          ],\n          \"justification\": \"The model is presented as a way to describe student progress and conditions for course completion, which supports identifying what needs to change (e.g., missing requirements) or evaluating whether a student meets criteria—consistent with problem-solving, though not explicitly framed as such. The link to decision-making is implied through the use of decision criteria in GLIKREM.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The resulting KRMSA model situation is based on the Guideline Knowledge Representation Model (GLIKREM) and its subsequent transformation into a conceptual model in OntoUML notation.\",\n              \"section\": \"Conclusion\"\n            }\n          ],\n          \"justification\": \"The transformation process between GLIKREM and OntoUML suggests the model is used to align different perspectives (e.g., procedural knowledge and conceptual structure), supporting communication between stakeholders (e.g., educators and developers) about student activities and course logic.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The resulting model is based on the described model situation but is easily adaptable to any other situation according to the requirements for completing the course.\",\n              \"section\": \"Conclusion\"\n            }\n          ],\n          \"reason\": \"The statement about adaptability suggests future use, but there is no explicit mention of the model being stored or used as a persistent reference for later, asynchronous use by absent parties.\"\n        }\n      ]\n    }\n  ],\n  \"outside_taxonomy\": []\n}",
+  "seconds": 11.2
+}

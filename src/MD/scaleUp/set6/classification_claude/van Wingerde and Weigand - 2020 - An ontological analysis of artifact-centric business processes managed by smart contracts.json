@@ -1,0 +1,108 @@
+{
+  "paper_id": "van Wingerde and Weigand - 2020 - An ontological analysis of artifact-centric business processes managed by smart contracts",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Essential Ontology (of artifact-centric inter-organizational processes)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "the authors have decided to conduct an ontological analysis of the concepts and their relationships, providing a common understanding of artifact-centric business processes managed by smart contracts.",
+              "section": "I. INTRODUCTION"
+            },
+            {
+              "quote": "an enterprise ontology is useful to create a formal and explicit specification of a shared conceptualization among a group of people.",
+              "section": "IV. ONTOLOGY"
+            },
+            {
+              "quote": "We conclude that essential acts are on the business level of an inter-organizational process, they initiate new processes and advance their phases.",
+              "section": "VII. CONCLUSION"
+            }
+          ],
+          "justification": "The essential ontology is explicitly built to create a shared conceptualization/common understanding of the concepts of inter-organizational processes and their transactions, matching the Understanding goal (domain understanding/meaning negotiation)."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "our ontology presents a novel way of managing business artifacts... We have provided a mapping between the three ontological layers, which is expected to be of value to business architects and software engineers.",
+              "section": "VI. DISCUSSION"
+            }
+          ],
+          "reason": "The ontology is framed as being useful for architects/engineers, but no implementation or artifact generation is actually performed; empirical evaluation is explicitly acknowledged as lacking."
+        }
+      ]
+    },
+    {
+      "model_label": "Infological Ontology (business artifacts, process contracts, services)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Whereas the essential level depicts how new things are brought about through acts and facts, the infological layer provides for intellectual understanding of those acts and facts.",
+              "section": "V.A Essential to infological mapping"
+            },
+            {
+              "quote": "when an essential transaction is initiated, the participants must arrive at a common understanding of the information associated with the transaction. Business artifacts are the mechanism which provide this understanding.",
+              "section": "IV.B Infological Ontology"
+            },
+            {
+              "quote": "These ontologies formalize the concepts - and the associations between them - of business artifacts and smart contracts.",
+              "section": "I. INTRODUCTION"
+            }
+          ],
+          "justification": "The infological ontology is explicitly positioned as providing intellectual understanding and formalizing concepts for shared conceptualization of business artifacts and their state transformations."
+        }
+      ],
+      "uncertain_goals": []
+    },
+    {
+      "model_label": "Datalogical Ontology (smart contracts, transactions, blockchain)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "In this paper, we present a novel ontological analysis of artifact-centric processes managed by smart contracts.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "We designed three ontologies grounded in the four axioms of enterprise ontology by Dietz. These ontologies formalize the concepts - and the associations between them - of business artifacts and smart contracts.",
+              "section": "I. INTRODUCTION"
+            },
+            {
+              "quote": "Finally, on the datalogical level the infological state changes are realized.",
+              "section": "VII. CONCLUSION"
+            }
+          ],
+          "justification": "The datalogical ontology formalizes the concepts and relationships between smart contracts, transactions, and storage to give a common conceptual understanding of how state changes are realized on blockchain, consistent with the paper's overall Understanding goal."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "A technical proof of concept may be built to reveal potential missing concepts or associations within each of the three ontological layers.",
+              "section": "VI. DISCUSSION"
+            }
+          ],
+          "reason": "A proof of concept is only mentioned as future work; the datalogical ontology itself was not implemented, so Intervening evidence is absent."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

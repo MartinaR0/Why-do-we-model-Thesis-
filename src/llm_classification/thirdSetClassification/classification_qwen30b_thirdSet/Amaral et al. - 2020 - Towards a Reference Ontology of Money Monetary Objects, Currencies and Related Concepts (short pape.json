@@ -1,0 +1,70 @@
+{
+  "paper_file": "Amaral et al. - 2020 - Towards a Reference Ontology of Money Monetary Objects, Currencies and Related Concepts (short pape.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "Towards a Reference Ontology of Money",
+    "annotator": "LLM",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "Reference Ontology of Money",
+        "goals": [
+          {
+            "goal": "For Understanding",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "This research aims at tackling these issues by investigating the ontological nature of money and of its underlying concepts, grounded in the Unified Foundational Ontology (UFO) [11], based on the literature review of the most relevant economic theories and considering the innovations in the Finance Industry.",
+                "section": "Introduction"
+              },
+              {
+                "quote": "We believe this work clarifies the notion of money, which can serve as a basis for future business ontologies.",
+                "section": "Conclusion"
+              }
+            ],
+            "justification": "The paper explicitly states that the purpose of the model is to investigate and clarify the ontological nature of money and its underlying concepts, which aligns with the goal of supporting domain understanding. The claim that it 'clarifies the notion of money' directly supports 'For Understanding'."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "Having an integrated view that shares a common conceptualization of the finance domain is paramount in a number of activities required to ensure the proper functioning of the financial system [2, 22], such as the formulation of monetary policy, the safe-guarding of financial stability, and the maintenance of trust in the monetary system.",
+                "section": "Introduction"
+              }
+            ],
+            "justification": "The paper frames the model as a means to enable shared understanding across stakeholders (e.g., policymakers, financial actors) by providing a common conceptualization, which supports communication between distinct groups. The context suggests alignment and shared meaning, satisfying the 'For Communicating' goal."
+          },
+          {
+            "goal": "For Documenting",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "We believe this work clarifies the notion of money, which can serve as a basis for future business ontologies.",
+                "section": "Conclusion"
+              }
+            ],
+            "justification": "The model is presented as a reference point for future work, including integration with FIBO and expansion to new domains (e.g., cryptocurrencies). This implies an archival, persistent use as a knowledge base or reference, satisfying 'For Documenting'."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Problem-solving",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "The lack of conceptual clarity hinders the analysis of business data, the communication among various economic and financial actors, the enactment of laws and regulations, the mitigation of risks, and the achievement of an appropriate common governance model.",
+                "section": "Introduction"
+              }
+            ],
+            "reason": "While the paper identifies problems caused by lack of conceptual clarity, it does not present the model as a tool used to analyze options, evaluate alternatives, or make decisions. The link to 'problem-solving' is indirect and speculative."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"Towards a Reference Ontology of Money\",\n  \"annotator\": \"LLM\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"Reference Ontology of Money\",\n      \"goals\": [\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"This research aims at tackling these issues by investigating the ontological nature of money and of its underlying concepts, grounded in the Unified Foundational Ontology (UFO) [11], based on the literature review of the most relevant economic theories and considering the innovations in the Finance Industry.\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"We believe this work clarifies the notion of money, which can serve as a basis for future business ontologies.\",\n              \"section\": \"Conclusion\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that the purpose of the model is to investigate and clarify the ontological nature of money and its underlying concepts, which aligns with the goal of supporting domain understanding. The claim that it 'clarifies the notion of money' directly supports 'For Understanding'.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"Having an integrated view that shares a common conceptualization of the finance domain is paramount in a number of activities required to ensure the proper functioning of the financial system [2, 22], such as the formulation of monetary policy, the safe-guarding of financial stability, and the maintenance of trust in the monetary system.\",\n              \"section\": \"Introduction\"\n            }\n          ],\n          \"justification\": \"The paper frames the model as a means to enable shared understanding across stakeholders (e.g., policymakers, financial actors) by providing a common conceptualization, which supports communication between distinct groups. The context suggests alignment and shared meaning, satisfying the 'For Communicating' goal.\"\n        },\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"We believe this work clarifies the notion of money, which can serve as a basis for future business ontologies.\",\n              \"section\": \"Conclusion\"\n            }\n          ],\n          \"justification\": \"The model is presented as a reference point for future work, including integration with FIBO and expansion to new domains (e.g., cryptocurrencies). This implies an archival, persistent use as a knowledge base or reference, satisfying 'For Documenting'.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The lack of conceptual clarity hinders the analysis of business data, the communication among various economic and financial actors, the enactment of laws and regulations, the mitigation of risks, and the achievement of an appropriate common governance model.\",\n              \"section\": \"Introduction\"\n            }\n          ],\n          \"reason\": \"While the paper identifies problems caused by lack of conceptual clarity, it does not present the model as a tool used to analyze options, evaluate alternatives, or make decisions. The link to 'problem-solving' is indirect and speculative.\"\n        }\n      ]\n    }\n  ],\n  \"outside_taxonomy\": []\n}",
+  "seconds": 683.8
+}

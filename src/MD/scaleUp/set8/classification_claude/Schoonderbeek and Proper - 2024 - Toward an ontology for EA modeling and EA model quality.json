@@ -1,0 +1,91 @@
+{
+  "paper_id": "Schoonderbeek and Proper - 2024 - Toward an ontology for EA modeling and EA model quality",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "EAMOn - Ontology for EA modeling and EA model quality (OntoUML)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "This paper proposes a comprehensive applied ontology, specifically geared to enterprise architecture modeling. Ontologies represent structured knowledge about a particular subject domain. It allows for study into, and reasoning about, that subject domain. Our ontology is derived from a theory of modeling, while clarifying concepts such as 'enterprise architecture model', and introduces novel concepts such as 'model audience' and 'model objective'.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "Many terms that are directly or indirectly involved with EA model quality have no definition that is widely agreed upon in the communities of researchers, nor of EA practitioners. Even the principal terms EAmodel , and model itself, are not well defined.",
+              "section": "Section 1.4 An ontology for research into EA model quality"
+            },
+            {
+              "quote": "'An ontology is a conceptual model of (a fragment of) an observed reality; it is, in essence, a repository of interlinked concepts pertaining to a given application domain.'",
+              "section": "Section 1.4 An ontology for research into EA model quality"
+            }
+          ],
+          "justification": "The paper explicitly frames the ontology as clarifying concepts, defining terms, and providing structured knowledge about the domain of EA modeling. Matches 'For Understanding' signal patterns ('clarify', 'define', 'conceptualize') applied to the domain itself."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Using the ideas captured in the concepts and relations of EAMOn, an EA practitioner can: -make informed decisions on scoping their model audience; -based on an EAM objective, obtain clarity on which parts of the architecture of the system under consideration to include or exclude; -select means by which to represent their model (including what modeling language(s) to use), suitable to the intended audience; -and investigate selectively to what extent the individual members of the model audience are served by their model.",
+              "section": "Section 7.2 Value for EA practitioners"
+            },
+            {
+              "quote": "As such, the ontology can jump-start new research into EA models and EA model quality.",
+              "section": "Section 7.2 Value for researchers"
+            }
+          ],
+          "justification": "The paper explicitly states the ontology supports decision-making (scoping audience, deciding what to include/exclude, selecting representation means, evaluating whether members are served). Matches 'For Problem-solving' signals ('decision', 'evaluate', 'what should change')."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "The result of this approach is the sought-after ontology, consisting of a conceptual model that includes both the activity of EA modeling and its result (the EA model), plus an accompanying glossary.",
+              "section": "Section 2.1 Research approach and results"
+            },
+            {
+              "quote": "Making good use of the definitions obtained in the previous Sect. 4, we will now compile a lexicon for the domain of enterprise architecture modeling. This lexicon consists of all the terms and their definitions for the domain, augmented with the relations between these concepts, and captured in OntoUML.",
+              "section": "Section 5 Domain lexicon"
+            }
+          ],
+          "justification": "The ontology is compiled as a lexicon/glossary/reference (persistent artifact for future consultation by researchers and practitioners not part of the original modeling), matching 'For Documenting' signals ('reference', 'for future use', 'knowledge base')."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Furthermore, when different researchers each use EAMOn as their ontological framework, their results become more compatible, further stimulating and propagating the research.",
+              "section": "Section 7.2 Value for researchers"
+            }
+          ],
+          "reason": "This suggests the ontology may support alignment/communication among researchers, but the evidence points more to persistent reference use (Documenting) than to synchronous discussion or bridging between distinct groups."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Finally, we express the uncovered concepts and relations in OntoUML (see Sect.3.5).",
+              "section": "Section 2.1 Research approach and results"
+            },
+            {
+              "quote": "Based on the theory of modeling that arose in the drafting of the ontology, it is possible to create modeling guidelines for EA modelers that will positively impact model quality.",
+              "section": "Section 7.4 Further work"
+            }
+          ],
+          "reason": "OntoUML encoding is a representation/validation step, not implementation of a system. Creating modeling guidelines is framed as future work ('would be' / 'is possible to'), not the model's current purpose."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

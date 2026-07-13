@@ -1,0 +1,46 @@
+{
+  "paper_id": "Tesolin et al. - 2023 - Enhancing heterogeneous mobile network management based on a well-founded reference ontology",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "hint ontology (OntoUML conceptual model for mobile network mobility management)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "Our main contribution is the ontological analysis that clarifies the definition of Link and Connection in telecommunication domain.", "section": "Abstract"},
+            {"quote": "Our contribution is threefold. First, we clarify the concepts of Link and Connection , clearly comprehending what they are, which entities they bind, and how they are related.", "section": "1. Introduction"},
+            {"quote": "Hence, we need to better understand the nature of relationships between the communication nodes before creating an ontology that can support decision-making in mobile wireless networks, especially in the handover process.", "section": "1. Introduction"},
+            {"quote": "The main contribution of the presented work is clarifying the terms Link and Connection in the telecommunication domain using an ontological analysis.", "section": "6. Conclusion and future works"}
+          ],
+          "justification": "The paper explicitly states its purpose is to clarify domain concepts (Link, Connection, Medium, Server, Neighbor), matching the For Understanding signals 'clarify', 'define', 'conceptualize' and the goal of building domain understanding."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "Thus, we provide the foundations for a new network-related ontology to support mobility management in wireless networks.", "section": "Abstract"},
+            {"quote": "We are currently testing the proposed conceptual model in Protegé [53], an open-source ontology editor.", "section": "6. Conclusion and future works"},
+            {"quote": "Also, we are working on a solution to load a network ontology based on the proposed conceptual model into a wireless network emulator called Mininet-Wifi [54].", "section": "6. Conclusion and future works"}
+          ],
+          "justification": "The model is explicitly framed as the foundation for constructing a network ontology, and the authors describe ongoing implementation work in Protégé and integration into a Mininet-Wifi emulator, matching the For Intervening rule that 'an explicitly stated intended use for implementation, integration, transformation, artifact generation, or system development may also count when the paper frames this as the model's purpose.'"
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "All these concepts are fundamental to supporting decision-making in mobile network management, especially in the handover process.", "section": "1. Introduction"},
+            {"quote": "The main goal of developing a network ontology for mobile management support is to provide the means for applying semantic reasoning to select the proper association between the Ue s and AP s.", "section": "5. Discussion"}
+          ],
+          "reason": "The paper mentions decision-making as the ultimate downstream use of the ontology, but the conceptual model itself is not used to identify shortcomings or compare options for stakeholders; decision support is a future capability of the system built on top of the model rather than a use of the model in this paper."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

@@ -1,0 +1,43 @@
+{
+  "paper_id": "BogeaGomes_2022",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": ["Figures (including Fig. 2 containing the OntoUML diagram) are not extractable from the markdown; analysis is based on textual descriptions only."],
+  "models": [
+    {
+      "model_label": "OntoUML ontological analysis of the Theory of Digital Objects (Digital Object and its Technical Identity)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "This paper presents an ontological analysis of this theory, grounded on the Unified Foundational Ontology (UFO), using OntoUML to identify the core components to answer what digital technology is. The analysis adds ontological clarity to the Theory of Digital Objects.", "section": "Abstract"},
+            {"quote": "Faulkner and Runde's theory [15] provides a clear and complete explanation in ontological terms; thus, we took this theory as starting point and applied an ontological analysis grounded on the Unified Foundational Ontology (UFO) [16-18] and using OntoUML [19], to identify the digital technology core components, making explicit connections, disambiguating collapsed concepts, and clarifying underspecified aspects.", "section": "1 Introduction"},
+            {"quote": "The ontological unpacking provided a detailed analysis of the complex notions hidden within the digital object and was essential for acquiring a deep understanding of the domain. The ontological analysis aims to support the digital object's conceptual aspect to facilitate the technology's understanding.", "section": "6 Discussion"}
+          ],
+          "justification": "The model is explicitly created to clarify concepts, disambiguate collapsed concepts, and produce understanding of the digital technology domain — matching the For Understanding signal patterns (clarify, define, conceptualize, shared understanding)."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "The ontological function of a conceptual model is to provide conceptual clarification and unambiguous communication [24].", "section": "5 Theory of Digital Objects in OntoUML"}
+          ],
+          "justification": "The authors explicitly frame the function of their conceptual model as providing unambiguous communication, matching the For Communicating signal (communicate); one short inference is required to tie this stated function to their specific model."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "The problems these authors identified represent the weaknesses in conceptualizing digital technology in IS research. Grounding this theory in UFO and OntoUML makes those concepts and relationships explicit.", "section": "6 Discussion"},
+            {"quote": "The Theory of Digital Objects includes all the information about what characterizes the digital objects (material, nonmaterial, syntactic, bitstring, technical identity) but does not consider the intentions that determine the choice of a set of digital objects.", "section": "6 Discussion"}
+          ],
+          "reason": "The model surfaces weaknesses/underspecified aspects of the source theory, hinting at problem identification, but the paper does not clearly frame the model as guiding a decision or evaluating options for stakeholders — evidence is indirect."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

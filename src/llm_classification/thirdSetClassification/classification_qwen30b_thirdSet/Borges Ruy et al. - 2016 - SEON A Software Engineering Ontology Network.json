@@ -1,0 +1,128 @@
+{
+  "paper_file": "Borges Ruy et al. - 2016 - SEON A Software Engineering Ontology Network.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "SEON_A_Software_Engineering_Ontology_Network",
+    "annotator": "LLM",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "SEON",
+        "goals": [
+          {
+            "goal": "For Intervening",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "SEON is designed with mechanisms for easing the development and integration of SE domain ontologies.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "SEON provides a well-grounded network of SE reference ontologies, and mechanisms to derive and incorporate new integrated subdomain ontologies into the network.",
+                "section": "Introduction"
+              },
+              {
+                "quote": "In sum, SEON design considers important characteristics of 'beautiful ontologies', as discussed in [12], such as: having a good domain coverage; considering international standards; being modular; being formally rigorous; capturing also non-taxonomic relations; and reusing foundational ontologies.",
+                "section": "Introduction"
+              },
+              {
+                "quote": "SEON is designed seeking for: (i) taking advantage of well-founded ontologies (all its ontologies are ultimately grounded in UFO); (ii) providing ontology reusability and productivity, supported by core ontologies organized as Ontology Pattern Languages; and (iii) solving ontology integration problems by providing integration mechanisms.",
+                "section": "Final Considerations"
+              }
+            ],
+            "justification": "The paper explicitly states that SEON is designed with mechanisms to enable development, integration, and evolution of ontologies, and that it provides tools for deriving and incorporating new ontologies. This constitutes direct evidence of the model being used as an instrument to build and integrate artifacts, satisfying the 'For Intervening' criterion."
+          },
+          {
+            "goal": "For Problem-solving",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "When SE ontologies are built and used in isolation, some problems remain, in particular those related to knowledge integration.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "In this context, it is important to notice that SE subdomains share concepts, ranging from general (e.g. Artifact, Process) to ones that are more specific (e.g. Functional Requirement, Test Case). This striking feature of the SE domain must be considered while representing it.",
+                "section": "Introduction"
+              },
+              {
+                "quote": "Despite of the challenges involved, an ontological representation covering a large extension of the SE domain remains a desired solution.",
+                "section": "Introduction"
+              },
+              {
+                "quote": "Addressing ontology integration case by case is an arduous and exhausting task.",
+                "section": "4 SEON Envisioned Applications"
+              }
+            ],
+            "justification": "The paper identifies specific problems—such as knowledge integration, fragmented ontologies, and the difficulty of case-by-case integration—and frames SEON as a solution to these issues. This aligns with 'For Problem-solving' as the model is used to analyze and evaluate the need for integration and to guide decisions on how to resolve these problems."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "SEON is designed with mechanisms for easing the development and integration of SE domain ontologies.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "The SEON integration mechanism adopts some alignment guidelines for matching and integrating networked domain ontologies.",
+                "section": "3 SEON: The Software Engineering Ontology Network"
+              }
+            ],
+            "justification": "The model is described as enabling communication between different ontologies and stakeholders through alignment and integration mechanisms. While not explicitly framed as a tool for real-time discussion or meetings, the integration mechanisms serve to bridge different ontologies, implying a role in aligning understanding across domains."
+          },
+          {
+            "goal": "For Documenting",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "The current version of SEON includes core ontologies for software and software processes, as well as domain ontologies for the main technical software engineering subdomains, namely requirements, design, coding and testing.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "The current specification is available at nemo.inf.ufes.br/projects/seon, where a machine processable lightweight version implemented in OWL is also available.",
+                "section": "Introduction"
+              },
+              {
+                "quote": "SEON is a network. Like so, each new added node contributes for the whole network.",
+                "section": "3 SEON: The Software Engineering Ontology Network"
+              }
+            ],
+            "justification": "The paper presents SEON as a persistent, referenceable, and publicly accessible resource (via URL and OWL format), intended for future use, reuse, and reference. This meets the definition of 'Documenting' as an asynchronous, persistent knowledge base for later consumption by absent parties."
+          },
+          {
+            "goal": "For Understanding",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "SEON is designed with mechanisms for easing the development and integration of SE domain ontologies.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "In this context, it is important to notice that SE subdomains share concepts, ranging from general (e.g. Artifact, Process) to ones that are more specific (e.g. Functional Requirement, Test Case). This striking feature of the SE domain must be considered while representing it.",
+                "section": "Introduction"
+              }
+            ],
+            "justification": "The model is used to clarify the conceptual structure of SE, especially the shared concepts across subdomains. While not explicitly framed as internal sense-making, the model supports domain understanding by establishing a consistent conceptualization of SE, which aligns with 'For Understanding'."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Learning",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "SEON is designed with mechanisms for easing the development and integration of SE domain ontologies.",
+                "section": "Abstract"
+              }
+            ],
+            "reason": "The paper does not state that SEON is used to teach modeling methods, tools, or techniques. While it may be used in educational contexts, no evidence is provided that learning modeling is the goal of the model itself."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"SEON_A_Software_Engineering_Ontology_Network\",\n  \"annotator\": \"LLM\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"SEON\",\n      \"goals\": [\n        {\n          \"goal\": \"For Intervening\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"SEON is designed with mechanisms for easing the development and integration of SE domain ontologies.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"SEON provides a well-grounded network of SE reference ontologies, and mechanisms to derive and incorporate new integrated subdomain ontologies into the network.\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"In sum, SEON design considers important characteristics of 'beautiful ontologies', as discussed in [12], such as: having a good domain coverage; considering international standards; being modular; being formally rigorous; capturing also non-taxonomic relations; and reusing foundational ontologies.\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"SEON is designed seeking for: (i) taking advantage of well-founded ontologies (all its ontologies are ultimately grounded in UFO); (ii) providing ontology reusability and productivity, supported by core ontologies organized as Ontology Pattern Languages; and (iii) solving ontology integration problems by providing integration mechanisms.\",\n              \"section\": \"Final Considerations\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that SEON is designed with mechanisms to enable development, integration, and evolution of ontologies, and that it provides tools for deriving and incorporating new ontologies. This constitutes direct evidence of the model being used as an instrument to build and integrate artifacts, satisfying the 'For Intervening' criterion.\"\n        },\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"When SE ontologies are built and used in isolation, some problems remain, in particular those related to knowledge integration.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"In this context, it is important to notice that SE subdomains share concepts, ranging from general (e.g. Artifact, Process) to ones that are more specific (e.g. Functional Requirement, Test Case). This striking feature of the SE domain must be considered while representing it.\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"Despite of the challenges involved, an ontological representation covering a large extension of the SE domain remains a desired solution.\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"Addressing ontology integration case by case is an arduous and exhausting task.\",\n              \"section\": \"4 SEON Envisioned Applications\"\n            }\n          ],\n          \"justification\": \"The paper identifies specific problems—such as knowledge integration, fragmented ontologies, and the difficulty of case-by-case integration—and frames SEON as a solution to these issues. This aligns with 'For Problem-solving' as the model is used to analyze and evaluate the need for integration and to guide decisions on how to resolve these problems.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"SEON is designed with mechanisms for easing the development and integration of SE domain ontologies.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"The SEON integration mechanism adopts some alignment guidelines for matching and integrating networked domain ontologies.\",\n              \"section\": \"3 SEON: The Software Engineering Ontology Network\"\n            }\n          ],\n          \"justification\": \"The model is described as enabling communication between different ontologies and stakeholders through alignment and integration mechanisms. While not explicitly framed as a tool for real-time discussion or meetings, the integration mechanisms serve to bridge different ontologies, implying a role in aligning understanding across domains.\"\n        },\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The current version of SEON includes core ontologies for software and software processes, as well as domain ontologies for the main technical software engineering subdomains, namely requirements, design, coding and testing.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"The current specification is available at nemo.inf.ufes.br/projects/seon, where a machine processable lightweight version implemented in OWL is also available.\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"SEON is a network. Like so, each new added node contributes for the whole network.\",\n              \"section\": \"3 SEON: The Software Engineering Ontology Network\"\n            }\n          ],\n          \"justification\": \"The paper presents SEON as a persistent, referenceable, and publicly accessible resource (via URL and OWL format), intended for future use, reuse, and reference. This meets the definition of 'Documenting' as an asynchronous, persistent knowledge base for later consumption by absent parties.\"\n        },\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"SEON is designed with mechanisms for easing the development and integration of SE domain ontologies.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"In this context, it is important to notice that SE subdomains share concepts, ranging from general (e.g. Artifact, Process) to ones that are more specific (e.g. Functional Requirement, Test Case). This striking feature of the SE domain must be considered while representing it.\",\n              \"section\": \"Introduction\"\n            }\n          ],\n          \"justification\": \"The model is used to clarify the conceptual structure of SE, especially the shared concepts across subdomains. While not explicitly framed as internal sense-making, the model supports domain understanding by establishing a consistent conceptualization of SE, which aligns with 'For Understanding'.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Learning\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"SEON is designed with mechanisms for easing the development and integration of SE domain ontologies.\",\n              \"section\": \"Abstract\"\n            }\n          ],\n          \"reason\": \"The paper does not state that SEON is used to teach modeling methods, tools, or techniques. While it may be used in educational contexts, no evidence is provided that learning modeling is the goal of the model itself.\"\n        }\n      ]\n    }\n  ],\n  \"outside_taxonomy\": []\n}",
+  "seconds": 23.9
+}

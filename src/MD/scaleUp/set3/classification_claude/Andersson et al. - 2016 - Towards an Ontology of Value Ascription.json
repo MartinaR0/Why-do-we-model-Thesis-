@@ -1,0 +1,43 @@
+{
+  "paper_id": "Andersson et al. - 2016 - Towards an Ontology of Value Ascription",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": ["Figure 1 (the actual ontology diagram) is not extractable from the markdown; classification relies on textual descriptions of the model."],
+  "models": [
+    {
+      "model_label": "Value Ascription Ontology",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "In order to exploit the benefits of value analysis, a precise and rigorous conceptualization, based on foundational ontologies, is needed. To this aim, we present and discuss here a preliminary core ontology of value ascription and we discuss the main issues.", "section": "Abstract"},
+            {"quote": "In particular, we shall explore the ontological assumptions behind value ascription, i.e., what should exist when one says that someone (an agent) ascribes a value to something (a value object) in a particular context.", "section": "1. Introduction"},
+            {"quote": "In this paper we have presented an initial proposal for an ontology aiming at understanding the nature of the value ascription relationship.", "section": "6. Concluding Remarks"}
+          ],
+          "justification": "The paper explicitly frames the ontology as a means to develop a precise conceptualization and to understand the nature of value ascription, clarifying what value is and why something is valuable. Matches 'understand', 'clarify', 'conceptualize' signals for For Understanding."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Learning",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "Indeed, we see this paper as a sort of test to experiment with the expressive power of relationships as a genuine ontological category.", "section": "4. First Modeling Choices"},
+            {"quote": "We learned a lot from our modeling attempt, understanding in particular the mechanisms of aggregating benefit-specific and cost-specific values coming up with the notion of utilitarian value, which is different from that of perceived value.", "section": "6. Concluding Remarks"}
+          ],
+          "reason": "There is a hint that the modeling exercise was used to test the expressive power of relationships as a modeling construct, but the primary stated purpose is domain understanding, and the 'learning' framing is secondary and indirect."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "A deep analysis of the basic value-related notions and the way they affect value ascription would be of great benefit for enterprise modeling, but the literature on value modeling ([5,6,7]) is still maturing, and we cannot today say that it is well integrated with more traditional enterprise modeling activities such as process modeling and organizational modeling.", "section": "1. Introduction"}
+          ],
+          "reason": "The paper mentions potential benefits for enterprise modeling but does not implement, build, or deploy anything; this is a hypothetical future benefit, not a stated implementation purpose."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

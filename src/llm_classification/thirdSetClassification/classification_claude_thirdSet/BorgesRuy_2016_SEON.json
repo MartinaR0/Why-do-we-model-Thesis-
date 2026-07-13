@@ -1,0 +1,54 @@
+{
+  "paper_id": "BorgesRuy_2016_SEON",
+  "annotator": "claude-opus-4",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "SEON (Software Engineering Ontology Network)",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "Another related scenario for applying SEON is tool integration. Ontologies can be used for semantically integrating heterogeneous tools [11].", "section": "Section 4 SEON Envisioned Applications"},
+            {"quote": "We have experienced this situation in [11], when we used a Software Configuration Management Ontology for integrating a version control system and a change management tool.", "section": "Section 4 SEON Envisioned Applications"},
+            {"quote": "We started by annotating requirements documents, and we used a previous versions of the Reference Software Requirements Ontology (RSRO) for this purpose.", "section": "Section 4 SEON Envisioned Applications"}
+          ],
+          "justification": "The paper describes SEON ontologies being actively used to enable interoperability and integration of heterogeneous SE tools, and used to annotate semantic documents. This matches the 'used to enable interoperability' positive signal for Intervening, where the ontology serves as the instrument through which integration is built."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "Ontologies have been widely recognized as a key enabling technology for KM. They are used for establishing a common conceptualization of the domain of interest to support knowledge representation, integration, storage, search and communication [2].", "section": "Section 1 Introduction"},
+            {"quote": "SE-KMP provides general features for managing and assessing knowledge items (including lessons learned, and discussion packages), as well as yellow pages.", "section": "Section 4 SEON Envisioned Applications"},
+            {"quote": "In another front of research, we have been working on semantic documentation in SE, by providing an Infrastructure for Managing (SE) Semantic Documents (IMSD) [31]. Semantic documents aim at combining documents and ontologies, and allowing users to access their knowledge in multiple ways.", "section": "Section 4 SEON Envisioned Applications"}
+          ],
+          "justification": "SEON is explicitly framed as supporting Knowledge Management - knowledge representation, storage, search, retrieval, and semantic documentation. These are asynchronous/persistent knowledge reference uses, matching 'knowledge base', 'knowledge management', 'documentation' positive signals for Documenting."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "SPO is a core ontology, also grounded in UFO, aiming at establishing a common conceptualization on software processes.", "section": "Section 3 SEON: The Software Engineering Ontology Network"},
+            {"quote": "A reference ontology is constructed with the goal of making the best possible description of the domain in reality, representing a model of consensus within a community, regardless of its computational properties [18].", "section": "Section 2 Developing Software Engineering Ontologies (footnote 3)"},
+            {"quote": "For achieving consistent SE ontologies, concepts and relations should keep the same meaning in any related ontology.", "section": "Section 1 Introduction"}
+          ],
+          "justification": "SEON's ontologies are described as reference ontologies aimed at conceptualizing SE subdomains and establishing common conceptualizations - matching positive signals 'conceptualize', 'define', and 'shared understanding' for Understanding the domain."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "They are used for establishing a common conceptualization of the domain of interest to support knowledge representation, integration, storage, search and communication [2].", "section": "Section 1 Introduction"}
+          ],
+          "reason": "The mention of 'communication' is a general statement about what ontologies do, citing another work, rather than a specific claim about SEON being used for synchronous communication between distinct stakeholder groups. Evidence is weak and indirect."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

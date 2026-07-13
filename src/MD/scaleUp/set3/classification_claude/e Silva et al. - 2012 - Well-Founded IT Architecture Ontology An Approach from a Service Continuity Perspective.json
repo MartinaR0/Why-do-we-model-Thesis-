@@ -1,0 +1,61 @@
+{
+  "paper_id": "e Silva et al. - 2012 - Well-Founded IT Architecture Ontology An Approach from a Service Continuity Perspective",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "IT Architecture Ontology (well-founded conceptual model based on UFO/OntoUML for IT service continuity)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The conceptual model produced is called well-founded because it was built from a foundation ontology using a specific language for this purpose. Therefore, this model eliminates the different interpretations generated when reading a text in natural language, allowing a greater clarity of the concepts expressed in the standard.",
+              "section": "6 Conclusion"
+            },
+            {
+              "quote": "A second contribution results in the ontological evaluation of the specification PAS 77 which identifies a few deficiencies in some concepts, allowing a better understanding of the publication and the possibility of the adequacy of the text to ontological precepts.",
+              "section": "1 Introduction"
+            }
+          ],
+          "justification": "The paper explicitly states the model clarifies concepts and provides better understanding of the PAS 77 publication, matching the For Understanding signal patterns ('clarify', 'understand', 'conceptualize')."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The application of this model in assessing the ontological point of view of the IT architecture described in PAS 77 allowed the identification of deficiencies in some concepts such as incompleteness, lack of clarity and ambiguity of concepts.",
+              "section": "6 Conclusion"
+            },
+            {
+              "quote": "Based on this approach, an ontological evaluation of the IT architecture described on PAS 77 is represented on section 5 and utilizes the framework developed by [13].",
+              "section": "2 Related Work"
+            }
+          ],
+          "justification": "The model is used to evaluate the PAS 77 specification and identify deficiencies/shortcomings, matching the For Problem-solving signals ('evaluate', 'identify shortcomings')."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "This model can be utilized as premise to the construction of a implementation model and, afterward, of an application capable of identifying IT and ITSC components and, eventually, propose updates to the components to the adequacy to the model.",
+              "section": "2 Related Work"
+            },
+            {
+              "quote": "the main contribution of this paper is present a solution to the IT architecture's interoperability problem of the data center through the conceptual model produced.",
+              "section": "2 Related Work"
+            }
+          ],
+          "reason": "Implementation is framed as a future/potential use ('can be utilized as premise', 'eventually'), not an actual implementation; the signal pattern 'would be implemented / future work / proposed only' applies, so this is not coded as present."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

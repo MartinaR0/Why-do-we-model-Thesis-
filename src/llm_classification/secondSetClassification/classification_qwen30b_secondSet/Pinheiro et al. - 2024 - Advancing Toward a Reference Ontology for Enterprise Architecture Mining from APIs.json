@@ -1,0 +1,100 @@
+{
+  "paper_file": "Pinheiro et al. - 2024 - Advancing Toward a Reference Ontology for Enterprise Architecture Mining from APIs.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "Advancing Toward a Reference Ontology for Enterprise Architecture Mining from APIs",
+    "annotator": "LLM model name",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "Ontology for EA Mining from APIs",
+        "goals": [
+          {
+            "goal": "For Intervening",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "The application of the ontology is an adequate approach for automating the capture of an EA model evolution, which leverages the tracking of change in the current EA model and provides views to aid the impact analysis of planning changes in enterprise APIs, and, finally, for monitoring the effects of the architectural change's implementation, contributing to an agile EA management.",
+                "section": "Conclusion and Future Work"
+              }
+            ],
+            "justification": "The paper states that the ontology is applied to automate EA model capture and support impact analysis and change monitoring, indicating it is used as an instrument to guide or enable changes in the EA, satisfying the 'For Intervening' criterion. The evidence is not explicitly about implementation but implies active use in a system development context, warranting Medium confidence."
+          },
+          {
+            "goal": "For Problem-solving",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "The problem investigated in this work is conceptualizing a consistent and extendable process for enterprise architecture model discovery using an API Log as the data source correlating different API calls.",
+                "section": "2 Motivation"
+              },
+              {
+                "quote": "It aims to make the AS-IS architecture modeling more agile and automatized.",
+                "section": "2 Motivation"
+              }
+            ],
+            "justification": "The paper explicitly frames the ontology as a solution to the problem of automating AS-IS architecture modeling by correlating API calls. The goal is to guide decision-making about how to model architecture from API logs, which aligns with 'For Problem-solving' as it supports identifying what needs to change and how to structure the modeling process."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "The ontology is divided into three packages to modularize and make it easier to understand.",
+                "section": "5.3 Ontology Capture and Formalization"
+              },
+              {
+                "quote": "The ontology is designed to support the building of EA views. In this sense, the two questions below were tested.",
+                "section": "6.2 Evaluation Criteria"
+              }
+            ],
+            "justification": "The paper emphasizes the ontology's role in structuring and clarifying the conceptual model for stakeholders, particularly in aligning different groups (e.g., domain experts, enterprise architects) through shared understanding. The modular design and use of competency questions for validation indicate communication between stakeholders, satisfying 'For Communicating'."
+          },
+          {
+            "goal": "For Documenting",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "This work evolves the ontology to follow the FAIR principles (Findability, Accessibility, Interoperability, and Reusability) to facilitate its publication in the FAIR multi-domain catalog for Ontology-Driven Conceptual Modeling 3 and promote its reuse and extension to other cases.",
+                "section": "5.2 Ontology Requirements"
+              },
+              {
+                "quote": "The ontology is divided into packages representing modules that are loosely coupled to the others and represent the building of a particular EA view.",
+                "section": "5.2 Ontology Requirements"
+              }
+            ],
+            "justification": "The explicit mention of FAIR principles and publication in a catalog for reuse and extension indicates the ontology is intended as a persistent, reference artifact for future use by absent parties. This aligns with 'For Documenting' as it serves as a knowledge base or reference for others not involved in the original modeling process."
+          },
+          {
+            "goal": "For Learning",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "The ontology was redesigned using the OntoUML Plugin for Visual Paradigm because the tool used beforehand does not support OntoUML 2.0 yet.",
+                "section": "7 Discussion"
+              }
+            ],
+            "reason": "The mention of tool migration is about technical implementation, not about learning modeling methods or tools. There is no evidence that the paper's purpose is to teach modeling techniques or that the model is used as a learning artifact."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Understanding",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "It aims to make the AS-IS architecture modeling more agile and automatized.",
+                "section": "2 Motivation"
+              }
+            ],
+            "reason": "While the ontology helps clarify concepts, the primary purpose is not internal sense-making or meaning negotiation within the team, but rather enabling automation and communication. The evidence is too weak to support 'For Understanding' as a distinct goal."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"Advancing Toward a Reference Ontology for Enterprise Architecture Mining from APIs\",\n  \"annotator\": \"LLM model name\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"Ontology for EA Mining from APIs\",\n      \"goals\": [\n        {\n          \"goal\": \"For Intervening\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The application of the ontology is an adequate approach for automating the capture of an EA model evolution, which leverages the tracking of change in the current EA model and provides views to aid the impact analysis of planning changes in enterprise APIs, and, finally, for monitoring the effects of the architectural change's implementation, contributing to an agile EA management.\",\n              \"section\": \"Conclusion and Future Work\"\n            }\n          ],\n          \"justification\": \"The paper states that the ontology is applied to automate EA model capture and support impact analysis and change monitoring, indicating it is used as an instrument to guide or enable changes in the EA, satisfying the 'For Intervening' criterion. The evidence is not explicitly about implementation but implies active use in a system development context, warranting Medium confidence.\"\n        },\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The problem investigated in this work is conceptualizing a consistent and extendable process for enterprise architecture model discovery using an API Log as the data source correlating different API calls.\",\n              \"section\": \"2 Motivation\"\n            },\n            {\n              \"quote\": \"It aims to make the AS-IS architecture modeling more agile and automatized.\",\n              \"section\": \"2 Motivation\"\n            }\n          ],\n          \"justification\": \"The paper explicitly frames the ontology as a solution to the problem of automating AS-IS architecture modeling by correlating API calls. The goal is to guide decision-making about how to model architecture from API logs, which aligns with 'For Problem-solving' as it supports identifying what needs to change and how to structure the modeling process.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The ontology is divided into three packages to modularize and make it easier to understand.\",\n              \"section\": \"5.3 Ontology Capture and Formalization\"\n            },\n            {\n              \"quote\": \"The ontology is designed to support the building of EA views. In this sense, the two questions below were tested.\",\n              \"section\": \"6.2 Evaluation Criteria\"\n            }\n          ],\n          \"justification\": \"The paper emphasizes the ontology's role in structuring and clarifying the conceptual model for stakeholders, particularly in aligning different groups (e.g., domain experts, enterprise architects) through shared understanding. The modular design and use of competency questions for validation indicate communication between stakeholders, satisfying 'For Communicating'.\"\n        },\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"This work evolves the ontology to follow the FAIR principles (Findability, Accessibility, Interoperability, and Reusability) to facilitate its publication in the FAIR multi-domain catalog for Ontology-Driven Conceptual Modeling 3 and promote its reuse and extension to other cases.\",\n              \"section\": \"5.2 Ontology Requirements\"\n            },\n            {\n              \"quote\": \"The ontology is divided into packages representing modules that are loosely coupled to the others and represent the building of a particular EA view.\",\n              \"section\": \"5.2 Ontology Requirements\"\n            }\n          ],\n          \"justification\": \"The explicit mention of FAIR principles and publication in a catalog for reuse and extension indicates the ontology is intended as a persistent, reference artifact for future use by absent parties. This aligns with 'For Documenting' as it serves as a knowledge base or reference for others not involved in the original modeling process.\"\n        },\n        {\n          \"goal\": \"For Learning\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The ontology was redesigned using the OntoUML Plugin for Visual Paradigm because the tool used beforehand does not support OntoUML 2.0 yet.\",\n              \"section\": \"7 Discussion\"\n            }\n          ],\n          \"reason\": \"The mention of tool migration is about technical implementation, not about learning modeling methods or tools. There is no evidence that the paper's purpose is to teach modeling techniques or that the model is used as a learning artifact.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"It aims to make the AS-IS architecture modeling more agile and automatized.\",\n              \"section\": \"2 Motivation\"\n            }\n          ],\n          \"reason\": \"While the ontology helps clarify concepts, the primary purpose is not internal sense-making or meaning negotiation within the team, but rather enabling automation and communication. The evidence is too weak to support 'For Understanding' as a distinct goal.\"\n        }\n      ]\n    }\n  ],\n  \"outside_taxonomy\": []\n}",
+  "seconds": 21.7
+}

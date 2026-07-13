@@ -1,0 +1,72 @@
+{
+  "paper_id": "Amaral_2021_CBDC",
+  "annotator": "claude-opus-4",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Extended ROME ontology for Central Bank Digital Currencies (CBDC)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "In this paper we address this issue by extending and refining our previous work, the Reference Ontology of Money and Virtual Currencies, to provide a semantic foundation for the concept of CBDC.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "In the light of the above, we advocate for the need of a reference conceptual model that provides an ontological account to the concept of CBDC, to serve as a basis for communication, consensus and alignment among different approaches and perspectives, as well as to foster interoperability across different applications in the financial industry.",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "We believe this work clarifies the notion of CBDC, which can serve as a basis for future business ontologies, meaning negotiation, the enactment of law and regulation and the definition of proper governance models.",
+              "section": "5 Final Remarks"
+            }
+          ],
+          "justification": "The paper explicitly frames the model's purpose as clarifying the concept of CBDC and providing a semantic foundation/ontological account, matching the 'clarify', 'define', 'conceptualize', and 'meaning negotiation' signals for For Understanding."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "In the light of the above, we advocate for the need of a reference conceptual model that provides an ontological account to the concept of CBDC, to serve as a basis for communication, consensus and alignment among different approaches and perspectives, as well as to foster interoperability across different applications in the financial industry.",
+              "section": "1 Introduction"
+            }
+          ],
+          "justification": "The authors explicitly state the model is intended to serve as a basis for 'communication, consensus and alignment among different approaches and perspectives', indicating bridging between distinct groups/approaches — matching the 'communicate', 'align stakeholders', and 'bridge between' signals."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "As future work, we plan to further validate our ontology and use it to support interoperability between payment systems.",
+              "section": "5 Final Remarks"
+            },
+            {
+              "quote": "as well as to foster interoperability across different applications in the financial industry.",
+              "section": "1 Introduction"
+            }
+          ],
+          "reason": "Interoperability use is explicitly framed as future work ('we plan to') or as a general aspirational benefit, not as an actual or intended present implementation use of the model — matching the 'future work' negative signal for For Intervening."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "We believe this work clarifies the notion of CBDC, which can serve as a basis for future business ontologies, meaning negotiation, the enactment of law and regulation and the definition of proper governance models.",
+              "section": "5 Final Remarks"
+            }
+          ],
+          "reason": "The phrase 'serve as a basis for future business ontologies' hints at reference use but is too vague and forward-looking to clearly qualify as documentation/knowledge base purpose for the model itself."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

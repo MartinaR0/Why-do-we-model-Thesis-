@@ -1,0 +1,71 @@
+{
+  "paper_id": "Amaral et al. - 2020 - Towards a Reference Ontology of Money Monetary Objects, Currencies and Related Concepts (short pape",
+  "annotator": "GPT-5 Codex",
+  "no_codable_model": false,
+  "input_limitations": [
+    "The extracted text contains character encoding artifacts and some reference-list/order noise, but the main sections are readable."
+  ],
+  "models": [
+    {
+      "model_label": "Reference Ontology of Money",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "This research aims at addressing these issues by investigating the conceptual foundations of money, grounded in the Unified Foundational Ontology and based on the literature review of the most relevant economic theories.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "This research aims at tackling these issues by investigating the ontological nature of money and of its underlying concepts, grounded in the Unified Foundational Ontology (UFO) [11], based on the literature review of the most relevant economic theories and considering the innovations in the Finance Industry.",
+              "section": "Introduction"
+            },
+            {
+              "quote": "In this paper, we presented an initial proposal for a Reference Ontology of Money.",
+              "section": "Conclusions"
+            },
+            {
+              "quote": "We investigated the ontological nature of money and currencies and formalized these concepts in an OntoUML model.",
+              "section": "Conclusions"
+            },
+            {
+              "quote": "We believe this work clarifies the notion of money, which can serve as a basis for future business ontologies.",
+              "section": "Conclusions"
+            }
+          ],
+          "justification": "The authors explicitly frame the model as investigating and formalizing the conceptual and ontological nature of money and currencies. This directly matches domain understanding and conceptual clarification."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "We believe this work clarifies the notion of money, which can serve as a basis for future business ontologies.",
+              "section": "Conclusions"
+            },
+            {
+              "quote": "We also plan to integrate it to well-known ontologies in the finance domain (e.g. FIBO).",
+              "section": "Conclusions"
+            }
+          ],
+          "reason": "The paper hints at future use as a basis for other ontologies and future integration, but does not show the model actively guiding implementation or frame implementation as a current achieved use."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "The lack of conceptual clarity hinders the analysis of business data, the communication among various economic and financial actors, the enactment of laws and regulations, the mitigation of risks, and the achievement of an appropriate common governance model.",
+              "section": "Introduction"
+            }
+          ],
+          "reason": "Communication is named as a problem affected by conceptual clarity, but the paper does not clearly state that the presented ontology was used for stakeholder interaction, explanation, alignment, or discussion."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

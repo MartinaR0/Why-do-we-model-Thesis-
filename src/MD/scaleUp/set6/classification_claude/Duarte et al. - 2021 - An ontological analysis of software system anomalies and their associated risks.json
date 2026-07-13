@@ -1,0 +1,135 @@
+{
+  "paper_id": "Duarte et al. - 2021 - An ontological analysis of software system anomalies and their associated risks",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "OSDEF (Ontology of Software Defects, Errors and Failures)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "we address this problem of the lack of a consensual conceptualization in this area by proposing two reference conceptual models: an Ontology of Software Defects, Errors and Failures (OSDEF)",
+              "section": "Abstract"
+            },
+            {
+              "quote": "OSDEF provides an ontological conceptualization of the different types of software anomalies that exist throughout the software life-cycle.",
+              "section": "3. An ontology of software defects, errors and failures"
+            },
+            {
+              "quote": "the ontologies provide a conceptual analysis of the nature of different types of anomalies, systematizing the overloaded use of the term anomaly in the Software Engineering literature.",
+              "section": "7. Conclusions"
+            },
+            {
+              "quote": "We demonstrate how this approach can suitably promote conceptual clarification and terminological harmonization in this area.",
+              "section": "Abstract"
+            }
+          ],
+          "justification": "OSDEF is explicitly framed as a reference ontology whose main purpose is to provide conceptual clarification, disambiguate overloaded terms (anomaly, fault, defect, failure), and support domain understanding."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "the ontologies establish a common vocabulary for their domains, improving communication among software engineers and stakeholders, avoiding construct overloads and other types of communication problems.",
+              "section": "7. Conclusions"
+            },
+            {
+              "quote": "In a more formal environment, this construct overload may lead to communication problems and losses.",
+              "section": "1. Introduction"
+            }
+          ],
+          "justification": "The authors explicitly state that the ontology's purpose includes improving communication among software engineers and stakeholders by providing a common vocabulary."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "both OSDEF and ROSS, as reference ontologies, can be used to support the development of software systems management tools, such as issue trackers or knowledge and configuration management-related tools, since they have their base on widely accepted standards. Moreover, they can also be used to support interoperability of existing tools.",
+              "section": "7. Conclusions"
+            },
+            {
+              "quote": "operational versions of these ontologies, implemented in logical language (e.g., Common Logic or OWL) can be used to semantically annotate configuration management and issue tracker data that are directly related to the occurrence of software anomalies.",
+              "section": "7. Conclusions"
+            }
+          ],
+          "justification": "The authors frame the ontology's intended purpose as supporting the development of management tools and enabling interoperability, which aligns with the Intervening goal (model as instrument for artifact/system development)."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "they can serve as a reference model for supporting the ontological analysis and conceptual clarification of real-world failure cases.",
+              "section": "7. Conclusions"
+            }
+          ],
+          "reason": "While the ontology is called a 'reference model,' the language emphasizes conceptual clarification/understanding rather than asynchronous documentation for absent parties."
+        }
+      ]
+    },
+    {
+      "model_label": "ROSS (Reference Ontology of Software Systems)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "a Reference Ontology of Software Systems (ROSS), which characterizes software systems and related artifacts at different levels of abstraction.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "we developed the Reference Ontology of Software Systems (ROSS), a domain reference model and knowledge representation tool for software systems that reuses and complements these previous works.",
+              "section": "4. A reference ontology of software systems"
+            },
+            {
+              "quote": "ROSS characterizes such software systems and the artifacts related to them at different levels of abstraction.",
+              "section": "4. A reference ontology of software systems"
+            },
+            {
+              "quote": "the ontologies provide a conceptual analysis of the nature of different types of anomalies",
+              "section": "7. Conclusions"
+            }
+          ],
+          "justification": "ROSS is explicitly a domain reference ontology designed to characterize/conceptualize software systems at different levels of abstraction to support understanding of the domain."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "the ontologies establish a common vocabulary for their domains, improving communication among software engineers and stakeholders, avoiding construct overloads and other types of communication problems.",
+              "section": "7. Conclusions"
+            }
+          ],
+          "justification": "The conclusions explicitly identify a common vocabulary for improving communication among software engineers and stakeholders as a purpose of both ontologies."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "both OSDEF and ROSS, as reference ontologies, can be used to support the development of software systems management tools, such as issue trackers or knowledge and configuration management-related tools",
+              "section": "7. Conclusions"
+            },
+            {
+              "quote": "they can also be used to support interoperability of existing tools.",
+              "section": "7. Conclusions"
+            }
+          ],
+          "justification": "ROSS is framed as intended to support development of software management tools and interoperability, aligning with the Intervening goal (model as instrument for tool development/interoperability)."
+        }
+      ],
+      "uncertain_goals": []
+    }
+  ],
+  "outside_taxonomy": []
+}

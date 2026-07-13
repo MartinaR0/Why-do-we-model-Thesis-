@@ -1,0 +1,43 @@
+{
+  "paper_id": "Sales et al. - 2018 - Towards an Ontology of Competition",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": ["Figures (Fig. 1, Fig. 2, Fig. 3) are not rendered in the markdown extraction; only textual descriptions are available."],
+  "models": [
+    {
+      "model_label": "UFO-based ontology of competition (with business competition extensions: direct, indirect, and potential competition)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "In this paper, we tackle this issue by means of an initial ontological analysis on competition grounded in the Unified Foundational Ontology (UFO). Our analysis, the first of its kind in the literature, allows us to explain why and when competition arises, as well as to distinguish between different three types of competitive relationships, namely direct, indirect and potential competition.", "section": "Abstract"},
+            {"quote": "Our main goal is to explain the nature and properties of competitive relationships, analyzing when and why they arise and who is involved in them.", "section": "1 Introduction"},
+            {"quote": "In this paper we presented an initial ontological analysis of competition in general, and of business competition in particular. We explained the nature of competition by means of conflicts of interest and scarce resources, and distinguished three relevant types of business competitive relationships, namely direct, indirect and potential competition. We believe this paper clarifies the notion of competition, which can serve as a basis for future business ontologies.", "section": "5 Final Remarks"}
+          ],
+          "justification": "The paper explicitly frames the model as an ontological analysis whose purpose is to explain, clarify, and conceptualize the domain of competition (the nature, properties, and types of competitive relationships). This matches the For Understanding signals (explain, clarify, conceptualize) and concerns domain (not modeling) knowledge."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "Ultimately, our goal is to incorporate the competition ontology to the value proposition ontology we have previously developed [16], in order to design a modeling framework that allows for the competitive analysis of value propositions.", "section": "5 Final Remarks"}
+          ],
+          "reason": "This is framed as a future plan ('Ultimately, our goal is to incorporate...'), not as a present use of the model to build an artifact; per the rules, future/proposed uses do not count as present."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "Instead, we focus on creating a model that can answer questions such as whether or not Google competes with Amazon and why.", "section": "1 Introduction"},
+            {"quote": "we focus on creating a model that can answer questions such as whether or not Google competes with Amazon and why.", "section": "1 Introduction"}
+          ],
+          "reason": "The model is said to answer identification questions, but the paper frames this as explanatory/conceptual clarification rather than as decision-making, option evaluation, or guiding stakeholder choices; evidence for problem-solving as a distinct goal is weak."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

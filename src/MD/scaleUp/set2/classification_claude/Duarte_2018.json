@@ -1,0 +1,70 @@
+{
+  "paper_id": "Duarte_2018",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "SwO, RSRO and RRO (three integrated domain reference ontologies for Requirements at Runtime, presented and evaluated together)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "In this paper, we intend to clarify the main notions involved in RRT, establishing an explicit common conceptualization regarding this domain.", "section": "Abstract"},
+            {"quote": "The goal of this work is to provide a formal representation of the use of RRT, giving a precise description of the domain entities and establishing a common vocabulary to be used by software engineers and stakeholders within the RRT domain, including the distinctions underlying the nature of requirements during the execution of a software system.", "section": "Section 1. Introduction"},
+            {"quote": "The ontologies presented here are intended to be used for conceptual clarification and terminological systematization of the existing approaches, in sub-areas like adaptive systems, requirements monitoring, context-aware systems and so on, as well as for serving as a knowledge framework for developing and re-engineering RRT approaches.", "section": "Section 1. Introduction"},
+            {"quote": "to establish a common understanding of the main concepts used in several RRT frameworks, aiming at allowing them to interoperate; to provide a common conceptual model to be used for developing and reengineering RRT frameworks and systems.", "section": "Section 7. Runtime Requirements Ontology (RRO)"}
+          ],
+          "justification": "The authors explicitly state that the ontologies aim to clarify, conceptualize, and provide common understanding of RRT domain entities. Signal patterns 'clarify', 'conceptualize', 'common understanding' are present with directly quotable purpose statements (no inference needed)."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "By domain reference ontology we mean a domain ontology developed with the goal of making a clear and precise description of domain entities for the purposes of communication, learning and problem-solving.", "section": "Section 1. Introduction"}
+          ],
+          "justification": "Authors explicitly name problem-solving as one of the purposes for which the reference ontology was developed. This is a directly quotable purpose statement matching the 'For Problem-solving' goal."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "By domain reference ontology we mean a domain ontology developed with the goal of making a clear and precise description of domain entities for the purposes of communication, learning and problem-solving.", "section": "Section 1. Introduction"},
+            {"quote": "The goal of this work is to provide a formal representation of the use of RRT, giving a precise description of the domain entities and establishing a common vocabulary to be used by software engineers and stakeholders within the RRT domain, including the distinctions underlying the nature of requirements during the execution of a software system.", "section": "Section 1. Introduction"}
+          ],
+          "justification": "Authors explicitly state communication as a purpose and describe the model as a common vocabulary bridging distinct groups (software engineers and stakeholders) — matching the Communicating signal 'bridge between' / 'communicate' with distinct parties."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "Lastly, the ontologies can be used for interoperability purposes, allowing frameworks that make use of requirements at runtime to inter- operate.", "section": "Section 1. Introduction"},
+            {"quote": "to establish a common understanding of the main concepts used in several RRT frameworks, aiming at allowing them to interoperate; to provide a common conceptual model to be used for developing and reengineering RRT frameworks and systems.", "section": "Section 7. Runtime Requirements Ontology (RRO)"},
+            {"quote": "Furthermore, they can be used as a conceptual model for tools developed for these purposes.", "section": "Section 1. Introduction"}
+          ],
+          "justification": "The paper explicitly frames interoperability and use as a conceptual model for developing/reengineering RRT frameworks, tools, and systems as intended purposes of the ontologies. Per the rules, an explicitly stated intended use for enabling interoperability and system development counts for For Intervening even without actual implementation."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Learning",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "By domain reference ontology we mean a domain ontology developed with the goal of making a clear and precise description of domain entities for the purposes of communication, learning and problem-solving.", "section": "Section 1. Introduction"}
+          ],
+          "reason": "The word 'learning' is named as a purpose, but in context it refers to learning about the RRT domain (domain knowledge), not learning modeling methods/notations/tools. Per the disambiguation rule, learning about the domain falls under Understanding, not Learning, so the evidence for the Learning goal is weak."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "Operational versions of the ontologies could be implemented in languages like OWL, for a formal annotation of the models used by these proposals, providing traceability of the requirements during their life-cycle, from design-time to runtime.", "section": "Section 1. Introduction"}
+          ],
+          "reason": "Traceability/annotation hints at a reference/documentation role for absent parties, but it is framed as a hypothetical future operational use ('could be implemented') rather than the present model's purpose, and the evidence is indirect."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

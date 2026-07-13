@@ -1,0 +1,80 @@
+{
+  "paper_id": "Amaral et al. - 2020 - Modeling Trust in Enterprise Architecture",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Trust Pattern Language (TPL) for ArchiMate, demonstrated via the COVID-19 data repository case study",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Therefore, the understanding of the building blocks that compose the trust of agents in a given trustee (such as an organization) is of paramount importance, as they reveal the qualities and properties the trustee should have in order to be considered trustworthy and effectively promote well-placed trust.",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "To account for what makes an agent trust a resource or another agent, we introduce the Trust Composition Pattern, which details the complex mental state of the trustor. The understanding of the elements that compose trust is important because they reveal the qualities and properties the trustee should have in order to be considered trustworthy and effectively promote well-placed trust.",
+              "section": "Section 3.2"
+            },
+            {
+              "quote": "The importance of understanding trust in organizations has motivated us to investigate the representation of trust concerns in enterprise models.",
+              "section": "Abstract"
+            }
+          ],
+          "justification": "The authors explicitly frame TPL as supporting understanding of the building blocks/elements of trust, clarifying domain concepts (trust, capabilities, vulnerabilities). Matches the 'understand', 'clarify', 'conceptualize' signals for domain knowledge."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "R1. Trustworthiness analysis: an enterprise should be able to gain insight into why it trusts certain key resources, actors or partners (or event if they should do it in the first place!). In particular, for a given trust relation, the enterprise should be able to identify the capabilities and vulnerabilities of a particular trustee that are the focus of its beliefs, so that it can detect potential threats to the achievement of its goals.",
+              "section": "Section 3.1"
+            },
+            {
+              "quote": "R2. Risk analysis : By modeling the elements that compose the trust complex mental state of a trustor regarding a trustee, an enterprise should be able to identify risks that can emerge as consequence of either the manifestation of a trustee's vulnerability or the unsatisfactory manifestation of a trustee's capability.",
+              "section": "Section 3.1"
+            },
+            {
+              "quote": "Finally, for each risk driver identified, the user may apply the Risk Assessment Pattern to evaluate the impact of risks and establish procedures for effective risk control, treatment, and mitigation.",
+              "section": "Section 3.3"
+            },
+            {
+              "quote": "From the opposite perspective, the enterprise should be able to identify what makes them trustworthy (or not) from the point-of-view of their customers and partners, possibly identifying what it could change to increase trust levels, as well the key capabilities it needs to guarantee to promote well-placed trust.",
+              "section": "Section 3.1"
+            }
+          ],
+          "justification": "The paper explicitly defines analysis requirements (trustworthiness analysis, risk analysis) for identifying risks, evaluating impact, and making decisions about what to change. Matches 'analyze', 'evaluate', 'identify shortcomings', 'what should change' signals; the model is used as a decision-support instrument, not as the implementation itself."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Using this pattern, depicted in Fig. 9, it is possible to model the realization of control measures by any set of core elements, such as business processes (e.g. a data quality management process), application services (e.g. a scanning service) or nodes (e.g. a document management system).",
+              "section": "Section 3.2"
+            }
+          ],
+          "reason": "The mention of realizing control measures via processes/services is described as a modeling capability, not as actual implementation of a system. The case study only demonstrates the language, no system is built; therefore evidence for Intervening is weak."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "From the perspective of an organization trustee, the modeling of trust in the context of Enterprise Architecture (EA) enables to bridge the gap between the stakeholders' trust concerns and the processes and other elements of the architecture that are needed to achieve the organization's goal of being trustworthy.",
+              "section": "1 Introduction"
+            }
+          ],
+          "reason": "The phrase 'bridge the gap between the stakeholders' trust concerns and the processes' is a conceptual bridging statement rather than explicit evidence of synchronous communication or alignment between distinct groups of people; the link to inter-stakeholder discussion is indirect."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

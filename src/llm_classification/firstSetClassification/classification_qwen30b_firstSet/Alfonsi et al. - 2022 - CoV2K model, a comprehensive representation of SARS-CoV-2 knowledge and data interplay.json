@@ -1,0 +1,136 @@
+{
+  "paper_file": "Alfonsi et al. - 2022 - CoV2K model, a comprehensive representation of SARS-CoV-2 knowledge and data interplay.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "CoV2K_model_SARS-CoV-2_knowledge_data_interplay",
+    "annotator": "LLM model name",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "CoV2K abstract model",
+        "goals": [
+          {
+            "goal": "For Intervening",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "CoV2K provides a clear and concise route map for understanding different connected types of information related to the virus; it thus drives a process of data and knowledge integration that aggregates information from several current resources, harmonizing their content and overcoming incompleteness and inconsistency issues.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "CoV2K is available for exploration as a graph that can be queried through a RESTful API addressing single entities or paths through their relationships.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "Practical use cases demonstrate its application to current knowledge inquiries.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "The CoV2K abstract model has allowed to provide practical guidance for the design of an integration pipeline that gathers different data sources and their data types within a single infrastructure.",
+                "section": "Results"
+              },
+              {
+                "quote": "We provide a simple RESTful API (base URL: http://gmql.eu/cov2k/api/) that exposes one endpoint for each entity of CoV2K, e.g., for the Evidence entity we use the endpoint /evidences.",
+                "section": "Results"
+              },
+              {
+                "quote": "In all these experiences, mastering the interplay between data and knowledge in SARS-CoV-2 has proven to be extremely useful.",
+                "section": "Discussion"
+              }
+            ],
+            "justification": "The model is explicitly described as enabling a process of data and knowledge integration, driving a pipeline for harmonizing and aggregating data from multiple sources. The availability of a RESTful API and the demonstration of practical use cases confirm that the model is actively used to build and support a functional system for querying and integrating SARS-CoV-2 data, satisfying the criteria for 'For Intervening'."
+          },
+          {
+            "goal": "For Problem-solving",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "We hereby propose CoV2K, an abstract model for explaining SARS-CoV-2-related concepts and interactions, focusing on viral mutations, their co-occurrence within variants, and their effects.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "The goal of this article is to provide CoV2K, a unifying, abstract model of the information about SARS-CoV-2 in terms of entities and relationships; the model links these concepts both to knowledge sources and to massive datasets of sequence data.",
+                "section": "Introduction"
+              },
+              {
+                "quote": "CoV2K is available for exploration as a graph that can be queried through a RESTful API addressing single entities or paths through their relationships.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "The linking of CoV2K concepts to our web resources is a step forward in promoting FAIR principles, as it facilitates - at the conceptual level - the interoperability between public data sources and open knowledge and - at the practical level - the creation of several future systems that will exploit the new possibilities allowed by interlinking data and knowledge.",
+                "section": "Discussion"
+              }
+            ],
+            "justification": "The model is presented as a solution to specific problems of information quality, heterogeneity, and inconsistency in SARS-CoV-2 data. The paper explicitly frames the model as a tool to analyze and resolve these issues by integrating disparate sources and enabling queries across data and knowledge. The use of the model to identify and resolve inconsistencies supports its role in problem-solving, distinct from direct implementation."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "CoV2K provides a clear and concise route map for understanding different connected types of information related to the virus; it thus drives a process of data and knowledge integration that aggregates information from several current resources, harmonizing their content and overcoming incompleteness and inconsistency issues.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "The linking of CoV2K concepts to our web resources is a step forward in promoting FAIR principles, as it facilitates - at the conceptual level - the interoperability between public data sources and open knowledge and - at the practical level - the creation of several future systems that will exploit the new possibilities allowed by interlinking data and knowledge.",
+                "section": "Discussion"
+              }
+            ],
+            "justification": "The model is described as a 'route map' that helps users understand complex interconnections between data and knowledge. While the primary function is integration and system creation, the model's role in enabling shared understanding across diverse sources and stakeholders supports its use in communication, particularly in aligning different groups around a common conceptual framework."
+          },
+          {
+            "goal": "For Documenting",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "CoV2K is available for exploration as a graph that can be queried through a RESTful API addressing single entities or paths through their relationships.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "The complete and updated taxonomy that we employ can be inspected on the project's GitHub repository.",
+                "section": "Results"
+              },
+              {
+                "quote": "The code for extracting information from data sources and for the harmonization of CoV2K content is available on the project's GitHub repository.",
+                "section": "Data availability"
+              },
+              {
+                "quote": "Use cases are commented at http://gmql.eu/cov2k/api/usecases.",
+                "section": "Data availability"
+              }
+            ],
+            "justification": "The model is explicitly made available as a persistent, queryable resource with documentation, code, and use cases stored in a public repository. The model serves as a reference for future users, enabling asynchronous access and reuse, which aligns with the definition of 'For Documenting'."
+          },
+          {
+            "goal": "For Learning",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "The model links these concepts both to knowledge sources and to massive datasets of sequence data.",
+                "section": "Introduction"
+              }
+            ],
+            "justification": "The paper does not indicate that the model was created or used to teach modeling methods, tools, or notation. The focus is on domain knowledge (SARS-CoV-2) rather than on teaching how to model. The evidence is weak and ambiguous, resting on a general statement about linking concepts, which does not imply a pedagogical purpose."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Understanding",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "CoV2K provides a clear and concise route map for understanding different connected types of information related to the virus; it thus drives a process of data and knowledge integration that aggregates information from several current resources, harmonizing their content and overcoming incompleteness and inconsistency issues.",
+                "section": "Abstract"
+              }
+            ],
+            "reason": "While the model is described as aiding understanding, the primary purpose is framed as enabling integration and system creation. The term 'understanding' is used in a functional sense (as a route map), not as a goal of internal sense-making or meaning negotiation. The evidence is weak and ambiguous, as the model's role is more instrumental than epistemic."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"CoV2K_model_SARS-CoV-2_knowledge_data_interplay\",\n  \"annotator\": \"LLM model name\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"CoV2K abstract model\",\n      \"goals\": [\n        {\n          \"goal\": \"For Intervening\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"CoV2K provides a clear and concise route map for understanding different connected types of information related to the virus; it thus drives a process of data and knowledge integration that aggregates information from several current resources, harmonizing their content and overcoming incompleteness and inconsistency issues.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"CoV2K is available for exploration as a graph that can be queried through a RESTful API addressing single entities or paths through their relationships.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"Practical use cases demonstrate its application to current knowledge inquiries.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"The CoV2K abstract model has allowed to provide practical guidance for the design of an integration pipeline that gathers different data sources and their data types within a single infrastructure.\",\n              \"section\": \"Results\"\n            },\n            {\n              \"quote\": \"We provide a simple RESTful API (base URL: http://gmql.eu/cov2k/api/) that exposes one endpoint for each entity of CoV2K, e.g., for the Evidence entity we use the endpoint /evidences.\",\n              \"section\": \"Results\"\n            },\n            {\n              \"quote\": \"In all these experiences, mastering the interplay between data and knowledge in SARS-CoV-2 has proven to be extremely useful.\",\n              \"section\": \"Discussion\"\n            }\n          ],\n          \"justification\": \"The model is explicitly described as enabling a process of data and knowledge integration, driving a pipeline for harmonizing and aggregating data from multiple sources. The availability of a RESTful API and the demonstration of practical use cases confirm that the model is actively used to build and support a functional system for querying and integrating SARS-CoV-2 data, satisfying the criteria for 'For Intervening'.\"\n        },\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"We hereby propose CoV2K, an abstract model for explaining SARS-CoV-2-related concepts and interactions, focusing on viral mutations, their co-occurrence within variants, and their effects.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"The goal of this article is to provide CoV2K, a unifying, abstract model of the information about SARS-CoV-2 in terms of entities and relationships; the model links these concepts both to knowledge sources and to massive datasets of sequence data.\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"CoV2K is available for exploration as a graph that can be queried through a RESTful API addressing single entities or paths through their relationships.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"The linking of CoV2K concepts to our web resources is a step forward in promoting FAIR principles, as it facilitates - at the conceptual level - the interoperability between public data sources and open knowledge and - at the practical level - the creation of several future systems that will exploit the new possibilities allowed by interlinking data and knowledge.\",\n              \"section\": \"Discussion\"\n            }\n          ],\n          \"justification\": \"The model is presented as a solution to specific problems of information quality, heterogeneity, and inconsistency in SARS-CoV-2 data. The paper explicitly frames the model as a tool to analyze and resolve these issues by integrating disparate sources and enabling queries across data and knowledge. The use of the model to identify and resolve inconsistencies supports its role in problem-solving, distinct from direct implementation.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"CoV2K provides a clear and concise route map for understanding different connected types of information related to the virus; it thus drives a process of data and knowledge integration that aggregates information from several current resources, harmonizing their content and overcoming incompleteness and inconsistency issues.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"The linking of CoV2K concepts to our web resources is a step forward in promoting FAIR principles, as it facilitates - at the conceptual level - the interoperability between public data sources and open knowledge and - at the practical level - the creation of several future systems that will exploit the new possibilities allowed by interlinking data and knowledge.\",\n              \"section\": \"Discussion\"\n            }\n          ],\n          \"justification\": \"The model is described as a 'route map' that helps users understand complex interconnections between data and knowledge. While the primary function is integration and system creation, the model's role in enabling shared understanding across diverse sources and stakeholders supports its use in communication, particularly in aligning different groups around a common conceptual framework.\"\n        },\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"CoV2K is available for exploration as a graph that can be queried through a RESTful API addressing single entities or paths through their relationships.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"The complete and updated taxonomy that we employ can be inspected on the project's GitHub repository.\",\n              \"section\": \"Results\"\n            },\n            {\n              \"quote\": \"The code for extracting information from data sources and for the harmonization of CoV2K content is available on the project's GitHub repository.\",\n              \"section\": \"Data availability\"\n            },\n            {\n              \"quote\": \"Use cases are commented at http://gmql.eu/cov2k/api/usecases.\",\n              \"section\": \"Data availability\"\n            }\n          ],\n          \"justification\": \"The model is explicitly made available as a persistent, queryable resource with documentation, code, and use cases stored in a public repository. The model serves as a reference for future users, enabling asynchronous access and reuse, which aligns with the definition of 'For Documenting'.\"\n        },\n        {\n          \"goal\": \"For Learning\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The model links these concepts both to knowledge sources and to massive datasets of sequence data.\",\n              \"section\": \"Introduction\"\n            }\n          ],\n          \"justification\": \"The paper does not indicate that the model was created or used to teach modeling methods, tools, or notation. The focus is on domain knowledge (SARS-CoV-2) rather than on teaching how to model. The evidence is weak and ambiguous, resting on a general statement about linking concepts, which does not imply a pedagogical purpose.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"CoV2K provides a clear and concise route map for understanding different connected types of information related to the virus; it thus drives a process of data and knowledge integration that aggregates information from several current resources, harmonizing their content and overcoming incompleteness and inconsistency issues.\",\n              \"section\": \"Abstract\"\n            }\n          ],\n          \"reason\": \"While the model is described as aiding understanding, the primary purpose is framed as enabling integration and system creation. The term 'understanding' is used in a functional sense (as a route map), not as a goal of internal sense-making or meaning negotiation. The evidence is weak and ambiguous, as the model's role is more instrumental than epistemic.\"\n        }\n      ]\n    }\n  ],\n  \"outside_taxonomy\": []\n}",
+  "seconds": 28.4
+}

@@ -1,0 +1,64 @@
+{
+  "paper_id": "Bastos et al. - 2011 - Building Up a Model for Management Information and Knowledge The Case-study for a Brazilian Regulat",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": ["Figures referenced in the text are not available (rendered as [FIGURE] placeholders), which limits inspection of the actual model artifacts."],
+  "models": [
+    {
+      "model_label": "Information and Knowledge Management Model for a Brazilian Regulatory Agency",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "The  created  model  has  been  implemented  for  a  Brazilian  Regulation Agency.", "section": "1 Introduction"},
+            {"quote": "At the present stage the project tested its methodology in only one organizational unit called  'the  Ouvidoria' which does the ombudsman of the whole organization.", "section": "4 The Project Present Stage"},
+            {"quote": "In the actual stage, the model methodology was applied to a specific part of the agency and is still being refined.", "section": "5 Conclusions"}
+          ],
+          "justification": "The paper explicitly states the model has been implemented for the agency and applied to a specific unit (Ouvidoria). This matches the For Intervening signal 'implemented' and shows the model directly guiding/enabling system creation in the agency."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "The  proposed  solution  is  to  develop  a  project  which  is  designed  to  build  up management  model  of  information  and  knowledge  for  the  Agency.  The  idea  is  to enable  the  Agency  capable  to  do  the  elicitation  of  tacit  knowledge  into  explicit knowledge which can be formally integrated to assist the decision making process.", "section": "2.2 The Proposed Solution"},
+            {"quote": "to  guarantee  information  integration,  reliability  and  trustworthy  during  decision making;", "section": "2.2 The Proposed Solution"},
+            {"quote": "the explicit definition of all decision making important points and bottlenecks what can contribute to reduce risks at the decision making level.", "section": "3 Project's Organization and Methodologies"}
+          ],
+          "justification": "The model is explicitly framed as supporting decision making within the agency, helping identify bottlenecks and reduce decision-making risks. This matches signal 'decision' and reflects use of the model to guide decision making distinct from implementation."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "It aims to build a model that constructs a formal structure for all the knowledge using a specific methodology.", "section": "1 Introduction"},
+            {"quote": "the development of a project designed to build up a model to integrate and consolidate all the information and knowledge (tacit and explicit)", "section": "2.1 The Reasons Why"},
+            {"quote": "Establish transparent proceedings to explicit, convert and exchange the knowledge and its formalization,", "section": "5 Conclusions"}
+          ],
+          "justification": "The model is framed as a formal structure / knowledge management repository consolidating tacit and explicit knowledge of the agency for later access and reference. Matches Documenting signals 'knowledge management', 'knowledge base', 'reference'."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "The  ontology phase aims to decrease the semantic distance between the information  transmitted  (conceptualization)  and  the  information  interpreted  which happens  in  languages  in  general.", "section": "3 Project's Organization and Methodologies"},
+            {"quote": "This phase aims to build a complete ontology for each organization sector by defining in a unique semantic form all  concepts  and  categories  existent  in  the  processes  and  functions  that  exist  in  all organizational units at all hierarchical levels", "section": "3 Project's Organization and Methodologies"},
+            {"quote": "the definition of a dictionary of\n\nnon ambiguous  terms  independent of users and contexts,", "section": "3 Project's Organization and Methodologies"}
+          ],
+          "justification": "The ontology component of the model is explicitly aimed at clarifying and defining concepts in a unique semantic form, decreasing semantic distance — matches Understanding signals 'clarify', 'define', 'conceptualize'."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "to make the communication channels among employees stronger at all hierarchical levels which makes more robust the integration of them;", "section": "2.2 The Proposed Solution"}
+          ],
+          "reason": "The paper mentions strengthening communication channels among employees as an organizational benefit, but does not clearly frame the model itself as an instrument used in meetings or live discussions to bridge distinct groups — the link to the For Communicating goal is indirect."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

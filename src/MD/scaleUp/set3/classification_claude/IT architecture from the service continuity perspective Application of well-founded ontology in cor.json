@@ -1,0 +1,61 @@
+{
+  "paper_id": "IT architecture from the service continuity perspective Application of well-founded ontology in cor",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "IT Architecture ontology model (data center, PAS 77, OntoUML/UFO)",
+      "goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "This study measures the alignment of the IT architecture of the corporation to good management practices of IT service continuity through the identification of IT components of this architecture from the service continuity perspective.",
+              "section": "Section 4.1 Characterized case study"
+            },
+            {
+              "quote": "This detailed mapping of entities compose the first phase of the case study that aims to identify the IT Architecture components described in PAS 77. The second phase of the case study represents the results analysis of the components mapping from the ontology model perspective. This phase allows the deficiencies identification in architecture elements.",
+              "section": "Section 4.1 Characterized case study"
+            },
+            {
+              "quote": "After all, the study case was able to identify each component of IT, verify their adherence to the model and, therefore, point out items that need improvement to provide resilience and ensure IT service continuity.",
+              "section": "Section 6 Conclusion"
+            }
+          ],
+          "justification": "The model is used to evaluate the IT architecture, identify deficiencies, and point out improvements - matches Problem-solving signals 'evaluate', 'identify shortcomings', 'what should change' without the model itself being the implementation instrument."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "The conceptual model produced is called well-founded because it was built from a foundation ontology using a specific language for this purpose. Therefore, this model eliminates the different interpretations generated when reading a text in natural language, allowing a greater clarity, beyond the elimination of incompleteness and ambiguity of concepts expressed in the standard.",
+              "section": "Section 6 Conclusion"
+            },
+            {
+              "quote": "Greater expressiveness shown in the model confirms the importance of well-founded conceptual models in the construction of a formal conceptualization of a domain, especially when the universe of discourse is described in natural language.",
+              "section": "Section 6 Conclusion"
+            }
+          ],
+          "justification": "The model is explicitly framed as clarifying concepts, eliminating ambiguity, and providing formal conceptualization of the PAS 77 domain - matches Understanding signals 'clarify', 'conceptualize', 'define'."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Thus, this paper presents a solution to the IT architecture's interoperability problem of the data center through the conceptual model produced using the foundation ontology UFO through the representation language of ontologies OntoUML.",
+              "section": "Section 1 Introduction"
+            }
+          ],
+          "reason": "Interoperability is mentioned as a problem the model addresses, but the paper does not describe the model being implemented or used to generate an artifact/system; it is only applied analytically to assess an existing architecture."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

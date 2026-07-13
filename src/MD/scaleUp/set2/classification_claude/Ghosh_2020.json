@@ -1,0 +1,77 @@
+{
+  "paper_id": "Ghosh_2020",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "CargO-S: well-founded legal domain ontology for carriage of goods by sea",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "In this work, we demonstrate the usability of CargO-S to design and implement a set of chained rules describing the procedural aspect of the liabilities legal rules.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "Following the isomorphism principle stated by Bench-Capon [7] the conceptual model is transformed into formal rule.",
+              "section": "Section 3"
+            },
+            {
+              "quote": "Based on the ontological model, two chained formal rules are generated where the latter's condition is the former's consequence.",
+              "section": "Section 3"
+            },
+            {
+              "quote": "Furthermore, the legal rules' ontological model has been transformed into chained formal rules embedded in a lightweight decision support task.",
+              "section": "Conclusion"
+            }
+          ],
+          "justification": "The model (CargO-S and its ontological models of rules) is actively used to design, implement, and generate the SWRL formal rules embedded in the decision support task. Matches Intervening signals 'used to create', 'generated artifact', and 'implemented'."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "In this paper, we present an ontology-based liability decision support task in the international maritime law, specifically the domain of carriage of goods by sea.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "Finally, we employ these rules in a liability rule-based decision support task using a real case study.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "In this study, we propose a decision support task that helps making decisions in the legal domain using ontological models.",
+              "section": "Introduction"
+            },
+            {
+              "quote": "As a legal decision, we obtained that the shipper has a right to indemnity against the carrier.",
+              "section": "Section 4"
+            }
+          ],
+          "justification": "Separate evidence shows the ontology is used to support legal decision-making about liability in a case study, beyond mere implementation. Matches Problem-solving signal 'decision' and 'evaluate'."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "The implementation of such tasks implies creating an appropriate legal domain ontology that reflects as much as possible the real application domain [2].",
+              "section": "Introduction"
+            },
+            {
+              "quote": "In this study, we focus on the domain layer where different legal categories are defined: (1) legal roles such as, Carrier and Shipper ; (2) legal relators such as, Contract of Carriage of Goods by Sea , Right Duty to Indemnity , and Disability Immunity to Liabilities ; (3) legal moments such as, Right to Indemnity , and Disability to Indemnity ; (4) legal events, such as Carriage of Goods by Sea , Loss or Damage of Goods ; (5) situations, such as Inaccuracies and Unseaworthiness .",
+              "section": "Section 2"
+            }
+          ],
+          "reason": "The ontology defines legal categories which implies clarifying domain concepts, but the paper does not explicitly frame CargO-S's purpose as supporting domain understanding or meaning negotiation; the evidence is indirect."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

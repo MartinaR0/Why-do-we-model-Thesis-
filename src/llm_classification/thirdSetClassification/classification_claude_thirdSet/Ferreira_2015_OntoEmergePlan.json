@@ -1,0 +1,84 @@
+{
+  "paper_id": "Ferreira_2015_OntoEmergePlan",
+  "annotator": "claude-opus-4",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "OntoEmergePlan (well-founded emergency plan domain ontology)",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The main goal of OntoEmergePlan is to support the generation of emergency plans, serving as a reference for common understanding and communication among people, systems and organizations.",
+              "section": "OntoEmergePlan: a well-founded emergency plan ontology"
+            },
+            {
+              "quote": "We propose the use of OntoEmergePlan in the DPL(EP) methodology to enhance feature modelling when analysing a document family, during the domain engineering phase.",
+              "section": "DPL(EP) supported by OntoEmergePlan"
+            },
+            {
+              "quote": "the well-founded emergency ontology OntoEmergePlan, which provides enough clarity to a community of users for better communication, also supporting systems development.",
+              "section": "CONCLUSION"
+            }
+          ],
+          "justification": "The paper explicitly frames OntoEmergePlan as an instrument used to generate emergency plans and to derive feature models within the DPL(EP) methodology, and as supporting systems development. This matches the Intervening signal of using the model to enable artifact/plan generation."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "As a special type of conceptual model, it is intended to be used by humans for purposes of understanding and communication (Mylopoulos, 1992).",
+              "section": "WELL FOUNDED DOMAIN ONTOLOGIES"
+            },
+            {
+              "quote": "To increase common understanding of plans, we propose an adaptation of this methodology by applying a well-founded emergency ontology, termed OntoEmergePlan, which supports the domain engineering phase.",
+              "section": "ABSTRACT"
+            },
+            {
+              "quote": "DPL(EP) was adapted to use of the ontology, which provides a precise conceptualization and vocabulary of the domain, supporting the designer during the feature modeling.",
+              "section": "CONCLUSION"
+            }
+          ],
+          "justification": "The paper explicitly describes the ontology as built to increase common understanding of the emergency domain and to provide a precise conceptualization and vocabulary, matching the Understanding signal of clarifying/conceptualizing domain knowledge."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The main goal of OntoEmergePlan is to support the generation of emergency plans, serving as a reference for common understanding and communication among people, systems and organizations.",
+              "section": "OntoEmergePlan: a well-founded emergency plan ontology"
+            },
+            {
+              "quote": "the well-founded emergency ontology OntoEmergePlan, which provides enough clarity to a community of users for better communication, also supporting systems development.",
+              "section": "CONCLUSION"
+            },
+            {
+              "quote": "These plans are intended to be used by different agents, both human and machines, that participate on the emergency events, thus requiring a common understanding of the involved concepts and goals.",
+              "section": "INTRODUCTION"
+            }
+          ],
+          "justification": "The paper explicitly states the ontology serves as a reference for communication among distinct parties (people, systems, organizations; multidisciplinary teams), satisfying the Communicating criterion of bridging distinct groups."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "the well-founded emergency ontology OntoEmergePlan, which provides enough clarity to a community of users for better communication, also supporting systems development.",
+              "section": "CONCLUSION"
+            }
+          ],
+          "reason": "The ontology is described as a 'reference' for a community, which has documentation-like overtones, but the paper does not clearly frame it as an asynchronous knowledge base or archive for absent parties; the dominant framing is communication and plan generation."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

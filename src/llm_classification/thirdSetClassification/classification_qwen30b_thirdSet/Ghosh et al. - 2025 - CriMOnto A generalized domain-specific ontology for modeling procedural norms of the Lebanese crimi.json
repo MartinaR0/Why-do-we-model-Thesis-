@@ -1,0 +1,78 @@
+{
+  "paper_file": "Ghosh et al. - 2025 - CriMOnto A generalized domain-specific ontology for modeling procedural norms of the Lebanese crimi.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "10.1016/j.datak.2024.103987",
+    "annotator": "LLM",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "CriMOnto",
+        "goals": [
+          {
+            "goal": "For Intervening",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "CriMOnto will be employed for a lightweight rule-based decision-making task.",
+                "section": "Section 3"
+              },
+              {
+                "quote": "In this section, we employ CriMOnto in a lightweight rule-based decision support task to assess its decision-making performance.",
+                "section": "Section 6"
+              },
+              {
+                "quote": "The formalization process considers (1) the explicit representation of procedural norms captured in CriMOnto; (2) a rule language that formalizes the legal rules, and permits for computing the legal effects that should follow from the set of formal rules",
+                "section": "Section 6"
+              }
+            ],
+            "justification": "The paper explicitly states that CriMOnto is employed in a rule-based decision support task, where its procedural norms are used to compute legal effects via SWRL rules. This constitutes direct use of the model to generate outcomes, satisfying the definition of 'Intervening'."
+          },
+          {
+            "goal": "For Problem-solving",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "We aim to formalize the legal norms of the Criminal Code based on CriMOnto. The formalization process considers (1) the explicit representation of procedural norms captured in CriMOnto; (2) a rule language that formalizes the legal rules, and permits for computing the legal effects that should follow from the set of formal rules",
+                "section": "Section 6"
+              },
+              {
+                "quote": "The CQs addressed throughout the modeling process are translated into SPARQL queries to assess the ontology's validity against its functional requirements.",
+                "section": "Section 5"
+              }
+            ],
+            "justification": "The model is used to formalize legal rules and compute legal effects based on input facts, which constitutes problem-solving by identifying what legal effects follow from given conditions. The use of SPARQL queries to evaluate the model against competency questions further supports this goal."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "CriMOnto is developed for this purpose. CriMOnto will be employed for a lightweight rule-based decision-making task.",
+                "section": "Section 3"
+              }
+            ],
+            "justification": "The model is presented as a tool for enabling communication between legal scholars and systems by formalizing procedural norms. While the context suggests alignment and explanation between stakeholders, the evidence is indirect and relies on inference about the intended use in legal reasoning."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Documenting",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "CriMOnto is validated as a formal ontology and evaluated using a dual evaluation approach.",
+                "section": "Abstract"
+              }
+            ],
+            "reason": "The mention of validation and evaluation does not clearly indicate that the model is used for asynchronous documentation or reference; it is more aligned with functional testing and performance assessment."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"10.1016/j.datak.2024.103987\",\n  \"annotator\": \"LLM\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"CriMOnto\",\n      \"goals\": [\n        {\n          \"goal\": \"For Intervening\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"CriMOnto will be employed for a lightweight rule-based decision-making task.\",\n              \"section\": \"Section 3\"\n            },\n            {\n              \"quote\": \"In this section, we employ CriMOnto in a lightweight rule-based decision support task to assess its decision-making performance.\",\n              \"section\": \"Section 6\"\n            },\n            {\n              \"quote\": \"The formalization process considers (1) the explicit representation of procedural norms captured in CriMOnto; (2) a rule language that formalizes the legal rules, and permits for computing the legal effects that should follow from the set of formal rules\",\n              \"section\": \"Section 6\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that CriMOnto is employed in a rule-based decision support task, where its procedural norms are used to compute legal effects via SWRL rules. This constitutes direct use of the model to generate outcomes, satisfying the definition of 'Intervening'.\"\n        },\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"We aim to formalize the legal norms of the Criminal Code based on CriMOnto. The formalization process considers (1) the explicit representation of procedural norms captured in CriMOnto; (2) a rule language that formalizes the legal rules, and permits for computing the legal effects that should follow from the set of formal rules\",\n              \"section\": \"Section 6\"\n            },\n            {\n              \"quote\": \"The CQs addressed throughout the modeling process are translated into SPARQL queries to assess the ontology's validity against its functional requirements.\",\n              \"section\": \"Section 5\"\n            }\n          ],\n          \"justification\": \"The model is used to formalize legal rules and compute legal effects based on input facts, which constitutes problem-solving by identifying what legal effects follow from given conditions. The use of SPARQL queries to evaluate the model against competency questions further supports this goal.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"CriMOnto is developed for this purpose. CriMOnto will be employed for a lightweight rule-based decision-making task.\",\n              \"section\": \"Section 3\"\n            }\n          ],\n          \"justification\": \"The model is presented as a tool for enabling communication between legal scholars and systems by formalizing procedural norms. While the context suggests alignment and explanation between stakeholders, the evidence is indirect and relies on inference about the intended use in legal reasoning.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"CriMOnto is validated as a formal ontology and evaluated using a dual evaluation approach.\",\n              \"section\": \"Abstract\"\n            }\n          ],\n          \"reason\": \"The mention of validation and evaluation does not clearly indicate that the model is used for asynchronous documentation or reference; it is more aligned with functional testing and performance assessment.\"\n        }\n      ]\n    }\n  ],\n  \"outside\\_taxonomy\": []\n}",
+  "seconds": 23.5
+}

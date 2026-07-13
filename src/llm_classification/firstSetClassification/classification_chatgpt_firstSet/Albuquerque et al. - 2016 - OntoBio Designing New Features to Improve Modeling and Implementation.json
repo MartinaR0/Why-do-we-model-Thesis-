@@ -1,0 +1,104 @@
+{
+  "paper_id": "Albuquerque et al. - 2016 - OntoBio Designing New Features to Improve Modeling and Implementation",
+  "annotator": "ChatGPT-5",
+  "no_codable_model": false,
+  "input_limitations": [
+    "Text extraction contains mojibake in names, accented words, and some symbols, but the substantive sections are readable."
+  ],
+  "models": [
+    {
+      "model_label": "OntoBio biodiversity domain ontology",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The new version of OntoBio incorporates more semantics to the model and the availability of a version  with  features  that  allow  its  use  in  more  complex  applications  (taxonomic classification).",
+              "section": "Introduction"
+            },
+            {
+              "quote": "OntoBio is developed using tools in a sequential order to provide a better code result.",
+              "section": "Section 4. Implementational Issues"
+            },
+            {
+              "quote": "The ontological schema in (.xmi) file format must be imported by Menthor and then can be converted to a (.owl) file format.",
+              "section": "Section 4. Implementational Issues"
+            }
+          ],
+          "justification": "The paper frames OntoBio's new version as enabling use in applications and describes a concrete implementation pipeline from ontological schema to OWL. Under the Intervening rule, intended use for implementation and artifact generation counts as present."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "Regarding these  facts,  OntoBio,  a  formal  ontology  applied  to  biodiversity  data, provided important results with already validated technology for the adoption of formal ontologies to knowledge acquisition and integration in biodiversity field.",
+              "section": "Introduction"
+            },
+            {
+              "quote": "The framework  guides  the  management  of  scientific  tacit  knowledge  presenting  different levels  of  representation,  and  allowing  to  retain  knowledge  to  answer  questions  that OntoBio cannot currently respond.",
+              "section": "Section 3. OntoBio's Evolution Based on Tacit Knowledge Through a Conceptual Framework"
+            }
+          ],
+          "justification": "The evidence links OntoBio and its evolution to biodiversity knowledge acquisition, integration, and answering domain questions. The connection to domain understanding is direct enough to code, though the paper emphasizes ontology evolution more than human sense-making."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "This  paper presents OntoBio's limitations regarding conceptualization and implementational  aspects  and  new  features  aiming  to  indicate  accurate recommendations  for  OntoBio's  evolution,  by  emphasizing  several  aspects that must be considered when designing a new version of the ontology.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "The application of the conceptual framework to integrate scientific tacit knowledge applied to OntoBio [Albuquerque et al., 2016] suggested some recommendations  of  change.",
+              "section": "Section 3. OntoBio's Evolution Based on Tacit Knowledge Through a Conceptual Framework"
+            }
+          ],
+          "justification": "The paper explicitly uses analysis of OntoBio's limitations and tacit-knowledge integration to recommend changes for ontology evolution. This matches Problem-solving because the model supports identifying what should change."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "When modelled and made available, knowledge (implicit-explicit) becomes essential in the process of generating new knowledge.",
+              "section": "Section 3. OntoBio's Evolution Based on Tacit Knowledge Through a Conceptual Framework"
+            },
+            {
+              "quote": "It also explores semantic annotation for dissemination and reuse.",
+              "section": "Section 3. OntoBio's Evolution Based on Tacit Knowledge Through a Conceptual Framework"
+            },
+            {
+              "quote": "The original OntoBio and a trial version of OntoBio with some of these changes can be found at portal.inpa.gov.br/ctin/lis/ontobio/.",
+              "section": "Section 3. OntoBio's Evolution Based on Tacit Knowledge Through a Conceptual Framework"
+            }
+          ],
+          "justification": "The modelled knowledge is described as being made available, semantically annotated for dissemination and reuse, and published as ontology versions. This supports asynchronous reference or reuse, which maps to Documenting."
+        },
+        {
+          "goal": "For Learning",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "Some implementation issues emerged with OntoBio's evaluation and are regarded as ontology modeling language limitations in the specific domain of biodiversity:",
+              "section": "Section 4. Implementational Issues"
+            },
+            {
+              "quote": "This  research  revealed  some  conceptual  misunderstandings  and  ontology  language limitations.",
+              "section": "Section 5. Conclusions"
+            },
+            {
+              "quote": "A complex domain such as biodiversity, facilitates the identification  of  limitations  in  OntoUML  and  as  a  result,  generates  demands  for improvements  in  the  language.",
+              "section": "Section 5. Conclusions"
+            }
+          ],
+          "justification": "OntoBio is used as an evaluation case to reveal modeling-language limitations and conceptual modeling misunderstandings. This is coded as Learning because the knowledge gained concerns modeling language and modeling practice rather than biodiversity domain facts."
+        }
+      ],
+      "uncertain_goals": []
+    }
+  ],
+  "outside_taxonomy": []
+}

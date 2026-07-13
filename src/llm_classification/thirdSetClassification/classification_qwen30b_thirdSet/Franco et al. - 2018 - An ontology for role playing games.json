@@ -1,0 +1,89 @@
+{
+  "paper_file": "Franco et al. - 2018 - An ontology for role playing games.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "An Ontology for Role Playing Games",
+    "annotator": "LLM model name",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "RPG Ontology",
+        "goals": [
+          {
+            "goal": "For Intervening",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "After exporting data from our model simulating individuals found in both games to the OWL format, a total of 2,233 triplets was generated resorting to the Triple-Store Apache Jena Fuseki [27] persistent triple store.",
+                "section": "IV. EXPERIMENTAL EVALUATION"
+              },
+              {
+                "quote": "This allowed us to both syntactically and semantically validate our ontology using OWL tools.",
+                "section": "IV. EXPERIMENTAL EVALUATION"
+              }
+            ],
+            "justification": "The model was exported to OWL and used to generate triplets in a persistent store, which constitutes direct implementation and use of the model to create a machine-processable artifact, satisfying the 'For Intervening' criterion."
+          },
+          {
+            "goal": "For Problem-solving",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "We adopted Competency Questions (CQ) based on the work by Gr¨ uninger and Fox [24], which should be answered, thus providing an initial assessment of the completeness of the ontology: (QC1) What items are being carried by the player? (QC2) What entities are present in a game? (QC3) What actions are necessary to achieve a goal?.",
+                "section": "III. OUR APPROACH"
+              }
+            ],
+            "justification": "The use of competency questions to assess completeness and guide modeling aligns with the 'For Problem-solving' goal, as the model is used to analyze and evaluate what needs to be addressed in the domain."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "We propose a comprehensive ontology specially designed for modeling RPG games for semantic applications, which is built on top of Unified Foundational Ontology (UFO) [5] and covers elements from Interactive Storytelling (IS).",
+                "section": "I. INTRODUCTION"
+              },
+              {
+                "quote": "This is important so that the ontology allows to extract both information and the relationship of these data in the future.",
+                "section": "III. OUR APPROACH"
+              }
+            ],
+            "justification": "The model is presented as a shared semantic framework for discussing and consulting RPG-related material across platforms, implying its use in aligning understanding between stakeholders, even if not explicitly in a meeting or discussion context."
+          },
+          {
+            "goal": "For Documenting",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "The model is expected to be able to cover the adventures and missions found in both tabletop and digital RPG titles.",
+                "section": "III. OUR APPROACH"
+              },
+              {
+                "quote": "Materials an important addendum to the proposed model. These could be game books, magazines, websites, and forums.",
+                "section": "III. OUR APPROACH"
+              }
+            ],
+            "justification": "The model is designed to represent and organize diverse materials (books, websites, forums) and game content (adventures, campaigns), serving as a persistent reference for future use, which fits the 'For Documenting' goal."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Understanding",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "We build on top of a foundational ontology approach, namely Unified Foundational Ontology, to cover elements from Interactive Storytelling and aspects from a game's narrative.",
+                "section": "I. INTRODUCTION"
+              }
+            ],
+            "reason": "While the model incorporates foundational and narrative elements, the text does not explicitly state that it was created to clarify concepts, negotiate meaning, or build shared understanding among stakeholders."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"An Ontology for Role Playing Games\",\n  \"annotator\": \"LLM model name\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"RPG Ontology\",\n      \"goals\": [\n        {\n          \"goal\": \"For Intervening\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"After exporting data from our model simulating individuals found in both games to the OWL format, a total of 2,233 triplets was generated resorting to the Triple-Store Apache Jena Fuseki [27] persistent triple store.\",\n              \"section\": \"IV. EXPERIMENTAL EVALUATION\"\n            },\n            {\n              \"quote\": \"This allowed us to both syntactically and semantically validate our ontology using OWL tools.\",\n              \"section\": \"IV. EXPERIMENTAL EVALUATION\"\n            }\n          ],\n          \"justification\": \"The model was exported to OWL and used to generate triplets in a persistent store, which constitutes direct implementation and use of the model to create a machine-processable artifact, satisfying the 'For Intervening' criterion.\"\n        },\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"We adopted Competency Questions (CQ) based on the work by Gr¨ uninger and Fox [24], which should be answered, thus providing an initial assessment of the completeness of the ontology: (QC1) What items are being carried by the player? (QC2) What entities are present in a game? (QC3) What actions are necessary to achieve a goal?.\",\n              \"section\": \"III. OUR APPROACH\"\n            }\n          ],\n          \"justification\": \"The use of competency questions to assess completeness and guide modeling aligns with the 'For Problem-solving' goal, as the model is used to analyze and evaluate what needs to be addressed in the domain.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"We propose a comprehensive ontology specially designed for modeling RPG games for semantic applications, which is built on top of Unified Foundational Ontology (UFO) [5] and covers elements from Interactive Storytelling (IS).\",\n              \"section\": \"I. INTRODUCTION\"\n            },\n            {\n              \"quote\": \"This is important so that the ontology allows to extract both information and the relationship of these data in the future.\",\n              \"section\": \"III. OUR APPROACH\"\n            }\n          ],\n          \"justification\": \"The model is presented as a shared semantic framework for discussing and consulting RPG-related material across platforms, implying its use in aligning understanding between stakeholders, even if not explicitly in a meeting or discussion context.\"\n        },\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The model is expected to be able to cover the adventures and missions found in both tabletop and digital RPG titles.\",\n              \"section\": \"III. OUR APPROACH\"\n            },\n            {\n              \"quote\": \"Materials an important addendum to the proposed model. These could be game books, magazines, websites, and forums.\",\n              \"section\": \"III. OUR APPROACH\"\n            }\n          ],\n          \"justification\": \"The model is designed to represent and organize diverse materials (books, websites, forums) and game content (adventures, campaigns), serving as a persistent reference for future use, which fits the 'For Documenting' goal.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"We build on top of a foundational ontology approach, namely Unified Foundational Ontology, to cover elements from Interactive Storytelling and aspects from a game's narrative.\",\n              \"section\": \"I. INTRODUCTION\"\n            }\n          ],\n          \"reason\": \"While the model incorporates foundational and narrative elements, the text does not explicitly state that it was created to clarify concepts, negotiate meaning, or build shared understanding among stakeholders.\"\n        }\n      ]\n    }\n  ],\n  \"outside_taxonomy\": []\n}",
+  "seconds": 13.0
+}

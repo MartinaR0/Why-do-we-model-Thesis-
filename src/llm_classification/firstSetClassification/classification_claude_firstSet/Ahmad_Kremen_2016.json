@@ -1,0 +1,73 @@
+{
+  "paper_id": "Ahmad_Kremen_2016",
+  "annotator": "claude-opus-4",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Aviation Safety Ontological Conceptual Models (OntoUML/UFO-B models including Aviation Safety ontology, REDA Contributing Factors, and DSA)",
+      "goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "In this paper we study ontological anti-patterns identified during building ontologies to model and analyze the domain of aviation safety, and add new (Event) stereotypes and (Participant of) relation that connects events to their participants to OntoUML, in order to raise the quality of model and to add the possibility for modeling process and event in Aviation Safety reality.",
+              "section": "Section 5"
+            },
+            {
+              "quote": "Our research corresponds to the evaluation of models made during the development of aviation safety ontologies, and perform the evaluation of models in OntoUML editor tools (e.g., ontouml-lightweight-editor OLED) [10].",
+              "section": "Section 7"
+            },
+            {
+              "quote": "In this case, we can test the event model, detect undesired instances then terminate them.",
+              "section": "Section 7"
+            },
+            {
+              "quote": "In this paper, we discuss how ontological anti-patterns cause undesired consequences in ontological conceptual models, especially in Aviation Safety event models, in order to help designer to produce intended model, increase the accuracy of conceptual models and improve a conceptual model assessment tool based on Unified Modeling Language (UML) that assumes a well-founded conceptual modeling language named OntoUML.",
+              "section": "Section 8"
+            }
+          ],
+          "justification": "The models are used to identify shortcomings (anti-patterns/undesired instances) and evaluate models to improve them, matching the Problem-solving signal patterns 'evaluate', 'identify shortcomings', and 'what should change' without the model itself being the implementation instrument."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "A Conceptual Model representing the domain of aviation safety. It defines general well understood concepts in Aviation domain such as Aircraft, Flight, Agents and etc.",
+              "section": "Section 5"
+            },
+            {
+              "quote": "Figures 4 and 5 are taken from Aviation Safety ontology models, which represent the basic vocabularies, concepts and the relations between concepts in aviation safety domain (ASD).",
+              "section": "Section 6"
+            },
+            {
+              "quote": "the ontology searches for potential hazards from each of the defined categories, the most relevant categories are: characteristics airport, communication, human factor, operating environment, organization factor and Service factor, in order to reach correct comprehension of the analyzed event.",
+              "section": "Section 7.2"
+            }
+          ],
+          "justification": "The conceptual models are described as defining and representing domain concepts/vocabulary in aviation safety, supporting domain understanding ('reach correct comprehension'), matching the Understanding signals 'define', 'conceptualize', and clarifying concepts."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Within the research we could add new Event stereotype into OLED to represent UFO-B based concepts and relations.",
+              "section": "Section 7"
+            },
+            {
+              "quote": "We also add (Event) stereotype and (Participant of) relation that connects events to their participants to OLED to have the possibility for modeling UFO-B concepts based models and present some OCL restrictions regarding to perdurant concepts.",
+              "section": "Section 8"
+            }
+          ],
+          "reason": "The intervention concerns extending the OntoUML/OLED tool itself rather than using the aviation safety models as instruments to build a system; the link to the aviation safety models being used to construct an artifact is indirect."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

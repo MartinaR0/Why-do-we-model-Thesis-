@@ -1,0 +1,74 @@
+{
+  "paper_file": "Guizzardi et al. - 2021 - Ontological Unpacking as Explanation The Case of the Viral Conceptual Model.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "Guizzardi2021_ViralConceptualModel",
+    "annotator": "LLM",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "Viral Conceptual Model (VCM)",
+        "goals": [
+          {
+            "goal": "For Understanding",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "The process of revealing the ontological semantics of a data structuring model provides a fundamental type of explanation for symbolic models, including conceptual models.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "Our ontological unpacking provided a detailed analysis of the complex notions that are hidden within VCM and essential for acquiring a deep understanding of the domain.",
+                "section": "Discussion"
+              }
+            ],
+            "justification": "The paper explicitly states that the purpose of the ontological analysis is to provide explanation and deepen understanding of the domain, aligning with the definition of 'For Understanding' as supporting domain knowledge development and meaning negotiation."
+          },
+          {
+            "goal": "For Problem-solving",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "To facilitate a further, robust, application of VCM to projects with other viruses and pathogens, there needs to be some way to assess the quality of the model.",
+                "section": "Introduction"
+              },
+              {
+                "quote": "The ontological unpacking leads to the following advantages. Making Connections Explicit. VCM collapses the feature types for very different biological entities (genes, peptides, etc.), which could lead to confusion.",
+                "section": "Discussion"
+              }
+            ],
+            "justification": "The paper identifies specific problems in the VCM (e.g., collapsed concepts, underspecified aspects) and uses the ontological analysis to address them, which fits the definition of 'For Problem-solving' as using the model to identify shortcomings and guide improvements."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "The ontological unpacking supports the conceptual aspect of VCM, and facilitates a detailed data manipulation process for the integration of diverse genomic data at a high level of detail.",
+                "section": "Discussion"
+              }
+            ],
+            "justification": "The analysis is presented as a means to improve communication about the model's structure and semantics, particularly in the context of integrating diverse data, suggesting it supports alignment and explanation between stakeholders."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Documenting",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "The model is being used for designing: an integrated data warehouse and search system [8]; a linked Phenotype Data Dictionary [3]; a knowledge base of variant impacts [1]; and a visualization engine [6].",
+                "section": "Introduction"
+              }
+            ],
+            "reason": "While the VCM is used in various systems, the text does not explicitly frame the model as a documentation or reference artifact for future use; the use is functional, not archival."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"Guizzardi2021_ViralConceptualModel\",\n  \"annotator\": \"LLM\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"Viral Conceptual Model (VCM)\",\n      \"goals\": [\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The process of revealing the ontological semantics of a data structuring model provides a fundamental type of explanation for symbolic models, including conceptual models.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"Our ontological unpacking provided a detailed analysis of the complex notions that are hidden within VCM and essential for acquiring a deep understanding of the domain.\",\n              \"section\": \"Discussion\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that the purpose of the ontological analysis is to provide explanation and deepen understanding of the domain, aligning with the definition of 'For Understanding' as supporting domain knowledge development and meaning negotiation.\"\n        },\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"To facilitate a further, robust, application of VCM to projects with other viruses and pathogens, there needs to be some way to assess the quality of the model.\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"The ontological unpacking leads to the following advantages. Making Connections Explicit. VCM collapses the feature types for very different biological entities (genes, peptides, etc.), which could lead to confusion.\",\n              \"section\": \"Discussion\"\n            }\n          ],\n          \"justification\": \"The paper identifies specific problems in the VCM (e.g., collapsed concepts, underspecified aspects) and uses the ontological analysis to address them, which fits the definition of 'For Problem-solving' as using the model to identify shortcomings and guide improvements.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The ontological unpacking supports the conceptual aspect of VCM, and facilitates a detailed data manipulation process for the integration of diverse genomic data at a high level of detail.\",\n              \"section\": \"Discussion\"\n            }\n          ],\n          \"justification\": \"The analysis is presented as a means to improve communication about the model's structure and semantics, particularly in the context of integrating diverse data, suggesting it supports alignment and explanation between stakeholders.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The model is being used for designing: an integrated data warehouse and search system [8]; a linked Phenotype Data Dictionary [3]; a knowledge base of variant impacts [1]; and a visualization engine [6].\",\n              \"section\": \"Introduction\"\n            }\n          ],\n          \"reason\": \"While the VCM is used in various systems, the text does not explicitly frame the model as a documentation or reference artifact for future use; the use is functional, not archival.\"\n        }\n      ]\n    }\n  ],\n  \"outside_taxonomy\": []\n}",
+  "seconds": 11.3
+}

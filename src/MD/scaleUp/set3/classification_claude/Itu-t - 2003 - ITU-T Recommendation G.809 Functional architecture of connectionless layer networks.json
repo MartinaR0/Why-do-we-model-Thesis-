@@ -1,0 +1,53 @@
+{
+  "paper_id": "Itu-t - 2003 - ITU-T Recommendation G.809 Functional architecture of connectionless layer networks",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": ["Document is an ITU-T standards Recommendation rather than a conventional academic paper; figures are not extracted (shown as [FIGURE] placeholders), but textual content describing the model's purpose is intact."],
+  "models": [
+    {
+      "model_label": "Functional architecture model of connectionless layer networks (G.809)",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "This Recommendation describes the functional architecture of connectionless transport networks in a  technology  independent  way.  As  such,  it  forms  the  basis  for  a  set  of  Recommendations  for management, performance analysis and equipment specifications related to specific connectionless technologies.", "section": "Section 1 Scope"},
+            {"quote": "As such, the Recommendation should be taken as the basis for technology-specific descriptions of connectionless transport networks.", "section": "Summary"},
+            {"quote": "If this Recommendation is used as the basis for developing a technology-specific Recommendation to describe and model networks that use existing protocols (such as IP, Ethernet, Token Ring, etc.) it shall be used in a manner that is fully consistent with existing specifications as approved by the relevant  standards  organizations.", "section": "Section 1 Scope"}
+          ],
+          "justification": "The model is explicitly framed as the basis for developing further technology-specific Recommendations, management documents, performance analyses, and equipment specifications - i.e., the model directly enables/guides creation of downstream artifacts (other standards and equipment specifications). This matches For Intervening's signal pattern of 'used to create' and 'basis for' artifact generation."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "The  connectionless  transport  network  has  been  analysed  to  identify  generic  functionality  that  is independent  of  implementation  technology.  This  has  provided  a  means  to  describe  network functionality in an abstract way in terms of a small number of architectural components.", "section": "Section 6.3 Architectural components"},
+            {"quote": "Since the transport network is a large, complex network with various components, an appropriate network model with well-defined functional entities is essential for its design and management.", "section": "Section 6.1 Introduction"},
+            {"quote": "This annex compares and contrasts the properties of connection-oriented and connectionless layer networks.", "section": "Annex A"}
+          ],
+          "justification": "The Recommendation explicitly creates the model to conceptualize, define, and provide an abstract means of describing connectionless network functionality with well-defined functional entities, and uses Annex A/B to clarify and compare concepts. This aligns with Understanding signals ('describe in an abstract way', 'define', 'conceptualize')."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "This Recommendation defines the following terms:", "section": "Section 3 Definitions"},
+            {"quote": "This  annex  compares  the  components  of  a  connection-oriented  architecture  based  on  ITU-T Rec. G.805 with that of the connectionless architecture described in this Recommendation.", "section": "Annex B"}
+          ],
+          "justification": "As an ITU-T Recommendation, the document functions as a persistent reference defining terms, abbreviations, and architectural components for asynchronous use by parties (implementors, standards developers, operators) not involved in its drafting. This matches Documenting signals ('reference', 'documentation', 'for future use')."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "Since the transport network is a large, complex network with various components, an appropriate network model with well-defined functional entities is essential for its design and management.", "section": "Section 6.1 Introduction"}
+          ],
+          "reason": "The mention of 'design and management' hints at decision-making support, but the Recommendation does not provide concrete evidence of using the model itself to analyze options, evaluate alternatives, or identify shortcomings; the design role is more naturally classified as Intervening (basis for specs)."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

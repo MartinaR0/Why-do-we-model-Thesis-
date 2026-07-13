@@ -1,0 +1,77 @@
+{
+  "paper_id": "Guizzardi_2014_NFR",
+  "annotator": "claude-opus-4",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "UFO-based ontological interpretation of Non-Functional Requirements (NFRs as qualities)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Therefore, the objective of this paper is an exercise in ontological analysis and conceptual clarification.",
+              "section": "Introduction"
+            },
+            {
+              "quote": "The first benefit of capturing the ontological meaning of NFRs is conceptual clarification.",
+              "section": "Section 4.1"
+            },
+            {
+              "quote": "In this section, we go deeper to capture the ontological meaning of quality and use it to interpret NFRs.",
+              "section": "Section 2"
+            }
+          ],
+          "justification": "The paper explicitly frames its purpose as ontological analysis and conceptual clarification of NFRs, matching the For Understanding signals ('clarify', 'conceptualize', 'define') and the Understanding definition of building domain knowledge and clarifying concepts."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Providing ontological guidelines for distinguishing between non-functional and functional requirements.",
+              "section": "Introduction"
+            },
+            {
+              "quote": "Describing a sound approach for the analysis of the satisfaction of gradable NFRs.",
+              "section": "Introduction"
+            },
+            {
+              "quote": "We show in this section how the ontological interpretation of NFRs (1) provides operational guidelines for distinguishing between non-functional and functional requirements (Subsection 4.1); (2) supports the development of an ontology-based requirements specification language (Subsection 4.2); and (3) enables the analysis of the satisfaction of gradable NFRs (Subsection 4.3).",
+              "section": "Section 4"
+            },
+            {
+              "quote": "We aim at spotting what is lacking in this previous ontological account of requirements, and provide the ontological foundations we deem necessary to capture a richer set of ontological phenomena related to NFRs.",
+              "section": "Introduction"
+            }
+          ],
+          "justification": "The model is explicitly used to identify shortcomings in prior accounts (Jureta et al.'s CORE), to analyze and classify requirements (e.g., the PROMISE dataset evaluation), and to enable analysis of NFR satisfaction — matching the Problem-solving signals 'analyze', 'evaluate', 'identify shortcomings'."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Positioning NFRs relative to other ontological concepts, providing support for the development of an ontology-based syntax to specify NFRs.",
+              "section": "Introduction"
+            },
+            {
+              "quote": "A key benefit of understanding the ontological foundation of NFRs is that it provides support for designing requirement modeling languages.",
+              "section": "Section 4.2"
+            },
+            {
+              "quote": "These formulations characterize the ontological foundation of NFRs, and provide us with the semantics that a requirements modeling language (RML) should capture.",
+              "section": "Section 4.2"
+            }
+          ],
+          "reason": "The paper sketches a syntax and provides support for an RML, but only 'provides support for' development rather than building/deploying a system or artifact; this is closer to providing foundations than to using the model to actively create an implementation."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

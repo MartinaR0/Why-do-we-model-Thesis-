@@ -1,0 +1,116 @@
+{
+  "paper_file": "Lindeberg and Henkel - 2024 - A Shared Data Model for Improved Documentation of Human Rights Violations.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "A Shared Data Model for Improved Documentation of Human Rights Violations",
+    "annotator": "LLM model name",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "OntoRights",
+        "goals": [
+          {
+            "goal": "For Intervening",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "The research goal was to design the first ontology for human rights violations documentation, in collaboration with HURIDOCS. Named OntoRights, its primary purpose is to be used by human rights groups for developing case databases.",
+                "section": "Introduction"
+              },
+              {
+                "quote": "In order to provide the reader with an idea of what an ontology can concretely look like, a part of a module of OntoRights is available in Figure 1.",
+                "section": "Introduction"
+              },
+              {
+                "quote": "The Committee for Justice reviewed the proposed instantiation and considered that it would be useful as a starting point if the organization in the future was to make major changes to its database.",
+                "section": "3.2"
+              }
+            ],
+            "justification": "The paper explicitly states that OntoRights was designed for the purpose of being used by human rights groups to develop case databases, and provides evidence of actual instantiation for a real-world case (Committee for Justice), which constitutes implementation use. The use of 'used by' and the demonstration of instantiation in a real case meet the 'For Intervening' criteria."
+          },
+          {
+            "goal": "For Problem-solving",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "The need for structure is increased by today's abundance of data sources. Social media, smartphones, and sensors produce much useful data (Piracés 2018), but also contribute to information overload.",
+                "section": "Introduction"
+              },
+              {
+                "quote": "The evaluation of OntoRights suggests that OntoRights could be highly useful for case databases.",
+                "section": "Abstract"
+              }
+            ],
+            "justification": "The model is presented as a solution to the problem of information overload and lack of structured data in human rights documentation. The evaluation section confirms that the model helps address the practical challenges of database design, which aligns with 'For Problem-solving' as it supports decision-making about how to structure data for case databases."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "An ontology can specify, for example, that: - A Human Rights Violation is committed by at least one Perpetrator, with attributes such as name or date of birth.",
+                "section": "Introduction"
+              },
+              {
+                "quote": "The evaluation of OntoRights suggests that OntoRights could be highly useful for case databases.",
+                "section": "Abstract"
+              }
+            ],
+            "justification": "The model is used to clarify and standardize shared concepts (e.g., perpetrator, victim, violation) across different stakeholders. The paper frames the ontology as a tool for achieving shared understanding and alignment, particularly in the context of diverse human rights groups. This supports 'For Communicating' as it enables explanation and alignment between different actors in the domain."
+          },
+          {
+            "goal": "For Documenting",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "The resulting ontology, named OntoRights, is freely available online with an open license.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "All three versions are available at OntoRights' website on GitHub.",
+                "section": "2.2"
+              },
+              {
+                "quote": "For a complete look at Easy OntoRights, please access its diagrams (published as a webpage) and its accompanying documentation.",
+                "section": "3.1"
+              }
+            ],
+            "justification": "The ontology is explicitly described as being published online with an open license and made available as a persistent, accessible resource (GitHub, website). The documentation, user manual, and project files are provided for future reference, fulfilling the criteria for 'For Documenting' as an asynchronous, persistent knowledge base."
+          },
+          {
+            "goal": "For Learning",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "The participants thought Easy OntoRights appeared to be flexible with regard to the many different types of issues that human rights groups can monitor: 'It is quite adaptable; it can be used for different reasons and different needs.'",
+                "section": "3.2"
+              },
+              {
+                "quote": "In response to the raised doubts regarding ease of use, OntoRights was recently updated to release 1.1. This update includes a third version of the ontology: Basic OntoRights. Its purpose is mainly pedagogical, to bridge the gap between the Easy OntoRights and human rights practitioners that are new to conceptual modelling.",
+                "section": "3.2"
+              }
+            ],
+            "justification": "The introduction of Basic OntoRights as a pedagogical tool specifically to help new users learn conceptual modeling supports 'For Learning'. The explicit mention of its purpose as 'pedagogical' and its role in bridging the gap for novices provides strong evidence for this goal."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Understanding",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "An ontology can specify, for example, that: - A Human Rights Violation is committed by at least one Perpetrator, with attributes such as name or date of birth.",
+                "section": "Introduction"
+              }
+            ],
+            "reason": "While the model helps clarify domain concepts, the paper does not present it as a tool for internal sense-making or meaning negotiation among the modeling team. The focus is on external use for database development and documentation, not on building shared understanding within a group."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"A Shared Data Model for Improved Documentation of Human Rights Violations\",\n  \"annotator\": \"LLM model name\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"OntoRights\",\n      \"goals\": [\n        {\n          \"goal\": \"For Intervening\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The research goal was to design the first ontology for human rights violations documentation, in collaboration with HURIDOCS. Named OntoRights, its primary purpose is to be used by human rights groups for developing case databases.\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"In order to provide the reader with an idea of what an ontology can concretely look like, a part of a module of OntoRights is available in Figure 1.\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"The Committee for Justice reviewed the proposed instantiation and considered that it would be useful as a starting point if the organization in the future was to make major changes to its database.\",\n              \"section\": \"3.2\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that OntoRights was designed for the purpose of being used by human rights groups to develop case databases, and provides evidence of actual instantiation for a real-world case (Committee for Justice), which constitutes implementation use. The use of 'used by' and the demonstration of instantiation in a real case meet the 'For Intervening' criteria.\"\n        },\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The need for structure is increased by today's abundance of data sources. Social media, smartphones, and sensors produce much useful data (Piracés 2018), but also contribute to information overload.\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"The evaluation of OntoRights suggests that OntoRights could be highly useful for case databases.\",\n              \"section\": \"Abstract\"\n            }\n          ],\n          \"justification\": \"The model is presented as a solution to the problem of information overload and lack of structured data in human rights documentation. The evaluation section confirms that the model helps address the practical challenges of database design, which aligns with 'For Problem-solving' as it supports decision-making about how to structure data for case databases.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"An ontology can specify, for example, that: - A Human Rights Violation is committed by at least one Perpetrator, with attributes such as name or date of birth.\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"The evaluation of OntoRights suggests that OntoRights could be highly useful for case databases.\",\n              \"section\": \"Abstract\"\n            }\n          ],\n          \"justification\": \"The model is used to clarify and standardize shared concepts (e.g., perpetrator, victim, violation) across different stakeholders. The paper frames the ontology as a tool for achieving shared understanding and alignment, particularly in the context of diverse human rights groups. This supports 'For Communicating' as it enables explanation and alignment between different actors in the domain.\"\n        },\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The resulting ontology, named OntoRights, is freely available online with an open license.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"All three versions are available at OntoRights' website on GitHub.\",\n              \"section\": \"2.2\"\n            },\n            {\n              \"quote\": \"For a complete look at Easy OntoRights, please access its diagrams (published as a webpage) and its accompanying documentation.\",\n              \"section\": \"3.1\"\n            }\n          ],\n          \"justification\": \"The ontology is explicitly described as being published online with an open license and made available as a persistent, accessible resource (GitHub, website). The documentation, user manual, and project files are provided for future reference, fulfilling the criteria for 'For Documenting' as an asynchronous, persistent knowledge base.\"\n        },\n        {\n          \"goal\": \"For Learning\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The participants thought Easy OntoRights appeared to be flexible with regard to the many different types of issues that human rights groups can monitor: 'It is quite adaptable; it can be used for different reasons and different needs.'\",\n              \"section\": \"3.2\"\n            },\n            {\n              \"quote\": \"In response to the raised doubts regarding ease of use, OntoRights was recently updated to release 1.1. This update includes a third version of the ontology: Basic OntoRights. Its purpose is mainly pedagogical, to bridge the gap between the Easy OntoRights and human rights practitioners that are new to conceptual modelling.\",\n              \"section\": \"3.2\"\n            }\n          ],\n          \"justification\": \"The introduction of Basic OntoRights as a pedagogical tool specifically to help new users learn conceptual modeling supports 'For Learning'. The explicit mention of its purpose as 'pedagogical' and its role in bridging the gap for novices provides strong evidence for this goal.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"An ontology can specify, for example, that: - A Human Rights Violation is committed by at least one Perpetrator, with attributes such as name or date of birth.\",\n              \"section\": \"Introduction\"\n            }\n          ],\n          \"reason\": \"While the model helps clarify domain concepts, the paper does not present it as a tool for internal sense-making or meaning negotiation among the modeling team. The focus is on external use for database development and documentation, not on building shared understanding within a group.\"\n        }\n      ]\n    }\n  ],\n  \"outside_taxonomy\": []\n}",
+  "seconds": 22.2
+}

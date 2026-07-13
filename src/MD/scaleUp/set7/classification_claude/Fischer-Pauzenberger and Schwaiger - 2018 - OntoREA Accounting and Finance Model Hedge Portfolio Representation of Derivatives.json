@@ -1,0 +1,51 @@
+{
+  "paper_id": "Fischer-Pauzenberger and Schwaiger - 2018 - OntoREA Accounting and Finance Model Hedge Portfolio Representation of Derivatives",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": ["Some figures and tables are referenced as [FIGURE] placeholders; formula content is not decoded but the textual descriptions remain available."],
+  "models": [
+    {
+      "model_label": "OntoREA Accounting and Finance Model (PIM with PSM/ISM transformations and PDCA process model) for hedge portfolio representation of derivatives",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "The proposed approach is implemented into an R/Shiny software prototype where the 3-tier-architecture is used to integrate the database and the PDCA process model at the R/Shiny implementation speci fi c model (ISM) level.", "section": "Abstract"},
+            {"quote": "The OntoREA © model act as conceptual platform independent model (PIM) for the development of a platform speci fi c PostgreSQL relational database model (PSM) within the model-driven software development context (MDD).", "section": "1 Introduction"},
+            {"quote": "Its software implementation is demonstrated in an R/Shiny application where the 3-tierarchitecture is used to integrate the database and the PDCA process model at the R/Shiny ISM level.", "section": "6 Conclusion"}
+          ],
+          "justification": "The paper explicitly describes the model being used to develop and implement a working software prototype (PIM-PSM-ISM transformation into R/Shiny + PostgreSQL). This matches the For Intervening positive signals 'implemented' and 'used to create' an artifact."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "The presented hedge portfolio representation of derivatives can be useful for business analysts in the fi nance and accounting domain as well as for teaching fi nancial derivative instruments.", "section": "Abstract"},
+            {"quote": "The hedge portfolio representation of (un-)conditional derivative instruments in the extended MDD framework can be useful for business analysts in the fi nance and accounting domain as well as for software engineers by not only explaining derivatives in form of PIM, PSM and ISM data and process models but also by implementing the derivatives ' hedge portfolio representation models in real software application.", "section": "6 Conclusion"}
+          ],
+          "justification": "The authors frame the model as useful for explaining derivatives to business analysts/software engineers and for teaching — asynchronous reference/explanation use for parties not in the modeling process, fitting the Documenting (reference, teaching) signal pattern."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "The primary research objective of this article lies in delivering the proof that the conceptual OntoREA © PIM model incorporates not only the static but also the dynamic hedge portfolio representation of derivative instruments.", "section": "1 Introduction"}
+          ],
+          "reason": "The proof/validation is about demonstrating model coverage and is tied to the implementation step rather than to using the model to compare options or guide a separate decision; under the Intervening-vs-Problem-solving rule this evidence resolves to Intervening, not Problem-solving."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "The hedge portfolio representation of (un-)conditional derivative instruments in the extended MDD framework can be useful for business analysts in the fi nance and accounting domain as well as for software engineers by not only explaining derivatives in form of PIM, PSM and ISM data and process models but also by implementing the derivatives ' hedge portfolio representation models in real software application.", "section": "6 Conclusion"}
+          ],
+          "reason": "The 'explaining' usefulness is generic and not framed as synchronous/live interaction between distinct stakeholder groups; without explicit meeting/discussion context, the evidence better fits Documenting than Communicating."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

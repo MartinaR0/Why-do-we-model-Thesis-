@@ -1,0 +1,88 @@
+{
+  "paper_id": "Lindeberg and Henkel - 2022 - Designing an Ontology for Human Rights Violations Documentation",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "OntoRights (Full and Simple) - domain ontology for human rights violations documentation",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The primary goal of the work was to design OntoRights so that it supports human rights groups that are designing case databases of human rights violations.",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "In this paper we reported on the design of OntoRights: a domain ontology for human rights documentation with the primary purpose of facilitating conceptual modelling of case databases for human rights groups.",
+              "section": "7 Conclusion"
+            },
+            {
+              "quote": "Simple OntoRights was instantiated twice: for a fictitious case and a real case.",
+              "section": "5.3 Demonstration"
+            },
+            {
+              "quote": "An ontology contains much embedded knowledge and patterns that can support a group's design of a data model.",
+              "section": "1 Introduction"
+            }
+          ],
+          "justification": "The model is explicitly framed as an instrument for designing/building case databases - it directly guides creation of data systems. The ontology was also instantiated (demonstrated as actually used) for both fictitious and real cases (CfJ), matching the For Intervening positive signal of 'used to create' and 'generated artifact'."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "This paper presents the initial work with requirements elicitation leading to the design of OntoRights - a domain ontology for human rights violations documentation that aims at helping human rights organisations to structure their documentation.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "Around the world, human rights groups of varying sizes collect information about human rights violations to bring justice to the victims and prevent future aggression. The collected information is stored in repositories of very different types: from paper notebooks to advanced databases. This practice is referred to as human rights violations documentation.",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "To present a convincing case, human rights groups must keep track of their sources and supporting documentation, and respect the different levels of confidentiality for each piece of information.",
+              "section": "4.2 Functional Requirements Elicitation"
+            }
+          ],
+          "justification": "The ontology's purpose is explicitly to structure documentation of human rights violations - asynchronous, persistent records of cases stored for later use (repositories, databases, archives). This matches the For Documenting signal of 'documentation', 'stored', 'repository', and 'knowledge management'."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Ontologies provide an abstract and shared data model, above the implementation of a concrete data system [12].",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "an important point of an ontology is being a shared, generic model that represents consensus about a domain [27]",
+              "section": "4.1 Non-functional Requirements Elicitation"
+            }
+          ],
+          "reason": "These statements describe ontologies in general (citing other authors) rather than stating that OntoRights itself was created to support domain understanding or meaning negotiation among stakeholders; the evidence is indirect."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "CfJ reviewed the proposed instantiation and considered that it would be a useful starting point if the organisation in the future was to do major changes to its database.",
+              "section": "5.3 Demonstration"
+            },
+            {
+              "quote": "Also, the demonstration activity (step 5) revealed a weakness in OntoRights regarding expressing legal processes, and the design (step 4) was modified accordingly.",
+              "section": "3.1 Overall Research Framework: Design Science Research"
+            }
+          ],
+          "reason": "The second quote shows the demonstration was used to identify shortcomings of the ontology itself (a design improvement loop) rather than the ontology being used by stakeholders to make domain decisions; per the disambiguation rule, this is weaker evidence and overlaps with the implementation framing already coded as For Intervening."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

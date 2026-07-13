@@ -1,0 +1,52 @@
+{
+  "paper_id": "Rita de Cassia et al. - 2012 - Mapping of Vulnerabilities in the Public Cloud with the use of Foundational Ontology A Perspective",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": ["Figures are not visible (rendered as [FIGURE] placeholders); some text contains OCR/translation artifacts but key purpose statements are readable."],
+  "models": [
+    {
+      "model_label": "Ontology of Vulnerabilities in the Public Cloud (IaaS) modeled in OntoUML/UFO",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "The purpose of this conceptual model is to allow a common understanding in the shared conceptualization of a modeled domain   among   different   stakeholders,   such   as   business, people,   processes,   tools   and   technologies.", "section": "VI. Conclusion"},
+            {"quote": "The purpose this modeling, is to provide an effective mechanism, capable   of   handling   two   major   security   issues,   such   as: providing a common vocabulary to describe vulnerabilities unambiguously   and   resolving   the   issue   of   semantic interoperability   between   the   databases   of   vulnerabilities maintained by various entities", "section": "Abstract"}
+          ],
+          "justification": "The paper explicitly frames the model's purpose as creating a common/shared understanding of the domain and a common vocabulary to describe vulnerabilities unambiguously — matching the For Understanding signals (shared understanding, clarify, common vocabulary)."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "These ideas lead to the identification of potential users in ontology, since this will serve as coping mechanisms for IT managers in decision making, when planning for adoption of the   Cloud   Computing.", "section": "I. Introduction"},
+            {"quote": "Support   for   managers   in   decisions   about adherence to Cloud Services.", "section": "VI. Conclusion"},
+            {"quote": "The identification of solutions in a scenario of a security incident in the Cloud;", "section": "VI. Conclusion"}
+          ],
+          "justification": "Multiple statements frame the model as supporting IT managers' decision making about adoption of Cloud Services and identifying solutions in security incidents — matching the For Problem-solving signals (decision, identify, evaluate options)."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "Another purpose for   the   creation   of possibilities in ontology is the interoperability of data storage and dissemination of vulnerability, using semantic models.", "section": "V. Modeling Proposal"},
+            {"quote": "Reuse of safety data by importing and exporting ontologies;", "section": "VI. Conclusion"}
+          ],
+          "reason": "The paper mentions interoperability and import/export as intended contributions, but does not show the model being implemented, deployed, or used to build a system; these remain framed as potential/future contributions rather than realized intervention."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "The creation of a standard for structuring data on vulnerabilities in computing environments, allowing different terms mapped in the ontology;", "section": "VI. Conclusion"}
+          ],
+          "reason": "Reference/standard-like framing is suggested but is presented as a hoped-for contribution rather than the model's stated purpose as a documentation artifact for absent parties."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

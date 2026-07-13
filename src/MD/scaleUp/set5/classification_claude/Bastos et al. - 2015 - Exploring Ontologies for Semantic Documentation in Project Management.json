@@ -1,0 +1,103 @@
+{
+  "paper_id": "Bastos et al. - 2015 - Exploring Ontologies for Semantic Documentation in Project Management",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Software Project Management Ontology (SPMOnt)",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Moreover, in order to annotate document and spreadsheet templates with metadata related  to  software  project  management,  we  developed  the  Software  Project Management  Ontology.  Thus,  we  explored  its  conceptualization  in  domain-specific features to support project management activities.",
+              "section": "Section 4"
+            },
+            {
+              "quote": "In  order  to  explore  the  use  of  semantic  annotation  to  support  project  management aspects, we first extended IMSD to work with spreadsheets and then we used SPMOnt as a basis to annotate spreadsheet templates related to the project management domain.",
+              "section": "Section 4.2"
+            },
+            {
+              "quote": "The SPMOnt was implemented in OWL and  its  URL  is  also  informed  in  the concept field.",
+              "section": "Section 4.2"
+            },
+            {
+              "quote": "We also discussed an extension of the IMSD [Arantes and Falbo 2010] that enables it to semantically annotate spreadsheets with concepts, relations and properties of the Software Project Management Ontology to provide features supporting project planning and tracking.",
+              "section": "Section 6"
+            }
+          ],
+          "justification": "The SPMOnt was implemented in OWL and actively used as the basis to annotate spreadsheet templates and to extend the IMSD platform with domain-specific functionalities. The model directly enables the creation of the semantic annotation artifacts and system extension, matching the For Intervening definition (signal: 'implemented', 'used to create')."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "In this paper, we explore the use of domain ontologies for semantic documentation  in  Project  Management.",
+              "section": "Section 1"
+            },
+            {
+              "quote": "Moreover, in order to annotate document and spreadsheet templates with metadata related  to  software  project  management,  we  developed  the  Software  Project Management  Ontology.",
+              "section": "Section 4"
+            },
+            {
+              "quote": "The  spreadsheets  produced  using  the  annotated  templates  are  submitted  to IMSD, which extracts data from them and stores in OWL files, allowing searching and retrieval.",
+              "section": "Section 4.2"
+            },
+            {
+              "quote": "Besides, semantic annotation could help store and retrieve the knowledge acquired in a project and reuse it in other projects.",
+              "section": "Section 2"
+            }
+          ],
+          "justification": "The model's stated purpose is semantic documentation: annotating project documents/spreadsheets so they can be stored, indexed, and retrieved later as a knowledge base / reference. This is asynchronous, persistent reference use, matching For Documenting (signals: 'documentation', 'knowledge management', 'stored', 'repository', 'retrieve')."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "The use of semantic annotation in the Project Management domain can help project managers to get consolidated information from data stored in different documents and to make decisions based on it.",
+              "section": "Section 1"
+            },
+            {
+              "quote": "relationships between activities with planned duration/cost and the real duration/cost of the activity occurrences caused by them can be explored to track planned and executed values, determine their adherence, and also calculate Earned Value Analysis indicators and estimates about the project conclusion, helping project managers to understand the project progress, monitor it and make adjustments when necessary",
+              "section": "Section 4.2"
+            },
+            {
+              "quote": "the  dependency  relation between activities and between activities and WBS items (not shown in Figure 1) can be used to extract and relate data recorded in Project Status Reports and WBS document and  represent  them  in  dependency  matrices  that  are  useful  to  analyze  the  impact  of changes  in  the  project",
+              "section": "Section 4.2"
+            }
+          ],
+          "justification": "Beyond implementation, the ontology-driven functionalities are framed as supporting decision-making, monitoring, analysis of change impact, and managerial adjustments. This separate evidence (distinct from the implementation purpose) supports For Problem-solving (signals: 'decision', 'analyze', 'monitor')."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "performance indicators can help the project manager to understand the project progress and performance based on the project scope, schedule and budget.",
+              "section": "Section 2"
+            }
+          ],
+          "reason": "The mention of understanding is about general project management activities (domain understanding via indicators), not framed as the SPMOnt model's purpose; evidence is too indirect to count as a present goal."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Documents are an important instrument to record and share information in the project management domain, since they provide useful information for communication between people and for an effective understanding about the project [Bruggemann et al. 2000].",
+              "section": "Section 1"
+            }
+          ],
+          "reason": "This is a generic motivation about documents in project management, not a statement that the SPMOnt itself is used for synchronous/live communication; the model's role is asynchronous documentation rather than meetings/live discussion."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

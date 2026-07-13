@@ -1,0 +1,95 @@
+{
+  "paper_id": "de Almeida Pereira et al. - 2019 - Formal Specification of Environmental Aspects of a Railway Interlocking System Based on a Conceptual",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Conceptual model of the relay-based RIS and its environment (UFO/DAO-based)",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Based on the conceptual model representing the relations between the environment and the relay-based RIS, it is possible to improve the formal specification of the system by specifying extra conditions in order to prove the safety of the system.",
+              "section": "Section 5.1"
+            },
+            {
+              "quote": "Based on this conceptual model, it is possible to structurally capitalise the relation between the system and the environment and formally specify it.",
+              "section": "Section 5"
+            },
+            {
+              "quote": "As a result, the specification of a relay-based RIS that has been presented in a previous work could be improved in order to consider many safety properties that could not be considered before.",
+              "section": "Conclusion"
+            }
+          ],
+          "justification": "The conceptual model is directly used to derive/improve the B-method formal specification (a concrete artifact), with the improved specification presented in Fig. 7 and verified by ProB. This matches the For Intervening definition: the model actively guides the creation of an artifact (the improved formal specification), not merely proposed."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The use of a conceptual model allows a better understanding of the domain knowledge and provides a shared view with a common vocabulary.",
+              "section": "Introduction"
+            },
+            {
+              "quote": "This proposed conceptual model allows a semantic analysis of the environmental impact over the system and the description of other safety properties that have not been considered in the formal specification.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "This paper presents the application of a higher level of modelling abstraction, conceptual modelling, which may provide a conceptual clarification of the RIS environment.",
+              "section": "Abstract"
+            }
+          ],
+          "justification": "The paper explicitly states the conceptual model is used to clarify concepts and improve domain understanding (conceptual clarification, semantic analysis, common vocabulary), matching the For Understanding positive signals 'understand', 'clarify', 'conceptualize'."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "The conceptual model allows a safety-oriented improvement of the RIS formal specification as well as it provides a common, shared and unambiguous view of both system and environment.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "Hence, it supports the communication and the knowledge sharing between both safety and design actors.",
+              "section": "Section 3"
+            },
+            {
+              "quote": "DAO tackles the semantic heterogeneity issue that may lead to several conflicts between safety analysts and design engineers.",
+              "section": "Section 3"
+            }
+          ],
+          "justification": "The paper explicitly states the model 'supports the communication... between both safety and design actors' (distinct groups), aligning two stakeholder communities, which matches the For Communicating signal 'align stakeholders' / 'bridge between'."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "The related conceptual model improves the conceptual clarification of the safety reasoning and the management of safety decisions in the early stages of the safety critical systems design.",
+              "section": "Section 3"
+            }
+          ],
+          "reason": "This refers to the DAO ontology's general capability rather than the present conceptual model being used to make decisions; the disambiguation rule states that when the same evidence shows implementation/specification improvement, code only For Intervening, not For Problem-solving."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "The present work aims to fill this gap by capitalising and sharing the knowledge in order to satisfy the domain needs.",
+              "section": "Section 3"
+            }
+          ],
+          "reason": "The phrase 'capitalising and sharing the knowledge' weakly hints at a persistent reference but the paper does not frame the model as documentation, knowledge base, or archived reference for absent parties."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

@@ -1,0 +1,150 @@
+{
+  "paper_id": "Calhau et al. - 2024 - Modeling competences in enterprise architecture from knowledge, skills, and attitudes to organizati",
+  "annotator": "GPT-5 Codex",
+  "no_codable_model": false,
+  "input_limitations": [
+    "The markdown extraction contains encoding/OCR noise and omitted figure contents marked as [FIGURE], but relevant section text was readable."
+  ],
+  "models": [
+    {
+      "model_label": "Competence reference ontology",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The reference ontology is then used as a starting point to the representation of competences alongside their constituent elements in ArchiMate , in Sect. 6.",
+              "section": "Section 2.2"
+            },
+            {
+              "quote": "The reference ontology is also used as a basis for the well-founded representation of the various types of competence relationships in ArchiMate, in Sect. 6.",
+              "section": "Section 2.2"
+            }
+          ],
+          "justification": "The ontology is not only proposed for description; the authors explicitly use it as the basis for creating the ArchiMate competence representation artifact."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The approach is based on the analysis of the key conceptual notions and their relations in order to guide adequate representation in EA models.",
+              "section": "Section 2.1"
+            },
+            {
+              "quote": "Thereference ontology has provided us with a semantic foundation that accounts for the relation between organizational capabilities and individual competences, and this is reflected in the representation strategy.",
+              "section": "Section 10"
+            }
+          ],
+          "justification": "The ontology is explicitly presented as a semantic foundation for clarifying concepts and relations in the competence domain."
+        }
+      ],
+      "uncertain_goals": []
+    },
+    {
+      "model_label": "ArchiMate competence representation language pattern and viewpoints",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "This well-founded representation is proposed to allow modeling of competence, its elements (knowledge, skill, attitude), and organizational capabilities in the EA context, supplementing the representation proposed in [9, 10].",
+              "section": "Section 6"
+            },
+            {
+              "quote": "We investigated the support of Competence Management activities with Enterprise Architecture models with the goal of improving personal competence and organizational capability understanding.",
+              "section": "Section 10"
+            }
+          ],
+          "justification": "The representation is explicitly created to model competence-related concepts and improve understanding of personal competences and organizational capabilities."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Asaresult, the proposed representation can aid in essential CoM activities such as competence mapping, identification, and gap analysis.",
+              "section": "Section 10"
+            },
+            {
+              "quote": "The PU questions were designed to assess whether the competence representation was deemed useful in the support of practical EA-related tasks (especially related to capabilitybased practices) -such as (i) improved comprehension (for problem solving), (ii) decision-making, (iii) performance (i.e., effectiveness), and (iv) expressiveness (i.e., communication).",
+              "section": "Section 8.1"
+            }
+          ],
+          "justification": "The representation is framed as supporting competence management tasks such as gap analysis, planning, assessment, problem solving, and decision-making rather than directly implementing a system."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "We have investigated the suitability of the representation for communicating the relations between the individual level of competences and the organizational level of capabilities and assessed the perceptions of the participants following the Technology Acceptance Model (TAM) [22].",
+              "section": "Section 2.3"
+            },
+            {
+              "quote": "In addition to these points, other important aspects to be concerned about in the proposed language pattern are: (i) the visual representation works as a complementary resource to facilitate communication and understanding; (ii) the vertical relationships allow us to work in distinct abstraction levels, enabling to manage the complexity of the competence representations; and (iii) the reference ontology allows a structured representation of competence information, which may serve as the basis to improve the quality of queries, reasoning, inferences, and technological solutions in general.",
+              "section": "Section 10"
+            }
+          ],
+          "justification": "The paper explicitly says the representation supports communication; the confidence is medium because the evidence does not specify a live or synchronous communication setting."
+        }
+      ],
+      "uncertain_goals": []
+    },
+    {
+      "model_label": "Spotify agile coaching and adaptability EA case model",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "To show the benefits of the pattern language, we have applied it to a real-life case study from the literature addressed originally by BΓ¤cklander [21] (but also concerning other references related to the case [21, 74-76]).",
+              "section": "Section 7"
+            },
+            {
+              "quote": "Based on the case study application, the language pattern brought some benefits to the understanding of how individ- ual competences and skills can impact the capabilities of the whole organization.",
+              "section": "Section 10"
+            },
+            {
+              "quote": "As a result, (i) more human capabilities and correspondent elements (knowledge and attitude) were identified; (ii) how agile coaches impact other tribe members through enabling relationships was explicitly captured; and finally, (iii) how adaptability emergence happens was precisely described.",
+              "section": "Section 10"
+            }
+          ],
+          "justification": "The Spotify model is used to understand and make explicit how agile coach competences relate to team learning and adaptability emergence."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "Questions about traceability were aimed at assessing the understanding of the competence representation and the zooming out task in survey answering, and to correlate this data with the TAM result.",
+              "section": "Section 8.1"
+            },
+            {
+              "quote": "In these questions, we asked which competences/capabilities would be impacted directly and indirectly by the development of the agile coach skills (Sharing encouragement skills and teaching skills).",
+              "section": "Section 8.1"
+            }
+          ],
+          "justification": "The case model was used for traceability and impact analysis over competence/capability changes, which supports problem-solving but is shown mainly through an evaluation task."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "We presented the model using the distinct viewpoints proposed in this work with a short textual description and a figure legend explaining the main relationships.",
+              "section": "Section 8.1"
+            }
+          ],
+          "reason": "The model was presented and explained to survey participants, but this is weak evidence for communication as a functional goal rather than an evaluation procedure."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

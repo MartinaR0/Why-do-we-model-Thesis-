@@ -1,0 +1,53 @@
+{
+  "paper_id": "Carolla_Spitta_2014_Campus",
+  "annotator": "claude-opus-4",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Reference data model for Campus Management Systems (CaMS)",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "We try to fill this gap with a reference model for campus-management system's databases.", "section": "1 Introduction"},
+            {"quote": "We applied our approach in the domain of campus-management systems to create an ontologically founded reference model as a necessary prerequisite of sustainable (standard)-software.", "section": "6 Conclusion"},
+            {"quote": "Meanwhile it seems as a common scientific rule [7, p. 333]; [36, p. 2f], that standard systems should be developed by means of reference models.", "section": "1 Introduction"}
+          ],
+          "justification": "The paper explicitly frames the reference model's purpose as a necessary prerequisite for developing standard campus management software, matching the signal that a model is intended to enable system development/implementation."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "The multitude of aspects in this field can not even be mentioned here, but it seems fundamental in the situation of the ongoing Bologna Process, that reference models are needed to facilitate the communication of all stakeholders, the developing enterprises and the large number of users, from the teaching to the learning and the administrative members of universities.", "section": "1 Introduction"},
+            {"quote": "Such a model provides a base for further communication seeming to be very urgent in the ongoing 'Bologna Process'.", "section": "6 Conclusion"}
+          ],
+          "justification": "The paper explicitly states that the reference model is intended to facilitate communication between distinct stakeholder groups (developers, teachers, learners, administrators), matching the 'communicate', 'align stakeholders', 'bridge between' signals."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "This (re-)construction process results in a normalised terminology that limits the common speech in the UoD and unifies the communication about it.", "section": "4 Reality Construction"},
+            {"quote": "We normalise NL in a terminology, capturing the UoD semantics in clearly and unambiguously defined modelling terms.", "section": "6 Conclusion"},
+            {"quote": "Language and Grammar have been treated by Wand & Weber, who state that the language should be based on an ontology defining an agreed fundamental view of the world [39, p. 220]. This is a first step to a common understanding of the UoD.", "section": "2 Terms and Research of Semantic Modelling"}
+          ],
+          "justification": "The paper describes the model as capturing and clarifying domain semantics in unambiguous terms to establish a common understanding of the universe of discourse, matching 'clarify', 'shared understanding', 'conceptualize' signals."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "As an important element of this process, a language-based reference model should be helpful for the improvement of today's pilot installations.", "section": "6 Conclusion"}
+          ],
+          "reason": "The mention of 'improvement of today's pilot installations' is vague and forward-looking rather than showing the model was actually used to analyze options or guide a decision."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

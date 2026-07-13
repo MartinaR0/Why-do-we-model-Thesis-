@@ -1,0 +1,82 @@
+{
+  "paper_id": "Borges Ruy et al. - 2016 - SEON A Software Engineering Ontology Network",
+  "annotator": "GPT-5 Codex",
+  "no_codable_model": false,
+  "input_limitations": [
+    "The extracted paper text contains character encoding noise in accented characters and ligatures, and figures are represented only as [FIGURE]."
+  ],
+  "models": [
+    {
+      "model_label": "SEON Software Engineering Ontology Network",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "SEON is designed with mechanisms for easing the development and integration of SE domain ontologies.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "SEON provides a well-grounded network of SE reference ontologies 3 , and mechanisms to derive and incorporate new integrated subdomain ontologies into the network.",
+              "section": "Section 1 Introduction"
+            },
+            {
+              "quote": "During domain ontology development, the ontology engineer selects useful patterns and extends their concepts and relations in the networked ontology (Fig. 4 shows the case for the Requirements Development Process Ontology).",
+              "section": "Section 3 SEON: The Software Engineering Ontology Network"
+            }
+          ],
+          "justification": "The model is explicitly designed as an instrument for developing, integrating, and incorporating SE domain ontologies. This matches the Intervening rule for a model that guides or enables creation and integration of artifacts."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "Hence, SEON rises with three main premises: (i) being based on a well-founded grounding for ontology development; (ii) offering mechanisms to easy building and integrating new SE subdomain ontologies to the network; and (iii) promoting integration by keeping a consistent semantics for concepts and relations along the whole network.",
+              "section": "Section 3 SEON: The Software Engineering Ontology Network"
+            },
+            {
+              "quote": "The core ontologies, sustained by the foundational ontology, offer a standardized way for describing all the other elements in the network.",
+              "section": "Section 3 SEON: The Software Engineering Ontology Network"
+            }
+          ],
+          "justification": "The evidence states that SEON maintains consistent semantics and standardized descriptions for SE concepts. The link to domain understanding and shared meaning is direct but requires a small inference from semantic consistency to understanding."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "There are several ontology-based initiatives of applying KM in SE. Some of them adopt centralized KM solutions (e.g., KM systems with large centralized knowledge repositories), such as [28]; others focus on distributed KM solutions, such as the ones using Semantic Wikis [29].",
+              "section": "Section 4 SEON Envisioned Applications"
+            },
+            {
+              "quote": "In both cases, ontologies are used to support knowledge representation (e.g., by categorizing or annotating knowledge items), integration, search, and retrieval.",
+              "section": "Section 4 SEON Envisioned Applications"
+            },
+            {
+              "quote": "Regarding SEON applications, our research agenda includes: a Standard Harmonization Approach supported by SEON; efforts on using SEON-based annotations in semantic documents, allowing integrating information scattered in multiple documents; and using SEON for semantic integration of SE tools, extending [11].",
+              "section": "Section 6 Final Considerations"
+            }
+          ],
+          "justification": "The paper frames SEON around KM scenarios involving repositories, semantic documents, annotations, and integration of information scattered in documents. This supports asynchronous documentation and knowledge-base use, though part of the evidence is described as envisioned or agenda work."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "SEON success criteria relate to how easy SEON grows by incorporating new ontologies, and how successful is to apply SEON to solve integration focused problems (such as standard harmonization and tool integration, besides KM).",
+              "section": "Section 6 Final Considerations"
+            }
+          ],
+          "reason": "The paper mentions solving integration-focused problems, but the surrounding evidence frames SEON mainly as an implementation and integration instrument rather than a decision-making model."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

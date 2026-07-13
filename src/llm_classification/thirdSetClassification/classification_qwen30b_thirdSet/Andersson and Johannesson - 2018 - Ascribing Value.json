@@ -1,0 +1,82 @@
+{
+  "paper_file": "Andersson and Johannesson - 2018 - Ascribing Value.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "Ascribing Value",
+    "annotator": "LLM",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "Value Ascription Ontology (VAO)",
+        "goals": [
+          {
+            "goal": "For Understanding",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "The goal of this paper is to conceptualize the notion of value ascription, in which an agent ascribes value to some value object.",
+                "section": "Introduction"
+              },
+              {
+                "quote": "The result is a value ascription ontology (VAO) that includes the concepts required for representing and explaining value ascriptions.",
+                "section": "Introduction"
+              },
+              {
+                "quote": "This paper proposes an ontology for conceptualizing the notion of value ascription that is founded on an analysis of context notions, showing how value of objects can be explained in terms of value of states of affairs.",
+                "section": "Abstract"
+              }
+            ],
+            "justification": "The paper explicitly states that the purpose of the VAO is to conceptualize and explain value ascription, focusing on clarifying the ontological assumptions and relationships. The language of 'conceptualizing', 'explaining', and 'representing' aligns with the goal of understanding, not implementation or communication. No evidence suggests the model was used to build or implement anything."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "The main envisioned benefit of the proposed ontology is that it should provide the concepts needed for representing value ascription in a generic sense.",
+                "section": "Introduction"
+              },
+              {
+                "quote": "Value ascriptions can easily be visualized in a tabular structure, see figure 2.",
+                "section": "3 Illustration"
+              }
+            ],
+            "justification": "The paper presents the VAO as a tool for structuring and visualizing value ascriptions, which supports communication about value across stakeholders. The illustration in Figure 2 is described as a way to represent the model, suggesting it is intended to facilitate discussion or alignment. While not explicitly stated as used in meetings or real-time discussion, the emphasis on visualization and shared representation supports the goal of communication between distinct parties."
+          },
+          {
+            "goal": "For Documenting",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "The main envisioned benefit of the proposed ontology is that it should provide the concepts needed for representing value ascription in a generic sense.",
+                "section": "Introduction"
+              },
+              {
+                "quote": "The value ascription is always carried out with respect to a value protocol, i.e., a value ascription needs to take into account all three components of a value protocol.",
+                "section": "2.2 Value Objects, Value Ascriptions and Value Protocols"
+              }
+            ],
+            "justification": "The VAO is presented as a reusable, structured framework for representing value ascriptions, with components like value protocols and value structures that can be stored and referenced. The emphasis on generic representation and formal structure supports its use as a persistent reference, consistent with documentation. The fact that it is intended for future use in modeling value ascriptions across contexts supports the documenting function."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Problem-solving",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "From a value analysis point of view at least two fundamental questions about valuations should be answerable: (a) if an object is kept fixed, what happens to its ascribed value when the context changes? and (b) which object out of several will be ascribed the highest value in a context?",
+                "section": "Introduction"
+              }
+            ],
+            "reason": "While the paper poses questions that could be used in problem-solving, it does not claim that the model is used to solve problems, make decisions, or evaluate options. The questions are presented as design goals for the ontology, not as actual applications of the model in decision-making."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"Ascribing Value\",\n  \"annotator\": \"LLM\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"Value Ascription Ontology (VAO)\",\n      \"goals\": [\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The goal of this paper is to conceptualize the notion of value ascription, in which an agent ascribes value to some value object.\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"The result is a value ascription ontology (VAO) that includes the concepts required for representing and explaining value ascriptions.\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"This paper proposes an ontology for conceptualizing the notion of value ascription that is founded on an analysis of context notions, showing how value of objects can be explained in terms of value of states of affairs.\",\n              \"section\": \"Abstract\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that the purpose of the VAO is to conceptualize and explain value ascription, focusing on clarifying the ontological assumptions and relationships. The language of 'conceptualizing', 'explaining', and 'representing' aligns with the goal of understanding, not implementation or communication. No evidence suggests the model was used to build or implement anything.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The main envisioned benefit of the proposed ontology is that it should provide the concepts needed for representing value ascription in a generic sense.\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"Value ascriptions can easily be visualized in a tabular structure, see figure 2.\",\n              \"section\": \"3 Illustration\"\n            }\n          ],\n          \"justification\": \"The paper presents the VAO as a tool for structuring and visualizing value ascriptions, which supports communication about value across stakeholders. The illustration in Figure 2 is described as a way to represent the model, suggesting it is intended to facilitate discussion or alignment. While not explicitly stated as used in meetings or real-time discussion, the emphasis on visualization and shared representation supports the goal of communication between distinct parties.\"\n        },\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The main envisioned benefit of the proposed ontology is that it should provide the concepts needed for representing value ascription in a generic sense.\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"The value ascription is always carried out with respect to a value protocol, i.e., a value ascription needs to take into account all three components of a value protocol.\",\n              \"section\": \"2.2 Value Objects, Value Ascriptions and Value Protocols\"\n            }\n          ],\n          \"justification\": \"The VAO is presented as a reusable, structured framework for representing value ascriptions, with components like value protocols and value structures that can be stored and referenced. The emphasis on generic representation and formal structure supports its use as a persistent reference, consistent with documentation. The fact that it is intended for future use in modeling value ascriptions across contexts supports the documenting function.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"From a value analysis point of view at least two fundamental questions about valuations should be answerable: (a) if an object is kept fixed, what happens to its ascribed value when the context changes? and (b) which object out of several will be ascribed the highest value in a context?\",\n              \"section\": \"Introduction\"\n            }\n          ],\n          \"reason\": \"While the paper poses questions that could be used in problem-solving, it does not claim that the model is used to solve problems, make decisions, or evaluate options. The questions are presented as design goals for the ontology, not as actual applications of the model in decision-making.\"\n        }\n      ]\n    }\n  ],\n  \"outside_taxonomy\": []\n}",
+  "seconds": 12.9
+}

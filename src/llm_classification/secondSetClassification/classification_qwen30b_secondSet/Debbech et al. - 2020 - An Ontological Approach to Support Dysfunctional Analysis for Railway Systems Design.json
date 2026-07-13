@@ -1,0 +1,104 @@
+{
+  "paper_file": "Debbech et al. - 2020 - An Ontological Approach to Support Dysfunctional Analysis for Railway Systems Design.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "Debbech2020_DysfunctionalAnalysisOntology",
+    "annotator": "LLM",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "Dysfunctional Analysis Ontology (DAO)",
+        "goals": [
+          {
+            "goal": "For Understanding",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "The proposed DAO for the SCSs design aims to provide an ontological clarification of the dysfunctional analysis terms such as failure, causes, effects and safety measures throughout the SCSs design.",
+                "section": "3.1 The DAO Purpose Identification"
+              },
+              {
+                "quote": "The real world interpretation aims to establish relations between the dysfunctional analysis domain and the foundational distinctions of UFO.",
+                "section": "3.2 The Dysfunctional Analysis Conceptualization"
+              }
+            ],
+            "justification": "The paper explicitly states that the DAO's purpose is to provide ontological clarification and conceptual harmonization of dysfunctional analysis terms, which aligns with 'For Understanding' as it aims to build shared knowledge and meaning about domain concepts using foundational distinctions."
+          },
+          {
+            "goal": "For Problem-solving",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "The proposed systematization of the dysfunctional analysis is independent of safety analysis methods that are required for the SCSs design.",
+                "section": "3.1 The DAO Purpose Identification"
+              },
+              {
+                "quote": "The proposed ontology contributes to the knowledge sharing, the conceptual modeling and the goal-oriented safety decisions identification from several perspectives as summarized below.",
+                "section": "6 Conclusion and Future Works"
+              }
+            ],
+            "justification": "The model is used to identify shortcomings in current practices (e.g., lack of conceptual clarity, semantic heterogeneity) and to guide decision-making by enabling analysis of failure modes, causes, and effects. This supports problem-solving by enabling stakeholders to analyze options and identify what needs to change, without being used to build an artifact."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "The proposed DAO establishes a common vocabulary for the knowledge sharing in order to improve the communication and avoid the semantic heterogeneity between the actors of domains.",
+                "section": "6 Conclusion and Future Works"
+              },
+              {
+                "quote": "The alignment between the dysfunctional analysis and the goal-oriented safety measures elicitation is performed by the interpretation of the relations between derived safety measures and GORE concepts such as goal, context and task.",
+                "section": "3.1 The DAO Purpose Identification"
+              }
+            ],
+            "justification": "The model is explicitly described as a tool to bridge communication gaps between safety analysts and design engineers, and to align perspectives between stakeholders. This meets the criteria for 'For Communicating' as it supports explanation and alignment between distinct groups."
+          },
+          {
+            "goal": "For Documenting",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "The proposed ontology provides a complete and consistent taxonomy, which is able to represent and analyze several real situations thanks to its flexibility, adaptability and expressiveness qualities.",
+                "section": "6 Conclusion and Future Works"
+              },
+              {
+                "quote": "The DAO as a reference domain ontology contributes to the knowledge sharing and the safety decisions management and it can be reused for other safety critical domains.",
+                "section": "5 The DAO evaluation"
+              }
+            ],
+            "justification": "The model is presented as a persistent, reusable knowledge base for future use, with a focus on documentation of domain concepts, relations, and real-world semantics. This fits 'For Documenting' as it serves as a reference for future stakeholders not involved in the original modeling process."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Intervening",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "The use of emergency brakes may be applied in all contexts to prevent any Hazard . Furthermore, this is recommended by the frame of reference of main-line train drivers.",
+                "section": "5.1 Ontology Verification"
+              }
+            ],
+            "reason": "The paper discusses safety measures as recommendations but does not state that the DAO was used to implement, build, or generate any artifact, system, or implementation. The use of SPARQL queries and RDF graphs is presented as illustrative, not as an actual implementation of a system."
+          },
+          {
+            "goal": "For Learning",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "The proposed ontology contributes to the knowledge sharing, the conceptual modeling and the goal-oriented safety decisions identification from several perspectives as summarized below.",
+                "section": "6 Conclusion and Future Works"
+              }
+            ],
+            "reason": "The paper does not frame the model as a tool for learning modeling methods, tools, or techniques. The focus is on domain knowledge (safety, failures, goals) rather than on teaching how to model."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"Debbech2020_DysfunctionalAnalysisOntology\",\n  \"annotator\": \"LLM\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"Dysfunctional Analysis Ontology (DAO)\",\n      \"goals\": [\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The proposed DAO for the SCSs design aims to provide an ontological clarification of the dysfunctional analysis terms such as failure, causes, effects and safety measures throughout the SCSs design.\",\n              \"section\": \"3.1 The DAO Purpose Identification\"\n            },\n            {\n              \"quote\": \"The real world interpretation aims to establish relations between the dysfunctional analysis domain and the foundational distinctions of UFO.\",\n              \"section\": \"3.2 The Dysfunctional Analysis Conceptualization\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that the DAO's purpose is to provide ontological clarification and conceptual harmonization of dysfunctional analysis terms, which aligns with 'For Understanding' as it aims to build shared knowledge and meaning about domain concepts using foundational distinctions.\"\n        },\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The proposed systematization of the dysfunctional analysis is independent of safety analysis methods that are required for the SCSs design.\",\n              \"section\": \"3.1 The DAO Purpose Identification\"\n            },\n            {\n              \"quote\": \"The proposed ontology contributes to the knowledge sharing, the conceptual modeling and the goal-oriented safety decisions identification from several perspectives as summarized below.\",\n              \"section\": \"6 Conclusion and Future Works\"\n            }\n          ],\n          \"justification\": \"The model is used to identify shortcomings in current practices (e.g., lack of conceptual clarity, semantic heterogeneity) and to guide decision-making by enabling analysis of failure modes, causes, and effects. This supports problem-solving by enabling stakeholders to analyze options and identify what needs to change, without being used to build an artifact.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The proposed DAO establishes a common vocabulary for the knowledge sharing in order to improve the communication and avoid the semantic heterogeneity between the actors of domains.\",\n              \"section\": \"6 Conclusion and Future Works\"\n            },\n            {\n              \"quote\": \"The alignment between the dysfunctional analysis and the goal-oriented safety measures elicitation is performed by the interpretation of the relations between derived safety measures and GORE concepts such as goal, context and task.\",\n              \"section\": \"3.1 The DAO Purpose Identification\"\n            }\n          ],\n          \"justification\": \"The model is explicitly described as a tool to bridge communication gaps between safety analysts and design engineers, and to align perspectives between stakeholders. This meets the criteria for 'For Communicating' as it supports explanation and alignment between distinct groups.\"\n        },\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The proposed ontology provides a complete and consistent taxonomy, which is able to represent and analyze several real situations thanks to its flexibility, adaptability and expressiveness qualities.\",\n              \"section\": \"6 Conclusion and Future Works\"\n            },\n            {\n              \"quote\": \"The DAO as a reference domain ontology contributes to the knowledge sharing and the safety decisions management and it can be reused for other safety critical domains.\",\n              \"section\": \"5 The DAO evaluation\"\n            }\n          ],\n          \"justification\": \"The model is presented as a persistent, reusable knowledge base for future use, with a focus on documentation of domain concepts, relations, and real-world semantics. This fits 'For Documenting' as it serves as a reference for future stakeholders not involved in the original modeling process.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Intervening\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The use of emergency brakes may be applied in all contexts to prevent any Hazard . Furthermore, this is recommended by the frame of reference of main-line train drivers.\",\n              \"section\": \"5.1 Ontology Verification\"\n            }\n          ],\n          \"reason\": \"The paper discusses safety measures as recommendations but does not state that the DAO was used to implement, build, or generate any artifact, system, or implementation. The use of SPARQL queries and RDF graphs is presented as illustrative, not as an actual implementation of a system.\"\n        },\n        {\n          \"goal\": \"For Learning\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The proposed ontology contributes to the knowledge sharing, the conceptual modeling and the goal-oriented safety decisions identification from several perspectives as summarized below.\",\n              \"section\": \"6 Conclusion and Future Works\"\n            }\n          ],\n          \"reason\": \"The paper does not frame the model as a tool for learning modeling methods, tools, or techniques. The focus is on domain knowledge (safety, failures, goals) rather than on teaching how to model.\"\n        }\n      ]\n    }\n  ],\n  \"outside_taxonomy\": []\n}",
+  "seconds": 24.0
+}

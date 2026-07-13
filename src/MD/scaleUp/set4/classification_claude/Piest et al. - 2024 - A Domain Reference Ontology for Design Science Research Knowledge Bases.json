@@ -1,0 +1,64 @@
+{
+  "paper_id": "Piest et al. - 2024 - A Domain Reference Ontology for Design Science Research Knowledge Bases",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Domain Reference Ontology for DSR Knowledge Bases (OntoUML model, with operational OWL ontology)",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "An operational ontology was designed and implemented in a DSR project in OWL using WebProtégé.", "section": "Abstract"},
+            {"quote": "Building upon the OntoUML models in Visual Paradigm, the gUFO export option generated a .ttl file. This file was imported into desktop Protégé and used to create an OWL ontology.", "section": "Section 5.2 Implementation"},
+            {"quote": "Upon the UFO and OntoUML, an OLED can automatically generate an operational OWL ontology based on OntoUML, which can contribute to shortening the implementation phase.", "section": "Section 5.1 Design"}
+          ],
+          "justification": "The OntoUML domain reference ontology was actively used to generate and implement an operational OWL ontology (an artifact/system); the model directly enabled creation of the operational ontology, matching the For Intervening signals 'implemented', 'used to create', 'generated'."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "More specifically, the domain reference ontology for DSR KBs aims to create a common language and vocabulary, classify types of knowledge, and provide a", "section": "Section 4.1 Table 1 ORSD (Purpose and aim)"},
+            {"quote": "foundation for conceptual modeling.", "section": "Section 4.1 Table 1 ORSD (Purpose and aim)"}
+          ],
+          "justification": "The stated purpose is to create a common language/vocabulary and classify types of knowledge — explicit signals of 'clarify', 'define', 'conceptualize' that map directly to For Understanding (building shared domain knowledge about DSR KBs)."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "Knowledge bases play an important role in Design Science Research (DSR).", "section": "Abstract"},
+            {"quote": "The domain reference ontology provides an abstract blueprint for DSR knowledge bases and a conceptual foundation to develop operational ontologies to support the cumulative development of design knowledge.", "section": "Abstract"},
+            {"quote": "The project repository will contribute to making the results of the DSR project FAIR and contribute to the reuse and cumulative development of design knowledge [5].", "section": "Section 4.2.4 Case Studies and Applications"},
+            {"quote": "Desktop Protégé provides functionality to generate interactive documentation as an OWL Doc.", "section": "Section 6 Support Processes"}
+          ],
+          "justification": "The ontology is explicitly framed as a reusable reference/knowledge base and blueprint to be consulted asynchronously by other scholars and professionals for cumulative development of design knowledge — matches Documenting signals 'documentation', 'knowledge base', 'reference', 'reuse', 'repository'."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "A user and working group will be established to manage the lifecycle, which is open for interested scholars and professionals to join.", "section": "Abstract"},
+            {"quote": "Another advantage of WebProtégé is that it facilitates online collaboration.", "section": "Section 5.1 Design"}
+          ],
+          "reason": "References to stakeholders, collaboration, and user/working groups suggest possible communicative use, but the paper does not explicitly describe the model being used in meetings or live discussion to align distinct groups; the framing is closer to documentation and shared reference."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "Use 2b: Designers produce solution designs for applications to address/solve problems using the KB.", "section": "Section 4.1 Table 1 ORSD (Intended uses)"},
+            {"quote": "Use 6a: System users query the KB for inquiry (e.g., explore knowledge, search), analytical purposes (e.g., bibliometric analysis), and the development of software agents (e.g., recommender or assistant to support users 1-4).", "section": "Section 4.1 Table 1 ORSD (Intended uses)"}
+          ],
+          "reason": "Some intended uses describe analytical/decision-supporting queries and producing solution designs, but the evidence is intended/future use rather than realized problem-solving with the model itself, and overlaps with For Intervening (using the KB to build artifacts)."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

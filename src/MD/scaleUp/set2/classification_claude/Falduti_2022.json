@@ -1,0 +1,73 @@
+{
+  "paper_id": "Falduti_2022",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "UFO-L based domain ontology for non-consensual pornography cybercrime",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The result is a conceptualization capable of being shared with other models, increasing the interoperability and clarity of the meaning of common terms and relations found in the various laws studied.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "To move direction consistency, we noticed that legislators are using different terms to express very similar or identical concepts. Examples are the terms photography, video, audiovisual, image, visual, audio, film, recordings for expressing a media content, or nude, explicit sexual activity, pornographic, sexually explicit material, private sexual, sex scene to express the concept of intimate media content. With our knowledge model, we try to systematize the criminal knowledge.",
+              "section": "Section 3.1 Problem Statement"
+            },
+            {
+              "quote": "Others, however, we harmonize to converge the different terms found in the analyzed laws (e.g. Depicter Person, Publisher, Content Consumer ).",
+              "section": "Section 4 Model"
+            }
+          ],
+          "justification": "The paper explicitly frames the model as a conceptualization that clarifies the meaning of common terms across fragmented legislation and harmonizes divergent terminology, matching the 'clarify', 'conceptualize', and 'shared understanding' signals for For Understanding."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "We evaluate our model with real cases reported in the news and literature. More in particular, involving two criminal law experts, we ask them to analyse cases and classify the facts. We tested the instantiation of these cases in our model, and we compare the facts' classification performed by the expert and by the model.",
+              "section": "Section 5 Preliminary Evaluation"
+            },
+            {
+              "quote": "Having this expert-based facts classification, we aim at making legal interpretation machine-readable by instantiating roles, concepts and relations, performing a preliminary model classification and comparing it with the expert-based classification.",
+              "section": "Section 5.2 Experts Analysis"
+            },
+            {
+              "quote": "With this approach, it is possible to formalize the different phases of the crime and identify each legal roles during the crime evolution, which is mapped through the events.",
+              "section": "Section 5.3 Model Instantiation and Facts Classification"
+            }
+          ],
+          "justification": "The model is used to analyze and classify real cases, identify legal roles, and compare with expert classification — supporting decision/analysis use (signals: 'analyze', 'evaluate', 'identify') without itself being an implemented system."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Once the effects of cybercrimes go beyond the jurisdiction of a country, it is appropriate that information systems of different countries can interact and use the same set of concepts and relations to represent the same phenomenon.",
+              "section": "Section 1 Introduction"
+            },
+            {
+              "quote": "We believe that this is the first step towards enabling the interoperability of information systems in cybercrime cases.",
+              "section": "Section 1 Introduction"
+            },
+            {
+              "quote": "With this work, we aim at presenting the first step for the process of interoperability of information systems on cybercrimes, in particular, on non-consensual pornography crime.",
+              "section": "Section 6 Final Considerations"
+            }
+          ],
+          "reason": "Interoperability of information systems is framed as a future aspiration ('first step towards enabling') rather than an actual implementation or artifact generated from the model, matching the negative signal 'future work / proposed only'."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

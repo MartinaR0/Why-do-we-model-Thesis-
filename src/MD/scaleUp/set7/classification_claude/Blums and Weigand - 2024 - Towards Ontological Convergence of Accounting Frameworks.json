@@ -1,0 +1,64 @@
+{
+  "paper_id": "Blums and Weigand - 2024 - Towards Ontological Convergence of Accounting Frameworks",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Converged Conceptual Framework (CCF) Ontology",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "Upon review and discussion of the proposed ontologies, as well as comparing them with other U FO-based economic and legal ontologies, such as OntoFine [10] and UFO -L [13], it is evident that the conceptualizations introduced vary  or  require  further  meaning  negotiation  and  explication.", "section": "Section 1. Introduction"},
+            {"quote": "Converging and matching frameworks, standards, and ontologies is an essential process in achieving semantic interoperability, integration, and alignment of information across different systems and domains.", "section": "Section 1. Introduction"},
+            {"quote": "In our development process, we have refined the distinctions between economic resources and assets, clarified the dual nature of economic claims against an entity, and identified the participants involved in inflows and outflows.", "section": "Section 4. Conclusion and future work"}
+          ],
+          "justification": "Paper explicitly invokes 'meaning negotiation and explication' and uses the ontology to clarify/define core concepts (Economic Resource, Control, Transfer, etc.), matching the For Understanding signal pattern of clarifying concepts and meaning negotiation in the domain."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "The research goal of this study is to study the problem of ontology convergence and to create an analysis and core ontology artifact - Converged Conceptual Framework (CCF) Ontology, grounded in the UFO and Core Ontology for Financial Reporting Information Systems (COFRIS) [20], as a formal model for convergence of the frameworks of the International Financial Reporting Standards (IFRS CF) [1] and the United States Generally Accepted Accounting Principles (US GAAP CF) [2].", "section": "Section 1. Introduction"},
+            {"quote": "The US GAAP CF has dismissed the asset control and custody concepts present in IFRS CF and exhibits differences in core element sets and definitions.", "section": "Section 2.2. The US GAAP Conceptual Framework (US GAAP CF)"},
+            {"quote": "Any semantic conflicts, such as naming discrepancies, variations in definitions, and inconsistencies in constraints, are resolved by prioritizing the definitions provided by IFRS.", "section": "Section 3.1"},
+            {"quote": "as the primary focus of these frameworks is to facilitate standard setting, one of the immediate purposes of a converged framework is to support the joint development and ongoing maintenance of converged standards, such as IFRS 15.", "section": "Section 1. Introduction"}
+          ],
+          "justification": "The CCF Ontology is used to analyze and resolve semantic conflicts between two existing frameworks, identify shortcomings, evaluate definitions, and suggest preferences/convergence choices — matching the For Problem-solving signal pattern of 'analyze options', 'evaluate', and 'identify shortcomings'."
+        },
+        {
+          "goal": "For Learning",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "The overall research frame is Design Science Research where COFRIS [20, 21], as it has been developed along several cycles so far, is the core artifact. The current paper represents a new design cycle; the primary research goal is to validate the usefulness of COFRIS by applying it to the practical purpose of CF convergence and to extend COFRIS if needed.", "section": "Section 1. Introduction"},
+            {"quote": "The resulting converged framework serves as a validation of COFRIS.", "section": "Section 4. Conclusion and future work"},
+            {"quote": "The successful development of the CCF Ontology demonstrates the conceptual richness of the UFO and COFRIS ontologies and their suitability as ontological analysis means.", "section": "Section 4. Conclusion and future work"}
+          ],
+          "justification": "The paper explicitly states the primary research goal is to validate and extend the COFRIS modeling artifact/method itself, which concerns the modeling activity (testing whether/how the modeling approach works) rather than only the domain — matching the Understanding vs. Learning disambiguation rule (work framed as a test case to learn whether/how modeling works)."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "The CCF Ontology is submitted for publishing in OntoUML/UFO Catalog.", "section": "Section 4. Conclusion and future work"},
+            {"quote": "one of the immediate purposes of a converged framework is to support the joint development and ongoing maintenance of converged standards, such as IFRS 15.", "section": "Section 1. Introduction"}
+          ],
+          "reason": "The paper proposes an ontology and discusses its potential to support standard setting, but there is no evidence it has been implemented, deployed, or used to build a system/artifact beyond the model itself; uses are stated as future/intended support rather than realized implementation."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "The CCF Ontology is submitted for publishing in OntoUML/UFO Catalog.", "section": "Section 4. Conclusion and future work"}
+          ],
+          "reason": "Submission to a catalog hints at reference/asynchronous reuse, but the paper does not explicitly frame the model as documentation, knowledge base, or reference for absent parties — the evidence is indirect."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

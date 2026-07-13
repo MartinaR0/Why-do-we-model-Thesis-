@@ -1,0 +1,151 @@
+{
+  "paper_id": "Ahmad_Kremen_2016",
+  "annotator": "ChatGPT-5",
+  "no_codable_model": false,
+  "input_limitations": [
+    "The extracted markdown contains spacing and character-conversion noise and figure contents are omitted as [FIGURE], but the main sections are readable."
+  ],
+  "models": [
+    {
+      "model_label": "OntoUML perdurant/event extension",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Extending OntoUML editor tools and adding new stereotypes makes it possible to define event based models, in order to help modelers to evaluate and improve the models produced using OntoUML conceptual modeling languages.",
+              "section": "Section 4"
+            },
+            {
+              "quote": "We also add (Event) stereotype and (Participant of) relation that connects events to their participants to OLED to have the possibility for modeling UFO-B concepts based models and present some OCL restrictions regarding to perdurant concepts.",
+              "section": "Section 8"
+            }
+          ],
+          "justification": "The paper states that the extension was added to OntoUML/OLED so modelers can define UFO-B event-based models. This directly enables construction of modeling artifacts, matching the Intervening rule."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "Extending OntoUML editor tools and adding new stereotypes makes it possible to define event based models, in order to help modelers to evaluate and improve the models produced using OntoUML conceptual modeling languages.",
+              "section": "Section 4"
+            }
+          ],
+          "justification": "The stated use includes evaluating and improving produced models. This supports identifying shortcomings and improvements, although the evidence is about model quality rather than a domain decision."
+        }
+      ],
+      "uncertain_goals": []
+    },
+    {
+      "model_label": "Aviation safety domain conceptual model",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "A Conceptual Model representing the domain of aviation safety.",
+              "section": "Section 5"
+            },
+            {
+              "quote": "It defines general well understood concepts in Aviation domain such as Aircraft, Flight, Agents and etc. (more detail in [23]).",
+              "section": "Section 5"
+            }
+          ],
+          "justification": "The model is explicitly described as representing the aviation safety domain and defining its concepts. That is direct evidence for supporting domain understanding."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "In these efforts, to increase the awareness of analytical methods and tools in aviation community for safety analysis in aviation, our strategy is to build and design ontological conceptual models in the domain of aviation safety, analyze safety events that lead to incidents or accidents, and explain factors, that contribute to these safety events, in order to transfer impressible safe to incredibly safe.",
+              "section": "Section 5"
+            }
+          ],
+          "justification": "The broader modeling strategy uses aviation safety conceptual models to analyze events and explain contributing factors for safety improvement. The link to this specific model is implied by its inclusion among the listed aviation safety models."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "In these efforts, to increase the awareness of analytical methods and tools in aviation community for safety analysis in aviation, our strategy is to build and design ontological conceptual models in the domain of aviation safety, analyze safety events that lead to incidents or accidents, and explain factors, that contribute to these safety events, in order to transfer impressible safe to incredibly safe.",
+              "section": "Section 5"
+            }
+          ],
+          "reason": "The reference to increasing awareness in the aviation community hints at communication, but it does not describe interaction, explanation between distinct stakeholders, or live discussion."
+        }
+      ]
+    },
+    {
+      "model_label": "REDA Contributing Factors ontology",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "A Conceptual Model that describes Ramp Error Decision Aid (REDA) Contributing Factors ontology.",
+              "section": "Section 5"
+            },
+            {
+              "quote": "REDA Contributing Factor is used to describe conditions that contribute to a ramp system failure which lead to other event.",
+              "section": "Section 7.1"
+            }
+          ],
+          "justification": "The model is explicitly described as representing REDA contributing factors and the conditions that contribute to failures. This is direct evidence for domain understanding."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Thus we built ontologies (management ontology) to represent and model factors that are considered a part of management system, to define what may cause or contribute to incidents in order to directly reduce or eliminate the contributing factors to error or damage events.",
+              "section": "Section 7.1"
+            }
+          ],
+          "justification": "The ontology is used to define causal or contributing factors so they can be reduced or eliminated. This directly matches using a model to identify what should change."
+        }
+      ],
+      "uncertain_goals": []
+    },
+    {
+      "model_label": "DSA ontology / high risk organization model",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "As part of our work we designed models, which represent DSA ontology, see Fig. 8, in order to define hazard factors and events or problem related to these factors.",
+              "section": "Section 7.2"
+            },
+            {
+              "quote": "The ontology searches for potential hazards from each of the defined categories, the most relevant categories are: characteristics airport, communication, human factor, operating environment, organization factor and Service factor, in order to reach correct comprehension of the analyzed event.",
+              "section": "Section 7.2"
+            }
+          ],
+          "justification": "The model is explicitly designed to represent the DSA ontology and define hazard factors and related events. The stated aim of correct comprehension of analyzed events directly supports Understanding."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Detected hazard defined in any category does not exclude hazards from the other categories, in other words it tries to find potential causes of event by deeper analysis and determination of the events chain.",
+              "section": "Section 7.2"
+            }
+          ],
+          "justification": "The model is used to search for hazards and find potential event causes through deeper analysis. This supports problem-solving by identifying causal issues that need attention."
+        }
+      ],
+      "uncertain_goals": []
+    }
+  ],
+  "outside_taxonomy": []
+}

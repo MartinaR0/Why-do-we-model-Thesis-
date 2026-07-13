@@ -1,0 +1,116 @@
+{
+  "paper_file": "Borges et al. - 2022 - A Multi-level Ontology-based Approach for Descriptors of Catalogued Resources.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "A Multi-level Ontology-based Approach for Descriptors of Catalogued Resources",
+    "annotator": "LLM model name",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "MLT-DCAT Core Ontology",
+        "goals": [
+          {
+            "goal": "For Intervening",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "This paper aims to present a well-founded ontological analysis of DCAT, extending its semantics and treating ambiguities. Moreover, the main contribution of this work is to propose a DCAT-based core ontology grounded on a multi-level foundational ontology.",
+                "section": "Introduction"
+              },
+              {
+                "quote": "The proposed model aims to make the DCAT structures adherent to the reality aspects that need to be represented, establishing ontological commitments in an explicit way, which helps the understanding of those who will use it.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "It can provide a canonical model for specific implementations, to be adopted by repositories and by Web resource search engines and analysis mechanisms.",
+                "section": "Introduction"
+              },
+              {
+                "quote": "The model, in RDF, would make available the structure adopted in the catalogue, as well as the standardized terms (semantic artifacts).",
+                "section": "5. Employing MLT-DCAT for a repository"
+              }
+            ],
+            "justification": "The paper explicitly states that the model is intended to be adopted by repositories and search engines, and that it can be used to generate RDF representations for interoperability. The use of 'canonical model for specific implementations' and 'to be adopted' indicates active use in building systems, satisfying the 'For Intervening' criterion."
+          },
+          {
+            "goal": "For Problem-solving",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "The DCAT representation, however, can be improved by establishing a well-defined conceptualization of the domain to be treated, in this case, the domain of the catalogued resource descriptors in Web catalogues.",
+                "section": "Introduction"
+              },
+              {
+                "quote": "This paper aims to present a well-founded ontological analysis of DCAT, extending its semantics and treating ambiguities.",
+                "section": "Introduction"
+              },
+              {
+                "quote": "The value spaces for dcat:Role also deserve attention. By defining these spaces, the manager can establish vocabularies and ontologies for its catalog, providing compliance rules for new publications.",
+                "section": "5. Employing MLT-DCAT for a repository"
+              }
+            ],
+            "justification": "The model is presented as a solution to identified problems in DCAT—ambiguities, lack of conceptual clarity, and insufficient handling of higher-order types. The paper uses the model to analyze shortcomings and propose improvements, which aligns with 'For Problem-solving' as it guides decision-making about how to improve metadata structures."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "The second-order domain types establish, together with DCAT concepts, a language structure for understanding the catalogue organization.",
+                "section": "4.2. Categorizing higher-order types"
+              },
+              {
+                "quote": "For software agents, the second-order domain types establish, together with the DCAT concepts, a language structure for understanding the catalogue organization, contributing to interoperability mechanisms.",
+                "section": "5. Employing MLT-DCAT for a repository"
+              }
+            ],
+            "justification": "The model is described as establishing a 'language structure' that enables understanding and interoperability, suggesting it is used to communicate structured knowledge about the domain. The reference to 'software agents' and 'understanding' implies communication between systems and users, supporting 'For Communicating'."
+          },
+          {
+            "goal": "For Documenting",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "The model, in RDF, would make available the structure adopted in the catalogue, as well as the standardized terms (semantic artifacts).",
+                "section": "5. Employing MLT-DCAT for a repository"
+              },
+              {
+                "quote": "In the example of Figure 5, we highlight the standardization for the creation of new relationships, with the definition of value spaces associated with two standardized vocabularies (IANA Relations and ISO-19115-1).",
+                "section": "5. Employing MLT-DCAT for a repository"
+              }
+            ],
+            "justification": "The model is explicitly described as being available in RDF format and serving as a persistent reference for standardized terms and structure. This supports asynchronous use by future users, fitting the 'For Documenting' goal."
+          },
+          {
+            "goal": "For Learning",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "The model, in RDF, would make available the structure adopted in the catalogue, as well as the standardized terms (semantic artifacts).",
+                "section": "5. Employing MLT-DCAT for a repository"
+              }
+            ],
+            "reason": "The paper does not state that the model is used to teach modeling methods, tools, or techniques. The focus is on domain semantics and interoperability, not on teaching how to model. The evidence is weak and ambiguous, as the model's use is not framed as pedagogical."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Understanding",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "The proposed model aims to make the DCAT structures adherent to the reality aspects that need to be represented, establishing ontological commitments in an explicit way, which helps the understanding of those who will use it.",
+                "section": "Abstract"
+              }
+            ],
+            "reason": "While the model is said to 'help the understanding' of users, this is presented as a side benefit rather than the primary goal. The paper emphasizes implementation, problem-solving, and documentation more strongly. The evidence is weak and ambiguous, as the claim is vague and not tied to internal sense-making or negotiation."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"A Multi-level Ontology-based Approach for Descriptors of Catalogued Resources\",\n  \"annotator\": \"LLM model name\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"MLT-DCAT Core Ontology\",\n      \"goals\": [\n        {\n          \"goal\": \"For Intervening\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"This paper aims to present a well-founded ontological analysis of DCAT, extending its semantics and treating ambiguities. Moreover, the main contribution of this work is to propose a DCAT-based core ontology grounded on a multi-level foundational ontology.\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"The proposed model aims to make the DCAT structures adherent to the reality aspects that need to be represented, establishing ontological commitments in an explicit way, which helps the understanding of those who will use it.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"It can provide a canonical model for specific implementations, to be adopted by repositories and by Web resource search engines and analysis mechanisms.\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"The model, in RDF, would make available the structure adopted in the catalogue, as well as the standardized terms (semantic artifacts).\",\n              \"section\": \"5. Employing MLT-DCAT for a repository\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that the model is intended to be adopted by repositories and search engines, and that it can be used to generate RDF representations for interoperability. The use of 'canonical model for specific implementations' and 'to be adopted' indicates active use in building systems, satisfying the 'For Intervening' criterion.\"\n        },\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The DCAT representation, however, can be improved by establishing a well-defined conceptualization of the domain to be treated, in this case, the domain of the catalogued resource descriptors in Web catalogues.\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"This paper aims to present a well-founded ontological analysis of DCAT, extending its semantics and treating ambiguities.\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"The value spaces for dcat:Role also deserve attention. By defining these spaces, the manager can establish vocabularies and ontologies for its catalog, providing compliance rules for new publications.\",\n              \"section\": \"5. Employing MLT-DCAT for a repository\"\n            }\n          ],\n          \"justification\": \"The model is presented as a solution to identified problems in DCAT—ambiguities, lack of conceptual clarity, and insufficient handling of higher-order types. The paper uses the model to analyze shortcomings and propose improvements, which aligns with 'For Problem-solving' as it guides decision-making about how to improve metadata structures.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The second-order domain types establish, together with DCAT concepts, a language structure for understanding the catalogue organization.\",\n              \"section\": \"4.2. Categorizing higher-order types\"\n            },\n            {\n              \"quote\": \"For software agents, the second-order domain types establish, together with the DCAT concepts, a language structure for understanding the catalogue organization, contributing to interoperability mechanisms.\",\n              \"section\": \"5. Employing MLT-DCAT for a repository\"\n            }\n          ],\n          \"justification\": \"The model is described as establishing a 'language structure' that enables understanding and interoperability, suggesting it is used to communicate structured knowledge about the domain. The reference to 'software agents' and 'understanding' implies communication between systems and users, supporting 'For Communicating'.\"\n        },\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The model, in RDF, would make available the structure adopted in the catalogue, as well as the standardized terms (semantic artifacts).\",\n              \"section\": \"5. Employing MLT-DCAT for a repository\"\n            },\n            {\n              \"quote\": \"In the example of Figure 5, we highlight the standardization for the creation of new relationships, with the definition of value spaces associated with two standardized vocabularies (IANA Relations and ISO-19115-1).\",\n              \"section\": \"5. Employing MLT-DCAT for a repository\"\n            }\n          ],\n          \"justification\": \"The model is explicitly described as being available in RDF format and serving as a persistent reference for standardized terms and structure. This supports asynchronous use by future users, fitting the 'For Documenting' goal.\"\n        },\n        {\n          \"goal\": \"For Learning\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The model, in RDF, would make available the structure adopted in the catalogue, as well as the standardized terms (semantic artifacts).\",\n              \"section\": \"5. Employing MLT-DCAT for a repository\"\n            }\n          ],\n          \"reason\": \"The paper does not state that the model is used to teach modeling methods, tools, or techniques. The focus is on domain semantics and interoperability, not on teaching how to model. The evidence is weak and ambiguous, as the model's use is not framed as pedagogical.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The proposed model aims to make the DCAT structures adherent to the reality aspects that need to be represented, establishing ontological commitments in an explicit way, which helps the understanding of those who will use it.\",\n              \"section\": \"Abstract\"\n            }\n          ],\n          \"reason\": \"While the model is said to 'help the understanding' of users, this is presented as a side benefit rather than the primary goal. The paper emphasizes implementation, problem-solving, and documentation more strongly. The evidence is weak and ambiguous, as the claim is vague and not tied to internal sense-making or negotiation.\"\n        }\n      ]\n    }\n  ],\n  \"outside_taxonomy\": []\n}",
+  "seconds": 26.7
+}

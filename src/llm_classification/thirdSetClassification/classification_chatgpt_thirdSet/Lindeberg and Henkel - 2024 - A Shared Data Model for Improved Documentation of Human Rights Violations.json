@@ -1,0 +1,85 @@
+{
+  "paper_id": "Lindeberg and Henkel - 2024 - A Shared Data Model for Improved Documentation of Human Rights Violations",
+  "annotator": "GPT-5 Codex",
+  "no_codable_model": false,
+  "input_limitations": [
+    "Markdown extraction contains figure placeholders and some character-encoding noise, but the relevant prose sections are readable."
+  ],
+  "models": [
+    {
+      "model_label": "OntoRights ontology for human rights violations documentation",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Named OntoRights, its primary purpose is to be used by human rights groups for developing case databases.",
+              "section": "Introduction"
+            },
+            {
+              "quote": "As for the Committee of Justice, OntoRights was used to propose a redesign of the organization's public database Justice Watch Archive.",
+              "section": "Section 3.2"
+            }
+          ],
+          "justification": "The paper explicitly states that the ontology's primary purpose is developing case databases and describes its use in proposing a database redesign. This matches the Intervening rule for a model guiding creation or redesign of an information-system artifact."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "As can be seen, the module shows concepts needed to describe a human rights violation, and how these concepts are associated with each other.",
+              "section": "Introduction"
+            },
+            {
+              "quote": "Third, while the Events Standard mainly can express 'what happened?', Easy OntoRights can better represent 'what are the human rights implications' and 'how do we know this?'.",
+              "section": "Discussion"
+            }
+          ],
+          "justification": "The quoted passages show the model clarifying domain concepts, associations, implications, and evidentiary structure. The link to Understanding is direct but secondary to the stated database-design purpose, so confidence is Medium."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "Human Rights Groups documenting human rights violations need well-designed data models for managing their information.",
+              "section": "Practitioner Points"
+            },
+            {
+              "quote": "Together these modules form a comprehensive model of a case database.",
+              "section": "Section 3.1"
+            }
+          ],
+          "justification": "The model is framed as supporting management of documented human-rights-violation information in persistent case databases. This maps to Documenting as repository/documentation support, though it requires one inference from case-database management to asynchronous documentation."
+        },
+        {
+          "goal": "For Learning",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Its purpose is mainly pedagogical, to bridge the gap between the Easy OntoRights and human rights practitioners that are new to conceptual modelling.",
+              "section": "Section 3.2"
+            }
+          ],
+          "justification": "The paper explicitly states that the Basic OntoRights version has a pedagogical purpose for practitioners new to conceptual modelling. This is learning about modelling activity rather than only learning the human rights domain."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Structure is also needed for improved inter-organizational information exchange, which is hampered by the heterogeneous character of both the cases and the involved actors (Harrison et al. 2020).",
+              "section": "Introduction"
+            }
+          ],
+          "reason": "The quote suggests an information-exchange motivation, but it is background context and does not clearly show OntoRights being used for live interaction, explanation, alignment, or discussion between stakeholders."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

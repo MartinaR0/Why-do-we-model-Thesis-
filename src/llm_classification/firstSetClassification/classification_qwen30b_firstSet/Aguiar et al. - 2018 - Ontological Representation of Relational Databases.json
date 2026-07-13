@@ -1,0 +1,89 @@
+{
+  "paper_file": "Aguiar et al. - 2018 - Ontological Representation of Relational Databases.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "Ontological Representation of Relational Databases",
+    "annotator": "LLM model name",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "RDBS-O",
+        "goals": [
+          {
+            "goal": "For Intervening",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "In addition to a reference ontology, we also implement and test its operational version, using it to automatic instantiate the ontology from a real database sample.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "For ontology validation, the reference ontology should be instantiated to check if it is able to represent real-world situations, i.e., the structure of a relational database. For this, we elaborated a mapping file for the Oracle RDBMS using the RDBS-OWL operational ontology, which indirectly instantiates RDBS-O with real entities from the domain, hence validating it.",
+                "section": "4. Evaluation"
+              },
+              {
+                "quote": "Starting from this validation approach, and provided other RDBMSs (e.g., MySQL) are mapped to the ontology, one could perform database migration, publish the database structure (or even its contents) as linked data, etc.",
+                "section": "4. Evaluation"
+              }
+            ],
+            "justification": "The paper explicitly states that the operational version (RDBS-OWL) was used to automatically instantiate the ontology from a real database sample, which constitutes direct implementation and use of the model to create an artifact (an RDF dump). The use of the model to instantiate real-world database structures and enable tasks like migration and publishing confirms its role as an instrument for intervention."
+          },
+          {
+            "goal": "For Problem-solving",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "Although most RDBMSs support the SQL standard, they also have their own proprietary SQL extensions and their own way of representing schemas internally. Freely available tools to perform this type of migration are usually tailored for a few specific RDBMSs and are not extensible. An ontology-based solution would allow us to add support to any RDBMS by mapping its particular concepts to those of the ontology.",
+                "section": "Introduction"
+              }
+            ],
+            "justification": "The paper identifies a specific problem—lack of extensible tools for database migration due to proprietary differences—and frames the ontology as a solution to this problem, enabling interoperability across RDBMSs. This constitutes a clear use of the model to guide problem-solving and decision-making about system integration."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "The use of a foundational ontology mainly reduces semantic interoperability problems shown in open and dynamic scenarios, such as databases; allows integrating different ontological portions to compose an extensive domain and facilitates reuse since new ontologies can appropriate well-founded concepts defined in these ontologies.",
+                "section": "2. Baseline"
+              }
+            ],
+            "justification": "The paper describes the ontology as a means to reduce semantic interoperability issues across systems, implying its use in aligning different stakeholders or systems. While not explicitly mentioning meetings or real-time discussion, the context of interoperability suggests communication between systems or teams, satisfying the Communicating goal with moderate confidence."
+          },
+          {
+            "goal": "For Documenting",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "The ontology and all other resources mentioned in this section are available at http://nemo.inf.ufes.br/projects/sfwon/ so the interested readers can perform this evaluation for themselves.",
+                "section": "4. Evaluation"
+              },
+              {
+                "quote": "A detailed specification is available in a technical report [Aguiar 2018].",
+                "section": "3. The Relational Database System Ontology (RDBS-O)"
+              }
+            ],
+            "justification": "The paper explicitly states that the ontology and related resources are publicly available for future use, and that a technical report provides a detailed specification. This constitutes clear evidence of the model being used as a persistent, asynchronous reference for others, fulfilling the Documenting goal."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Understanding",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "In this paper, we present the Relational Database System Ontology (RDBS-O), a reference ontology for the relational database domain that represents the structure of a database model.",
+                "section": "Introduction"
+              }
+            ],
+            "reason": "While the paper presents the ontology as a reference, the evidence is weak and indirect. The term 'reference ontology' alone does not imply a goal of understanding or meaning negotiation; the primary purpose is operational use, not internal sense-making or shared understanding."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"Ontological Representation of Relational Databases\",\n  \"annotator\": \"LLM model name\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"RDBS-O\",\n      \"goals\": [\n        {\n          \"goal\": \"For Intervening\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"In addition to a reference ontology, we also implement and test its operational version, using it to automatic instantiate the ontology from a real database sample.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"For ontology validation, the reference ontology should be instantiated to check if it is able to represent real-world situations, i.e., the structure of a relational database. For this, we elaborated a mapping file for the Oracle RDBMS using the RDBS-OWL operational ontology, which indirectly instantiates RDBS-O with real entities from the domain, hence validating it.\",\n              \"section\": \"4. Evaluation\"\n            },\n            {\n              \"quote\": \"Starting from this validation approach, and provided other RDBMSs (e.g., MySQL) are mapped to the ontology, one could perform database migration, publish the database structure (or even its contents) as linked data, etc.\",\n              \"section\": \"4. Evaluation\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that the operational version (RDBS-OWL) was used to automatically instantiate the ontology from a real database sample, which constitutes direct implementation and use of the model to create an artifact (an RDF dump). The use of the model to instantiate real-world database structures and enable tasks like migration and publishing confirms its role as an instrument for intervention.\"\n        },\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"Although most RDBMSs support the SQL standard, they also have their own proprietary SQL extensions and their own way of representing schemas internally. Freely available tools to perform this type of migration are usually tailored for a few specific RDBMSs and are not extensible. An ontology-based solution would allow us to add support to any RDBMS by mapping its particular concepts to those of the ontology.\",\n              \"section\": \"Introduction\"\n            }\n          ],\n          \"justification\": \"The paper identifies a specific problem—lack of extensible tools for database migration due to proprietary differences—and frames the ontology as a solution to this problem, enabling interoperability across RDBMSs. This constitutes a clear use of the model to guide problem-solving and decision-making about system integration.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The use of a foundational ontology mainly reduces semantic interoperability problems shown in open and dynamic scenarios, such as databases; allows integrating different ontological portions to compose an extensive domain and facilitates reuse since new ontologies can appropriate well-founded concepts defined in these ontologies.\",\n              \"section\": \"2. Baseline\"\n            }\n          ],\n          \"justification\": \"The paper describes the ontology as a means to reduce semantic interoperability issues across systems, implying its use in aligning different stakeholders or systems. While not explicitly mentioning meetings or real-time discussion, the context of interoperability suggests communication between systems or teams, satisfying the Communicating goal with moderate confidence.\"\n        },\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The ontology and all other resources mentioned in this section are available at http://nemo.inf.ufes.br/projects/sfwon/ so the interested readers can perform this evaluation for themselves.\",\n              \"section\": \"4. Evaluation\"\n            },\n            {\n              \"quote\": \"A detailed specification is available in a technical report [Aguiar 2018].\",\n              \"section\": \"3. The Relational Database System Ontology (RDBS-O)\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that the ontology and related resources are publicly available for future use, and that a technical report provides a detailed specification. This constitutes clear evidence of the model being used as a persistent, asynchronous reference for others, fulfilling the Documenting goal.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"In this paper, we present the Relational Database System Ontology (RDBS-O), a reference ontology for the relational database domain that represents the structure of a database model.\",\n              \"section\": \"Introduction\"\n            }\n          ],\n          \"reason\": \"While the paper presents the ontology as a reference, the evidence is weak and indirect. The term 'reference ontology' alone does not imply a goal of understanding or meaning negotiation; the primary purpose is operational use, not internal sense-making or shared understanding.\"\n        }\n      ]\n    }\n  ],\n  \"outside_taxonomy\": []\n}",
+  "seconds": 18.2
+}

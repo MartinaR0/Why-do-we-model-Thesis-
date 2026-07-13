@@ -1,0 +1,57 @@
+{
+  "paper_id": "Garcia_2020",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": ["Text extraction contains some character encoding artifacts (e.g., missing 'fi'/'fl' ligatures, accented characters), but section structure and content are intact."],
+  "models": [
+    {
+      "model_label": "Conceptual Schema of the Human Genome (CSHG, versions 1, 1.1, 2, and 3)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "This paper focuses on how to design a conceptual model of the human genome that could be used as the key artifact to share, integrate, and understand the various types of datasets used in the genomic domain.", "section": "Abstract"},
+            {"quote": "Our recent work focuses on exploring how essential CM is for improving domain understanding and guiding the design and development of Genome Information Systems (GeIS) [34].", "section": "I. Introduction"},
+            {"quote": "The CSHG [33] provides the holistic perspective of the human genome that conforms to the primary goal of this work. It also provides the grounded conceptual background that is needed to characterize the relevant concepts that could make the understanding of the human genome viable.", "section": "III. Evolution of the Conceptual Schema of the Human Genome"},
+            {"quote": "A correct interpretation of genome data greatly requires getting a shared understanding of the domain.", "section": "V. Conclusion and Future Work"}
+          ],
+          "justification": "The paper explicitly and repeatedly frames the CSHG's purpose as understanding the genomic domain, clarifying concepts, and establishing a shared ontological commitment — matching the positive signals 'understand', 'shared understanding', and 'conceptualize' for For Understanding."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "CSHG v2 has been used in a set of real-world use cases for two purposes. First, to validate its correctness and usefulness, Second, to gather and analyze the feedback of genomic domain experts to improve CSHG, ensuring that it is updated by the latest scientific discoveries. As a consequence, a set of problems that should require a more precise conceptual characterization has been identified", "section": "IV. From Version 2 to Version 3: CSHG V3"},
+            {"quote": "We show how the use of the initial versions of the conceptual model in practice has allowed us to identify new features to incorporate in the model, achieving a continuous improvement process.", "section": "Abstract"},
+            {"quote": "After using it in a set of real-world cases [21], [22] and gathering plenty of feedback, we have identified five problems to be treated.", "section": "I. Introduction"}
+          ],
+          "justification": "The model is explicitly used to identify shortcomings, problems and required improvements through evaluation in real-world use cases — matching the For Problem-solving signals 'identify shortcomings', 'evaluate', and 'what should change'. The reflective analysis of problems is separate from any implementation evidence."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "This work provides a sound initial understanding of the domain-relevant information that facilitates communication and helps to achieve more efficient genome data management and improve knowledge generation processes.", "section": "I. Introduction"},
+            {"quote": "In this paper, we have used a CS to demonstrate the benefits that can be obtained: First, it improves the communication with domain stakeholders, i.e., doctors, geneticists, or biologists.", "section": "V. Conclusion and Future Work"},
+            {"quote": "We are perfectly aware of previous attempts to use CM to better understand and communicate genomic knowledge.", "section": "II. Conceptual Modeling of Genomics"}
+          ],
+          "justification": "The paper explicitly states the model facilitates and improves communication between distinct stakeholder groups (modelers, doctors, geneticists, biologists), matching the positive signals 'communicate' and 'align stakeholders' for For Communicating."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "The current version is ready to be used as the key artifact in projects where conceptually combining multiple levels of data helps to provide valuable insights that would be hard to obtain without it.", "section": "Abstract"},
+            {"quote": "Third, it provides a solid background for developing better software solutions.", "section": "V. Conclusion and Future Work"},
+            {"quote": "In the previous example, if the HGNC database is replaced by a new one, the conceptual schema itself must be updated, together with the implications in its associated database.", "section": "IV. From Version 2 to Version 3: CSHG V3"}
+          ],
+          "reason": "The paper references associated database implementations and 'developing better software solutions' but does not describe a concrete implementation, deployment, or artifact generated from the CSHG within this paper; the framing is preparatory ('ready to be used') rather than a realized intervention."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

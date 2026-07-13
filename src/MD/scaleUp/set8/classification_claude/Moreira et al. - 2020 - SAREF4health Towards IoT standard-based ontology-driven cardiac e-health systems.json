@@ -1,0 +1,96 @@
+{
+  "paper_id": "Moreira et al. - 2020 - SAREF4health Towards IoT standard-based ontology-driven cardiac e-health systems",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "SAREF4health ontology (SAREF extension for IoT-based cardiac e-health)",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The validation of SAREF4health includes the responses to competency questions, as well as the development and tests of an IoT Early Warning System prototype that uses ECG data and collision identification to detect accidents with truck drivers in a port area.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "This prototype integrates an existing ECG wearable with a cloud infrastructure, demonstrating the performance impact of SAREF4health considering IoT constraints.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "Our results show that SAREF4health enables the semantic interoperability of IoT solutions that need to deal with frequency-based time series.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "For example, SAREF4health was specified (designed) with support of OntoUML, along with the model validation approach, while the RDF implementation was (partially) generated from pre-defined MDE transformations from OntoUML to RDF (Moreira et al., 2016).",
+              "section": "Section 5.1"
+            },
+            {
+              "quote": "The INTER-IoT-EWS prototype improves the manufacturer's Android app ( Shimmer Xamarin Capture ) by translating the data received from the ECG device to SAREF4health and enables different rates of data exchange between device-mobile and mobile-cloud, which is a common network bandwidth optimisation requirement.",
+              "section": "Section 6.2"
+            },
+            {
+              "quote": "A semantic wrapper is implemented in MyDriving-LD to allow the annotation of aggregated data with SAREF4health and the logistics ontologies.",
+              "section": "Section 6.2"
+            }
+          ],
+          "justification": "The model was actively used to build an IoT Early Warning System prototype — a working artifact that integrates ECG wearables with cloud infrastructure. RDF implementation was (partially) generated from the OntoUML model via MDE transformations, and the ontology was deployed to annotate data in a live prototype. This matches the 'For Intervening' signals (implemented, deployed, used to enable interoperability, generated artifact)."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "SAREF4health plays the role of core context model for the envisioned use cases, being developed as a well-founded core ontology. A well-founded core ontology provides a precise definition of a specific field described with an ontological language, being independent of a specific application (Scherp et al., 2011).",
+              "section": "Section 5.1"
+            },
+            {
+              "quote": "The main definitions represented by the SAREF4health elements are described in Table 3. Although UFO ECG and the FHIR standard have been carefully designed in collaboration with healthcare experts, we decided to review the terminology used there.",
+              "section": "Section 5.2"
+            },
+            {
+              "quote": "Furthermore, the reuse of standardised ontologies showed to be essential to better understand both the IoT and healthcare domains, as well as implementation constraints.",
+              "section": "Section 8 (Conclusions)"
+            }
+          ],
+          "justification": "The paper frames SAREF4health as a well-founded core ontology providing precise definitions of the ECG/IoT domain and explicitly reflects on reviewing terminology and understanding the IoT and healthcare domains through the ontology. This supports domain understanding/meaning clarification (For Understanding), though it requires a short inference that domain clarification is a purpose of the model in addition to implementation."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "In our comparison study, we concluded that none of the available standardised IoT ontologies provide adequate balance of quality and payload representing time series for ECG data.",
+              "section": "Section 4.3"
+            },
+            {
+              "quote": "Design decisions regarding the trade-off between ontology quality and aggregation representation are also discussed.",
+              "section": "Abstract"
+            }
+          ],
+          "reason": "The comparison and design-decision discussion evaluates trade-offs, but this is analysis about existing ontologies and design choices for SAREF4health itself, not the SAREF4health model being used to guide stakeholder decision-making. Evidence for the model itself supporting problem-solving/decision-making is weak and largely absorbed into the intervening (implementation) evidence per the disambiguation rule."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "The SAREF4health ontology (TTL) and the prototype are available for download 29 .",
+              "section": "Section 7 (Discussion)"
+            },
+            {
+              "quote": "The SAREF4health design was leveraged by the same interactive and iterative approach experienced in the other standardised extensions of SAREF, 25 which was created in a transparent manner to allow stakeholders to provide input and follow the evolution of the work.",
+              "section": "Section 5.1"
+            }
+          ],
+          "reason": "The ontology is published and made available for download and standardisation, which hints at reference/documentation use for absent parties, but the paper does not explicitly frame documentation as the model's purpose; the framing is standardisation and interoperability rather than knowledge base/reference for people."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

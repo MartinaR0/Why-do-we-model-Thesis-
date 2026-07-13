@@ -1,0 +1,59 @@
+{
+  "paper_id": "Repa_2015",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": ["Figures referenced in text (Fig. 1-6) are not available in the markdown extraction, only their captions."],
+  "models": [
+    {
+      "model_label": "Public administration ontology and life cycle models (class diagrams and state charts of PA objects/life events) used in the Czech Ministry of Interior project",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "The use of the definitions of life cycles (state charts) together with the contextual information from the connected global ontology models (class diagrams) as a basis for the development of the central public administration service", "section": "Section 5 Conclusions and Future Work"},
+            {"quote": "Semi-formal models of life cycles completed with the ontology model of their mutual context can serve as a precise definition of the contents of the central common part of the public administration IT applications' logic.", "section": "Section 5 Conclusions and Future Work"},
+            {"quote": "The completion the model of life events to achieve the state in which it will express all substantial events that require some reactions from the public administration bodies . This model then will be used as a basis for the definition of the need for essential public administration processes.", "section": "Section 5 Conclusions and Future Work"}
+          ],
+          "justification": "The paper explicitly frames the models as the basis for developing the central PA service bus and for defining essential PA processes/IT applications' logic, matching the For Intervening signal pattern (used to create/enable a system/artifact)."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "These models allow us to communicate with people from the public administration in the manner that is very close to their understanding of their business.", "section": "Section 4 Discussion of the Lessons Learned"}
+          ],
+          "justification": "Explicit statement that the models are used to communicate with PA people, bridging the modelers and PA stakeholders — matches the For Communicating positive signal 'communicate' and the disambiguation rule for bridging distinct groups."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "Only such complete models create a sufficient basis for understanding all necessary e-government services which is the ultimate original goal of the project.", "section": "Section 4 Discussion of the Lessons Learned"},
+            {"quote": "This mutual understanding is very important for our need to make all models complete, i.e. to incorporate in them all the important, and necessary events as well as the consequent public administration actions.", "section": "Section 4 Discussion of the Lessons Learned"}
+          ],
+          "justification": "The paper states the models provide a basis for understanding the e-government services domain, satisfying the For Understanding signal of building domain knowledge (the PA domain) through the model."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "Essential ontology models that contain only the essential life events. The main value of these models lies in the fact that they express the essential reasons for the public administration acts which have to be respected anyway. In other words, these models express the extent to which the processes of the public administration can be reduced without simultaneously reducing their essential meaning the borderline between what can and what cannot be actually eliminated by means of technology.", "section": "Section 4 Discussion of the Lessons Learned"}
+          ],
+          "justification": "The essential ontology models are explicitly used to identify what can/cannot be eliminated in PA processes — this is evaluation/analysis distinct from the implementation evidence, matching For Problem-solving signals ('evaluate', 'what should change', 'identify shortcomings')."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "Countrywide catalog of Public Services supported by Information Systems Services catalog.", "section": "Section 3 The Project"}
+          ],
+          "reason": "References to catalogs and standards exist but are not clearly framed as a purpose of the authors' specific model serving as documentation/reference for absent parties."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

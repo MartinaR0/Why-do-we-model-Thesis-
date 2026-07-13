@@ -1,0 +1,78 @@
+{
+  "paper_id": "Guizzardi et al. - 2014 - An Ontological Interpretation of Non-Functional Requirements",
+  "annotator": "GPT-5 Codex",
+  "no_codable_model": false,
+  "input_limitations": [
+    "The markdown extraction contains encoding artifacts in some symbols and several formula-not-decoded placeholders, but the relevant prose evidence is readable."
+  ],
+  "models": [
+    {
+      "model_label": "UFO-based ontological interpretation of non-functional requirements",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Therefore, the objective of this paper is an exercise in ontological analysis and conceptual clarification.",
+              "section": "Introduction"
+            },
+            {
+              "quote": "The first benefit of capturing the ontological meaning of NFRs is conceptual clarification.",
+              "section": "Section 4.1"
+            }
+          ],
+          "justification": "The authors explicitly frame the model as ontological analysis and conceptual clarification of NFRs, which directly matches domain understanding and clarification."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "We show in this section how the ontological interpretation of NFRs (1) provides operational  guidelines  for  distinguishing  between  non-functional  and  functional  requirements  (Subsection  4.1);  (2)  supports  the  development  of  an  ontology-based  requirements specification language (Subsection 4.2); and (3) enables the analysis of the satisfaction of gradable NFRs (Subsection 4.3).",
+              "section": "Section 4"
+            },
+            {
+              "quote": "The result suggests that  our framework is effective to help distinguishing between NFRs and FRs used in practice.",
+              "section": "Section 4.1"
+            }
+          ],
+          "justification": "The framework is used to make classification and analysis judgments about requirements, including distinguishing FRs/NFRs and analyzing satisfaction. This supports problem-solving decisions, though the paper frames this mostly as practical implication rather than a live decision process."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "Furthermore, based on these ontological definitions, we provide guidelines for distinguishing between non-functional and functional requirements, and sketch a syntax of a specification language that can be used for capturing NFRs.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "A key benefit of understanding the ontological foundation of NFRs is that it provides support for designing requirement modeling languages.",
+              "section": "Section 4.2"
+            },
+            {
+              "quote": "These formulations characterize the ontological foundation of NFRs, and provide us  with  the  semantics  that  a  requirements  modeling  language  (RML) should capture.",
+              "section": "Section 4.2"
+            }
+          ],
+          "justification": "The paper frames the ontological model as support for designing a requirements modeling language and syntax for capturing NFRs, an artifact-oriented use. The evidence is medium because the paper sketches and motivates this artifact rather than reporting a deployed implementation."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Furthermore, based on these ontological definitions, we provide guidelines for distinguishing between non-functional and functional requirements, and sketch a syntax of a specification language that can be used for capturing NFRs.",
+              "section": "Abstract"
+            }
+          ],
+          "reason": "Capturing NFRs in a specification language could support documentation, but the paper does not explicitly frame the model as a persistent reference or asynchronous communication artifact."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

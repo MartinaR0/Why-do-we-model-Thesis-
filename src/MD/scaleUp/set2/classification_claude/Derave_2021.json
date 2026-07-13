@@ -1,0 +1,91 @@
+{
+  "paper_id": "Derave_2021",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Digital platform taxonomy",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "First the lack of a shared conceptualization of digital platform types. We solve this issue with a taxonomy giving an overview of digital platform attributes, with attribute values expressing the possible variations between platforms depending on their type.", "section": "Abstract"},
+            {"quote": "Our typology, based on a taxonomy of attributes and attribute values that characterise digital platforms, distinguishes nine types of digital platform, which contributes towards a better understanding of the platform domain.", "section": "6 Discussion"}
+          ],
+          "justification": "The taxonomy is explicitly created to solve the lack of shared conceptualization and to support understanding of the domain, matching the Understanding signal of conceptualize/shared understanding."
+        }
+      ],
+      "uncertain_goals": []
+    },
+    {
+      "model_label": "Digital platform typology",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "These attributes and attribute values are then used in the typology giving a clear overview of all the digital platform types and how they are related to each other.", "section": "Abstract"},
+            {"quote": "Our typology, based on a taxonomy of attributes and attribute values that characterise digital platforms, distinguishes nine types of digital platform, which contributes towards a better understanding of the platform domain.", "section": "6 Discussion"}
+          ],
+          "justification": "The typology is framed as providing an overview/conceptualization of types and contributing to understanding of the domain, matching the Understanding signal."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "As shown by these examples, the typology can help to analyse such evolutions by classifying digital platforms according to the distinctive features of the platform types that are included.", "section": "6 Discussion"}
+          ],
+          "justification": "The typology is explicitly framed as a tool to analyse platform evolutions/hybrids, matching the Problem-solving signal 'analyze'."
+        }
+      ],
+      "uncertain_goals": []
+    },
+    {
+      "model_label": "Digital platform reference ontology (general module)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "Ontology modelling also helps in the common understanding of a domain by making the domain assumptions explicit [21] and by providing a clear account of domain concepts to foster communication, consensus and alignment [22].", "section": "2 Methodology"},
+            {"quote": "The reference ontology has to conceptualize a common understanding of the digital platform domain.", "section": "5 Reference Ontology"},
+            {"quote": "Our reference ontology on the other hand can help comprehend the complexity and functionality of each digital platform type (or combination), and support ontology-driven development of platforms.", "section": "6 Discussion"}
+          ],
+          "justification": "Explicitly framed as building common understanding of the domain and conceptualizing shared meaning, matching the Understanding signals 'understand', 'conceptualize', 'shared understanding'."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "We contribute to this with a proposal of a reference ontology allowing for a better communication between developers and other stakeholders.", "section": "Abstract"},
+            {"quote": "Our envisioned ontology can be used as a common language that all platform stakeholders can understand to facilitate future research and support ontology-driven development of digital platforms.", "section": "Abstract"},
+            {"quote": "A better understanding of the functionality can help to create such platforms in a fast and efficient way, with clear terminology to improve the communication and decision-making between the stakeholders.", "section": "6 Discussion"}
+          ],
+          "justification": "Explicitly framed as a common language to enable communication between distinct stakeholder groups (developers, entrepreneurs, managers, etc.), matching the Communicating signals 'communicate', 'bridge between', 'align stakeholders'."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "Further, a digital platform reference ontology can support ontology-driven development of platforms, hence capitalizing on a design knowledge base of the software functionalities for different types of platforms.", "section": "1 Introduction"},
+            {"quote": "Our reference ontology on the other hand can help comprehend the complexity and functionality of each digital platform type (or combination), and support ontology-driven development of platforms.", "section": "6 Discussion"}
+          ],
+          "justification": "The paper explicitly frames the ontology's intended purpose as supporting ontology-driven development of platforms (artifact generation/system development), matching the Intervening rule that explicitly stated intended use for implementation/system development may count."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "A better understanding of the functionality can help to create such platforms in a fast and efficient way, with clear terminology to improve the communication and decision-making between the stakeholders.", "section": "6 Discussion"}
+          ],
+          "reason": "Decision-making is mentioned but as a downstream benefit of communication/understanding rather than the ontology being directly used to evaluate options or identify shortcomings."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

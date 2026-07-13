@@ -1,0 +1,99 @@
+{
+  "paper_id": "Derave et al. - 2021 - Understanding Digital Marketplace Business Models An Ontology Approach",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Extended Digital Platform Ontology (DPO) with digital marketplace business model modules",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "In the complex and diverse domain of digital marketplaces, an ontology can be a vital tool as it improves the understanding and communication of a certain domain and eventually drives ontology/model-driven software development [10].",
+              "section": "Section 1 Introduction"
+            },
+            {
+              "quote": "Whereas the DPO was originally created to understand and classify digital platforms of the platform domain into different platform types (including digital marketplace and its subtype sharing economy platform), the additional ontology modules proposed in this paper are meant to cover a wide variety of digital marketplace functionality applying different business models.",
+              "section": "Section 1 Introduction"
+            },
+            {
+              "quote": "These ontology-based models can help in the understanding of and communication about the required functionality of digital marketplaces operating under a chosen business model.",
+              "section": "Section 6 Conclusion and future work"
+            }
+          ],
+          "justification": "The authors explicitly state the ontology improves understanding of the marketplace domain and the required functionality, matching the 'understand' and 'conceptualize' positive signals for For Understanding."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The DPO visualizes digital platform types as subtypes from each other and consists of different modules which allows the conceptualisation and improves the communication of platform type differences.",
+              "section": "Section 1 Introduction"
+            },
+            {
+              "quote": "In the complex and diverse domain of digital marketplaces, an ontology can be a vital tool as it improves the understanding and communication of a certain domain and eventually drives ontology/model-driven software development [10].",
+              "section": "Section 1 Introduction"
+            },
+            {
+              "quote": "These ontology-based models can help in the understanding of and communication about the required functionality of digital marketplaces operating under a chosen business model.",
+              "section": "Section 6 Conclusion and future work"
+            }
+          ],
+          "justification": "The paper explicitly states the model improves 'communication' about platform type differences and required functionality between stakeholders (developers, regulators, entrepreneurs), matching the 'communicate' positive signal."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "Reference ontologies offer more potential for capturing this information and thus provide a conceptual basis for model-driven development of platform software.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "We believe the extended DPO can be used for model-driven development of digital marketplaces. In this ontology, objects and relators portray the required data structure for the marketplace software, while events portray the required functionality.",
+              "section": "Section 6 Conclusion and future work"
+            },
+            {
+              "quote": "The new ontology modules can be used as building blocks to model a digital marketplace operating under a chosen business model.",
+              "section": "Abstract"
+            }
+          ],
+          "justification": "The paper explicitly frames the ontology's intended purpose as a conceptual basis for model-driven development of platform software (using the model 'to create' software), matching the 'used to create' positive signal. Coded Medium because while the intended use is stated, the implementation itself is future work."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "make it easier for developers to analyse the influence of business model decisions on expected platform functionality.",
+              "section": "Section 1 Introduction"
+            },
+            {
+              "quote": "Besides this, also regulators can make use of our marketplace ontology to improve the decision-making transparency.",
+              "section": "Section 6 Conclusion and future work"
+            }
+          ],
+          "reason": "There are hints that the ontology supports analysis of business model decisions and regulator decision-making, but the disambiguation rule favors For Intervening when the same model is framed as the basis for implementation; the decision-support framing is secondary and indirect."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "The latest version of the digital marketplace business model ontology modules can be found on http://model-a-platform.com/business-model-modules/",
+              "section": "Section 5 Ontology Modules and Airbnb Proof of Concept Modelling"
+            }
+          ],
+          "reason": "The modules are posted online as a reference repository, but this is incidental sharing rather than an explicitly stated documentation purpose for the model."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

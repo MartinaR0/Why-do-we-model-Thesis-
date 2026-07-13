@@ -1,0 +1,116 @@
+{
+  "paper_file": "F. Barcelos et al. - 2025 - Ontological Foundations of Resilience.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "Barcelos2024_ResilienceOntology",
+    "annotator": "LLM",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "ResiliOnt",
+        "goals": [
+          {
+            "goal": "For Understanding",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "This research unfolds the conceptualization of resilience by investigating its fundamental categories and related concepts.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "We explore essential aspects of resilience, examining whether it preexists disturbances or is developed in response to them. We also identify its relational dependencies, establish how it is actualized, and determine the circumstances under which it becomes perceptible.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "Our analysis, we explore fundamental aspects of resilience by questioning (i) whether resilience is an inherent quality of an object or an outcome observed only after an object has endured a disturbance, (ii) what are the necessary and (iii) the sufficient conditions for an object to possess resilience, and (iv) when resilience can be observed.",
+                "section": "Section 4"
+              }
+            ],
+            "justification": "The model is created to clarify the semantics of resilience through ontological analysis, with explicit focus on conceptualizing its fundamental categories, relational dependencies, and conditions for existence—core activities of 'Understanding'. The language used in the abstract and methodology sections centers on defining, clarifying, and conceptualizing the concept, not on implementation or decision-making."
+          },
+          {
+            "goal": "For Problem-solving",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "These semantic issues negatively impact not only the applications that rely on these definitions but also undermine the integrity of the conceptual models built from them, rendering them unable to ensure interoperability and clarity for their intended users.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "The literature presents examples of resilience models in UML and ER, created for diverse fields including small and medium-sized enterprises [72], industrial supply chains [2], maritime systems [41], extreme weather [80], and data ecosystems [26].",
+                "section": "Introduction"
+              },
+              {
+                "quote": "Our investigation clarified the conceptual core of resilience, yet it did not address its quantification or gradation, which is useful for many practical implementations.",
+                "section": "Conclusion"
+              }
+            ],
+            "justification": "The model is developed to solve the problem of semantic ambiguity and inconsistency in resilience definitions across disciplines, which hinders interoperability and clarity in existing models. The paper explicitly identifies the problem (semantic issues) and frames the model as a solution to enable better conceptual modeling and application, satisfying the 'Problem-solving' goal."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "To illustrate the practical application of our theoretical findings, we present a specific case in the field of production management.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "In this section, we illustrate the application of ResiliOnt by presenting the example of ExCo, a fictitious electronics manufacturer.",
+                "section": "Section 5"
+              },
+              {
+                "quote": "The use of an ontologically well-founded language contrasts with common practices in building resilience ontologies.",
+                "section": "Section 6"
+              }
+            ],
+            "justification": "The model is used to communicate the conceptual structure of resilience across disciplines, particularly through the case study in production management. The case study serves as a bridge to explain the model's structure and implications to stakeholders in different domains, supporting communication between groups with different backgrounds. The reference to 'common practices' also implies a need to align understanding across communities."
+          },
+          {
+            "goal": "For Documenting",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "We made ResiliOnt publicly available with a permissive license (Apache 2.0) in a git repository (https://w3id.org/resiliont/git), where the complete ontology can be accessed.",
+                "section": "Conclusion"
+              },
+              {
+                "quote": "Additionally, we added it to the FAIR OntoUML/UFO Catalog [61].",
+                "section": "Conclusion"
+              }
+            ],
+            "justification": "The model is explicitly made available as a persistent, accessible artifact for future use. The use of a public git repository and inclusion in a catalog for long-term access and reuse clearly indicates a purpose of documentation and knowledge base maintenance, satisfying the 'Documenting' goal."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Intervening",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "When used in the development of other models or systems, it allows for the creation of more precise and interoperable results, thereby enabling these artifacts to effectively incorporate resilience.",
+                "section": "Conclusion"
+              }
+            ],
+            "reason": "The statement about using the model in system development is hypothetical and future-oriented, not describing actual implementation. The paper does not report building or deploying a system using ResiliOnt, so the evidence is too weak to confirm 'Intervening'."
+          },
+          {
+            "goal": "For Learning",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "We used the author's arguments as one justification for our work to classify resilience as a capability (a subtype of disposition in UFO).",
+                "section": "Section 6"
+              }
+            ],
+            "reason": "The reference to using prior work as justification does not indicate that the model was created to teach or learn modeling methods. The focus is on domain knowledge, not on learning how to model, so the evidence is insufficient for 'Learning'."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"Barcelos2024_ResilienceOntology\",\n  \"annotator\": \"LLM\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"ResiliOnt\",\n      \"goals\": [\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"This research unfolds the conceptualization of resilience by investigating its fundamental categories and related concepts.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"We explore essential aspects of resilience, examining whether it preexists disturbances or is developed in response to them. We also identify its relational dependencies, establish how it is actualized, and determine the circumstances under which it becomes perceptible.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"Our analysis, we explore fundamental aspects of resilience by questioning (i) whether resilience is an inherent quality of an object or an outcome observed only after an object has endured a disturbance, (ii) what are the necessary and (iii) the sufficient conditions for an object to possess resilience, and (iv) when resilience can be observed.\",\n              \"section\": \"Section 4\"\n            }\n          ],\n          \"justification\": \"The model is created to clarify the semantics of resilience through ontological analysis, with explicit focus on conceptualizing its fundamental categories, relational dependencies, and conditions for existence—core activities of 'Understanding'. The language used in the abstract and methodology sections centers on defining, clarifying, and conceptualizing the concept, not on implementation or decision-making.\"\n        },\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"These semantic issues negatively impact not only the applications that rely on these definitions but also undermine the integrity of the conceptual models built from them, rendering them unable to ensure interoperability and clarity for their intended users.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"The literature presents examples of resilience models in UML and ER, created for diverse fields including small and medium-sized enterprises [72], industrial supply chains [2], maritime systems [41], extreme weather [80], and data ecosystems [26].\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"Our investigation clarified the conceptual core of resilience, yet it did not address its quantification or gradation, which is useful for many practical implementations.\",\n              \"section\": \"Conclusion\"\n            }\n          ],\n          \"justification\": \"The model is developed to solve the problem of semantic ambiguity and inconsistency in resilience definitions across disciplines, which hinders interoperability and clarity in existing models. The paper explicitly identifies the problem (semantic issues) and frames the model as a solution to enable better conceptual modeling and application, satisfying the 'Problem-solving' goal.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"To illustrate the practical application of our theoretical findings, we present a specific case in the field of production management.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"In this section, we illustrate the application of ResiliOnt by presenting the example of ExCo, a fictitious electronics manufacturer.\",\n              \"section\": \"Section 5\"\n            },\n            {\n              \"quote\": \"The use of an ontologically well-founded language contrasts with common practices in building resilience ontologies.\",\n              \"section\": \"Section 6\"\n            }\n          ],\n          \"justification\": \"The model is used to communicate the conceptual structure of resilience across disciplines, particularly through the case study in production management. The case study serves as a bridge to explain the model's structure and implications to stakeholders in different domains, supporting communication between groups with different backgrounds. The reference to 'common practices' also implies a need to align understanding across communities.\"\n        },\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"We made ResiliOnt publicly available with a permissive license (Apache 2.0) in a git repository (https://w3id.org/resiliont/git), where the complete ontology can be accessed.\",\n              \"section\": \"Conclusion\"\n            },\n            {\n              \"quote\": \"Additionally, we added it to the FAIR OntoUML/UFO Catalog [61].\",\n              \"section\": \"Conclusion\"\n            }\n          ],\n          \"justification\": \"The model is explicitly made available as a persistent, accessible artifact for future use. The use of a public git repository and inclusion in a catalog for long-term access and reuse clearly indicates a purpose of documentation and knowledge base maintenance, satisfying the 'Documenting' goal.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Intervening\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"When used in the development of other models or systems, it allows for the creation of more precise and interoperable results, thereby enabling these artifacts to effectively incorporate resilience.\",\n              \"section\": \"Conclusion\"\n            }\n          ],\n          \"reason\": \"The statement about using the model in system development is hypothetical and future-oriented, not describing actual implementation. The paper does not report building or deploying a system using ResiliOnt, so the evidence is too weak to confirm 'Intervening'.\"\n        },\n        {\n          \"goal\": \"For Learning\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"We used the author's arguments as one justification for our work to classify resilience as a capability (a subtype of disposition in UFO).\",\n              \"section\": \"Section 6\"\n            }\n          ],\n          \"reason\": \"The reference to using prior work as justification does not indicate that the model was created to teach or learn modeling methods. The focus is on domain knowledge, not on learning how to model, so the evidence is insufficient for 'Learning'.\"\n        }\n      ]\n    }\n  ],\n  \"outside_taxonomy\": []\n}",
+  "seconds": 26.7
+}

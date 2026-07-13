@@ -1,0 +1,54 @@
+{
+  "paper_id": "Rodrigues et al. - 2017 - An Ontological Model for Urinary Profiles",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Ontological Model for Urinary Profiles (UFO-based, with OWL 2 implementation for Nephritic Profile)",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "The paper also brings an implementation of such model to deal with the case of nephritic profile. It is implemented using OWL 2 and allows   important   inference   through   simple   DL queries.", "section": "Abstract"},
+            {"quote": "Thus, this work presents an ontological model for urinary profiles (and the concepts related o it), based on the Unified Foundational Ontology   (UFO)   [13], along with   an implementation using the Web Ontology Language - Second Version (OWL 2) [14].", "section": "I. Introduction"},
+            {"quote": "Considering   that,   we   will   present   an   example   of implementation of the proposed model using OWL 2.", "section": "III. An Example Implementation in OWL 2"},
+            {"quote": "The presented ontological model integrates a broader ontology for urinalysis domain and is being used to model the different possible types of urinary profiles and so explain and reproduce   the   predictions   urinalysis   experts   make   during examination   of   the   specimen", "section": "IV. Final Remarks"}
+          ],
+          "justification": "The model is actively implemented in OWL 2 (with class definitions, property chains, DL queries) and is being used as part of a broader knowledge-based system for urinalysis. This matches the For Intervening signal of 'implemented' and the model directly guiding/enabling the creation of a system."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "This   work   presented   an   ontological   model   for   urinary profiles in the context of urinalysis. It defines a urinary profile as an abstract feature presented by certain specimens of urine that leads the professionals analyzing them to expect that some specific   types   of   content   will   be   found   during   the   their examination.   Moreover,   it   explains   the   emergence   of   such profiles as a result of a dynamics involving urine and certain combinations of contents playing specific roles in relation to each other.", "section": "IV. Final Remarks"},
+            {"quote": "Prior   to   the   discussion   about   the   ontological   nature   of urinary   profiles   and   related   concepts,   we   need   to   define three basic concepts: Urine , Urinary Analyte and Urinary Content .", "section": "II. Urinary Profile Ontological Representation"},
+            {"quote": "Besides dealing with urinary profiles,   the   proposed model   may   also   give   insight   on   how   to   deal   with   correlate domains (e.g. blood or liquor tests) and may be generalized to similar situations in different scopes (e.g. employee profiling).", "section": "Abstract"}
+          ],
+          "justification": "The paper performs an ontological analysis to clarify and conceptualize the nature of urinary profiles, defining concepts such as Profiled Urine, Profile-Defining Content, and Profile-Defining Presence. This matches signal patterns 'define', 'conceptualize', and 'clarify' for building domain understanding."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "With such capabilities, the proposed model and the corresponding OWL 2 implementation are intended to be useful for the development of decision-support and tutoring systems for urinalysis (e.g. allowing predicting contents that may be found in urine and explaining such predictions in terms of urinary profiles), as well as to be directly queried for reference.", "section": "I. Introduction"}
+          ],
+          "justification": "The paper explicitly frames the model as intended to be 'directly queried for reference,' which matches the 'reference' signal for Documenting as asynchronous, persistent use for consumption by absent parties."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "With such capabilities, the proposed model and the corresponding OWL 2 implementation are intended to be useful for the development of decision-support and tutoring systems for urinalysis", "section": "I. Introduction"},
+            {"quote": "It was devised in view of supporting decision during urinalysis as well as acting as a tool for professional training.", "section": "III. An Example Implementation in OWL 2"}
+          ],
+          "reason": "Decision-support is mentioned, but the model is framed as the basis for an implemented decision-support system (Intervening), not as a tool used by stakeholders to identify what needs to change or compare options. The disambiguation rule directs evidence about implementation toward Intervening rather than Problem-solving."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

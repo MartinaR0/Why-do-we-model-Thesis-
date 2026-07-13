@@ -1,0 +1,99 @@
+{
+  "paper_id": "Demori et al. - 2023 - A Semantic Web Approach for Military Operation Scenarios Development for Simulation",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Reference and operational ontology for military operation scenarios (used to enable a battlefield simulator)",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The operational ontology was implemented in OWL based on the reference ontology presented in Section 5.",
+              "section": "Section 6 IMPLEMENTATION"
+            },
+            {
+              "quote": "The scenario developed using ontology analysis is exported from Prot´ eg´ e and documented in OWL format, allowing the rich representation of knowledge that includes entities, individuals, categories, inferences, attributes, rules, and relationships.",
+              "section": "Section 6 IMPLEMENTATION"
+            },
+            {
+              "quote": "Through this, a simulator of the scenario is being developed to process and generate new information based on this data. For example, the simulator should be able to read the ontology in OWL and start creating the scenario to be simulated with all the instances passed for the military and the network environment.",
+              "section": "Section 6 IMPLEMENTATION"
+            }
+          ],
+          "justification": "The reference ontology was implemented as an operational OWL ontology and is used as input to a battlefield simulator under development, matching the For Intervening signal of 'implemented', 'used to create', and generated artifact (operational ontology + simulator scenario)."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "This ontology aims to achieve a significant portion of the domain knowledge for these scenarios, allowing semantic reasoning to assist in decision-making in the simulation process.",
+              "section": "Section 1 INTRODUCTION"
+            },
+            {
+              "quote": "Thus, decisions can be made to restrict communications according to the military organization hierarchy levels, and this should be reflected in the network emulation environment.",
+              "section": "Section 5 REFERENCE ONTOLOGY FOR MILITARY OPERATION SCENARIOS"
+            },
+            {
+              "quote": "This work reinforces the use of Semantic Web technologies to provide resource sharing, allowing data to be processed so that decisions can be made during the simulation using semantic reasoners.",
+              "section": "Section 7 CONCLUSIONS"
+            }
+          ],
+          "justification": "Separate from implementation, the paper explicitly frames the ontology as supporting decision-making via semantic reasoning ('assist in decision-making', 'decisions can be made'), matching the For Problem-solving signals 'decision' and 'evaluate'."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "the scenario, sometimes heterogeneous, as in the case of military operations, requires formalization to achieve domain knowledge, allowing a more faithful reproduction of reality.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "ontological analysis can be used for decision support, knowledge management, a better semantic definition for ambiguous terms present in glossaries and manuals, information sharing, and achieving a shared conceptualization, among others.",
+              "section": "Section 4 THE MILITARY OPERATION SCENARIO"
+            },
+            {
+              "quote": "ontologies, which can help solve problems of semantic ambiguity, interoperability, and formalization of knowledge through taxonomies and rules.",
+              "section": "Section 1 INTRODUCTION"
+            }
+          ],
+          "justification": "The paper frames the ontology as a means to formalize and clarify the domain (achieve domain knowledge, resolve semantic ambiguity, achieve a shared conceptualization), matching For Understanding signals 'clarify', 'conceptualize', and 'shared understanding'."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "The scenario developed using ontology analysis is exported from Prot´ eg´ e and documented in OWL format, allowing the rich representation of knowledge that includes entities, individuals, categories, inferences, attributes, rules, and relationships.",
+              "section": "Section 6 IMPLEMENTATION"
+            },
+            {
+              "quote": "The conceptual modeling with all the scenario elements for the battlefield simulation was developed with the OntoUML plugin 7 for VisualParadigm 8 . and is available in the Gitlab repository of the project 9 .",
+              "section": "Section 5 REFERENCE ONTOLOGY FOR MILITARY OPERATION SCENARIOS"
+            }
+          ],
+          "reason": "The OWL export and GitLab repository hint at persistent reference use, but the paper does not explicitly frame the model as documentation/knowledge base for absent parties; the 'documented in OWL' phrase refers to machine-readable serialization rather than human reference."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "The research began with surveys of army manuals, articles, and glossaries related to the topic and meetings with experts.",
+              "section": "Section 4 THE MILITARY OPERATION SCENARIO"
+            }
+          ],
+          "reason": "Meetings with experts are mentioned as part of requirements elicitation, but the paper does not explicitly state that the model itself was used to communicate or align stakeholders in those meetings."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

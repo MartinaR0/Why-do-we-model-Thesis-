@@ -1,0 +1,85 @@
+{
+  "paper_file": "Carolla and Spitta - 2014 - Methodological aspects of a data reference model for campus management systems.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "Methodological Aspects of a Data Reference Model for Campus Management Systems",
+    "annotator": "LLM model name",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "Reference Data Model for Campus Management Systems",
+        "goals": [
+          {
+            "goal": "For Intervening",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "The method is applied to gain a reference data model for campus management system systems being deployed since about three years as competing solutions for large universities.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "We applied our approach in the domain of campus-management systems to create an ontologically founded reference model as a necessary prerequisite of sustainable (standard)software.",
+                "section": "Conclusion"
+              }
+            ],
+            "justification": "The paper explicitly states that the model is created as a necessary prerequisite for sustainable standard software, and that it is applied to systems being deployed, indicating active use in guiding implementation. The use of 'to create' and 'applied' in the context of real-world deployment supports 'For Intervening'."
+          },
+          {
+            "goal": "For Problem-solving",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "It can be doubted, whether the student is a university's customer, but if he is regarded as such, a campus management system is a very important customer-induced service system.",
+                "section": "Introduction"
+              },
+              {
+                "quote": "We try to fill this gap with a reference model for campus-management system's databases.",
+                "section": "Introduction"
+              }
+            ],
+            "justification": "The model is introduced to address a recognized problem: the lack of a shared semantic foundation in competing campus management systems. The phrase 'fill this gap' indicates the model is used to solve a specific problem in the domain, satisfying the 'For Problem-solving' criterion."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "It seems fundamental in the situation of the ongoing Bologna Process, that reference models are needed to facilitate the communication of all stakeholders, the developing enterprises and the large number of users, from the teaching to the learning and the administrative members of universities.",
+                "section": "Introduction"
+              }
+            ],
+            "justification": "The paper explicitly states that the reference model is intended to facilitate communication among diverse stakeholders (teaching, learning, administrative members), which aligns with 'For Communicating' as it involves bridging different groups in a shared domain."
+          },
+          {
+            "goal": "For Understanding",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "An important goal of our paper is, to give the readers of our community basic insights into the construction of an ontology, which is an important foundation of semantic modelling.",
+                "section": "Abstract"
+              }
+            ],
+            "justification": "The paper states a goal of providing insights into ontology construction, which supports domain understanding of semantic modeling. While this is partially about learning, the focus is on understanding the model's construction process, which qualifies as 'For Understanding' under the disambiguation rule: understanding the domain (ontology construction) vs. learning modeling methods."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Documenting",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "We hope our paper can help to promote a discussion in the university's own business, the modelling of their internal affairs.",
+                "section": "Introduction"
+              }
+            ],
+            "reason": "The statement expresses a hope for discussion, not a clear use of the model as a persistent reference or documentation system. There is no mention of archival, storage, or future reference use, making the evidence weak for 'For Documenting'."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"Methodological Aspects of a Data Reference Model for Campus Management Systems\",\n  \"annotator\": \"LLM model name\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"Reference Data Model for Campus Management Systems\",\n      \"goals\": [\n        {\n          \"goal\": \"For Intervening\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The method is applied to gain a reference data model for campus management system systems being deployed since about three years as competing solutions for large universities.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"We applied our approach in the domain of campus-management systems to create an ontologically founded reference model as a necessary prerequisite of sustainable (standard)software.\",\n              \"section\": \"Conclusion\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that the model is created as a necessary prerequisite for sustainable standard software, and that it is applied to systems being deployed, indicating active use in guiding implementation. The use of 'to create' and 'applied' in the context of real-world deployment supports 'For Intervening'.\"\n        },\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"It can be doubted, whether the student is a university's customer, but if he is regarded as such, a campus management system is a very important customer-induced service system.\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"We try to fill this gap with a reference model for campus-management system's databases.\",\n              \"section\": \"Introduction\"\n            }\n          ],\n          \"justification\": \"The model is introduced to address a recognized problem: the lack of a shared semantic foundation in competing campus management systems. The phrase 'fill this gap' indicates the model is used to solve a specific problem in the domain, satisfying the 'For Problem-solving' criterion.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"It seems fundamental in the situation of the ongoing Bologna Process, that reference models are needed to facilitate the communication of all stakeholders, the developing enterprises and the large number of users, from the teaching to the learning and the administrative members of universities.\",\n              \"section\": \"Introduction\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that the reference model is intended to facilitate communication among diverse stakeholders (teaching, learning, administrative members), which aligns with 'For Communicating' as it involves bridging different groups in a shared domain.\"\n        },\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"An important goal of our paper is, to give the readers of our community basic insights into the construction of an ontology, which is an important foundation of semantic modelling.\",\n              \"section\": \"Abstract\"\n            }\n          ],\n          \"justification\": \"The paper states a goal of providing insights into ontology construction, which supports domain understanding of semantic modeling. While this is partially about learning, the focus is on understanding the model's construction process, which qualifies as 'For Understanding' under the disambiguation rule: understanding the domain (ontology construction) vs. learning modeling methods.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"We hope our paper can help to promote a discussion in the university's own business, the modelling of their internal affairs.\",\n              \"section\": \"Introduction\"\n            }\n          ],\n          \"reason\": \"The statement expresses a hope for discussion, not a clear use of the model as a persistent reference or documentation system. There is no mention of archival, storage, or future reference use, making the evidence weak for 'For Documenting'.\"\n        }\n      ]\n    }\n  ],\n  \"outside_taxonomy\": []\n}",
+  "seconds": 17.1
+}

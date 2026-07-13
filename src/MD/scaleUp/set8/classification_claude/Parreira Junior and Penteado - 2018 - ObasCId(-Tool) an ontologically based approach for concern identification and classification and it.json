@@ -1,0 +1,84 @@
+{
+  "paper_id": "Parreira Junior and Penteado - 2018 - ObasCId(-Tool) an ontologically based approach for concern identification and classification and it",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "O4C (Ontology for Concerns) - reference ontology for the software concern domain",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "a reference ontology for the software concern domain, called O4C (Ontology for Concerns), that aims to make clear and precise the description of the concepts of this domain",
+              "section": "Introduction"
+            },
+            {
+              "quote": "Software concerns are the focus of the AORE area; hence, it is important to understand (i) which are the main concepts related to this domain, (ii) which are the relationships among these concepts, among others.",
+              "section": "Ontology for Concerns (O4C)"
+            },
+            {
+              "quote": "A well-defined understanding of the software concern domain may also allow the researchers and practitioners to build AORE methods, techniques, and tools that may be widely used, since they are based on shared definitions of this domain.",
+              "section": "Ontology for Concerns (O4C)"
+            },
+            {
+              "quote": "the O4C ontology, which provides a clear conceptual definition regarding the software concern domain, highlighting the key concepts and relationships involved in it",
+              "section": "Final remarks"
+            }
+          ],
+          "justification": "The paper explicitly states the O4C ontology was built to 'make clear and precise the description of the concepts of this domain' and to provide understanding of the software concern domain concepts and their relationships. This matches the For Understanding signal 'clarify', 'define', 'conceptualize', and 'shared understanding'."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "a computational support, called ObasCId-Tool, that automates several of the activities and artifacts proposed in ObasCId",
+              "section": "Introduction"
+            },
+            {
+              "quote": "This module allows the researcher to build and maintain catalogs of software concerns. It represents a wizard for instantiation of the concepts and relationships defined in O4C ontology",
+              "section": "Concerns catalog management module"
+            },
+            {
+              "quote": "By using the concepts defined in the O4C ontology, it is possible to store the existing knowledge about specific types of concerns, generating catalogs of software concerns.",
+              "section": "Preparing the catalog of software concerns"
+            }
+          ],
+          "justification": "The O4C ontology was actively used as the basis for building catalogs of software concerns and was directly implemented in the ObasCId-Tool as a wizard for instantiation of its concepts and relationships. This matches the For Intervening signal 'implemented', 'built', 'used to create' — the model directly guides the creation of the tool and catalogs."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "Reference ontology is a special type of conceptual model, which aims to make clear and precise the description of a domain with the purpose of communication, learning, and problem solving [28].",
+              "section": "Ontology for Concerns (O4C)"
+            },
+            {
+              "quote": "the ObasCId approach, which provides resources (activities, guidelines, heuristics, among others) that aim to help software engineers to perform the activities of the process of concern identification and classification in a more appropriated way",
+              "section": "Final remarks"
+            }
+          ],
+          "justification": "The paper explicitly frames the reference ontology (O4C) as having the purpose of 'problem solving' per the SABiO methodology it follows, and the ontology is used to help engineers identify, classify, and make decisions about concerns without itself being the implementation. This is a Medium-confidence inference tied to signal 'decision' and 'evaluate'."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Reference ontology is a special type of conceptual model, which aims to make clear and precise the description of a domain with the purpose of communication, learning, and problem solving [28].",
+              "section": "Ontology for Concerns (O4C)"
+            }
+          ],
+          "reason": "The 'communication' purpose is stated as a general property of reference ontologies (from SABiO) rather than as a specific enacted or intended purpose of this O4C model for bridging between distinct groups; there is no concrete evidence of the model being used for synchronous communication between stakeholders."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

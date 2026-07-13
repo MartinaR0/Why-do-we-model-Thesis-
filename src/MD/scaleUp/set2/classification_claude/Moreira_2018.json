@@ -1,0 +1,56 @@
+{
+  "paper_id": "Moreira_2018",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "SAREF4health ontology (SAREF extension for IoT-based ECG monitoring)",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "The first part of the SAREF4health validation was performed by implementing the ontology as RDF, which was supported by the Menthor [24] and Protegé tools.", "section": "Section 4.3 Validation and discussion"},
+            {"quote": "A prototype that integrates an existing ECG wearable with cloud infrastructure demonstrates the performance impact of SAREF4health considering IoT constraints.", "section": "Abstract"},
+            {"quote": "A prototype was developed to improve the manufacturer's Android app (Shimmer Xamarin Capture) by translating the data received from the ECG  device to SAREF4health and enabling different  rates of  data  exchange  between  device-mobile and mobile-cloud, which is a common network bandwidth optimization requirement.", "section": "Section 4.3 Validation and discussion"},
+            {"quote": "Our results show that SAREF4health is  adequate to enable semantic interoperability of IoT solutions that need to deal with frequency-based time series.", "section": "Abstract"}
+          ],
+          "justification": "The model was directly implemented as RDF and used to build a working prototype that integrates an ECG wearable with cloud infrastructure to enable semantic interoperability. Matches positive signals 'implemented', 'used to enable interoperability', and prototype/artifact generation."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "We  studied  alternatives, identifying their benefits  and  drawbacks.  Table  1 compares the semantic models 9  considered in this study.", "section": "Section 3 Problem definition"},
+            {"quote": "In  our  comparison  study,  we  concluded  that  a  standardized  IoT  ontology  that provides adequate balance of quality and payload representing time series for ECG data is  actually  lacking.", "section": "Section 3 Problem definition"},
+            {"quote": "Our validation showed that a trade-off between ontology quality and lightweight data  serialization  was  a  crucial  aspect  on  the  design  of  the  SAREF4health  ontology.", "section": "Section 5 Conclusion"},
+            {"quote": "Design decisions regarding the trade-off between ontology quality and aggregation representation are also discussed.", "section": "Abstract"}
+          ],
+          "justification": "Beyond implementation, the paper explicitly uses semantic models to compare alternatives, identify shortcomings (verbosity problem) and analyze design trade-offs/decisions. Matches positive signals 'analyze options', 'evaluate', 'identify shortcomings'. Separate evidence from the intervention work."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "Furthermore, the reuse of standardized ontologies showed to be essential  to  understand  both  IoT  and  healthcare  domains,  as  well  as  implementation constraints.", "section": "Section 5 Conclusion"},
+            {"quote": "Besides the SAREF4health ontology, an important contribution of this paper is the methodology  dealing  with  both  conceptual  modelling  and  implementation  concerns, where  design  decisions  must  be  clearly  exposed  to  understand  the  discrepancies between the  conceptual  model  and  the  final  ontology.", "section": "Section 4.3 Validation and discussion"}
+          ],
+          "justification": "Authors explicitly state the ontology/methodology serves to understand the IoT and healthcare domains and to understand discrepancies between conceptual model and final ontology. Matches positive signal 'understand'."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "The SAREF4health ontology (TTL) and the prototype are available for download 11 .", "section": "Section 4.3 Validation and discussion"},
+            {"quote": "it needs to be properly documented and published.", "section": "Section 2.1 Standards for IoT semantic interoperability"}
+          ],
+          "reason": "The ontology is made downloadable as a reference artifact and ETSI procedure mentions documentation, but the paper does not explicitly frame SAREF4health's purpose as serving as a persistent knowledge base/reference for absent parties; evidence is indirect."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

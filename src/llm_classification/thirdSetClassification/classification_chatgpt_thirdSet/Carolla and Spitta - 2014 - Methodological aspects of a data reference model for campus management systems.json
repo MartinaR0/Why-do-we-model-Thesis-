@@ -1,0 +1,85 @@
+{
+  "paper_id": "Carolla and Spitta - 2014 - Methodological aspects of a data reference model for campus management systems",
+  "annotator": "GPT-5 Codex",
+  "no_codable_model": false,
+  "input_limitations": [
+    "The extracted paper contains figure placeholders and some character-encoding artifacts, but the relevant prose sections were readable."
+  ],
+  "models": [
+    {
+      "model_label": "Ontology-based reference data model for campus management systems",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "The  method  is  applied  to  gain  a  reference  data  model  for  campus management  system  systems  being  deployed  since  about  three  years  as  competing  solutions  for  large universities.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "We  applied  our  approach  in  the  domain  of  campus-management  systems  to  create  an ontologically founded reference model as a necessary prerequisite of sustainable (standard)software.",
+              "section": "Conclusion"
+            }
+          ],
+          "justification": "The model is framed as a reference data model for campus-management system databases and as a prerequisite for sustainable standard software. This supports intended use for system/software development, but no actual implementation from the model is reported, so confidence is Medium."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "We  normalise  NL  in  a  terminology,  capturing  the  UoD  semantics  in  clearly  and unambiguously  defined  modelling  terms.",
+              "section": "Conclusion"
+            },
+            {
+              "quote": "This  facilitates  interpreting  a  NL's  term  as  a  component  of  the  real  world constitution  with  specific  properties.",
+              "section": "Conclusion"
+            }
+          ],
+          "justification": "The authors explicitly describe the model/method as capturing domain semantics and clarifying the interpretation of natural-language terms. This directly matches domain understanding and meaning clarification."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The multitude of aspects in this field can not even be mentioned here, but it seems fundamental in the situation of the ongoing Bologna Process, that reference models are needed to facilitate the communication of all stakeholders, the developing enterprises and the large number of users, from the teaching to the learning and the administrative members of universities.",
+              "section": "Introduction"
+            },
+            {
+              "quote": "Such a model provides a base for further communication seeming to be very urgent in the ongoing 'Bologna Process'.",
+              "section": "Conclusion"
+            }
+          ],
+          "justification": "The paper explicitly says reference models are needed to facilitate communication among distinct stakeholder groups and that this model provides a base for further communication. This directly matches the communicating goal."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "As an important element of this process, a language-based reference model should be helpful for the improvement of today's pilot installations.",
+              "section": "Conclusion"
+            }
+          ],
+          "reason": "The quote suggests possible improvement of existing installations, but it is hypothetical and does not show the model being used for decision-making, option analysis, or identifying what should change."
+        },
+        {
+          "goal": "For Learning",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "An important goal of our paper is, to give the readers of our community basic insights into the construction of an ontology, which is an important foundation of semantic modelling.",
+              "section": "Abstract"
+            }
+          ],
+          "reason": "This states a pedagogical goal of the paper about ontology construction, but it is not clearly a functional goal of the campus-management reference model itself."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

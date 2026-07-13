@@ -1,0 +1,76 @@
+{
+  "paper_id": "Amaral_2020_Money",
+  "annotator": "claude-opus-4",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Reference Ontology of Money (OntoUML model)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "This research aims at addressing these issues by investigating the conceptual foundations of money, grounded in the Unified Foundational Ontology and based on the literature review of the most relevant economic theories.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "This research aims at tackling these issues by investigating the ontological nature of money and of its underlying concepts, grounded in the Unified Foundational Ontology (UFO) [11], based on the literature review of the most relevant economic theories and considering the innovations in the Finance Industry.",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "We believe this work clarifies the notion of money, which can serve as a basis for future business ontologies.",
+              "section": "4 Conclusions"
+            },
+            {
+              "quote": "Having a clear understanding of the concepts on the finance domain is fundamental to figure out the evolution of the economy before innovations in the Finance Industry.",
+              "section": "Abstract"
+            }
+          ],
+          "justification": "The authors explicitly frame the model as a means to investigate, conceptualize, and clarify the ontological nature of money and related concepts. This matches the For Understanding signals (understand, clarify, conceptualize) and the definition of building domain knowledge and shared conceptualization."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "We believe this work clarifies the notion of money, which can serve as a basis for future business ontologies.",
+              "section": "4 Conclusions"
+            },
+            {
+              "quote": "In this paper we present and describe the ongoing work towards a Reference Ontology of Money, with an initial focus on money objects, currencies and related concepts.",
+              "section": "1 Introduction"
+            }
+          ],
+          "justification": "The model is explicitly framed as a 'Reference Ontology' intended to serve as a basis/reference for future business ontologies, matching the For Documenting signals (reference, for future use) for asynchronous use by parties not part of the original modeling."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "The lack of conceptual clarity hinders the analysis of business data, the communication among various economic and financial actors, the enactment of laws and regulations, the mitigation of risks, and the achievement of an appropriate common governance model.",
+              "section": "1 Introduction"
+            }
+          ],
+          "reason": "The paper mentions that conceptual clarity supports communication among economic actors, but this is framed as a general motivation for the domain rather than an explicit claim that the model is used for synchronous communication or bridging between specific groups."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "We also plan to integrate it to well-known ontologies in the finance domain (e.g. FIBO).",
+              "section": "4 Conclusions"
+            }
+          ],
+          "reason": "Integration into other ontologies is only proposed as future work ('we plan to'), which the rules explicitly exclude as evidence for For Intervening ('would be implemented', 'future work', 'proposed only')."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

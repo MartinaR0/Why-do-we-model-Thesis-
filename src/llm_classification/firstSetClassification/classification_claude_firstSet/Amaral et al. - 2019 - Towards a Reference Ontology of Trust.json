@@ -1,0 +1,84 @@
+{
+  "paper_id": "Amaral et al. - 2019 - Towards a Reference Ontology of Trust",
+  "annotator": "claude-opus-4",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Reference Ontology of Trust (OntoUML model of trust, social trust, institution-based trust, and risk emergence)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Having a clear understanding of the notion of trust and its components is paramount to both trust assessment and trust management.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "In this paper we address this issue by means of an in-depth ontological analysis of the notion of trust, grounded in the Unified Foundational Ontology.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "Although much progress has been made to clarify the ontological nature of trust, the term remains overloaded and there is not yet a shared or prevailing, and conceptually clear definition for it [4,22].",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "In this section, we present a well-founded ontology that formalizes the concept of trust as discussed in the previous sections.",
+              "section": "5 The Ontology of Trust"
+            }
+          ],
+          "justification": "The paper explicitly frames the ontology's purpose as clarifying, characterizing, and conceptualizing the notion of trust (its components, types, and relation to risk). This matches the For Understanding signal patterns ('understand', 'clarify', 'conceptualize', 'shared understanding') and concerns domain knowledge about trust."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "In the light of the above, we advocate for the need of a reference ontology of trust to serve as a basis for communication, consensus and alignment among different approaches and perspectives, as well as to foster interoperability across the heterogeneous application domains.",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "The motivation for using UFO is to provide an accessible and sharable modelling of trust that may be applied across domains to foster the interoperability and the mutual understanding among modellers.",
+              "section": "2 Ontological Foundations"
+            }
+          ],
+          "justification": "The authors explicitly state the ontology serves as a basis for communication and alignment among different approaches/perspectives and among modellers across domains. This matches the For Communicating signal patterns ('communicate', 'align stakeholders', 'bridge between')."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "We also plan to use the presented ontology to analyze and redesign existing modelling languages (e.g. Archimate) to enable them to consistently describe trust assessment.",
+              "section": "8 Final Remarks"
+            },
+            {
+              "quote": "These analysis, in turn, have been later employed to evaluate, integrate and redesign important organizational modeling languages such as ARIS, BPMN, and Archimate [1,16].",
+              "section": "1 Introduction"
+            }
+          ],
+          "reason": "Redesigning modelling languages is framed as future work ('we plan to'), and the prior redesigns of ARIS/BPMN/Archimate refer to other ontological analyses, not this trust ontology. Per the rule, hypothetical/future uses are not coded as present."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Regardless of the context, trust is generally the basis for decision making closely related to achieving a goal.",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "To validate and demonstrate the contribution of our approach, we apply it to model two application examples.",
+              "section": "Abstract"
+            }
+          ],
+          "reason": "The decision-making references describe trust as a domain phenomenon, not the ontology being used to support stakeholders' decisions. The application examples are presented as validation/demonstration of the ontology rather than as evidence the model guided a real problem-solving or option-evaluation process."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

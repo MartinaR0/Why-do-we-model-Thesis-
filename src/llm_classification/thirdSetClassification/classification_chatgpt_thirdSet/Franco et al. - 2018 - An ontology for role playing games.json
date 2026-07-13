@@ -1,0 +1,63 @@
+{
+  "paper_id": "Franco et al. - 2018 - An ontology for role playing games",
+  "annotator": "GPT-5 Codex",
+  "no_codable_model": false,
+  "input_limitations": [
+    "The extracted markdown contains character encoding noise in author names and some accented words; figure content is represented only as [FIGURE]."
+  ],
+  "models": [
+    {
+      "model_label": "RPG ontology",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "In this paper, we introduce a new, comprehensive ontology specially designed for modeling Role-Playing Games semantics.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "We propose a comprehensive ontology specially designed for modeling RPG games for semantic applications, which is built on top of Unified Foundational Ontology (UFO) [5] and covers elements from Interactive Storytelling (IS).",
+              "section": "Section I. INTRODUCTION"
+            },
+            {
+              "quote": "Therefore, our model is expected to be able to cover the adventures and missions found in both tabletop and digital RPG titles.",
+              "section": "Section III. OUR APPROACH"
+            }
+          ],
+          "justification": "The model is explicitly created to model RPG semantics and cover RPG domain concepts across tabletop and digital titles. This directly matches the Understanding goal of clarifying and representing a domain."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "After exporting data from our model simulating individuals found in both games to the OWL format, a total of 2,233 triplets was generated resorting to the Triple-Store Apache Jena Fuseki [27] persistent triple store.",
+              "section": "Section IV. EXPERIMENTAL EVALUATION"
+            },
+            {
+              "quote": "Moreover, SPARQL queries were executed to respond to the previously enumerated competence questions.",
+              "section": "Section IV. EXPERIMENTAL EVALUATION"
+            }
+          ],
+          "justification": "The ontology was used to export data to OWL, generate triples, populate a triple store, and run SPARQL queries. This supports Intervening because the model enabled creation of implementation artifacts, though the evidence appears in evaluation rather than as the main stated purpose."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "This work aims to provide an improved semantic model, which is necessary to consult and discuss a given material in common for these RPG platforms.",
+              "section": "Section I. INTRODUCTION"
+            }
+          ],
+          "reason": "The sentence mentions discussing common material, but it does not clearly identify distinct stakeholders, interaction, explanation, or an actual communication setting."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

@@ -1,0 +1,65 @@
+{
+  "paper_id": "Barros et al. - 2020 - Programming the Nationality Identity in the Federal Constitution of Brazil",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Ontology of the Nationality section of the Federal Constitution of Brazil (Article 12)",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "So, an ontology was developed that models the Nationality section of Federal Constitution of Brazil in order to provide the realisation of inferences regarding the possibility of a person being Brazilian or not, also infer if the nationality would be Brazilian born or naturalised, besides informing the article and item that support the inference.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "Each of these subclasses created, contains rules written using Protg's Class expression editor.",
+              "section": "Section 4.2 Individual modeling"
+            },
+            {
+              "quote": "An ontology has been developed that models the Nationality section of the Federal Constitution of Brazil in order to provide the realisation of inferences of individuals representing a case of a person in relation to the possibility of this person is Brazilian or not, as well as inferring whether nationality would be Brazilian or naturalised, in addition to informing the article and item supporting the inference.",
+              "section": "Section 5 Conclusion"
+            }
+          ],
+          "justification": "The ontology was actually built and operationalized as a computational artifact: it was implemented in Protege with class expressions, deployed with a Reasoner that performs inferences, and tested. This matches the For Intervening signal of 'implemented', 'built', 'used to create' an artifact/system."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "In this way, this ontology can be used to solve doubts related to the Brazilian nationality of an individual.",
+              "section": "Section 5 Conclusion"
+            },
+            {
+              "quote": "Thus, the user's need was established Know if a person is Brazilian or not according to the rules of the Constitution and receive information about the articles that support the answer.",
+              "section": "Section 4 Development"
+            },
+            {
+              "quote": "To present a solution to this problem, we sought to develop a computational legal ontology that would allow the reasoning, to present a logical result and an explanation of the reason for the answer, as well as the legislation that supports the assertion with the use of semantic web technologies [2].",
+              "section": "Section 1 Introduction"
+            }
+          ],
+          "justification": "Beyond serving as the implementation artifact, the model is explicitly framed as a decision-support instrument that helps users (immigrants, citizens) resolve nationality doubts and obtain logical answers with supporting legislation. This is separate evidence of decision-making support, matching the disambiguation rule that allows double-coding with Intervening."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Therefore, this research sought to explore the advantages and limitations of conceptual framework of the legal knowledge contained in the Federal Constitution of Brazil in its article 12 through ontology and semantic web technologies.",
+              "section": "Section 1 Introduction"
+            }
+          ],
+          "reason": "The phrase touches on conceptualizing legal knowledge but is framed as a research goal about exploring ontology technology rather than explicitly stating that the model's purpose is to support domain understanding or meaning negotiation among people."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

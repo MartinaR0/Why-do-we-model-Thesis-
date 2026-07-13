@@ -1,0 +1,61 @@
+{
+  "paper_id": "Ramos_2021",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Extended Core Ontology on Decision Making (CPT-based, including the fourfold pattern of risk attitudes)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Our aim is that this ontology be used to improve their decisions by allowing them a better understanding of how they decide.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "The proposed ontology accounts for these four behavior types, allowing decision makers to understand how their preferences can be biased in comparison with rational decision making, and how such biases may occur.",
+              "section": "1. Introduction"
+            },
+            {
+              "quote": "Our proposed ontology allows the decision maker to improve his decision making by understanding how his preferences are influenced by his reference point and cognitive biases in an intuitive decision.",
+              "section": "6. Conclusion"
+            }
+          ],
+          "justification": "The authors explicitly state the ontology's purpose is to support understanding of decision-making concepts (preferences, biases, reference points) by decision makers, which matches the For Understanding signal patterns ('understand', 'better understanding')."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "In addition, this ontology can be used as part of a strategy to reduce biases.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "Moreover, the ontology may be used as part of a strategy to reduce the biases, and contribute to improving the development of Decision Support Systems (DSS) considering intuitive decision making.",
+              "section": "6. Conclusion"
+            }
+          ],
+          "justification": "The paper frames the ontology as a tool to guide decision making and reduce biases (i.e., help stakeholders identify what should change in their decision process), aligning with For Problem-solving signals ('decision', 'strategy to reduce biases'). The ontology itself is not the implementation, so the Intervening vs. Problem-solving rule favors Problem-solving here."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Moreover, the ontology may be used as part of a strategy to reduce the biases, and contribute to improving the development of Decision Support Systems (DSS) considering intuitive decision making.",
+              "section": "6. Conclusion"
+            }
+          ],
+          "reason": "The DSS development is framed as a hypothetical future contribution ('may be used', 'contribute to improving the development'), not as actual or explicitly intended implementation; the negative signal 'future work' applies."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

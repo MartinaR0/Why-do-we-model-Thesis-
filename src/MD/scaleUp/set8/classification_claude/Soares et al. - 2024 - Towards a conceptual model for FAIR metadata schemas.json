@@ -1,0 +1,61 @@
+{
+  "paper_id": "Soares et al. - 2024 - Towards a conceptual model for FAIR metadata schemas",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "OntoUML conceptual model for FAIR metadata schemas",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Through detailed discussion and provision of examples for each model component, this work aims to help metadata designers and curators better understand how to incorporate the FAIR Data principles into their schemas.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "For instance, in the development of FAIR metadata schemas, OntoUML can help create models that allows us to understand all the components and their relationships to define a FAIR metadata schema.",
+              "section": "Section 3"
+            },
+            {
+              "quote": "Human understanding: Conceptual models are useful for schema designers and end-users. They can facilitate the understanding of the schema by providing a visual, conceptual representation of its classes and properties.",
+              "section": "Section 5.8"
+            }
+          ],
+          "justification": "The paper explicitly states its purpose is to help designers and curators understand how to incorporate FAIR principles and understand components of a FAIR metadata schema, matching the 'understand', 'clarify', 'conceptualize' signals for For Understanding."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "These assessments illustrate the applicability of the proposed conceptual model and demonstrate its utility in helping communities identify and address gaps in their metadata schemas to achieve full FAIR compliance.",
+              "section": "Section 6"
+            },
+            {
+              "quote": "The main reason DwC did not achieve 100% was the lack of machine-actionable serializations and defined domains and ranges between classes and properties.",
+              "section": "Section 6"
+            }
+          ],
+          "justification": "The model was used as the basis of a FAIRness assessment methodology to evaluate three schemas (DwC, D-CAT, ALM), identify shortcomings and gaps, matching 'evaluate' and 'identify shortcomings' signals. The model guides analysis/decision-making rather than being implemented as the artifact itself."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "A metadata schema requires comprehensive documentation to ensure it is accessible and reusable for humans and computer applications alike.",
+              "section": "Section 5.4"
+            }
+          ],
+          "reason": "This sentence refers to documenting metadata schemas in general, not framing the authors' own conceptual model as serving a documentation/reference purpose; the evidence is indirect."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

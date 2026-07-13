@@ -1,0 +1,44 @@
+{
+  "paper_id": "Neves et al. - 2020 - NWPOntology A Well-Founded Ontology for the Numerical Weather Prediction Data Domain",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "NWPOntology (domain ontology for Numerical Weather Prediction data)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "This article describes the construction of a wellfounded ontology for the Numerical Weather Prediction data domain (NWPOntology),  developed  from  philosophically  based  foundations  of  the Unified Foundational  Ontology  as  a  solution  to  promote  the  semantic enrichment  of  data  from  meteorological  observations,  aiming  to  reduce conceptual ambiguities.", "section": "Abstract"},
+            {"quote": "In  the  Purpose  Identification  and  Requirements  Specification  phase,  it  was defined that NWPOntology aims to serve as a shared conceptualization to resolve the semantic  heterogeneity  caused  by  divergent  interpretations  of  data  according  to  the different contexts in which they are used, and the green part of the model will support an analytical environment of historical events.", "section": "Section 3"},
+            {"quote": "Its main objective is the modeling and implementation of a domain ontology for numerical weather prediction data (NWPOntology),  as  a  solution  to  reduce  the  conceptual  ambiguities  of  the  weather forecast  data  existing  in  the  various  forecast  centers,  promoting  semantic  enrichment meteorological observation data.", "section": "Section 3"}
+          ],
+          "justification": "The paper explicitly frames the ontology as a shared conceptualization to clarify concepts, reduce conceptual ambiguities, and resolve semantic heterogeneity arising from divergent interpretations. This directly matches the For Understanding signal patterns ('clarify', 'conceptualize', 'shared understanding')."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "Its main objective is the modeling and implementation of a domain ontology for numerical weather prediction data (NWPOntology),  as  a  solution  to  reduce  the  conceptual  ambiguities  of  the  weather forecast  data  existing  in  the  various  forecast  centers,  promoting  semantic  enrichment meteorological observation data.", "section": "Section 3"},
+            {"quote": "To  complete  the  development  of  the  ontology  it  is  still necessary  to  have  a  dynamic  verification  and  validation  of  the  behavior  of  the operational  ontology,  in  a  finite  set  of  test  cases  against  the  expected  behavior  in relation to Competence Questions (CQs).", "section": "Section 4"}
+          ],
+          "reason": "While the paper mentions 'modeling and implementation' as an objective, the ontology is still in development ('NWPOntology is being developed', 'To complete the development of the ontology it is still necessary'), which aligns with the negative signal 'future work' / 'proposed only' rather than an actual implementation."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "In this way, the information can be observed, analyzed and disseminated by weather reports, assisting in the decision making process.", "section": "Section 3"},
+            {"quote": "To provide  conceptual methodological support for the  exchange  of  knowledge  on  Numerical  Weather Prediction Data, NWPOntology is being developed, a domain ontology for numerical weather prediction  data  based  on  Ontology  of  Unified  Foundational  Ontology  (UFO) [Guizzardi 2005]  to support a  future  decision-making  system.", "section": "Introduction"}
+          ],
+          "reason": "The decision-making support is framed as a future use ('to support a future decision-making system'), so the ontology is not currently used to guide decision-making or analyze options; evidence is indirect and forward-looking."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

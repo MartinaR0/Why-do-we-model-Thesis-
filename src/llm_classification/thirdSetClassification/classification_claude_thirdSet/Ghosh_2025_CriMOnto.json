@@ -1,0 +1,46 @@
+{
+  "paper_id": "Ghosh_2025_CriMOnto",
+  "annotator": "claude-opus-4",
+  "no_codable_model": false,
+  "input_limitations": ["SWRL rule formulas in Section 6 contain extensive OCR/extraction noise (fragmented Unicode mathematical italic characters), but the surrounding narrative describing the model's purpose and use is intact."],
+  "models": [
+    {
+      "model_label": "CriMOnto - domain-specific ontology for procedural norms of the Lebanese Criminal Code",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "Furthermore, CriMOnto's conceptual model is transformed into a formal ontology that can be represented using a computational language such as OWL.", "section": "Section 1 (Introduction)"},
+            {"quote": "To validate CriMOnto, the reference model is transformed into an operational ontology manageable in ontology editors such as Protégé.", "section": "Section 5 (Ontology validation and evaluation)"},
+            {"quote": "The transformation process is performed using ontouml-js plugin that generates gUFO OWL ontology [39, 44].", "section": "Section 5 (Ontology validation and evaluation)"},
+            {"quote": "In this section, we employ CriMOnto in a lightweight rule-based decision support task to assess its decision-making performance.", "section": "Section 6 (Use case: Lightweight rule-based decision support)"},
+            {"quote": "We aim to formalize the legal norms of the Criminal Code based on CriMOnto.", "section": "Section 6 (Use case: Lightweight rule-based decision support)"}
+          ],
+          "justification": "The model is actively used as an instrument to generate an operational OWL ontology and SWRL rules that are executed by a reasoner (HermiT) to produce legal effects. Signal pattern 'used to create' and 'generated artifact' apply; the implementation is realized (not future work), placing this under For Intervening."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "We seek to develop a (lightweight) semantic application to support legal scholars in solving legal problems.", "section": "Section 3 (Methodology) - Ontology specification"},
+            {"quote": "The potential use of CriMOnto for lightweight rule-based decision support is discussed in this study.", "section": "Abstract"}
+          ],
+          "reason": "Decision support is mentioned, but the disambiguation rule states that when the same evidence shows implementation, it should be coded as For Intervening only. The decision-support framing here is realized through the artifact (operational ontology + SWRL rules) rather than through using the model itself to compare options or identify shortcomings, so this remains weak/ambiguous as a separate Problem-solving goal."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "In this study, we propose a formal and faithful representation of the procedural aspect of legal norms in the context of the Lebanese Criminal Code.", "section": "Abstract"},
+            {"quote": "CriMOnto's purpose is to represent faithfully and explicitly the content of procedural norms for reasoning and decision-making.", "section": "Section 3 (Methodology) - Ontology specification"}
+          ],
+          "reason": "The paper emphasizes faithful representation but does not explicitly frame the model as supporting people to develop knowledge about the domain or to negotiate shared meaning; representation is in service of implementation/reasoning, so the link to Understanding is indirect."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

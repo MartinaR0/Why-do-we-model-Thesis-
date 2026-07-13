@@ -1,0 +1,81 @@
+{
+  "paper_file": "Zhou et al. - 2017 - An ontological approach to identify the causes of hazards for safety-critical systems.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "An Ontological Approach to Identify the Causes of Hazards for Safety-Critical Systems",
+    "annotator": "LLM model name",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "OCH (Ontological Approach to Identify the Causes of Hazards)",
+        "goals": [
+          {
+            "goal": "For Intervening",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "The approach consists of three steps, in terms of 'Hazard Descriptions Categorization' to achieve a common understanding of the selected hazard description, 'Hazard Description Expansion' to formalize the knowledge of the system and analysts, and 'Causes Exploration' to explore the possible causes according to the causal relations defined in the HO.",
+                "section": "VI. CONCLUSION AND FUTURE WORK"
+              },
+              {
+                "quote": "We are currently evaluating the proposed approach to identify causes of hazards on a more complex system consisting of autonomous vehicles, and a more conclusive evaluation of the benefits of the OCH approach will be provided to convince the safety practitioners.",
+                "section": "VI. CONCLUSION AND FUTURE WORK"
+              }
+            ],
+            "justification": "The paper explicitly states that the OCH approach is designed to be applied in practice, with a clear sequence of steps intended to guide analysts in identifying causes. The mention of ongoing evaluation on a real-world system (autonomous vehicles) and the goal of convincing safety practitioners indicates that the model is intended for active use in system development, satisfying the definition of 'For Intervening'."
+          },
+          {
+            "goal": "For Understanding",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "OCH-Step 1: Hazard Description Categorization categorizes the selected hazard description in accordance to the Hazard Ontology [1]. This step will help analysts achieve a common understanding of the hazard description.",
+                "section": "III.B"
+              }
+            ],
+            "justification": "The paper explicitly states that the purpose of Step 1 is to help analysts achieve a 'common understanding' of the hazard description, which directly maps to the goal of 'For Understanding' as defined by the taxonomy."
+          },
+          {
+            "goal": "For Problem-solving",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "The main idea of our approach is to use the Hazard Ontology (HO) [1] to provide a consistent way to formalize the system descriptions and analysts' expertise of hazards. The formalized models can provide a basis for the identification of the causes associated with identified hazards.",
+                "section": "VI. CONCLUSION AND FUTURE WORK"
+              }
+            ],
+            "justification": "The model is used to identify causes of hazards, which is a decision-making activity aimed at analyzing and evaluating what needs to change or what is causing a problem. The paper frames the model as a tool to solve the problem of incomplete and generic hazard cause identification, satisfying the 'For Problem-solving' goal."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "The approach consists of three steps, in terms of 'Hazard Descriptions Categorization' to achieve a common understanding of the selected hazard description, 'Hazard Description Expansion' to formalize the knowledge of the system and analysts, and 'Causes Exploration' to explore the possible causes according to the causal relations defined in the HO.",
+                "section": "VI. CONCLUSION AND FUTURE WORK"
+              }
+            ],
+            "justification": "The model is designed to facilitate shared understanding and alignment among stakeholders (e.g., developers, organizations, authorities) by providing a structured way to analyze hazards. The use of structured questions and formalized models supports communication between different parties involved in safety analysis, satisfying the 'For Communicating' goal with moderate confidence based on the described function."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Documenting",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "The OCH was evaluated based on the 49 hazards identified in [9]. Moreover, a limited comparison between the causes presented in [9] and those identified by the OCH was conducted.",
+                "section": "IV.B"
+              }
+            ],
+            "reason": "The paper mentions that the results were compared with prior work, but there is no explicit statement that the model is used as a persistent documentation or reference system for future use. The evidence is too indirect to support 'For Documenting' with confidence."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"An Ontological Approach to Identify the Causes of Hazards for Safety-Critical Systems\",\n  \"annotator\": \"LLM model name\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"OCH (Ontological Approach to Identify the Causes of Hazards)\",\n      \"goals\": [\n        {\n          \"goal\": \"For Intervening\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The approach consists of three steps, in terms of 'Hazard Descriptions Categorization' to achieve a common understanding of the selected hazard description, 'Hazard Description Expansion' to formalize the knowledge of the system and analysts, and 'Causes Exploration' to explore the possible causes according to the causal relations defined in the HO.\",\n              \"section\": \"VI. CONCLUSION AND FUTURE WORK\"\n            },\n            {\n              \"quote\": \"We are currently evaluating the proposed approach to identify causes of hazards on a more complex system consisting of autonomous vehicles, and a more conclusive evaluation of the benefits of the OCH approach will be provided to convince the safety practitioners.\",\n              \"section\": \"VI. CONCLUSION AND FUTURE WORK\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that the OCH approach is designed to be applied in practice, with a clear sequence of steps intended to guide analysts in identifying causes. The mention of ongoing evaluation on a real-world system (autonomous vehicles) and the goal of convincing safety practitioners indicates that the model is intended for active use in system development, satisfying the definition of 'For Intervening'.\"\n        },\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"OCH-Step 1: Hazard Description Categorization categorizes the selected hazard description in accordance to the Hazard Ontology [1]. This step will help analysts achieve a common understanding of the hazard description.\",\n              \"section\": \"III.B\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that the purpose of Step 1 is to help analysts achieve a 'common understanding' of the hazard description, which directly maps to the goal of 'For Understanding' as defined by the taxonomy.\"\n        },\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The main idea of our approach is to use the Hazard Ontology (HO) [1] to provide a consistent way to formalize the system descriptions and analysts' expertise of hazards. The formalized models can provide a basis for the identification of the causes associated with identified hazards.\",\n              \"section\": \"VI. CONCLUSION AND FUTURE WORK\"\n            }\n          ],\n          \"justification\": \"The model is used to identify causes of hazards, which is a decision-making activity aimed at analyzing and evaluating what needs to change or what is causing a problem. The paper frames the model as a tool to solve the problem of incomplete and generic hazard cause identification, satisfying the 'For Problem-solving' goal.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The approach consists of three steps, in terms of 'Hazard Descriptions Categorization' to achieve a common understanding of the selected hazard description, 'Hazard Description Expansion' to formalize the knowledge of the system and analysts, and 'Causes Exploration' to explore the possible causes according to the causal relations defined in the HO.\",\n              \"section\": \"VI. CONCLUSION AND FUTURE WORK\"\n            }\n          ],\n          \"justification\": \"The model is designed to facilitate shared understanding and alignment among stakeholders (e.g., developers, organizations, authorities) by providing a structured way to analyze hazards. The use of structured questions and formalized models supports communication between different parties involved in safety analysis, satisfying the 'For Communicating' goal with moderate confidence based on the described function.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The OCH was evaluated based on the 49 hazards identified in [9]. Moreover, a limited comparison between the causes presented in [9] and those identified by the OCH was conducted.\",\n              \"section\": \"IV.B\"\n            }\n          ],\n          \"reason\": \"The paper mentions that the results were compared with prior work, but there is no explicit statement that the model is used as a persistent documentation or reference system for future use. The evidence is too indirect to support 'For Documenting' with confidence.\"\n        }\n      ]\n    }\n  ],\n  \"outside\\_taxonomy\": []\n}",
+  "seconds": 18.4
+}

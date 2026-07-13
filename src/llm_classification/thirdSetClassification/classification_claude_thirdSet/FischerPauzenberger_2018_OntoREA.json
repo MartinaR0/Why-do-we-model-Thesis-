@@ -1,0 +1,76 @@
+{
+  "paper_id": "FischerPauzenberger_2018_OntoREA",
+  "annotator": "claude-opus-4",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "OntoREA Accounting and Finance Model (PIM) with refined MySQL PSM for option contracts",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "In this article the missing proof is given by refining the relational MySQL model.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "In the model  driven  development (MDD) context [3] this model constitutes the platform specific  model (PSM) which is derived from the platform independent model (PIM) in form of the OntoREA© model.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "For this purpose a refined MySQL database PSM model is constructed that includes the peculiarities of dynamic hedging portfolios as  well, so that un- and conditional derivative instruments are covered in the proposed PSM model.",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "The  main  contribution  of  this  article  is  the  development  of  a  more  advanced MySQL database PSM model compared to [1] that not only covers static hedge portfolio  representations  for  unconditional  derivatives  (e.g.  stock  forward)  but  also  dynamic hedge portfolio representations for conditional derivatives (e.g. stock call).",
+              "section": "4 Conclusion"
+            }
+          ],
+          "justification": "The conceptual PIM (OntoREA) is explicitly used as the basis to derive/construct a platform specific MySQL database model via MDD transformation. The paper describes constructing the artifact (refined PSM) from the PIM, matching the For Intervening signal of 'used to create' and artifact generation through model transformation."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "The refined PSM model  adequately represents  European  option  contracts  and  it  should  be  especially  useful  for business analysts as well as for educational purposes.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "This proposed model can be useful for business analysts in the finance domain as well as for teaching purposes by explaining derivative instruments in form of conceptual PIM and database specific PSM models.",
+              "section": "4 Conclusion"
+            }
+          ],
+          "justification": "The authors explicitly state the model is intended for educational/teaching purposes and as a reference useful for business analysts and teaching — an asynchronous, persistent use as reference material for parties outside the original modeling process, matching the For Documenting signal."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "The inclusion of the two tables promotes the understanding of the different financial natures of the two hedge portfolio constituents, i.e. the stock asset (risky income) and the loan liability (fixed income).",
+              "section": "3 Hedge Portfolio: Switching from PIM- to PSM-Level"
+            }
+          ],
+          "reason": "A single localized mention of 'promotes the understanding' for one design choice; not framed as a primary purpose of the model, so the evidence is weak and indirect."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "This proposed model can be useful for business analysts in the finance domain as well as for teaching purposes by explaining derivative instruments in form of conceptual PIM and database specific PSM models.",
+              "section": "4 Conclusion"
+            }
+          ],
+          "reason": "Usefulness for business analysts could imply analytical/decision support, but the paper does not explicitly describe the model being used to evaluate options, identify shortcomings, or guide decisions; evidence is too indirect."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

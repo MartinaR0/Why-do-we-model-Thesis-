@@ -1,0 +1,105 @@
+{
+  "paper_id": "Prince Sales et al. - 2018 - Ontological Analysis and Redesign of Risk Modeling in ArchiMate",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Ontology of Risk (fragment of the Common Ontology of Value and Risk, in OntoUML)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "In this paper, we address some challenges in conceptualizing and modeling risk with a systematic ontology-based approach. We investigate the concept of risk and related notions and propose an ontology of risk as a semantic foundation for the representation of risks in Enterprise Architecture.",
+              "section": "1. Introduction"
+            },
+            {
+              "quote": "The ontology of risk [19] formally captures our conceptualization of risk following the assumptions discussed in the previous section.",
+              "section": "Section 3.2"
+            },
+            {
+              "quote": "This analysis, which was grounded on the well-founded Common Ontology of Value and Risk [19], allowed us to clarify the real-world semantics underlying the risk-related constructs of the overlay, as well as to unveil several ontological deficiencies in it.",
+              "section": "7. Final Remarks"
+            }
+          ],
+          "justification": "The ontology is explicitly created to conceptualize and clarify the notion of risk and serve as a semantic foundation, matching the For Understanding signals 'conceptualize', 'clarify', and clarifying real-world semantics."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "We use the proposed risk ontology to perform an ontological analysis of ArchiMate's Risk and Security Overlay (RSO).",
+              "section": "1. Introduction"
+            },
+            {
+              "quote": "In the following section we describe the ontological analysis we conducted to assess the risk-related constructs of RSO, in light of the risk ontology we have just discussed.",
+              "section": "Section 4"
+            },
+            {
+              "quote": "The nature of these different concepts represented by the same construct can be unveiled by means of the risk ontology discussed in Section 3.",
+              "section": "Section 4.5"
+            }
+          ],
+          "justification": "The ontology is used as the evaluation lens to analyze RSO and identify its shortcomings (Limitations L1-L8), matching For Problem-solving signals 'analyze', 'evaluate', and 'identify shortcomings'. The ontology itself is the analytic instrument, not an implementation artifact."
+        }
+      ],
+      "uncertain_goals": []
+    },
+    {
+      "model_label": "Redesigned ArchiMate Risk and Security Overlay (RSO) risk modeling fragment",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Building on the results of this analysis, we propose a well-founded redesign of the risk modeling aspects of the RSO.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "In order to address the identified shortcomings, we now propose a redesign of the risk-related portion of the RSO, which also follows its original strategy of only using existing ArchiMate constructs.",
+              "section": "Section 5"
+            },
+            {
+              "quote": "We then addressed these deficiencies by redesigning the risk modeling fragment of the RSO, making it more precise and expressive.",
+              "section": "7. Final Remarks"
+            }
+          ],
+          "justification": "The authors redesign the RSO itself (a modeling language fragment) by mapping ontological concepts to specific ArchiMate constructs/stereotypes (Table 3), directly modifying the artifact. This matches For Intervening as the model is used to build/redesign a concrete artifact (the revised RSO)."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "The redesigned risk modeling fragment proposes a number of solutions for the representation of notions that were not present in the original RSO.",
+              "section": "7. Final Remarks"
+            },
+            {
+              "quote": "We consider this a benefit of this scheme, as it enables risk to be integrated into an overall motivational analysis, even if specific details of events are omitted.",
+              "section": "Section 5"
+            }
+          ],
+          "justification": "Beyond producing the redesigned artifact, the redesigned scheme is framed as enabling analysis (motivational analysis of risk), supporting decision-making and analysis activities by stakeholders, which matches For Problem-solving."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Although this model provides valuable information for stakeholders of the Coldhard Steel company, it leaves some relevant questions unanswered",
+              "section": "Section 2"
+            }
+          ],
+          "reason": "Reference to stakeholders is about the original RSO examples and used to motivate limitations rather than as a stated purpose of the authors' redesigned model; evidence does not clearly establish synchronous communication as the goal."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

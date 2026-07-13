@@ -1,0 +1,51 @@
+{
+  "paper_id": "Andersson and Johannesson - 2018 - Ascribing Value",
+  "annotator": "GPT-5 Codex",
+  "no_codable_model": false,
+  "input_limitations": [
+    "Markdown extraction contains figure placeholders, some encoding artifacts, and one sentence split across paragraphs; text is otherwise readable."
+  ],
+  "models": [
+    {
+      "model_label": "Value Ascription Ontology (VAO)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "This paper proposes an ontology for conceptualizing the notion of value ascription that is founded on an analysis of context notions, showing how value of objects can be explained in terms of value of states of affairs.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "The goal of this paper is to conceptualize the notion of value ascription, in which an agent ascribes value to some value object.",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "is a value ascription ontology (VAO) that includes the concepts required for representing and explaining value ascriptions.",
+              "section": "1 Introduction"
+            }
+          ],
+          "justification": "The paper explicitly states that the ontology is for conceptualizing value ascription and representing/explaining value ascriptions. This maps directly to supporting domain understanding and clarification of concepts."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "From a value analysis point of view at least two fundamental questions about valuations should be answerable: (a) if an object is kept fixed, what happens to its ascribed value when the context changes? and (b) which object out of several will be ascribed the highest value in a context?",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "Whether a model is better than another is determined by establishing respective overall values in a VO Value ascription and comparing them.",
+              "section": "3 Illustration"
+            }
+          ],
+          "justification": "The ontology is framed as supporting value analysis questions and comparison of alternatives. The evidence implies decision-oriented analysis, but does not describe an actual stakeholder decision process, so confidence is Medium."
+        }
+      ],
+      "uncertain_goals": []
+    }
+  ],
+  "outside_taxonomy": []
+}

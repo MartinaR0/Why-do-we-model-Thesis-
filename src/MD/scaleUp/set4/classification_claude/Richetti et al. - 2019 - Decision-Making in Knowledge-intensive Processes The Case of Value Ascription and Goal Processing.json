@@ -1,0 +1,65 @@
+{
+  "paper_id": "Richetti et al. - 2019 - Decision-Making in Knowledge-intensive Processes The Case of Value Ascription and Goal Processing",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Conceptual model of Goal Processing and Value Ascription for decision-making in KiPs",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "This work aims to provide an ontological background for properly understanding human decision-making actions by analyzing cognitive states of agents participating in a KiP.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "We claim that these value-oriented conceptual models are capable of describing the rationale of decision-making in KiPs in terms of value and risk ascriptions and by a set of belief types that supports goal processing.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "As a practical implication, the model can be of relevance for any organization to help it precisely understand several collaborative and unpredictable critical scenarios.",
+              "section": "5 Conclusions"
+            }
+          ],
+          "justification": "The paper explicitly frames the model's purpose as providing ontological understanding of decision-making and helping organizations understand collaborative scenarios. Positive signals 'understand', 'conceptualize', and 'shared understanding' apply directly."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "Organizations can bene fi t of the proposed conceptualization as a reference to analyze their KiPs, now considering that the associated agents perform value ascriptions when making decisions prior to action.",
+              "section": "5 Conclusions"
+            },
+            {
+              "quote": "We successfully applied the proposed conceptual model to support analysis of a complex and real-life KiP instance, showing the intrinsic and non-intuitive behavior that may emerge from such processes.",
+              "section": "5 Conclusions"
+            },
+            {
+              "quote": "To exemplify how the proposed conceptual models can properly represent decisionmaking in KiPs, we inspected a real-life KiP from the air traf fi c control domain.",
+              "section": "4 The Ontological Nature of Decision-Making in a Real-Life KiP"
+            }
+          ],
+          "justification": "The paper presents the model as a reference for organizations to analyze KiPs and support decision-making analysis. Positive signals 'analyze' and 'decision' apply: the model guides analysis of decisions rather than serving as an implementation instrument."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Future work may also relate value and risk ascription of decisions to process performance outcomes.",
+              "section": "5 Conclusions"
+            }
+          ],
+          "reason": "No evidence of implementation, deployment, or artifact generation; future work is mentioned only generally and is explicitly excluded by the negative signals 'future work'."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

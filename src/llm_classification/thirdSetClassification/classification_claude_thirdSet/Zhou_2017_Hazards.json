@@ -1,0 +1,76 @@
+{
+  "paper_id": "Zhou_2017_Hazards",
+  "annotator": "claude-opus-4",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Hazard Ontology (HO) used in the OCH approach to identify causes of hazards",
+      "goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "In this paper, our main contribution is to propose an approach, called OCH, to identify the causes associated with the hazard descriptions from a PHA worksheet. The OCH aims to improve the results of hazard causes identification in terms of completeness and usefulness by making up for the aforementioned deficiencies of current practices. To achieve this goal, the OCH utilizes the hazard-related concepts and relations defined in the HO.",
+              "section": "I. Introduction"
+            },
+            {
+              "quote": "The formalized models can provide a basis for the identification of the causes associated with identified hazards.",
+              "section": "VI. Conclusion and Future Work"
+            },
+            {
+              "quote": "The causes of the hazards identified in the PHA will serve as a heuristic and negotiation basis to design hazard mitigation mechanisms in the subsequent risk reduction activities.",
+              "section": "I. Introduction"
+            }
+          ],
+          "justification": "The Hazard Ontology is used as an analytical instrument to identify, analyze and explore the causes of hazards (a problem-solving / analytical decision-support task for safety engineers). Signal patterns include 'analyze', 'identify shortcomings', and the framing of the model as supporting cause identification rather than building a system."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "In our earlier work [1], we have presented an ontological interpretation of the hazard concept, i.e., the Hazard Ontology (HO), aiming to achieve a better understanding of the hazard domain.",
+              "section": "I. Introduction"
+            },
+            {
+              "quote": "This first step in the OCH approach is to assist analysts to achieve a common understanding of the selected hazard description (HD), which is considered important for safety analysis [1].",
+              "section": "III.B OCH-Step 1: Hazard Description Categorization"
+            },
+            {
+              "quote": "This step will help analysts achieve a common understanding of the hazard description.",
+              "section": "I. Introduction"
+            }
+          ],
+          "justification": "The paper explicitly frames the Hazard Ontology's purpose as supporting better understanding of the hazard domain and helping analysts achieve a common understanding of hazard descriptions. Signal patterns 'understand', 'shared understanding', and 'common understanding' apply, with the focus on the domain (hazards) rather than the modeling activity."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Tooling support is considered as an essential part of future work as well. We are developing a toolset to facilitate the UFO-style model construction and hazard causes identification.",
+              "section": "VI. Conclusion and Future Work"
+            }
+          ],
+          "reason": "The tooling/implementation use is explicitly framed as future work, not as something the model has been used to build; therefore intervening is not present per the negative signal 'future work'."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "The causes of the hazards identified in the PHA will serve as a heuristic and negotiation basis to design hazard mitigation mechanisms in the subsequent risk reduction activities.",
+              "section": "I. Introduction"
+            }
+          ],
+          "reason": "The mention of a 'negotiation basis' is brief and refers to downstream activities, not to the model being used in synchronous meetings or live discussion between distinct stakeholder groups; the evidence is too weak and indirect to code as present."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

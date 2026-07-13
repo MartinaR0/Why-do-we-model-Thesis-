@@ -1,0 +1,61 @@
+{
+  "paper_id": "Elikan and Pigneur - 2018 - Brand Identity Ontology",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Brand Identity Ontology (OntoUML/UFO)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "This paper aims to present an ontology that uncovers the key concepts of startup and SME brand identity, in order not only to bring some semantical clarity to the topic but also to lay the foundation for the development of a co-design tool to collaboratively inquire on brand identity in startups and SMEs.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "It has proven useful for helping defining (ontological) real-world semantics for their underlying concepts and providing guidelines for their correct use",
+              "section": "5 UFO (Unified Foundational Ontology)"
+            },
+            {
+              "quote": "Because the aim of this project is to better understand the problem of brand identity in startups and SMEs and to build new artefacts to solve it, this seems like the appropriate approach.",
+              "section": "3 Method"
+            }
+          ],
+          "justification": "The ontology's stated purpose is to bring semantic clarity, define and conceptualize the brand identity concept, which fits Understanding (domain conceptualization and meaning negotiation)."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "This ontology, implemented in a formal language could also be used by companies for supporting their Information Systems for managing their brand identity.",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "The next steps include the design of a visual tool corresponding to the proposed and refined ontology after it has been evaluated.",
+              "section": "6 Conclusions and Future Work"
+            }
+          ],
+          "reason": "Implementation/tool development is framed as future work ('could also be used', 'next steps'), which the scheme's negative signals mark as not-present."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "This tool would allow practitioners to have a shared visual and shared understanding of their brand identity strategy. It would support and guide them towards explorations and discussions about potential brand identity strategies.",
+              "section": "6 Conclusions and Future Work"
+            }
+          ],
+          "reason": "Communication/co-design use is attributed to a future visual tool derived from the ontology, not the ontology itself in its current form."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

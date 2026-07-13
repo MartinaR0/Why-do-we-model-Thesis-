@@ -1,0 +1,70 @@
+{
+  "paper_file": "Amaral et al. - 2020 - A Reference Ontology of Money and Virtual Currencies.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "A_Reference_Ontology_of_Money_and_Virtual_Currencies",
+    "annotator": "LLM model name",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "Reference Ontology of Money and Virtual Currencies",
+        "goals": [
+          {
+            "goal": "For Understanding",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "This research aims at tackling these questions by conducting an ontological analysis of money and related concepts, grounded in the Unified Foundational Ontology, based on a literature review of the most relevant economic theories, and considering recent innovations in the financial industry.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "Our analysis allows us to formally characterize money and related concepts, as well as virtual currencies.",
+                "section": "Section 5"
+              }
+            ],
+            "justification": "The paper explicitly states that the purpose of the model is to conduct an ontological analysis and formally characterize money and related concepts, which aligns with the goal of understanding through conceptual clarification and domain modeling."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "We conducted a preliminary evaluation of the ontology by means of interactions with experts in the field of economics and finance, including real practitioners directly working on monetary policy in the context of central banks.",
+                "section": "Section 5"
+              }
+            ],
+            "justification": "The model was evaluated through interactions with experts, indicating its use in facilitating communication and alignment between researchers and practitioners, which falls under Communicating as it involves explanation and discussion between distinct groups."
+          },
+          {
+            "goal": "For Documenting",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "The ontology presented here can serve as a basis for future business ontologies and as a conceptual foundation for several types of information analysis and data integration.",
+                "section": "Section 5"
+              }
+            ],
+            "justification": "The paper explicitly frames the model as a reference artifact for future use in business ontologies and data integration, indicating its role as a persistent, asynchronous reference—consistent with Documenting."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Problem-solving",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "Despite the financial sector's interest in the adoption of ontology-based conceptual models to make the nature of the conceptualizations explicit, as well as to safely establish the correct relations between them, thereby supporting semantic interoperability.",
+                "section": "Abstract"
+              }
+            ],
+            "reason": "The mention of semantic interoperability is framed as a general benefit of ontology-based models, not as a specific problem the model was designed to solve; the evidence is too indirect to support a confident classification."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"A_Reference_Ontology_of_Money_and_Virtual_Currencies\",\n  \"annotator\": \"LLM model name\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"Reference Ontology of Money and Virtual Currencies\",\n      \"goals\": [\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"This research aims at tackling these questions by conducting an ontological analysis of money and related concepts, grounded in the Unified Foundational Ontology, based on a literature review of the most relevant economic theories, and considering recent innovations in the financial industry.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"Our analysis allows us to formally characterize money and related concepts, as well as virtual currencies.\",\n              \"section\": \"Section 5\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that the purpose of the model is to conduct an ontological analysis and formally characterize money and related concepts, which aligns with the goal of understanding through conceptual clarification and domain modeling.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"We conducted a preliminary evaluation of the ontology by means of interactions with experts in the field of economics and finance, including real practitioners directly working on monetary policy in the context of central banks.\",\n              \"section\": \"Section 5\"\n            }\n          ],\n          \"justification\": \"The model was evaluated through interactions with experts, indicating its use in facilitating communication and alignment between researchers and practitioners, which falls under Communicating as it involves explanation and discussion between distinct groups.\"\n        },\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The ontology presented here can serve as a basis for future business ontologies and as a conceptual foundation for several types of information analysis and data integration.\",\n              \"section\": \"Section 5\"\n            }\n          ],\n          \"justification\": \"The paper explicitly frames the model as a reference artifact for future use in business ontologies and data integration, indicating its role as a persistent, asynchronous reference—consistent with Documenting.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"Despite the financial sector's interest in the adoption of ontology-based conceptual models to make the nature of the conceptualizations explicit, as well as to safely establish the correct relations between them, thereby supporting semantic interoperability.\",\n              \"section\": \"Abstract\"\n            }\n          ],\n          \"reason\": \"The mention of semantic interoperability is framed as a general benefit of ontology-based models, not as a specific problem the model was designed to solve; the evidence is too indirect to support a confident classification.\"\n        }\n      ]\n    }\n  ],\n  \"outside_taxonomy\": []\n}",
+  "seconds": 481.3
+}

@@ -1,0 +1,62 @@
+{
+  "paper_id": "Ghosh et al. - 2025 - CriMOnto A generalized domain-specific ontology for modeling procedural norms of the Lebanese criminal law",
+  "annotator": "GPT-5 Codex",
+  "no_codable_model": false,
+  "input_limitations": [
+    "The Markdown extraction contains figure placeholders and some character-encoding artifacts, but the main narrative sections used for coding are readable."
+  ],
+  "models": [
+    {
+      "model_label": "CriMOnto",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "In this section, we employ CriMOnto in a lightweight rule-based decision support task to assess its decision-making performance.",
+              "section": "Section 6"
+            },
+            {
+              "quote": "While the first rule (R1) creates the legal relator between the legal agents based on given facts (e.g., agents, situations, events, etc.), the second rule (R2) generates the legal effects (e.g., imposing penalties, replacing penalties, etc.).",
+              "section": "Section 6"
+            }
+          ],
+          "justification": "CriMOnto is actively employed in a rule-based decision support task, where formal rules based on the model generate legal effects. This fits Intervening because the model is used as an implementation instrument for a decision-support artifact."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "Concerning the scope, CriMOnto aims to capture the essentials of criminal law in the context of the Lebanese Criminal Code.",
+              "section": "Section 3"
+            },
+            {
+              "quote": "CriMOnto's purpose is to represent faithfully and explicitly the content of procedural norms for reasoning and decision-making.",
+              "section": "Section 3"
+            }
+          ],
+          "justification": "The authors frame CriMOnto as capturing and explicitly representing the domain content of Lebanese criminal law. This supports domain understanding, though the paper does not directly use language such as shared understanding or meaning negotiation."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "CriMOnto's purpose is to represent faithfully and explicitly the content of procedural norms for reasoning and decision-making.",
+              "section": "Section 3"
+            },
+            {
+              "quote": "We seek to develop a (lightweight) semantic application to support legal scholars in solving legal problems.",
+              "section": "Section 3"
+            }
+          ],
+          "justification": "The paper explicitly states a decision-making and legal problem-solving purpose. This is separate from the implementation evidence because the stated beneficiary is legal scholars solving legal problems."
+        }
+      ],
+      "uncertain_goals": []
+    }
+  ],
+  "outside_taxonomy": []
+}

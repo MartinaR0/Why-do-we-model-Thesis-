@@ -1,0 +1,82 @@
+{
+  "paper_file": "Al Khalaf et al. - 2021 - CoV2K A Knowledge Base of SARS-CoV-2 Variant Impacts.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "CoV2K_A_Knowledge_Base_of_SARS-CoV-2_Variant_Impacts",
+    "annotator": "LLM model name",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "CoV2K Knowledge Base",
+        "goals": [
+          {
+            "goal": "For Documenting",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "CoV2K is a manually curated knowledge base providing an organized collection of information about SARS-CoV-2 variants, extracted from the scientific literature; it features a taxonomy of variant impacts, organized according to three main categories (protein stability, epidemiology, and immunology) and including levels for these effects (higher, lower, null) resulting from a coherent interpretation of research articles.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "The knowledge base is connected to the ViruSurf database [6], a recently developed, integrated and curated resource, hosted by Politecnico di Milano.",
+                "section": "Introduction"
+              },
+              {
+                "quote": "The availability of CoV2K and its connection with ViruSurf and VirusViz opens opportunities for new discoveries, which can be achieved through statistical testing, e.g., about multiple variants co-occurrence and its spreading at given times within populations of particular geographical regions.",
+                "section": "Introduction"
+              }
+            ],
+            "justification": "The paper explicitly states that CoV2K is a manually curated, organized collection of information extracted from literature, intended as a persistent, structured reference for variant impacts. The integration with ViruSurf and VirusViz supports its use as a reference for future analysis, aligning with the definition of 'Documenting' as asynchronous, persistent knowledge storage for later use by absent parties."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "The availability of CoV2K and its connection with ViruSurf and VirusViz opens opportunities for new discoveries, which can be achieved through statistical testing, e.g., about multiple variants co-occurrence and its spreading at given times within populations of particular geographical regions.",
+                "section": "Introduction"
+              },
+              {
+                "quote": "We may use them also for prediction: by looking at entries within the blue triangle and considering that N501Y is reported as increasing the infectivity of the virus, we could predict the same effect also for P681H and S982A.",
+                "section": "4 Data Analysis"
+              }
+            ],
+            "justification": "The model is used to support communication between researchers and domain experts by enabling shared understanding of variant impacts and their implications. The discussion of co-occurrence patterns and predictive use suggests that the model is intended to facilitate discussion and alignment across researchers, particularly in interpreting conflicting or consistent effects across variants, which fits the 'Communicating' goal."
+          },
+          {
+            "goal": "For Problem-solving",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "We focus on amino acid variants from sequences extracted from ViruSurf (on January 23rd, 2020). For each pair of variants x and y we computed a 2 × 2 contingency table, accounting for the number of sequences containing i) both x and y , ii) only x , iii) only y , and iv) neither of the two.",
+                "section": "4 Data Analysis"
+              },
+              {
+                "quote": "The goal is to identify pairs of mutations that co-occur in a statistically significant way in the observed population, which also agree/disagree in their impact, as reported in literature and stored in CoV2K",
+                "section": "4 Data Analysis"
+              }
+            ],
+            "justification": "The model is used to guide problem-solving by enabling the identification of statistically significant co-occurrences of variants and their impact agreement/disagreement. This supports decision-making about which variant pairs to investigate further, aligning with 'Problem-solving' as the model helps stakeholders analyze options and evaluate consistency in reported effects."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Understanding",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "CoV2K is a manually curated knowledge base providing an organized collection of information about SARS-CoV-2 variants, extracted from the scientific literature; it features a taxonomy of variant impacts, organized according to three main categories (protein stability, epidemiology, and immunology) and including levels for these effects (higher, lower, null) resulting from a coherent interpretation of research articles.",
+                "section": "Abstract"
+              }
+            ],
+            "reason": "While the model organizes domain knowledge, the text does not explicitly frame this as a goal for meaning negotiation or shared understanding among stakeholders; the focus is on documentation and analysis, not internal sense-making or alignment between groups."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"CoV2K_A_Knowledge_Base_of_SARS-CoV-2_Variant_Impacts\",\n  \"annotator\": \"LLM model name\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"CoV2K Knowledge Base\",\n      \"goals\": [\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"CoV2K is a manually curated knowledge base providing an organized collection of information about SARS-CoV-2 variants, extracted from the scientific literature; it features a taxonomy of variant impacts, organized according to three main categories (protein stability, epidemiology, and immunology) and including levels for these effects (higher, lower, null) resulting from a coherent interpretation of research articles.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"The knowledge base is connected to the ViruSurf database [6], a recently developed, integrated and curated resource, hosted by Politecnico di Milano.\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"The availability of CoV2K and its connection with ViruSurf and VirusViz opens opportunities for new discoveries, which can be achieved through statistical testing, e.g., about multiple variants co-occurrence and its spreading at given times within populations of particular geographical regions.\",\n              \"section\": \"Introduction\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that CoV2K is a manually curated, organized collection of information extracted from literature, intended as a persistent, structured reference for variant impacts. The integration with ViruSurf and VirusViz supports its use as a reference for future analysis, aligning with the definition of 'Documenting' as asynchronous, persistent knowledge storage for later use by absent parties.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The availability of CoV2K and its connection with ViruSurf and VirusViz opens opportunities for new discoveries, which can be achieved through statistical testing, e.g., about multiple variants co-occurrence and its spreading at given times within populations of particular geographical regions.\",\n              \"section\": \"Introduction\"\n            },\n            {\n              \"quote\": \"We may use them also for prediction: by looking at entries within the blue triangle and considering that N501Y is reported as increasing the infectivity of the virus, we could predict the same effect also for P681H and S982A.\",\n              \"section\": \"4 Data Analysis\"\n            }\n          ],\n          \"justification\": \"The model is used to support communication between researchers and domain experts by enabling shared understanding of variant impacts and their implications. The discussion of co-occurrence patterns and predictive use suggests that the model is intended to facilitate discussion and alignment across researchers, particularly in interpreting conflicting or consistent effects across variants, which fits the 'Communicating' goal.\"\n        },\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"We focus on amino acid variants from sequences extracted from ViruSurf (on January 23rd, 2020). For each pair of variants x and y we computed a 2 × 2 contingency table, accounting for the number of sequences containing i) both x and y , ii) only x , iii) only y , and iv) neither of the two.\",\n              \"section\": \"4 Data Analysis\"\n            },\n            {\n              \"quote\": \"The goal is to identify pairs of mutations that co-occur in a statistically significant way in the observed population, which also agree/disagree in their impact, as reported in literature and stored in CoV2K\",\n              \"section\": \"4 Data Analysis\"\n            }\n          ],\n          \"justification\": \"The model is used to guide problem-solving by enabling the identification of statistically significant co-occurrences of variants and their impact agreement/disagreement. This supports decision-making about which variant pairs to investigate further, aligning with 'Problem-solving' as the model helps stakeholders analyze options and evaluate consistency in reported effects.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"CoV2K is a manually curated knowledge base providing an organized collection of information about SARS-CoV-2 variants, extracted from the scientific literature; it features a taxonomy of variant impacts, organized according to three main categories (protein stability, epidemiology, and immunology) and including levels for these effects (higher, lower, null) resulting from a coherent interpretation of research articles.\",\n              \"section\": \"Abstract\"\n            }\n          ],\n          \"reason\": \"While the model organizes domain knowledge, the text does not explicitly frame this as a goal for meaning negotiation or shared understanding among stakeholders; the focus is on documentation and analysis, not internal sense-making or alignment between groups.\"\n        }\n      ]\n    }\n  ],\n  \"outside_taxonomy\": []\n}",
+  "seconds": 15.7
+}

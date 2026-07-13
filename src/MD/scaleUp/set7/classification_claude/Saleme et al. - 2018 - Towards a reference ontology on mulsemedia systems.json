@@ -1,0 +1,95 @@
+{
+  "paper_id": "Saleme et al. - 2018 - Towards a reference ontology on mulsemedia systems",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "MulseOnto - Reference Domain Ontology on Mulsemedia Systems",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "In this paper, we propose to establish a common conceptualization about mulsemedia systems through a reference ontology, named MulseOnto, covering their main notions.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "By building this ontology, we propose to establish a common conceptualization about mulsemedia systems to address purposes such as understanding the interrelationship between their entities, describing a common vocabulary for knowledge workers in this domain, certifying that stakeholders are talking over the same concepts when making mulsemedia solutions, and fostering this 'novel' field.",
+              "section": "1 INTRODUCTION"
+            },
+            {
+              "quote": "Despite existing standards, tools, and recent research devoted to mulsemedia, there is still a lack of formal and explicit representation of what mulsemedia is, which may cause a failure to understand it adequately.",
+              "section": "1 INTRODUCTION"
+            }
+          ],
+          "justification": "The paper explicitly states the model is built to establish a common conceptualization and support understanding of the mulsemedia domain (its entities, interrelationships, and main notions), matching the positive signals 'understand', 'conceptualize', and 'shared understanding' for For Understanding."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "A reference ontology should be constructed with the sole objective of making the best possible description of the domain in reality, for the purposes of communication, learning and problem-solving.",
+              "section": "1 INTRODUCTION"
+            },
+            {
+              "quote": "Misconceptions could eventually lead to the construction of solutions that might not take into account reuse, integration, standardization, among other design features.",
+              "section": "Abstract"
+            }
+          ],
+          "justification": "The authors explicitly frame the reference ontology's purpose as supporting problem-solving (alongside communication and learning), aligning with the For Problem-solving positive signal. This is a reasonable inference that the model is meant to guide stakeholders' decisions about design features such as reuse and standardization."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "By building this ontology, we propose to establish a common conceptualization about mulsemedia systems to address purposes such as understanding the interrelationship between their entities, describing a common vocabulary for knowledge workers in this domain, certifying that stakeholders are talking over the same concepts when making mulsemedia solutions, and fostering this 'novel' field.",
+              "section": "1 INTRODUCTION"
+            },
+            {
+              "quote": "This first effort aimed at establishing a common conceptualization about it including the interrelationship between its entities, describing a common vocabulary for knowledge workers in this domain, certifying the stakeholders are uniform and consistent when discussing mulsemedia solutions, and promoting the development of mulsemedia ecosystems as a whole.",
+              "section": "6 CONCLUSION AND FUTURE DIRECTIONS"
+            },
+            {
+              "quote": "They bring together a shared understanding about a domain that can be communicated between humans and also computers [11].",
+              "section": "1 INTRODUCTION"
+            }
+          ],
+          "justification": "The paper explicitly frames the ontology as supporting communication between stakeholders/knowledge workers ('describing a common vocabulary', 'stakeholders are uniform and consistent when discussing mulsemedia solutions'), which suggests alignment and discussion between distinct parties, matching For Communicating signals 'align stakeholders' and 'discussion'."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Another concern that can be taken into account in the future is the materialization of this conceptual model to an operational ontology to exchange, for instance, sensory effects metadata as an alternative to the current standards such as MPEG-V.",
+              "section": "6 CONCLUSION AND FUTURE DIRECTIONS"
+            },
+            {
+              "quote": "Moreover, it can be useful for integrating different mulsemedia standards that might eventually arise enabling interoperability between different solutions by mapping them to this reference ontology.",
+              "section": "6 CONCLUSION AND FUTURE DIRECTIONS"
+            }
+          ],
+          "reason": "Implementation/operationalization is framed only as future work ('can be taken into account in the future', 'might eventually arise'), matching the negative signals 'would be implemented' and 'future work' for For Intervening; thus the model is not actually used to build/implement anything in this paper."
+        },
+        {
+          "goal": "For Learning",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "A reference ontology should be constructed with the sole objective of making the best possible description of the domain in reality, for the purposes of communication, learning and problem-solving.",
+              "section": "1 INTRODUCTION"
+            }
+          ],
+          "reason": "'Learning' here refers to learning about the mulsemedia domain (domain knowledge), not learning modeling methods/tools/notation; this matches the For Learning negative signal 'learn about the domain' and thus does not qualify as For Learning."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

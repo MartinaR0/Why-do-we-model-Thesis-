@@ -1,0 +1,91 @@
+{
+  "paper_id": "Laurier et al. - 2018 - REA - A unified formalisation of the Resource-Event-Agent ontology",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "REA2 - unified formalisation of the Resource-Event-Agent ontology",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Through a proof of concept in SWI-Prolog, this paper demonstrates a business transaction model by which the trading partners can derive their own, personal perspective from shared data.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "The exemplar and proof-of-concept application were coded in SWI-Prolog.",
+              "section": "Section 7. The exemplar"
+            },
+            {
+              "quote": "The Prolog code in Appendix formalises the inference rules (Appendix A), tests (Appendix D) and counterparts of the exemplar introduced above (Appendix B).",
+              "section": "Section 8. The proof of concept: Prolog code"
+            },
+            {
+              "quote": "REA 2 will be shown to allow for an automated transformation of view-dependent data into view-independent data and vice versa.",
+              "section": "Section 3. REA 2"
+            }
+          ],
+          "justification": "The model is actively used to build an implemented artifact (SWI-Prolog proof-of-concept application with inference rules and tests). The positive signal 'proof of concept' and explicit implementation in Prolog code matches the Intervening definition of a model being used as an instrument through which the authors create a system/artifact."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "To the best of our knowledge, this paper is the most recent in a history of papers that endeavour to elucidate the finer semantics of the REA ontology.",
+              "section": "Section 4. Research methodology and related research"
+            },
+            {
+              "quote": "The meta-model (M2) uses OntoUML stereotypes, to present a minimal set of REA constructs that allow for a simultaneous representation of the opposing perspectives of trading-partners - i.e., dependent view - and the viewpoint of an independent third-party - i.e., independent view.",
+              "section": "Section 3. REA 2"
+            },
+            {
+              "quote": "This paper argues however that the REA ontology has the capability of modelling a trading-partner dependent and independent (or neutral) perspective simultaneously if and only if the REA primitives are assigned an identifiable trading-partner.",
+              "section": "Section 2. Resource-Event-Agent ontology"
+            }
+          ],
+          "justification": "The paper explicitly frames the model as clarifying/elucidating the semantics of REA ontology concepts (resources, events, agents as rolemixins) and defining new interpretations - matching the Understanding signal 'clarify', 'define', 'conceptualize' for developing domain knowledge about REA."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The EIS interoperability such as between traditional EIS (which typically uses a trading-partner perspective), and EIS for the collaborative economy (which typically uses a trading-partner independent perspective) is particularly highlighted as it becomes much more transparent than previously.",
+              "section": "Abstract"
+            }
+          ],
+          "justification": "This is a continuation of Intervening evidence noting the model's purpose to enable interoperability - matching the positive signal 'used to enable interoperability'."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "In such a setting, classified information could be documented using REA's dependent view, where the unclassified information could be filtered and shared in the collaboration space using REA's independent view derived automatically from the dependent view by statements like those in Section A.2.",
+              "section": "Section 9.2. Implications"
+            }
+          ],
+          "reason": "The reference to documentation is a speculative implication about how the model could be used in future settings rather than a stated purpose of the REA2 model itself; evidence is indirect and hypothetical."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Traditional enterprise resource planning (ERP) and accounting information systems (AIS) are limited in their capability to provide this third-party or value network perspective, due to their internal focus (Value Network Software (NRP), 2016).",
+              "section": "Section 1. Introduction"
+            }
+          ],
+          "reason": "The paper identifies a real-world problem (interoperability limitation) but does not use the model to analyze options or make decisions; the model is instead used to build an implementation, so per the disambiguation rule this is coded as Intervening only."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

@@ -1,0 +1,45 @@
+{
+  "paper_id": "Amaral et al. - 2020 - Ontology-Based Modeling and Analysis of Trustworthiness Requirements Preliminary Results",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": ["Figures are not visible in the extracted text (shown as [FIGURE] placeholders), so visual model content is inferred only from surrounding prose."],
+  "models": [
+    {
+      "model_label": "Reference Ontology of Trustworthiness Requirements (OntoUML model in Figs. 3 and 4)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "Based on the answers, we characterize the class of trustworthiness requirements.", "section": "Abstract"},
+            {"quote": "This combination allows us to define the class of trustworthiness requirements and their relation to concepts such as trust, capability, vulnerability and risk, among others.", "section": "1 Introduction"},
+            {"quote": "Understanding the elements of stakeholder trustworthiness towards the system to be is important because they reveal the qualities and properties the system should have in order to be considered trustworthy and effectively promote wellplaced trust.", "section": "4 Ontology-Based Modeling and Analysis Of Trustworthiness Requirements"},
+            {"quote": "These elements are fundamental for a better understanding and proper elucidation of trustworthy requirements.", "section": "5 Final Remarks"}
+          ],
+          "justification": "Authors explicitly state the model is built to characterize, define, and clarify the concepts of trust and trustworthiness requirements, matching the Understanding signal patterns 'characterize', 'define', 'understand'."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "Among other things, this characterization supports the requirements engineer in defining thurstworthiness requirements, identifying the risks presented by the system-to-be, and understanding the signals the system must emit to gain and maintain trust.", "section": "Abstract"},
+            {"quote": "Finally, the identification of trust components is equally important to the assessment of risks related to the capabilities and vulnerabilities, which are the focus of stakeholders' beliefs.", "section": "4 Ontology-Based Modeling and Analysis Of Trustworthiness Requirements"},
+            {"quote": "Moreover, they are key for the identification of trustworthiness-related risks that may arise when the requirements are not fulfilled accordingly.", "section": "5 Final Remarks"}
+          ],
+          "justification": "The model is explicitly used to support requirements engineers in identifying risks and analyzing trustworthiness, matching Problem-solving signals 'identify', 'analyze', 'assessment' without the model itself being implementation instrument."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "We also plan to define ontological patterns, based on this ontology, to support the modeling and analysis of trustworthiness requirements, aiming at facilitating the development of trustworthy systems.", "section": "5 Final Remarks"}
+          ],
+          "reason": "Implementation/system development is only framed as future work ('we plan to'), which the prompt's negative signals ('future work', 'would be implemented') explicitly exclude from coding as present."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

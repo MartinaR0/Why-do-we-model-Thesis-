@@ -1,0 +1,88 @@
+{
+  "paper_id": "Oliveira et al. - 2022 - An Ontology of Security from a Risk Treatment Perspective",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "ROSE (Reference Ontology for Security Engineering)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Understanding and forming a shared conceptualization and vocabulary about these notions and their relations is fundamental for modeling the corresponding scenarios, so that proper security countermeasures can be devised.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "Ontologies are instruments developed to address these conceptual clarification and terminological systematization issues.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "ROSE is employed for modeling and analysing some cases, in particular providing clarification to the semantically overloaded notion of Security Mechanism.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "We have presented an ontological analysis of security mechanism, making explicit the relations among objects and agents, their capabilities and vulnerabilities, the events they participate and that affect them, and the value and risk they ensue to the stakeholders at hand.",
+              "section": "7 Final Considerations"
+            }
+          ],
+          "justification": "ROSE is explicitly framed as a reference ontology whose purpose is conceptual clarification, terminological systematization, and providing a shared conceptualization/vocabulary of the security domain, ontologically unpacking notions like Security Mechanism."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "ROSE is able to support comparison of choices involving values, risks, and security, so supporting decision-making process, since in Risk Management the chances as well as the impact of risky and valuable options should be considered.",
+              "section": "5 Evaluation"
+            },
+            {
+              "quote": "ROSE can inform such decision-making process by representing scenarios involving value, risk, and security.",
+              "section": "5 Evaluation"
+            },
+            {
+              "quote": "ROSE shows the ambiguity of the risk treatment option (c) 'removing the risk source' of ISO 31000, since there are multiple interacting entities that can be considered the 'risk source'",
+              "section": "5 Evaluation"
+            }
+          ],
+          "justification": "The authors explicitly claim ROSE supports decision-making in risk treatment, comparing options and analyzing shortcomings/ambiguities of ISO 31000 risk treatment options, which fits the Problem-solving goal (decision making, analyze options, identify shortcomings)."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "An adequate reference ontology of this domain would be able to analyse, (re)design, and integrate languages like these, improving their modeling capabilities, in way analogous to how the Common Ontology of Value and Risk (COVER) [24] has been used to redesign Archimate w.r.t. risk and value modeling",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "ROSE reuses COVER with some modifications, showing a level of interoperability with a close domain (value and risk), which can be further exploited through connection to other UFO-based ontologies. As UFO and OntoUML are formally defined in First-Order Logic, having support for an OWL implementation, ROSE benefits from that, in terms of formality and capacities, since it is expressed in OntoUML, making the use of ROSE for supporting formal reasoning easier.",
+              "section": "5 Evaluation"
+            },
+            {
+              "quote": "Finally, to make ROSE findable and accessible [17], we provide it publicly in a repository with related information.",
+              "section": "5 Evaluation"
+            }
+          ],
+          "justification": "ROSE is framed as an instrument that guides (re)design and integration of modeling languages (e.g., ArchiMate) and supports interoperability/formal reasoning via OntoUML/OWL, matching the Intervening role of enabling artifact generation/integration; the OWL implementation and repository availability support this framing."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Finally, to make ROSE findable and accessible [17], we provide it publicly in a repository with related information.",
+              "section": "5 Evaluation"
+            }
+          ],
+          "reason": "The repository provides access to ROSE as a reference artifact, but the paper does not clearly frame ROSE itself as a knowledge base or async documentation for reference use."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

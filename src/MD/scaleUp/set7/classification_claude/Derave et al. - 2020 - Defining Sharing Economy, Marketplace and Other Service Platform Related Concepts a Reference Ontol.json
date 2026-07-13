@@ -1,0 +1,52 @@
+{
+  "paper_id": "Derave et al. - 2020 - Defining Sharing Economy, Marketplace and Other Service Platform Related Concepts a Reference Ontol",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": ["Short paper; figure referenced (Fig. 1) not visible in extracted text."],
+  "models": [
+    {
+      "model_label": "Service platform reference ontology (with MPRs and CPPs for sharing economy, marketplace, and related platform concepts)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "Our goal is to lower this conceptual confusion by creating an ontology for service platforms of any kind and use it to compare different concept definitions.", "section": "1 Introduction and methodology"},
+            {"quote": "Problematic for academic studies is that concepts including 'sharing economy', 'marketplace', 'on-demand economy' and 'platform' are umbrella concepts or 'buzz words' and there is no consensus on what they comprise [1-5].", "section": "1 Introduction and methodology"},
+            {"quote": "This way we can differentiate with clear requirements what the difference is between a sharing economy platform, a P2P economy platform, a marketplace and other service platforms", "section": "1 Introduction and methodology"}
+          ],
+          "justification": "The model's stated purpose is to clarify and define platform-related concepts and lower conceptual confusion, matching the For Understanding signals 'clarify', 'define', 'conceptualize'."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "Our goal is to lower this conceptual confusion by creating an ontology for service platforms of any kind and use it to compare different concept definitions.", "section": "1 Introduction and methodology"},
+            {"quote": "In this section we compare the platform concepts definitions (gathered following the first 2 steps of our methodology) resulting in a list of MPRs, minimum requirements a platform has to comply to be defined as the specific platform concept.", "section": "2 Map platform concepts, define MPRs and CPPs"}
+          ],
+          "justification": "The ontology is used to compare and analyze competing definitions, aligning with the 'analyze options' / 'evaluate' / 'compare' signals for Problem-solving; the model itself is the analytical instrument rather than an implementation artifact."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "Clearer  definitions  can  improve  communication,  guide  future  research and produce useful contributions and recommendations for marketing and development practitioners who are keen on learning more about how to adapt their business model [7, 8].", "section": "1 Introduction and methodology"}
+          ],
+          "justification": "The authors explicitly frame clearer definitions enabled by the ontology as improving communication between scholars and practitioners, matching the Communicating signal 'communicate' between distinct groups."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "We plan to apply them informally, without explicitly highlighting the DROPs and FOPs,  to design a service platform reference ontology, which we represent using OntoUML [16].", "section": "1 Introduction and methodology"},
+            {"quote": "After, we plan to validate the reference ontology by ontology and service platform experts.", "section": "1 Introduction and methodology"}
+          ],
+          "reason": "All implementation/validation steps are framed as future work ('we plan to'), matching the For Intervening negative signal 'future work'; no artifact has yet been built from the model."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

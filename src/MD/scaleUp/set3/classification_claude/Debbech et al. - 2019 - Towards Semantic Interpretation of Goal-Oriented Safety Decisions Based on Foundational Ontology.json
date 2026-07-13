@@ -1,0 +1,53 @@
+{
+  "paper_id": "Debbech et al. - 2019 - Towards Semantic Interpretation of Goal-Oriented Safety Decisions Based on Foundational Ontology",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Semantic interpretation conceptual model of railway safety rules development grounded in UFO (linking Or-BAC and GORE concepts)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "The aim of this paper is to propose a common vocabulary to ensure the clarity, the completeness and the non-ambiguity of these concepts.", "section": "Section 1. Introduction"},
+            {"quote": "The proposed interpretation provides a common vocabulary to conceptualize the railway domain knowledge and goal-oriented requirements engineering.", "section": "Section 3.4. Evaluation"},
+            {"quote": "The aim of this interpretation is to provide a common vocabulary in real-world semantics in order to have a shared view between different knowledge domains.", "section": "Section 4. Conclusion and Future Work"}
+          ],
+          "justification": "The paper explicitly frames the model's purpose as providing a common vocabulary to clarify concepts and support shared understanding/meaning negotiation across safety and design teams, matching the For Understanding signals (clarify, define, conceptualize, shared understanding)."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "This task is challenging in the context of Safety Critical Systems (SCSs) development, since it involves both safety and design teams.", "section": "Abstract"},
+            {"quote": "The proposed multi-view conceptual model is shared between different actors.", "section": "Section 3.4. Evaluation"},
+            {"quote": "The aim of this interpretation is to provide a common vocabulary in real-world semantics in order to have a shared view between different knowledge domains.", "section": "Section 4. Conclusion and Future Work"}
+          ],
+          "justification": "The model is framed as bridging distinct groups (safety teams, design teams, domain experts) by providing a shared multi-view vocabulary. Per the disambiguation rule, conveying meaning between distinct parties supports For Communicating in addition to Understanding."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "Moreover, the obtained interpretation may support the tool implementation development of safety rules for the railway domain.", "section": "Section 4. Conclusion and Future Work"}
+          ],
+          "reason": "The implementation use is framed as a potential future support ('may support', no realized artifact), which the rules treat as hypothetical rather than a present intended purpose."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "Moreover, the obtained interpretation may support the tool implementation development of safety rules for the railway domain.", "section": "Section 4. Conclusion and Future Work"},
+            {"quote": "improve the safety-decision based on GORE concepts through a reference model.", "section": "Section 2.1"}
+          ],
+          "reason": "References to improving safety decisions are generic benefits rather than concrete evidence that the model itself guided a specific decision, option analysis, or evaluation of alternatives."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

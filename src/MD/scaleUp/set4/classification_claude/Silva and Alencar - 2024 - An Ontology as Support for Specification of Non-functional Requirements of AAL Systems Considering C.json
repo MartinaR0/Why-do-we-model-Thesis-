@@ -1,0 +1,132 @@
+{
+  "paper_id": "Silva and Alencar - 2024 - An Ontology as Support for Specification of Non-functional Requirements of AAL Systems Considering C",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Onto4CAAL (core ontology for AAL systems requirements specification)",
+      "goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Therefore, this work presents a central ontology to support the specification of requirements in AAL systems, where the elements that are part of the type of system are integrated.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "With the use of ontology, it will be possible to standardize the understanding of the associated terms and, at the same time, verify the relationships between the elements and help the designer in the requirements specification stage.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "Based on this, an ontology proposal was built, the Onto4CAAL, which can help AAL system designers in the requirements specification process, guiding on the types of AAL systems that can be developed, their area (specificity) of application, the environments, agents and devices that can be taken into account for this type of system.",
+              "section": "9. CONCLUSION"
+            }
+          ],
+          "justification": "The ontology is explicitly framed as supporting/helping designers in the requirements specification stage (decision and analysis activity), matching the Problem-solving signal 'help...identify what needs to change' and 'analyze options/evaluate'. The model guides decision-making in specification rather than being itself the implementation instrument."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "With the use of ontology, it will be possible to standardize the understanding of the associated terms and, at the same time, verify the relationships between the elements and help the designer in the requirements specification stage.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "Thus, Campos [15] considers that ontologies establish a common vocabulary for a community that needs to share information in each domain, so that definitions can be computationally interpretable and include representations of concepts and relationships.",
+              "section": "2.2. Ontology"
+            },
+            {
+              "quote": "Therefore, we have the ontology, which can be used to assist in specifying the requirements of AAL systems, as it presents a formality to represent the internal concepts of the domain and the relationships between them, as well as incorporating the regulatory aspects of these types of systems.",
+              "section": "2.4. Requirements specification for AAL systems"
+            }
+          ],
+          "justification": "The paper explicitly positions the ontology as standardizing understanding of terms and conceptualizing the AAL domain, matching the Understanding signals 'understand', 'clarify', 'conceptualize', and 'shared understanding' of a domain."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "In Requirements Engineering, traceability is an important part of the systems engineering process, as it ensures that all requirements have been carefully considered during each phase of development, and that there are no scope 'gaps' in the developed system due to missed requirements.",
+              "section": "5.4.1. ABox of scenario 1:"
+            },
+            {
+              "quote": "This shows the usefulness in traceability when using Ontology with the support of an editor, such as Protegé.",
+              "section": "5.3. Onto4Elev ontology simulation in Protegé"
+            }
+          ],
+          "reason": "Traceability and reference-like use are hinted at, but the paper does not clearly frame the ontology as documentation or a knowledge base for asynchronous use by absent parties; evidence is indirect."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Therefore, we have the ontology, which can be used to assist in specifying the requirements of AAL systems, as it presents a formality to represent the internal concepts of the domain and the relationships between them, as well as incorporating the regulatory aspects of these types of systems.",
+              "section": "2.4. Requirements specification for AAL systems"
+            }
+          ],
+          "reason": "The ontology is implemented in Protege as a tool artifact, but it is not used to build a working AAL system; it assists specification rather than directly enabling implementation. Evidence for Intervening is weak and tied to the specification-support framing already coded as Problem-solving."
+        }
+      ]
+    },
+    {
+      "model_label": "Onto4Elev (domain ontology for vertical elevation platforms)",
+      "goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "As a demonstration of the possibility of reusing the Onto4CAAL ontology, a domain ontology for the vertical elevation platform (Onto4Elev) was proposed, which is one of the numerous applications associated with transport-type AAL systems and is a subclassifications of the systems associated with Services of Comfort, according to the Nehmer classification [28].",
+              "section": "4. DOMAIN ONTOLOGY (ONTO4ELEV)"
+            },
+            {
+              "quote": "The case study aims to demonstrate the suitability of the application ontology for Vertical Elevation Platforms, Onto4Elev.",
+              "section": "5. CASE STUDY"
+            },
+            {
+              "quote": "An interesting factor with the proposed ontology is the traceability of requirements, it is possible to track which requirements have impacts on others (positive and/or negative) and describe the cause.",
+              "section": "5.4.1. ABox of scenario 1:"
+            }
+          ],
+          "justification": "Onto4Elev is applied in a case study to instantiate and analyze requirements of a PEV design, supporting requirement analysis, traceability, and consistency checking. This matches Problem-solving signals 'analyze options', 'evaluate', and 'identify shortcomings' relevant to requirements decisions, while the ontology itself is not the implementation of the platform."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "Due to the specificity of vertical lifting platforms (PEV), it wasnecessary to investigate the Literature to find which elements should be considered for the construction of a PEV, which are those highlighted with the edge of the class in green in Figure 4.",
+              "section": "4. DOMAIN ONTOLOGY (ONTO4ELEV)"
+            },
+            {
+              "quote": "To verify/validate the elements that were raised in the literature and initially proposed to compose the Onto4Elev ontology, a survey was carried out with professionals working in the PEV construction industry [34].",
+              "section": "4. DOMAIN ONTOLOGY (ONTO4ELEV)"
+            }
+          ],
+          "justification": "The domain ontology was built to identify and validate the constituent elements of PEVs, conceptualizing the PEV domain and clarifying which elements belong to it, matching the Understanding signals 'define', 'conceptualize', and shared vocabulary for a domain."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Then, the Onto4Elev instantiation was performed by inserting the requirements contained in Table 12, where at the end, coherence and consistency tests were performed, using the HermiT reasoner (version 1.4.3) and Pellet, both native to Protégé.",
+              "section": "5.3. Onto4Elev ontology simulation in Protegé"
+            }
+          ],
+          "reason": "The ontology is implemented in Protege and instantiated with a real scenario, but the case study is a simulation/verification rather than building or deploying an actual PEV; the model is not used to generate an artifact or system implementation."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

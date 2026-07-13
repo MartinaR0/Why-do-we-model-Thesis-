@@ -1,0 +1,88 @@
+{
+  "paper_id": "Lindeberg et al. - 2025 - Modelling Legal Enforcement with UFO-L",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Legal Enforcement Pattern and Appeals Cycle Pattern (UFO-L based modelling patterns for organisational rule enforcement)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "One way to examine and understand these complex systems of rules and actors is through the use of ontologies.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "Therefore, the enforcement of rules by institutional actors needs to be clearly understood both by the actors required to follow the rules and by those making the rules. Creating such a common understanding can be achieved through enterprise modelling.",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "Such patterns can contribute to sensemaking for both lawmakers and regulated entities.",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "The patterns for legal enforcement in this paper can also be useful for representing and understanding the internal dynamics of an organisation, or a collaboration of organisations.",
+              "section": "6 Conclusion"
+            }
+          ],
+          "justification": "The paper explicitly frames the modelling patterns as instruments for understanding complex systems of rules and actors, and for sensemaking by lawmakers and regulated entities. This matches the For Understanding signal patterns (understand, sensemaking, common understanding)."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The investigation revealed strengths and weaknesses of UFO-L and provided suggestions for its modification.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "Based on this experience, in this section, we will discuss perceived challenges with UFO-L, and explore opportunities for modifications.",
+              "section": "5 Discussion About Alternative Patterns"
+            },
+            {
+              "quote": "Based on this design experience, some possibilities for further development of UFO-L were discussed and corresponding preliminary patterns were proposed.",
+              "section": "6 Conclusion"
+            }
+          ],
+          "justification": "The modelling exercise was used to identify shortcomings of UFO-L and suggest modifications/improvements, which matches the For Problem-solving signal patterns (identify shortcomings, evaluate, what should change). The modifications are proposed/discussed rather than implemented, distinguishing this from For Intervening."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Concretely, we propose a number of modelling patterns that can be useful for designers of information systems with aspects of legal enforcement.",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "This complex and dynamic environment will be more manageable if represented in information systems.",
+              "section": "6 Conclusion"
+            }
+          ],
+          "reason": "The paper only proposes the patterns as potentially useful for future information system designers, with no actual implementation. Per the negative signal pattern 'proposed only' and 'future work', this is hypothetical use rather than an implemented or explicitly intended-as-primary-purpose implementation."
+        },
+        {
+          "goal": "For Learning",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "The methodology involved testing UFO-L against a real-world case of rule enforcement.",
+              "section": "2.1 Case Selection"
+            },
+            {
+              "quote": "Thus, our research aim in this paper is to clarify how UFO-L can be used to model organisational rule enforcement.",
+              "section": "1 Introduction"
+            }
+          ],
+          "reason": "The work tests UFO-L as a modelling method to clarify how it can be used, which could be read as learning about the modelling method itself. However, the framing is primarily about extending/evaluating an ontology rather than the authors learning modelling skills, so the evidence is weak and ambiguous."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

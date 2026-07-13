@@ -1,0 +1,86 @@
+{
+  "paper_id": "Amaral et al. - 2019 - Towards a Reference Ontology of Trust",
+  "annotator": "ChatGPT-5",
+  "no_codable_model": false,
+  "input_limitations": [
+    "Some extraction artifacts are present, including missing figure contents rendered as [FIGURE], hyphenation/spacing issues such as institutionbased, and character encoding noise in keywords/references."
+  ],
+  "models": [
+    {
+      "model_label": "Reference Ontology of Trust",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Having a clear understanding of the notion of trust and its components is paramount to both trust assessment and trust management.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "In this paper we address this issue by means of an in-depth ontological analysis of the notion of trust, grounded in the Unified Foundational Ontology.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "As a result, we propose a concrete artifact, namely, the Reference Ontology for Trust, in which we characterize the general concept of trust and distinguish between two types of trust, namely, social trust and institution-based trust.",
+              "section": "Abstract"
+            }
+          ],
+          "justification": "The authors explicitly frame the ontology as an in-depth ontological analysis meant to clarify and characterize the concept of trust and its components. This directly matches the Understanding goal of clarifying concepts and supporting domain understanding."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "In the light of the above, we advocate for the need of a reference ontology of trust to serve as a basis for communication, consensus and alignment among different approaches and perspectives, as well as to foster interoperability across the heterogeneous application domains.",
+              "section": "Introduction"
+            },
+            {
+              "quote": "The motivation for using UFO is to provide an accessible and sharable modelling of trust that may be applied across domains to foster the interoperability and the mutual understanding among modellers.",
+              "section": "Section 2"
+            }
+          ],
+          "justification": "The paper explicitly says the ontology should support communication, consensus, alignment, and mutual understanding among modellers. The context involves alignment between different approaches, perspectives, and modelling communities, satisfying the Communicating rule."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "In the light of the above, we advocate for the need of a reference ontology of trust to serve as a basis for communication, consensus and alignment among different approaches and perspectives, as well as to foster interoperability across the heterogeneous application domains.",
+              "section": "Introduction"
+            },
+            {
+              "quote": "As a next direction, we plan to further validate our ontology and expand our analysis to explain the factors that affect trust assessment, both under the perspective of the trustor and to the perspective of the trustee.",
+              "section": "Final Remarks"
+            },
+            {
+              "quote": "We also plan to use the presented ontology to analyze and redesign existing modelling languages (e.g. Archimate) to enable them to consistently describe trust assessment.",
+              "section": "Final Remarks"
+            }
+          ],
+          "reason": "The ontology is intended to foster interoperability and may later support language redesign, but the paper does not report using it to implement, integrate, transform, or build a system or artifact beyond illustrative models."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "In the light of the above, we advocate for the need of a reference ontology of trust to serve as a basis for communication, consensus and alignment among different approaches and perspectives, as well as to foster interoperability across the heterogeneous application domains.",
+              "section": "Introduction"
+            },
+            {
+              "quote": "The motivation for using UFO is to provide an accessible and sharable modelling of trust that may be applied across domains to foster the interoperability and the mutual understanding among modellers.",
+              "section": "Section 2"
+            }
+          ],
+          "reason": "The terms reference ontology and sharable modelling suggest a reusable reference artifact, but the paper does not clearly frame the model as documentation, a knowledge base, or asynchronous communication for absent readers."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

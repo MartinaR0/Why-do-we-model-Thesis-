@@ -1,0 +1,81 @@
+{
+  "paper_id": "Xhani - 2024 - Next Generation Cross-Sectoral Data Platform for the Agri-food Sector",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [
+    "This is a short PhD project proposal describing planned/future work rather than an implemented model. Specific ontologies to be used/designed are not named concretely, and the conceptual model of the platform is only briefly described."
+  ],
+  "models": [
+    {
+      "model_label": "Ontologies for semantic interoperability in the agri-food data platform",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "This PhD project aims to address these challenges by (1) utilizing ontologies for enhancing semantic interoperability",
+              "section": "Abstract"
+            },
+            {
+              "quote": "The platform leverages ontologies to guarantee semantic interoperability.",
+              "section": "4. Conceptual Model"
+            },
+            {
+              "quote": "Semantic reasoning of the food recommender system can be enhanced by the usage of ontologies by enabling ontology-based user profiles, which can help the algorithms understand user preferences, dietary needs and culinary aspects",
+              "section": "1. Introduction"
+            }
+          ],
+          "justification": "The ontologies are framed as an instrument to enable semantic interoperability within the platform and to support ontology-based user profiles for the recommender system, i.e., as an enabling artifact for system implementation."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "The Problem Investigation phase is used to identify what is the state-of-the-art regarding existing ontologies and knowledge graphs in the agri-food domain",
+              "section": "3. Methodology"
+            }
+          ],
+          "reason": "Existing ontologies are surveyed to inform design decisions, but this is framed as background analysis rather than a concrete decision-making use of a specific model."
+        }
+      ]
+    },
+    {
+      "model_label": "Conceptual Model of the proposed privacy-preserving data platform (Figure 1)",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "Figure 1 illustrates the primary components of the proposed solution, which addresses our research questions in the following manner. The privacy-preserving data platform ensures that each stakeholder retains ownership of their data and can selectively permit access to it.",
+              "section": "4. Conceptual Model"
+            },
+            {
+              "quote": "The Treatment Design phase is used to identify (1) requirement analysis, (2) adopting existing web technologies frameworks, (3) designing a semantic web technologies-based recommender, and (4) modeling of a reference architecture for next-gen privacy-preserving data platform.",
+              "section": "3. Methodology"
+            }
+          ],
+          "justification": "The conceptual model / reference architecture is explicitly framed as guiding the design and implementation of the platform artifact, i.e., an instrument for system development."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Figure 1 illustrates the primary components of the proposed solution, which addresses our research questions in the following manner.",
+              "section": "4. Conceptual Model"
+            }
+          ],
+          "reason": "The figure serves to present the proposed solution to readers, but there is no explicit reference to using it for live meetings, stakeholder alignment, or synchronous communication between distinct groups."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

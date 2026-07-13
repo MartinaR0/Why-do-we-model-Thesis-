@@ -1,0 +1,58 @@
+{
+  "paper_file": "Amaral et al. - 2021 - Towards Ontological Foundations for Central Bank Digital Currencies (regular paper).md",
+  "status": "ok",
+  "result": {
+    "paper_id": "Towards Ontological Foundations for Central Bank Digital Currencies",
+    "annotator": "LLM model name",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "Extended ROME for CBDC",
+        "goals": [
+          {
+            "goal": "For Understanding",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "In this paper we conducted an ontological analysis to investigate the nature of Central Bank Digital Currencies and formalized these concepts by extending our Reference Ontology of Money and Virtual Currencies [2].",
+                "section": "Abstract"
+              },
+              {
+                "quote": "We believe this work clarifies the notion of CBDC, which can serve as a basis for future business ontologies, meaning negotiation, the enactment of law and regulation and the definition of proper governance models.",
+                "section": "Section 5"
+              }
+            ],
+            "justification": "The paper explicitly states that the model was created to clarify the notion of CBDC and to support meaning negotiation, which aligns with the definition of 'For Understanding'. The use of 'clarifies' and 'meaning negotiation' are direct positive signals from the taxonomy."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "We believe this work clarifies the notion of CBDC, which can serve as a basis for future business ontologies, meaning negotiation, the enactment of law and regulation and the definition of proper governance models.",
+                "section": "Section 5"
+              }
+            ],
+            "justification": "The model is presented as a basis for 'meaning negotiation' and 'the enactment of law and regulation', which implies its use in aligning stakeholders and facilitating communication across different perspectives, such as legal, technical, and institutional. This fits the definition of 'For Communicating' as it supports alignment and discussion between distinct groups."
+          },
+          {
+            "goal": "For Documenting",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "We believe this work clarifies the notion of CBDC, which can serve as a basis for future business ontologies, meaning negotiation, the enactment of law and regulation and the definition of proper governance models.",
+                "section": "Section 5"
+              }
+            ],
+            "justification": "The model is intended to serve as a persistent reference for future work in business ontologies, law, regulation, and governance. The phrase 'basis for future business ontologies' and 'definition of proper governance models' indicates that the model is meant to be stored and reused as a reference, satisfying the definition of 'For Documenting'."
+          }
+        ],
+        "uncertain_goals": []
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"Towards Ontological Foundations for Central Bank Digital Currencies\",\n  \"annotator\": \"LLM model name\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"Extended ROME for CBDC\",\n      \"goals\": [\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"In this paper we conducted an ontological analysis to investigate the nature of Central Bank Digital Currencies and formalized these concepts by extending our Reference Ontology of Money and Virtual Currencies [2].\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"We believe this work clarifies the notion of CBDC, which can serve as a basis for future business ontologies, meaning negotiation, the enactment of law and regulation and the definition of proper governance models.\",\n              \"section\": \"Section 5\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that the model was created to clarify the notion of CBDC and to support meaning negotiation, which aligns with the definition of 'For Understanding'. The use of 'clarifies' and 'meaning negotiation' are direct positive signals from the taxonomy.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"We believe this work clarifies the notion of CBDC, which can serve as a basis for future business ontologies, meaning negotiation, the enactment of law and regulation and the definition of proper governance models.\",\n              \"section\": \"Section 5\"\n            }\n          ],\n          \"justification\": \"The model is presented as a basis for 'meaning negotiation' and 'the enactment of law and regulation', which implies its use in aligning stakeholders and facilitating communication across different perspectives, such as legal, technical, and institutional. This fits the definition of 'For Communicating' as it supports alignment and discussion between distinct groups.\"\n        },\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"We believe this work clarifies the notion of CBDC, which can serve as a basis for future business ontologies, meaning negotiation, the enactment of law and regulation and the definition of proper governance models.\",\n              \"section\": \"Section 5\"\n            }\n          ],\n          \"justification\": \"The model is intended to serve as a persistent reference for future work in business ontologies, law, regulation, and governance. The phrase 'basis for future business ontologies' and 'definition of proper governance models' indicates that the model is meant to be stored and reused as a reference, satisfying the definition of 'For Documenting'.\"\n        }\n      ],\n      \"uncertain_goals\": []\n    }\n  ],\n  \"outside_taxonomy\": []\n}",
+  "seconds": 10.9
+}

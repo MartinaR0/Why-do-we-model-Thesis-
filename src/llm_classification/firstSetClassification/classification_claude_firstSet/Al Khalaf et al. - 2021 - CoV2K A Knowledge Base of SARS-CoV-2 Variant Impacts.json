@@ -1,0 +1,83 @@
+{
+  "paper_id": "Al Khalaf et al. - 2021 - CoV2K A Knowledge Base of SARS-CoV-2 Variant Impacts",
+  "annotator": "claude-opus-4",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "CoV2K knowledge base (taxonomy of SARS-CoV-2 variant impacts integrated with ViruSurf)",
+      "goals": [
+        {
+          "goal": "For Documenting",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "CoV2K is a manually curated knowledge base providing an organized collection of information about SARS-CoV-2 variants, extracted from the scientific literature; it features a taxonomy of variant impacts, organized according to three main categories (protein stability, epidemiology, and immunology) and including levels for these effects (higher, lower, null) resulting from a coherent interpretation of research articles.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "To accomplish this goal, we started to build CoV2K, a knowledge base fuelled by information extracted from published papers and preprints.",
+              "section": "1 Introduction"
+            }
+          ],
+          "justification": "The model is explicitly framed as a curated knowledge base organizing variant information for reference and future use, which matches the Documenting positive signals 'knowledge base', 'reference', and 'knowledge management' for asynchronous consultation by parties outside the original curation process."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "CoV2K is integrated with ViruSurf, hosted at Politecnico di Milano; ViruSurf is globally the largest database of curated viral sequences and variants, integrated from deposition repositories such as COG-UK, GenBank, and GISAID.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "The new knowledge base concepts are centered upon two entities, the KbAAVariant and the KbNucVariant , respectively including all the amino acid and nucleotide-level variants captured from our data acquisition process (Sect. 2).",
+              "section": "3 Integration with Sequence Data"
+            },
+            {
+              "quote": "The connection of the knowledge base to the database requires building bridges from the variant characterization attributes of the knowledge base to the variants in the database.",
+              "section": "3 Integration with Sequence Data"
+            }
+          ],
+          "justification": "The knowledge base schema was implemented and integrated into the ViruSurf database via concrete KbAAVariant/KbNucVariant entities and matching bridges, satisfying the Intervening positive signals 'implemented', 'used to enable interoperability', and integration with a running system."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Thanks to such integration, variants documented in CoV2K can be analyzed and searched over large volumes of nucleotide and amino acid sequences, e.g., for co-occurrence and impact agreement; the paper sketches some of the data analysis tests that are currently under development.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "Basic summary statistics about the CoV2K variants' distribution and their impact can be used to describe CoV2K data, answering questions such as: (i) What is the CoV2K variants' density in a specific gene? (ii) Are there conflicts in specific variant's impact's level (e.g., a variant reporting both H and L levels)?",
+              "section": "4 Data Analysis"
+            },
+            {
+              "quote": "As the matrix entries proved effective in confirming properties, we may use them also for prediction: by looking at entries within the blue triangle and considering that N501Y is reported as increasing the infectivity of the virus, we could predict the same effect also for P681H and S982A.",
+              "section": "4 Data Analysis"
+            }
+          ],
+          "justification": "Beyond implementation, the model is used to analyze, evaluate, detect conflicts, and support predictive/decision-oriented investigations of variants, matching Problem-solving signals 'analyze options', 'evaluate', and 'identify shortcomings' as a separate use from integration."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "In organizing the knowledge base, we designed categories that well-represent the impact of virus' variants on viral characteristics, arranged according to three main categories (protein stability, epidemiology, immunology) and including levels for these effects (higher, lower, null).",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "This category is important to understand SARS-CoV-2 evolutionary epidemiology, viral kinetics and dynamics related studies.",
+              "section": "2.2 Taxonomy of Effects"
+            }
+          ],
+          "justification": "The taxonomy is explicitly designed to conceptualize and represent variant impacts for domain understanding, matching the Understanding signals 'understand', 'conceptualize', and 'define' applied to the domain of SARS-CoV-2 variants."
+        }
+      ],
+      "uncertain_goals": []
+    }
+  ],
+  "outside_taxonomy": []
+}

@@ -1,0 +1,92 @@
+{
+  "paper_id": "Silva and Bax - 2022 - Domain Analysis to assess the sustainability of construction projects",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "SEBIM (Semantic BIM) Ontology",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The SEBIM (Semantic BIM) ontology (Figure 3) was created in Protégé 5.5, with classes representing the data needed to organize the information and analyze the LEED certification criteria.",
+              "section": "Section 6.1 The SEBIM Ontology"
+            },
+            {
+              "quote": "Our experimental procedure to automate the LEED certification process involves developing a simplified ontology, based on the ifcOWL, to integrate BIM data and certification criteria together.",
+              "section": "Section 5 Methodology"
+            },
+            {
+              "quote": "The data from the BIM project to be assessed as sustainable and the data from Belo Horizonte's city were semantically annotated using the semantic dictionary and converted in an integrated way to the RDF standard (with the sdd2rdf ) and, finally, inserted in the triplestore.",
+              "section": "Section 7.1 Converting Data to the SEBIM Ontology in OWL"
+            },
+            {
+              "quote": "this attempt proved to be more effective since it allowed the use of sdd2rdf tool to annotate data using the SEBIM ontology.",
+              "section": "Section 7.1 Converting Data to the SEBIM Ontology in OWL"
+            }
+          ],
+          "justification": "The ontology was actually implemented in Protégé and used in a working prototype to integrate BIM data, generate RDF graphs, and perform SPARQL inferences. This is direct evidence that the model serves as an instrument to build/enable a system (signal pattern: 'implemented', 'used to enable interoperability', 'generated artifact')."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "Thus, domain analysis performed in this study involves understanding the epistemological consensus between the BIM classification system and the rules for meeting the criteria of a LEED certification.",
+              "section": "Section 1 Introduction"
+            },
+            {
+              "quote": "The domain knowledge of the civil construction industry was guided by the understanding of BIM technology and the organization of information for processes such as obtaining a sustainability certification.",
+              "section": "Section 2 Domain Analysis"
+            },
+            {
+              "quote": "The results suggest that the domain analysis associated with semantic technologies promotes the conceptual extensibility of the constructive elements, enabling their integration with external knowledge bases.",
+              "section": "Abstract"
+            }
+          ],
+          "justification": "The paper explicitly frames the domain analysis and ontology construction as a means to understand and conceptually organize the construction domain (positive signal: 'understand', 'conceptualize'). The ontology's role in clarifying domain concepts is stated as a purpose of the modeling activity."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "The knowledge organization system development provides information retrieval and allows for more efficient and persuasive methods for project management that facilitate decision-making.",
+              "section": "Section 8 Conclusions"
+            },
+            {
+              "quote": "It can also be observed in Xu et al. (2019) that using logical inferences to evaluate a criterion allows one to research aspects that need improvements in the building and help project managers to use BIM data.",
+              "section": "Section 4 Related Works"
+            },
+            {
+              "quote": "This work contributes to the report of the development of a system for knowledge organization that favors information retrieval, allowing more efficient and persuasive methods for project management that facilitate decision making, rather than an experience-based approach.",
+              "section": "Section 8 Conclusions"
+            }
+          ],
+          "justification": "Separate from implementation, the authors explicitly state that the ontology-based system facilitates decision-making for project managers, and inferences are used to evaluate/assess criteria for certification (signal patterns: 'decision', 'evaluate'). This is in addition to the implementation evidence, satisfying the disambiguation rule for coding both."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Knowledge management methods are important for collecting data and documenting work progress. Learning in this process must be documented and made available to increase productivity and reduce future failures (Ofori-Boadu et al. 2012).",
+              "section": "Section 3 Information Organization for LEED Certification"
+            },
+            {
+              "quote": "Since the evaluation process covers construction project phases and requires reviewing and updating the project to meet the criteria, it is important to consider the information historical organization.",
+              "section": "Section 7.3 Discussion of Results"
+            }
+          ],
+          "reason": "Statements about documenting work progress reference general LEED practice (citing Ofori-Boadu et al.) rather than stating the SEBIM ontology's purpose; the historical organization comment is suggestive but not explicitly framed as the model's documentation purpose."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

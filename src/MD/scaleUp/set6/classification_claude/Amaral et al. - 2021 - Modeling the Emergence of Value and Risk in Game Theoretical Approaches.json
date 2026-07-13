@@ -1,0 +1,55 @@
+{
+  "paper_id": "Amaral et al. - 2021 - Modeling the Emergence of Value and Risk in Game Theoretical Approaches",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": ["Figures are not decoded (represented as [FIGURE] placeholders); some formulas are also not decoded. This limits ability to inspect graphical model content, but textual descriptions of the model's purpose are intact."],
+  "models": [
+    {
+      "model_label": "OntoUML ontological model of the emergence of value and risk from game outcomes (grounded in UFO/COVER)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "In order to understand the influence of these forces over outcomes, a precise and rigorous conceptualization, based on foundational ontologies, is needed.", "section": "Abstract"},
+            {"quote": "Although the formalization of game components is quite well established, a detailed ontological understanding of the fundamental notions of game theory is missing.", "section": "Section 1 Introduction"},
+            {"quote": "We believe that a proper ontological understanding and modeling of the basic notions of game theory is mandatory to apply this rich body of knowledge and computational tools in designing information systems and supporting strategic decision making.", "section": "Section 1 Introduction"},
+            {"quote": "The model proposed here illustrates a process of conceptual clarification that allows for unpacking the relevant domain notions that are frequently hidden in mathematical formulations of domain phenomena.", "section": "Section 7 Final Remarks"},
+            {"quote": "We formalized it in OntoUML, aiming at providing an accessible and shareable conceptual model, which may be applied across domains to foster the interoperability and the mutual understanding among modelers.", "section": "Section 7 Final Remarks"}
+          ],
+          "justification": "The paper explicitly frames the model as a conceptualization/clarification aimed at understanding the fundamental notions of game theory and fostering mutual understanding among modelers, matching Understanding signals ('understand','clarify','conceptualize','shared understanding')."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "We believe that a proper ontological understanding and modeling of the basic notions of game theory is mandatory to apply this rich body of knowledge and computational tools in designing information systems and supporting strategic decision making.", "section": "Section 1 Introduction"},
+            {"quote": "Having a clear understanding of the influence of these forces over outcomes is fundamental to the agent's decision making.", "section": "Section 2.3 Value, Risk and Outcomes"},
+            {"quote": "We also plan to introduce a mechanism to help rational agents weight value and risks against each other to find an equilibrium when deciding whether to engage in a certain strategy.", "section": "Section 7 Final Remarks"}
+          ],
+          "justification": "The paper explicitly positions the ontology as supporting strategic decision-making by agents weighing value vs risk when choosing strategies, matching Problem-solving signals ('decision','evaluate','analyze options'). The model itself is not the implementation instrument, so this is distinct from Intervening."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "Without such a precise conceptualization, different modelers may come to different interpretations of the same model, thus resulting in enterprise architecture models that cannot serve their purpose as tools for communication between stakeholders, decreasing the value of enterprise architecture models in the pursuit of informed decision-making.", "section": "Section 1 Introduction"}
+          ],
+          "reason": "The quote frames communication between stakeholders as a general benefit of enterprise architecture models, not clearly as the specific purpose for which the authors' model was created; the sync-vs-async character is not specified."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "Finally, we apply our ontological account for game theory concepts to model game outcomes in the context of Enterprise Architectures.", "section": "Section 1 Introduction"},
+            {"quote": "In order to provide enterprise architects with a common ground to apply game theory notions in coherent enterprise architecture descriptions, we apply the results of the analysis conducted in the previous section to represent the emergence of value and risk from game outcomes in Enterprise Architecture.", "section": "Section 6"}
+          ],
+          "reason": "The application to Archimate is more an illustration/instantiation of the ontology's ability to guide modeling than an implemented system or generated artifact; the paper describes patterns being applied, but the ontology itself is not framed as an instrument that directly builds/deploys a system."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

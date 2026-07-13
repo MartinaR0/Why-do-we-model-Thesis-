@@ -1,0 +1,88 @@
+{
+  "paper_id": "Derave et al. - 2020 - Towards a Reference Ontology for Digital Platforms",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Digital Platform Reference Ontology (general module + one-sided + multi-sided modules)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "We believe this reference ontology can be a step towards a better understanding of digital platform functionality",
+              "section": "Abstract"
+            },
+            {
+              "quote": "Our ontology can help comprehend the complexity and functionality requirements of existing digital platform depending on their type.",
+              "section": "6 Conclusion"
+            },
+            {
+              "quote": "This paper contributes to filling the lack of knowledge of digital platform functionality by proposing a method using the patterns of the Unified Foundational Ontology (UFO) [7] to create a reference ontology.",
+              "section": "1 Introduction"
+            }
+          ],
+          "justification": "The ontology is explicitly framed as supporting understanding of the digital platform domain, its functionality, and conceptualization of platform types — internal domain sense-making."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Apart from supporting communication between stakeholders in platform development, it can support ontology-driven development of platforms.",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "the reference ontology is envisioned as a common language for expressing digital platform functionality that can be used to facilitate future research and development of digital platforms.",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "First of all it helps both researchers and practitioners in their communication and decision making, as the ontology can be used as a common language all stakeholders can understand.",
+              "section": "6 Conclusion"
+            }
+          ],
+          "justification": "The paper explicitly positions the ontology as a common language to bridge stakeholders (researchers, practitioners, developers) in platform development — communication between distinct groups."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "First of all it helps both researchers and practitioners in their communication and decision making, as the ontology can be used as a common language all stakeholders can understand.",
+              "section": "6 Conclusion"
+            },
+            {
+              "quote": "It can help the decision-making of developers and entrepreneurs and support ontology-driven development of new platforms.",
+              "section": "6 Conclusion"
+            }
+          ],
+          "justification": "The authors explicitly claim the ontology supports decision-making by researchers, practitioners, developers and entrepreneurs, separate from the intervening/implementation-instrument evidence."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "it can support ontology-driven development of platforms.",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "ontology modeling can play an essential role in areas such as database design, information systems and software development [7]. It can help the decision-making of developers and entrepreneurs and support ontology-driven development of new platforms.",
+              "section": "6 Conclusion"
+            },
+            {
+              "quote": "an ontology can be a vital tool to accelerate the development of new digital platforms",
+              "section": "5 Discussion"
+            }
+          ],
+          "reason": "Ontology-driven development is only stated as an envisioned/future capability, not as an actual implementation; the paper explicitly notes the ontology is a first step with future work and no artifact was generated from it."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

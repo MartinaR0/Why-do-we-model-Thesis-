@@ -1,0 +1,57 @@
+{
+  "paper_id": "Simon et al. - 2022 - An Ontological Characterization of a Conceptual Model of the Human Genome",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": ["Figures appear as [FIGURE] placeholders; some OCR/conversion artifacts (e.g., 'Powered By Visual Paradigm Community Edition' interspersed in body text)."],
+  "models": [
+    {
+      "model_label": "Ontologically enriched Conceptual Schema of the Human Genome (CSHG) - Pathways view (OntoUML)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "The Conceptual Schema of the Human Genome represents the concepts required to holistically understand the human genome.", "section": "Abstract"},
+            {"quote": "We report on our continued efforts to ensure that the human genome can be meaningfully shared by conducting an ontological analysis and enrichment of the conceptual model to facilitate domain understanding and data exchange among heterogeneous systems.", "section": "Abstract"},
+            {"quote": "However, a fundamental prerequisite for analyzing and understanding any complex domain, is to facilitate a shared understanding among the people who work in that domain.", "section": "1 Introduction"},
+            {"quote": "The contribution is to reformulate the conceptual model, showing how a foundational ontology brings ontological clarity to complex models by facilitating domain understanding and data exchange among heterogeneous systems [6].", "section": "1 Introduction"},
+            {"quote": "First, recognizing the complexity of this domain shows the importance of representing the human genome by a model that supports a shared understanding.", "section": "6 Conclusion"}
+          ],
+          "justification": "The paper repeatedly and explicitly frames the model's purpose as supporting domain understanding and shared understanding of the human genome among researchers, matching the For Understanding signal patterns ('understand', 'shared understanding', 'clarify')."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "For the human genome domain, applying conceptual modeling can: improve communication among physicians, geneticists, biologists, and other researchers; assist in knowledge transfer; and, ultimately, enable efficient exploitation of information for progressing the understanding of the human genome [12].", "section": "1 Introduction"},
+            {"quote": "Thus, conceptual models are a practical way for domain experts and computer scientists to share the knowledge needed to develop systems to support processing of the huge amount of genomics data that now exists.", "section": "6 Conclusion"}
+          ],
+          "justification": "The paper explicitly frames the model's purpose as improving communication between distinct stakeholder groups (physicians, geneticists, biologists, computer scientists), bridging between them - matching the For Communicating signal patterns ('communicate', 'bridge between')."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "We report on our continued efforts to ensure that the human genome can be meaningfully shared by conducting an ontological analysis and enrichment of the conceptual model to facilitate domain understanding and data exchange among heterogeneous systems.", "section": "Abstract"},
+            {"quote": "Consistent with the overall objective of designing a sound genomics information system, the results lead to major modeling implications for the: characterization of biological entities; changes in biological entities over time; and representation of chemical compounds.", "section": "Abstract"},
+            {"quote": "Our research shows that the inclusion of a strong ontological foundation in a conceptual model contributes to the design of complex systems.", "section": "Abstract"},
+            {"quote": "Thus, conceptual models are a practical way for domain experts and computer scientists to share the knowledge needed to develop systems to support processing of the huge amount of genomics data that now exists.", "section": "6 Conclusion"}
+          ],
+          "justification": "The paper frames the model as supporting the design of a sound genomics information system and enabling data exchange/interoperability among heterogeneous systems, matching the For Intervening signals ('enable interoperability', design of systems). Coded Medium because the paper describes intended purpose for system design rather than reporting concrete implementation."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "The ontological analysis identified and changed several aspects of the model to better grasp domain semantics, improving the representation of events and how biological entities change over time.", "section": "5 Results"},
+            {"quote": "The creation of the active_entity and degraded_entity phases provides additional mechanisms to ensure the correctness of the model. This prevents introducing errors when instantiating and populating the model. Such constraints are difficult to identify in the UML model.", "section": "5 Results"}
+          ],
+          "reason": "The paper identifies shortcomings in the original UML schema and makes changes, but the same evidence is used to support the ontological enrichment (For Understanding/Intervening) per the disambiguation rule (Intervening vs. Problem-solving: same evidence showing only redesign-as-implementation should code Intervening, not Problem-solving). Evidence of separate decision-making/option-comparison use is weak."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

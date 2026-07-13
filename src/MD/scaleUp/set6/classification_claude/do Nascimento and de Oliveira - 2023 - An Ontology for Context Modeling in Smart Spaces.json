@@ -1,0 +1,69 @@
+{
+  "paper_id": "do Nascimento and de Oliveira - 2023 - An Ontology for Context Modeling in Smart Spaces",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "SpaceCOn - Smart Spaces Context Ontology",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The ontology was implemented in OWL language using Prot´ eg´ e software [17], version 5.5.0. The implementation used the gUFO [4] as base ontology.",
+              "section": "6 Evaluation"
+            },
+            {
+              "quote": "The SpaceCOn ontology has been used in an architecture for context integration described in Fig. 8.",
+              "section": "7 Context Integration Architecture"
+            },
+            {
+              "quote": "Agents communicate using messages. The messages use terms defined by the SpaceCOn ontology. For example, query requests contain a set of instances of the ContextualElement class, and responses to applications contain a set of instances of contextual elements modeled through the ContextualElementInstance class.",
+              "section": "7 Context Integration Architecture"
+            },
+            {
+              "quote": "This ontology can be a strategic tool to integrate context data from different sources in large smart environments, such as smart universities and cities.",
+              "section": "Abstract"
+            }
+          ],
+          "justification": "The ontology was actually implemented in OWL/Protégé and deployed in a context integration architecture where agents communicate using its terms. It serves as an instrument enabling interoperability and integration of context data across systems."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "Entities, aspects, contextual elements, categories, and QoC parameters represent terms whose semantics need to be clearly defined so that agents in a smart space can exchange information based on a common vocabulary.",
+              "section": "3 Formal Context Definition Used in This Work"
+            },
+            {
+              "quote": "An ontology defines a common vocabulary within a specific domain. It includes a set of semantic definitions that are interpretable by computer programs where the concepts of a domain and the relationships among them are defined [19].",
+              "section": "1 Introduction"
+            },
+            {
+              "quote": "This paper aims to present an ontology called SpaceCOn that allows semantically representing context information in smart environments.",
+              "section": "1 Introduction"
+            }
+          ],
+          "justification": "The ontology is explicitly framed as defining a common vocabulary and shared semantics for context concepts in smart spaces, supporting shared understanding of the domain among agents/systems."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "The ontology must also support the representation of historical contexts.",
+              "section": "5 SpaceCOn - Smart Spaces Context Ontology"
+            }
+          ],
+          "reason": "Historical context representation is a feature of the ontology's application data, not a stated purpose of the model itself as documentation/reference."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

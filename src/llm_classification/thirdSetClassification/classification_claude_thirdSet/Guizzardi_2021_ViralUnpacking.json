@@ -1,0 +1,76 @@
+{
+  "paper_id": "Guizzardi_2021_ViralUnpacking",
+  "annotator": "claude-opus-4",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Ontologically unpacked Viral Conceptual Model (VCM) in OntoUML",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Our ontological unpacking provided a detailed analysis of the complex notions that are hidden within VCM and essential for acquiring a deep understanding of the domain.",
+              "section": "Section 5 Discussion"
+            },
+            {
+              "quote": "A conceptual model provides an information structuring function for the application domain. VCM focuses on genomic data structuring for the purposes of characterizing genomic sequences. However, a conceptual model should also be able to provide conceptual clarification and unambiguous communication .",
+              "section": "Section 1 Introduction"
+            },
+            {
+              "quote": "The results demonstrate the effectiveness of this conceptual model and the usefulness of unpacking a complicated model to improve its clarity, beyond data structuring.",
+              "section": "Section 6 Conclusion"
+            }
+          ],
+          "justification": "The paper explicitly frames the ontological unpacking of VCM as a means of clarifying concepts and acquiring a deep understanding of the (virus genomics) domain, matching the For Understanding signal patterns ('understand', 'clarify', 'conceptualize')."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "To facilitate a further, robust, application of VCM to projects with other viruses and pathogens, there needs to be some way to assess the quality of the model.",
+              "section": "Section 1 Introduction"
+            },
+            {
+              "quote": "The Sequencing Lab attribute of Sequencing Project incorrectly collapses the concepts of the sequencing laboratory and submitting laboratory, even if they are different entities.",
+              "section": "Section 5 Discussion"
+            },
+            {
+              "quote": "VCM includes all the information about the host sample in one single entity, thus generating a denormalized structure that is conceptually incorrect.",
+              "section": "Section 5 Discussion"
+            }
+          ],
+          "justification": "The unpacked model is used to assess the quality of VCM and to identify shortcomings, ambiguities, and conceptual errors (collapsed concepts, underspecified aspects, incorrect denormalization). This matches the For Problem-solving signals 'evaluate', 'identify shortcomings', without going on to implement a system from the model."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "However, a conceptual model should also be able to provide conceptual clarification and unambiguous communication .",
+              "section": "Section 1 Introduction"
+            }
+          ],
+          "reason": "This is a general statement about what conceptual models should do, not a description of the unpacked VCM actually being used to communicate between distinct stakeholders or groups."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "The model is being used for designing: an integrated data warehouse and search system [8]; a linked Phenotype Data Dictionary [3]; a knowledge base of variant impacts [1]; and a visualization engine [6].",
+              "section": "Section 1 Introduction"
+            }
+          ],
+          "reason": "This describes prior uses of the original VCM (cited via references), not the ontologically unpacked OntoUML model that is the unit of analysis in this paper; the unpacking itself is not framed as guiding implementation."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

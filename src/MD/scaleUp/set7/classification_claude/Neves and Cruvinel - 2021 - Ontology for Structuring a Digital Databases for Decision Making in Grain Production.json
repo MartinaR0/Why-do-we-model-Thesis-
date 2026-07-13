@@ -1,0 +1,84 @@
+{
+  "paper_id": "Neves and Cruvinel - 2021 - Ontology for Structuring a Digital Databases for Decision Making in Grain Production",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Ontology for semantic structuring of digital databases for decision-making in grain production (OntoUML/gUFO)",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "To implement the OntoUML structure foreseen in this case study,  the  OntoUML diagram  was  developed based  on  the gUFO language  (light  implementation  of the  fundamental unified ontology) and can be seen in Figure 5.",
+              "section": "II. RESULTS AND DISCUSSIONS"
+            },
+            {
+              "quote": "The code generated for the developed ontology is written in N-Triples format  which,  according  to  the  World  Wide  Web Consortium  (W3C), is an  online  syntax to  encode  a graph  in RDF.",
+              "section": "II. RESULTS AND DISCUSSIONS"
+            },
+            {
+              "quote": "In fact, the fourth aspect shows  the ontology in the OntoUML diagram configuration, as well as the configuration expressed in code in N-Triples format, to detail its sequence of terms in the  triple  subject,  predicate and  object,  according  to the data provided in the case study.",
+              "section": "II. RESULTS AND DISCUSSIONS"
+            }
+          ],
+          "justification": "The model was used to generate concrete artifacts (gUFO/N-Triples code, pseudocode) intended to be deployed in semantic database servers (Virtuoso, Blazegraph). The ontology directly enables the construction of the database structure, matching the For Intervening signal of 'generated artifact' and 'used to create'."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The methodological process  used to  develop  the  ontology for structuring of digital databases has been divided into three stages: in the first stage an architecture has been developed for understanding of the domain from the perspective of semantic infrastructure, at the macro level of detail",
+              "section": "II. MATERIALS AND METHODS / A. Methodological design"
+            },
+            {
+              "quote": "Ontology has brought  the  understanding  of  the domain  in a  complete  cycle, including the  infrastructure,  the process  model,  the  pseudocode  consolidation , the  OntoUML representation, as well as the implementation code.",
+              "section": "II. RESULTS AND DISCUSSIONS"
+            },
+            {
+              "quote": "Its structuring  enables a  better  understanding  of data  for  use  in agriculture.",
+              "section": "III. CONCLUSION"
+            }
+          ],
+          "justification": "The paper explicitly frames the ontology's purpose as supporting understanding of the agricultural/grain production domain, matching the For Understanding signal of 'understand' and 'conceptualize'."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "This paper presents an ontology for the structuring of  digital  databases  with  the  objective  of  acting  in  a  cloud environment  and  meeting big  data sources in  the  agricultural context of grain production.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "This work combines  advanced  features  to  support  decision  making  from Data Lake storage  solutions,  semantic  treatment  of big  data , as well as the presentation of strategies  based on machine learning and data quality analysis to obtain data and metadata organized for  application  in  a  decision  model.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "An ontology was presented for the semantic structuring of a digital database to aid decision making in grain production.",
+              "section": "III. CONCLUSION"
+            }
+          ],
+          "justification": "The paper explicitly states the ontology's purpose is to support decision-making in grain production (agricultural risk analysis). The model organizes data so it can be used in a separate decision model, matching the For Problem-solving signal of 'decision'."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "The results clearly presented that ontology demonstrates, in a clear and complete way, the specification of concepts in the agricultural field of grain production, as well as their relationships.",
+              "section": "II. RESULTS AND DISCUSSIONS"
+            }
+          ],
+          "reason": "The text describes specification of concepts and relationships, but does not explicitly frame the ontology as a reference, knowledge base, or documentation resource for absent parties; evidence is weak/indirect."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

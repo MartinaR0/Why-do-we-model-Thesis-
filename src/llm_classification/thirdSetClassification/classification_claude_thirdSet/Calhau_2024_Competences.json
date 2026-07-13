@@ -1,0 +1,67 @@
+{
+  "paper_id": "Calhau_2024_Competences",
+  "annotator": "claude-opus-4",
+  "no_codable_model": false,
+  "input_limitations": ["Markdown extraction contains [FIGURE] placeholders in place of diagrams and tables; figure-only evidence could not be inspected. Otherwise main sections (Abstract, Introduction, Methodology, Ontological analysis, Representation, Case Study, Empirical evaluation, Final remarks) are present."],
+  "models": [
+    {
+      "model_label": "Competence reference ontology and ArchiMate-based competence representation (zooming-in/zooming-out) applied to Spotify",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "These aspects of the literature on Competence Management motivate us to employ ontological analysis [17] as a principled approach to competence representation, presented in Sect. 5. The approach is based on the analysis of the key conceptual notions and their relations in order to guide adequate representation in EA models.", "section": "Section 2.1 Ontological analysis"},
+            {"quote": "As a result, an important goal of a reference ontology for this domain is to clarify the similarities and differences between the concepts of competence and skill, settling how to position those two notions for a certain context of usage.", "section": "Section 3.5.1 Skills"},
+            {"quote": "We investigated the support of Competence Management activities with Enterprise Architecture models with the goal of improving personal competence and organizational capability understanding.", "section": "Section 10 Final remarks"},
+            {"quote": "Based on the case study application, the language pattern brought some benefits to the understanding of how individual competences and skills can impact the capabilities of the whole organization.", "section": "Section 10 Final remarks"}
+          ],
+          "justification": "Multiple explicit statements that the ontology/representation is intended to clarify concepts (competence, skill, knowledge, attitude) and to improve understanding of the competence domain. Matches the 'understand', 'clarify', 'conceptualize' signal pattern for For Understanding."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "As a result, the proposed representation can aid in essential CoM activities such as competence mapping, identification, and gap analysis.", "section": "Section 10 Final remarks"},
+            {"quote": "As explained, (i) competence element view helps with competence identification, (ii) competence element relationship and competence relationship views help with gap analysis, and (iii) emergence/resulting view helps with competence mapping.", "section": "Section 6.3 Representation viewpoints"},
+            {"quote": "Figure 17 illustrates an example of how zooming-in viewpoints can be used to help with gap analysis of a business role or actor. As illustrated, it is possible through the zooming-in to identify which elements differ in a current competence compared to the desired one.", "section": "Section 6.5 Zooming-in Viewpoints"},
+            {"quote": "The PU questions were designed to assess whether the competence representation was deemed useful in the support of practical EA-related tasks (especially related to capability-based practices) -such as (i) improved comprehension (for problem solving), (ii) decision-making, (iii) performance (i.e., effectiveness), and (iv) expressiveness (i.e., communication).", "section": "Section 8.1 The survey elaboration"}
+          ],
+          "justification": "Explicit framing of the model as supporting gap analysis, decision-making, and identifying what needs to change (current vs. desired competences). Matches 'gap analysis', 'decision', 'what should change' signal patterns; the model is used to identify shortcomings rather than to implement the change itself."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "We have investigated the suitability of the representation for communicating the relations between the individual level of competences and the organizational level of capabilities and assessed the perceptions of the participants following the Technology Acceptance Model (TAM) [22].", "section": "Section 2.3 Evaluation of the proposal"},
+            {"quote": "In addition to these points, other important aspects to be concerned about in the proposed language pattern are: (i) the visual representation works as a complementary resource to facilitate communication and understanding;", "section": "Section 10 Final remarks"},
+            {"quote": "In this case, this indicates that the competence representation can potentially impact positively capability-based practices in the EA context, such as improving communication, understanding, and decision-making related to competence.", "section": "Section 8.7 Discussion"}
+          ],
+          "justification": "Authors explicitly state the representation's purpose includes communicating the relations between individual competences and organizational capabilities across stakeholders (academics/practitioners/HR). Matches 'communicate', 'explain to', 'bridge between' signal patterns; the context (bridging individual and organizational levels for distinct audiences) supports interactive communication rather than mere documentation."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "Based on the ontological analysis presented in the previous section, we define in this section an ArchiMate language pattern, proposed as a conceptual extension of the ArchiMate metamodel, with no changes to it.", "section": "Section 6 Well-founded competence representation"},
+            {"quote": "The reference ontology is then used as a starting point to the representation of competences alongside their constituent elements in ArchiMate, in Sect. 6.", "section": "Section 2.2 Competence representation proposition"},
+            {"quote": "To show the benefits of the pattern language, we have applied it to a real-life case study from the literature addressed originally by Bäcklander [21]", "section": "Section 7 Capabilities in spotify"}
+          ],
+          "justification": "The reference ontology is actively used as the instrument to build/derive a concrete artifact (the ArchiMate language pattern with conceptual/relational mappings and viewpoints). This is artifact generation via the model, matching the 'used to create / generated artifact' signal pattern for For Intervening. Medium confidence because the framing is design-science artifact construction rather than deployment of a running system."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "Still concerning the proposed ontology and possible semantic web applications, another future work is to implement and publish the ontological distinctions proposed in this work.", "section": "Section 10.1 Future works"},
+            {"quote": "In fact, for the previous version of the competence ontology [9, 10, 73], we already generated an implementation in OWL and released it using a permanent URI.", "section": "Section 10.1 Future works"}
+          ],
+          "reason": "The OWL release as a reusable reference concerns a prior version of the ontology and the publishing of the new distinctions is framed as future work; no explicit present-tense framing of the model itself as documentation/knowledge base for absent parties."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

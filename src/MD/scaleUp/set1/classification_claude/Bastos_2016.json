@@ -1,0 +1,76 @@
+{
+  "paper_id": "Bastos_2016",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Software Project Management Ontology (SPMOnt)",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "After, aiming to establish the domain conceptualization to be used as basis to semantic annotations, we developed the Software Project Management Ontology (SPMOnt), which addresses scope, time and costs planning and execution.",
+              "section": "Section 1. Introduction"
+            },
+            {
+              "quote": "In order to address IO1, we extended IMSD to work with spreadsheets and, then, we used SPMOnt as a basis to annotate spreadsheet and document templates related to the project management domain.",
+              "section": "Section 4.1"
+            },
+            {
+              "quote": "In order to address IO2 to IO7, we explored SPMOnt conceptualization in domainspecific features that were implemented to support scope, time and costs management activities.",
+              "section": "Section 4.2"
+            },
+            {
+              "quote": "Summarizing, by exploring the SPMOnt conceptualization, domain-specific features are provided by IMSD-SPM, better supporting project management activities.",
+              "section": "Section 6. Related Works"
+            }
+          ],
+          "justification": "The SPMOnt ontology was directly used as the basis to annotate templates and to implement domain-specific features in IMSD-SPM. The paper provides clear evidence of actual implementation ('implemented', 'used to annotate', 'explored... in features that were implemented'), matching the For Intervening signal pattern."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "After, aiming to establish the domain conceptualization to be used as basis to semantic annotations, we developed the Software Project Management Ontology (SPMOnt), which addresses scope, time and costs planning and execution.",
+              "section": "Section 1. Introduction"
+            },
+            {
+              "quote": "Ontologies are ideal vehicles to describe metadata, since they represent a conceptualization and establish a common vocabulary to be shared [Sicilia 2006].",
+              "section": "Section 1. Introduction"
+            }
+          ],
+          "justification": "The ontology was explicitly developed to 'establish the domain conceptualization', matching the For Understanding signal pattern (conceptualize, define). The model provides a shared vocabulary about the project management domain."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Besides, annotating project documents helps store and retrieve knowledge acquired during a project and reuse it during other projects.",
+              "section": "Section 1. Introduction"
+            }
+          ],
+          "reason": "This refers to the role of semantic documents/IMSD-SPM in general knowledge storage, not specifically the SPMOnt model serving as documentation. The link between the ontology itself and a documenting purpose is indirect."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "The use of semantic documentation in this context can help extract and integrate data recorded in documents, providing an integrated view useful for project managers to make decisions.",
+              "section": "Section 1. Introduction"
+            }
+          ],
+          "reason": "The decision-support framing concerns the semantic documentation system / IMSD-SPM features, not the SPMOnt ontology itself; evidence directly attributable to the model is weak."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

@@ -1,0 +1,35 @@
+{
+  "paper_id": "Fonseca_2022",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": ["Figures are not visible (rendered as [FIGURE] placeholders), so model details are inferred from textual descriptions only."],
+  "models": [
+    {
+      "model_label": "Maritime ship domain OntoUML model (Figs. 2 and 6)",
+      "goals": [
+        {
+          "goal": "For Learning",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "An example of an OntoUML model in the shipping domain is shown in Fig. 2.", "section": "Section 2"},
+            {"quote": "We now revisit the maritime ship example with the OntoUML diagram shown in Fig. 6.", "section": "Section 4.2"},
+            {"quote": "Figure 5 presents the extended OntoUML profile, enabling the representation of high-order endurant types (we use the term 'classes' here following UML convention).", "section": "Section 4.1"}
+          ],
+          "justification": "The maritime ship model is created and revisited explicitly to demonstrate the OntoUML modeling language constructs and the proposed extension. Per the Understanding vs. Learning disambiguation rule, work framed as a test case to learn whether/how modeling works is coded as For Learning, since the goal is to gain MODELING knowledge about OntoUML's stereotypes and constraints, not domain knowledge about ships."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "The OntoUML profile presented here is implemented as in a UML CASE tool which includes the automated verification of syntactical constraints in users' models.", "section": "Section 4"},
+            {"quote": "These rules can be detected automatically in OntoUML models and rule out unsound models.", "section": "Section 4.3"}
+          ],
+          "reason": "The implementation refers to the OntoUML profile/plugin (the language tooling), not to the maritime ship model itself being implemented as a system or artifact; the ship model is only illustrative."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

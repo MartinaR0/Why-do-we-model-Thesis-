@@ -1,0 +1,77 @@
+{
+  "paper_id": "Guizzardi et al. - 2021 - Ontological Unpacking as Explanation The Case of the Viral Conceptual Model",
+  "annotator": "GPT-5 Codex",
+  "no_codable_model": false,
+  "input_limitations": [
+    "Figures are represented only as [FIGURE] placeholders and some characters are garbled in extraction."
+  ],
+  "models": [
+    {
+      "model_label": "OntoUML unpacking of the Viral Conceptual Model (VCM)",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The model is being used for designing: an integrated data warehouse and search system [8]; a linked Phenotype Data Dictionary [3]; a knowledge base of variant impacts [1]; and a visualization engine [6].",
+              "section": "Section 1 Introduction"
+            }
+          ],
+          "justification": "The paper states that the VCM is actively being used to design concrete systems and artifacts. Under the Intervening rule, use of a model to guide system or artifact design counts as implementation-oriented use."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "We apply an ontological analysis of the Viral Conceptual Model, using OntoUML, to unpack and identify its core components.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "Our ontological unpacking provided a detailed analysis of the complex notions that are hidden within VCM and essential for acquiring a deep understanding of the domain.",
+              "section": "Section 5 Discussion"
+            }
+          ],
+          "justification": "The authors explicitly frame the model analysis as unpacking core components and supporting deep understanding of the virus genomics domain. This directly matches the Understanding goal of clarifying concepts and domain meaning."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "VCM collapses the feature types for very different biological entities (genes, peptides, etc.), which could lead to confusion.",
+              "section": "Section 5 Discussion"
+            },
+            {
+              "quote": "The Sequencing Lab attribute of Sequencing Project incorrectly collapses the concepts of the sequencing laboratory and submitting laboratory, even if they are different entities.",
+              "section": "Section 5 Discussion"
+            },
+            {
+              "quote": "VCM includes all the information about the host sample in one single entity, thus generating a denormalized structure that is conceptually incorrect.",
+              "section": "Section 5 Discussion"
+            }
+          ],
+          "justification": "The unpacked model is used to identify shortcomings, collapsed concepts, and conceptual errors in the VCM. This supports problem-solving as model-based analysis of what is wrong or what should change, without itself being the implementation instrument."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "The Viral Conceptual Model (VCM) [4] was motivated by interest in representing the genomic aspects of COVID-19 so they can be shared among the scientific and medical communities that are attempting to understand SARS-CoV-2 and similar pathogens.",
+              "section": "Section 1 Introduction"
+            },
+            {
+              "quote": "However, a conceptual model should also be able to provide conceptual clarification and unambiguous communication .",
+              "section": "Section 1 Introduction"
+            }
+          ],
+          "justification": "The paper explicitly links the VCM to sharing genomic aspects among scientific and medical communities and to unambiguous communication. This supports communication between distinct groups, though the synchronous or asynchronous mode is not specified."
+        }
+      ],
+      "uncertain_goals": []
+    }
+  ],
+  "outside_taxonomy": []
+}

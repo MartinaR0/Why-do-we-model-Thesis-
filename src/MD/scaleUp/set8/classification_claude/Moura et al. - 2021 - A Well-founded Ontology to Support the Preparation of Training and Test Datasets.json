@@ -1,0 +1,99 @@
+{
+  "paper_id": "Moura et al. - 2021 - A Well-founded Ontology to Support the Preparation of Training and Test Datasets",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "PPO-O (PreProcessing Operators Ontology)",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Based on PPO-O, Assistant-PP tool was developed, which made it capable to capture the retrospective data provenance during the execution of data preprocessing operators, facilitating the reproducibility and explainability of the dataset created.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "Based on these models (PPO-O) it was possible to conceive an architecture, shown in Figure 7, that was implemented as a PreProcessing Assistant (Assistant-PP) 3 tool, using the Python Programming Language with the Streamlit Framework and PostgreSQL RDBMS.",
+              "section": "Section 4.2"
+            },
+            {
+              "quote": "In addition, a tool named AssistantPP was built based on the PPO-O ontology, which made it capable of capturing the retrospective data provenance during the execution of preprocessing operators.",
+              "section": "Section 5 Conclusion"
+            }
+          ],
+          "justification": "The paper explicitly states the PPO-O model was used to build/implement the Assistant-PP tool. This matches the positive signals 'built', 'implemented', and 'used to create' for For Intervening — the model directly guided the creation of an artifact/system."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "In this work, we present PPO-O, a reference ontology of the data preprocessing operators, to identify and represent the semantics of the concepts related to the data preprocessing phase.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "The PPO-O is an ontology applied to the data preprocessing phase of the KDD process; it identifies and represents the semantics of the concepts related to this phase.",
+              "section": "Section 1 Introduction"
+            },
+            {
+              "quote": "The purpose of this ontology is to identify and represent the concepts related to the preparation of 'cured (Souza et al., 2020)' raw data, that is, data significantly selected, more organized, easier to analyze and understand.",
+              "section": "Section 4"
+            },
+            {
+              "quote": "This characterization facilitates the understanding of the data under analysis, and the identification of the need to apply other preprocessing operators.",
+              "section": "Section 4.1"
+            }
+          ],
+          "justification": "The paper explicitly states the ontology's purpose is to identify and represent the semantics of concepts in the data preprocessing domain, aiming at clarifying meaning and resolving terminological ambiguity. This matches positive signals 'clarify', 'define', 'conceptualize' for For Understanding."
+        },
+        {
+          "goal": "For Learning",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "Additionally, such model might guide the data preprocessing operator's execution and support non-expert users learning.",
+              "section": "Section 1 Introduction"
+            },
+            {
+              "quote": "The main purpose of this tool is to guide a non-expert user in the selection of data preprocessing operators and, in parallel, to capture structured and rich provenance data, for each data preprocessing operator execution, which are stored in the (ProvOp) layer.",
+              "section": "Section 4.2"
+            },
+            {
+              "quote": "The idea is to support the non-expert user in data preprocessing, indicating the appropriate operators for the transformation of a cured raw dataset into a training and test datasets.",
+              "section": "Section 5 Conclusion"
+            }
+          ],
+          "justification": "The paper frames the model as helping non-expert users learn about data preprocessing operators (the modeling/method domain of preprocessing techniques). Per disambiguation rule, learning about a modeling activity/method rather than the underlying application domain aligns with For Learning."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "A reference ontology is a special type of conceptual model because it makes a clear and precise description of the domain entities and might improve communication, learning, and problem-solving.",
+              "section": "Section 3.3"
+            }
+          ],
+          "reason": "This is a general statement about reference ontologies as a category, not specifically about PPO-O being used for decision-making or option analysis; evidence is indirect and generic."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "First of all, ontologies might structure, represent and store knowledge according to a conceptual model, allowing a consensual and uniform view of the data preprocessing scenario.",
+              "section": "Section 1 Introduction"
+            }
+          ],
+          "reason": "The mention of storing knowledge is a general statement about ontologies rather than a specific documentation purpose for PPO-O; not sufficient to code as present."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

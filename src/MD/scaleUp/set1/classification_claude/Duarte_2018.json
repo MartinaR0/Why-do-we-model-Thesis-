@@ -1,0 +1,91 @@
+{
+  "paper_id": "Duarte_2018",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Ontology of Software Defects, Errors and Failures (OSDEF)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "We address this problem of the lack of a consensual conceptualization in this area by proposing a reference conceptual model (domain ontology) of Software Defects, Errors and Failures, which takes into account an ecosystem of software artifacts.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "We demonstrate how this approach can suitably promote conceptual clarification and terminological harmonization in this area.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "Firstly, by making use of UFO's foundational categories, OSDEF provides a conceptual analysis of the nature of different types of anomalies, systematizing the overloaded use of the term anomaly in the Software Engineering literature.",
+              "section": "Section 6 Conclusions"
+            },
+            {
+              "quote": "Furthermore, this ontology can serve as a reference model for supporting the ontological analysis and conceptual clarification of real-world failure cases.",
+              "section": "Section 6 Conclusions"
+            }
+          ],
+          "justification": "The paper explicitly states the model's purpose is conceptual clarification, terminological harmonization, and providing a conceptual analysis of the nature of different anomalies. This directly matches the For Understanding signals 'clarify', 'conceptualize', and 'shared understanding'."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Thirdly, the ontology establishes a common vocabulary for improving communication among software engineers and stakeholders, avoiding construct overloads and other types of communication problems.",
+              "section": "Section 6 Conclusions"
+            }
+          ],
+          "justification": "The paper explicitly states the ontology improves communication among software engineers and stakeholders (distinct groups), matching the For Communicating positive signals 'communicate' and 'align stakeholders'."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "Secondly, as a domain reference model, OSDEF can be used for the development of issue trackers or other types of configuration management-related tools, since it is based on widely accepted standards.",
+              "section": "Section 6 Conclusions"
+            },
+            {
+              "quote": "Moreover, it can also be used for enabling interoperability between existing tools developed for these purposes.",
+              "section": "Section 6 Conclusions"
+            },
+            {
+              "quote": "Fourth, in addition to these uses as a reference model, an operational version of OSDEF (for instance, implemented in a logical language such as Common Logic or OWL) can be used to semantically annotate configuration management and software testing data that are directly related to the occurrence of software anomalies.",
+              "section": "Section 6 Conclusions"
+            }
+          ],
+          "justification": "The paper explicitly frames OSDEF's intended purpose as enabling tool development, interoperability, and semantic annotation; this matches the For Intervening signals 'used to enable interoperability' and 'used to create' as stated intended uses of the model."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "For a brief validation, we took real-world scenarios of famous cases of software failures and used the ontology to analyze them, showing that OSDEF is capable of representing and analyzing these situations.",
+              "section": "Section 4 Evaluation"
+            }
+          ],
+          "reason": "The analysis of failure cases is framed as ontology validation rather than as decision-making or identifying what needs to change; the link to problem-solving as a stated purpose is weak."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Secondly, as a domain reference model, OSDEF can be used for the development of issue trackers or other types of configuration management-related tools, since it is based on widely accepted standards.",
+              "section": "Section 6 Conclusions"
+            }
+          ],
+          "reason": "While the ontology serves as a 'reference model', the paper does not clearly frame it as a documentation/knowledge base for asynchronous consumption by absent parties; the reference-model role here is more about supporting tool development."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

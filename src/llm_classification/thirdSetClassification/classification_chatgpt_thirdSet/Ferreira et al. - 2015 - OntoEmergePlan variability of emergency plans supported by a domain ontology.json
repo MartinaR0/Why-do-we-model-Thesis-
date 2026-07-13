@@ -1,0 +1,82 @@
+{
+  "paper_id": "Ferreira et al. - 2015 - OntoEmergePlan variability of emergency plans supported by a domain ontology",
+  "annotator": "GPT-5 Codex",
+  "no_codable_model": false,
+  "input_limitations": [
+    "The extracted paper text contains encoding artifacts and figures are represented only as [FIGURE], but the main prose needed for classification is readable."
+  ],
+  "models": [
+    {
+      "model_label": "OntoEmergePlan well-founded emergency plan ontology",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The main goal of OntoEmergePlan is to support the generation of emergency plans, serving as a reference for common understanding and communication among people, systems and organizations.",
+              "section": "OntoEmergePlan: a well-founded emergency plan ontology"
+            },
+            {
+              "quote": "This paper presents a novel application of domain ontologies: for the generation of feature models in the context of document product line for emergency plans.",
+              "section": "Well Founded Domain Ontologies"
+            },
+            {
+              "quote": "The plan generation supported by this tool occurs in the second step, where the OE Plan is produced.",
+              "section": "DPL(EP) supported by OntoEmergePlan"
+            }
+          ],
+          "justification": "The ontology is explicitly framed as supporting generation of emergency plans and feature models, and the described process produces an OE Plan. Under the taxonomy, use for artifact generation or system development is For Intervening."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "To increase common understanding of plans, we propose an adaptation of this methodology by applying a well-founded emergency ontology, termed OntoEmergePlan, which supports the domain engineering phase.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "The main goal of OntoEmergePlan is to support the generation of emergency plans, serving as a reference for common understanding and communication among people, systems and organizations.",
+              "section": "OntoEmergePlan: a well-founded emergency plan ontology"
+            },
+            {
+              "quote": "A common understanding formalization brings consistency to the final feature model, enhanced by the constraints coming from the ontology as conceptual rules defined as OCL statements.",
+              "section": "Conclusion"
+            }
+          ],
+          "justification": "The paper directly states that the ontology is used to increase or formalize common understanding of emergency plans. This matches the domain understanding and shared meaning goal."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The main goal of OntoEmergePlan is to support the generation of emergency plans, serving as a reference for common understanding and communication among people, systems and organizations.",
+              "section": "OntoEmergePlan: a well-founded emergency plan ontology"
+            },
+            {
+              "quote": "The contributions of this work can be summarized as: (i) a proposal to adapt the existent method DPL(EP) to increase emergency plans quality and; (ii) the wellfounded emergency ontology OntoEmergePlan, which provides enough clarity to a community of users for better communication, also supporting systems development.",
+              "section": "Conclusion"
+            }
+          ],
+          "justification": "The paper explicitly says the ontology supports communication among people, systems, and organizations and provides clarity to a community of users. The evidence indicates communication between distinct stakeholder groups, satisfying the Communicating rule."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "The main goal of OntoEmergePlan is to support the generation of emergency plans, serving as a reference for common understanding and communication among people, systems and organizations.",
+              "section": "OntoEmergePlan: a well-founded emergency plan ontology"
+            }
+          ],
+          "reason": "The word reference hints at a persistent knowledge artifact, but the paper does not clearly state asynchronous documentation or later consumption by absent parties."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

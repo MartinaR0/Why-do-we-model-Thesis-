@@ -1,0 +1,99 @@
+{
+  "paper_id": "Bernasconi et al. - 2022 - Semantic interoperability ontological unpacking of a viral conceptual model",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "OntoVCM (Ontological Viral Conceptual Model)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "To foster semantic interoperability, models are needed that provide a deep understanding and interpretation of the concepts in a domain, so that the data can be consistently interpreted among researchers.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "We presented OntoVCM as a reference conceptual model providing conceptual clarification and ontological grounding for a particular perspective on the domain of viral information (infection, sampling, sequencing, annotations and depositing). As such, the model aims at supporting tasks such as domain understanding, unambiguous communication, and meaning negotiation, all of which are essential for semantic interoperability.",
+              "section": "Discussion"
+            },
+            {
+              "quote": "We have thus proposed the ontological unpacking as a method to unveil the semantics of a complex domain hidden behind information structures.",
+              "section": "Discussion"
+            }
+          ],
+          "justification": "The paper explicitly states the model aims to support 'domain understanding' and 'meaning negotiation' and to provide 'conceptual clarification' of the viral domain, matching the For Understanding definition (support domain understanding, clarify concepts, negotiate shared meaning). Signal patterns 'understand', 'clarify', 'meaning negotiation', and 'shared understanding' apply."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "we argue that a conceptual model should be able to provide conceptual clarification and unambiguous communication regarding the nature of entities and their connections, which are assumed to exist in a given domain.",
+              "section": "Background"
+            },
+            {
+              "quote": "As such, the model aims at supporting tasks such as domain understanding, unambiguous communication, and meaning negotiation, all of which are essential for semantic interoperability.",
+              "section": "Discussion"
+            },
+            {
+              "quote": "A broader application and adoption of the VCM within the context of virology research (by both life science domain experts and information systems' developers), however, requires that a more ontology-oriented approach is embraced, allowing the unambiguous identification of entities in the context of heterogeneous information.",
+              "section": "Background"
+            }
+          ],
+          "justification": "The model is explicitly framed as supporting 'unambiguous communication' between distinct groups (life science domain experts and information systems developers). Communicating signal pattern 'communicate' and 'bridge between' apply — the model bridges different stakeholder groups working with viral information."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "With the support of the existing OntoUML tool ecosystem [54], from this conceptual model a number of computational implementations can be systematically produced for different implementation platforms ranging from relational databases, to constraint satisfaction visual simulation languages (such as Alloy), to computational logic languages.",
+              "section": "Discussion"
+            },
+            {
+              "quote": "The model has already being successfully used for designing several search and visualization systems [14-16] and has been linked to a Phenotype Data Dictionary [17] and a knowledge base of SARS-CoV-2 mutations' impacts [18, 19].",
+              "section": "Background"
+            },
+            {
+              "quote": "thanks to the approach adopted here, from the OntoUML version of OntoVCM, several OWL/SWRL representations can be generated satisfying different sets of non-functional requirements for the same ontology [54, 55].",
+              "section": "Related work"
+            }
+          ],
+          "justification": "The paper explicitly frames the model as being used to systematically produce computational implementations (databases, OWL/SWRL representations) and its precursor VCM was actually used for designing search and visualization systems. Signal patterns 'used to create', 'generated artifact' apply. Medium confidence because most implementation talk for OntoVCM specifically is framed as future/potential, though the underlying VCM implementations and OntoUML-to-implementation generation are stated as the model's function."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "We first showed how the original VCM offers a restricted representation of the reality, hindering the correct understanding of all the processes behind the production and use of viral sequences.",
+              "section": "Discussion"
+            },
+            {
+              "quote": "It allows adopters to either endorse existing models as is or to highlight their missing elements, thus maximizing the added value of their information [25].",
+              "section": "Background"
+            }
+          ],
+          "reason": "The ontological unpacking identifies shortcomings of the VCM, which weakly aligns with 'identify shortcomings' signal, but the evidence primarily supports the Intervening/Understanding goals since the identified shortcomings are directly reflected in the new OntoVCM model rather than used as a separate decision-making activity."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "OntoVCM is based on the initial model but with guaranteed interoperability among the data sources that employ it.",
+              "section": "Conclusions"
+            }
+          ],
+          "reason": "The model serves as a reference for data sources, weakly suggesting a documentation/reference function, but the paper does not explicitly frame OntoVCM as documentation or a knowledge base for absent parties."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

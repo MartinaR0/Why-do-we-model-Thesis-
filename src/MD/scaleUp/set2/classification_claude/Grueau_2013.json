@@ -1,0 +1,57 @@
+{
+  "paper_id": "Grueau_2013",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Feature diagram (domain analysis model) for MASLUS (first step toward a DSML for agent-based models in Land Use Science)",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "In this paper we will only focus on the first phase of the DSML development: the domain analysis. The objective of this phase is to produce a domain model that will support the implementation of the DSML.",
+              "section": "Section 2. DSML Development"
+            },
+            {
+              "quote": "Next step of our work will consist of designing and implementing the DSML.",
+              "section": "Section 4. Conclusions and Further Work"
+            }
+          ],
+          "justification": "The paper explicitly frames the domain model's purpose as supporting the implementation of the DSML, matching the For Intervening signal of a model intended to enable artifact/system development."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "We performed a domain analysis and contributed to MASLUS field by presenting a feature model that illustrates vocabulary and key concepts of the problem domain.",
+              "section": "Section 4. Conclusions and Further Work"
+            },
+            {
+              "quote": "To identify which features are important for MASLUS, we first proceeded to the analysis of technical literature and identified MASLUS requirements.",
+              "section": "Section 2. DSML Development"
+            }
+          ],
+          "justification": "The feature model is explicitly presented as illustrating the vocabulary and key concepts of the problem domain, directly matching the For Understanding signals of clarify, conceptualize, and shared understanding of a domain."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "While Multi-Agent Systems are widely used in Land Use Science, it still remains challenging for scientists to specify their models in a manner that they can be understood and used by others.",
+              "section": "Abstract"
+            }
+          ],
+          "reason": "The communication concern is framed as a general motivation for the future DSML rather than as a stated purpose of the domain analysis model itself, so the link to For Communicating is indirect."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

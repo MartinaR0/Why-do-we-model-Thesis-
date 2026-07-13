@@ -1,0 +1,154 @@
+{
+  "paper_id": "Derave_2022",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": ["Markdown extraction contains duplicated paragraphs and figure placeholders, but content is fully readable."],
+  "models": [
+    {
+      "model_label": "Business Model Agnostic Sharing Platform Ontology (Figure 6)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "Asolution to lowering this complexity is using a sharing platform ontology which is 'an explicit specification of a conceptualization' [8] that 'provides a controlled vocabulary, standard terms and consensus and a shared meaning among players to interoperate, communicate and share'.", "section": "1. Introduction"},
+            {"quote": "These problems were tackled in the digital platform ontology modules [10] by conceptualizing the similarities and differences between the platform types in a way that all platform stakeholders can understand and discuss each type separately.", "section": "4. Development of the Business Model Agnostic Ontology for a Sharing Platform"},
+            {"quote": "The development of an ontology for different platform types can improve the communication of knowledge, assist in the understanding of the differences in platform types (e.g., sharing platform, digital marketplace, on-demand platform, crowdfunding platform), and help academia to set the scope of their research in the platform economy domain.", "section": "8. Conclusions"}
+          ],
+          "justification": "Paper explicitly frames the ontology as providing 'shared meaning', 'controlled vocabulary', and 'conceptualizing similarities and differences' to support domain understanding - matches positive signals (conceptualize, shared understanding, clarify)."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "The use of a sharing platform ontology allows for more effective communication and knowledge sharing amongst stakeholders in platform development and eventually drives the platform software development process.", "section": "Abstract"},
+            {"quote": "Without the availability of a domain ontology to provide a common language to facilitate communication, the SE domain cannot reach its maximum potential [7].", "section": "1. Introduction"},
+            {"quote": "An ontology can be seen as a common language all stakeholders can use to improve communication and software development.", "section": "8. Conclusions"}
+          ],
+          "justification": "The paper explicitly states the ontology supports communication between distinct stakeholder groups (public authorities, enterprises, consumers, developers) - matches positive signals (communicate, common language between stakeholders)."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "The use of a sharing platform ontology allows for more effective communication and knowledge sharing amongst stakeholders in platform development and eventually drives the platform software development process.", "section": "Abstract"}
+          ],
+          "reason": "The BM-agnostic sharing platform ontology is positioned more as a type-defining domain artifact rather than as the implementation instrument for a specific platform; the intervening role is fulfilled by the organization-specific ontologies, and direct implementation from this model is not framed as its purpose."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "An ontology promotes knowledge sharing, improves decision making, and supports knowledge reuse, and this again enables the rapid growth of the domain.", "section": "1. Introduction"}
+          ],
+          "reason": "Decision-making is mentioned as a general benefit of ontologies but not tied to specific decisions or evaluation activity supported by this BM-agnostic model."
+        }
+      ]
+    },
+    {
+      "model_label": "Organization-specific Ontology for BlaBlaCar (Figure 11)",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "The ultimate purpose of sharing platform organization-specific ontologies (such as the examples of BlaBlaCar and Couchsurfing presented in Figures 11 and 12) is to function as the conceptual design of the platform software.", "section": "6. Discussion"},
+            {"quote": "Using the DPO-based method illustrated in this paper, new ideas for sharing platforms and underlying business models can be explored, made explicit, and agreed upon by developing an organization-specific ontology, which can subsequently drive the development of the platform software.", "section": "6. Discussion"},
+            {"quote": "An organization-specific ontology can be used for ontology-driven software development, describing the intended software by specifying various aspects of the system ranging from the requirements, functionality, and data of the system to the architecture, design, and deployment.", "section": "8. Conclusions"}
+          ],
+          "justification": "The paper explicitly frames the organization-specific ontology as the intended instrument to drive platform software development and serve as conceptual design - matches the rule that explicitly stated intended use for implementation/system development counts as For Intervening."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "Furthermore, this BM-specific knowledge needs to be communicated amongst the stakeholders to guarantee a shared understanding of the intended platform and its BM choices [7].", "section": "3.2. DSRM Cycle 2"},
+            {"quote": "It is important to understand the influence of these BMvariations on the design of the platform software, especially the required functionality and user roles [11].", "section": "3.2. DSRM Cycle 2"}
+          ],
+          "justification": "Paper explicitly aims for shared understanding of the intended platform and its BM choices - matches positive signals (shared understanding, understand)."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "By modifying each design choice, the organization-specific ontology can also be used as a documentation artifact of what has been accomplished and in what direction the project is going.", "section": "6. Discussion"},
+            {"quote": "An organization-specific ontology can document software development in an easy, structural, and flexible manner.", "section": "7. Limitations and Future Research"},
+            {"quote": "It can be used to update the requirements throughout the development process using consistent terminology.", "section": "7. Limitations and Future Research"}
+          ],
+          "justification": "Paper explicitly names the ontology as a 'documentation artifact' that documents software development asynchronously for the team - matches positive signal (documentation)."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "The modular design makes it possible to analyze the influence of BM decisions on the organization-specific ontology, improving the flexibility, decision-making, and adaptability during the development of the intended software.", "section": "8. Conclusions"},
+            {"quote": "the extension of the DPO makes it easier for developers to analyze the influence of business model decisions on the creation of sharing platform software.", "section": "1. Introduction"}
+          ],
+          "justification": "Separate from the implementation role, the paper frames the model as supporting analysis of BM decision influence and improving decision-making - matches positive signals (decision, analyze options, evaluate)."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "Furthermore, this BM-specific knowledge needs to be communicated amongst the stakeholders to guarantee a shared understanding of the intended platform and its BM choices [7].", "section": "3.2. DSRM Cycle 2"},
+            {"quote": "An ontology can be seen as a common language all stakeholders can use to improve communication and software development.", "section": "8. Conclusions"}
+          ],
+          "justification": "Paper explicitly states the model is used to communicate BM-specific knowledge between stakeholders - matches positive signals (communicate, align stakeholders)."
+        }
+      ],
+      "uncertain_goals": []
+    },
+    {
+      "model_label": "Organization-specific Ontology for Couchsurfing (Figure 12)",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "The ultimate purpose of sharing platform organization-specific ontologies (such as the examples of BlaBlaCar and Couchsurfing presented in Figures 11 and 12) is to function as the conceptual design of the platform software.", "section": "6. Discussion"},
+            {"quote": "Using the DPO-based method illustrated in this paper, new ideas for sharing platforms and underlying business models can be explored, made explicit, and agreed upon by developing an organization-specific ontology, which can subsequently drive the development of the platform software.", "section": "6. Discussion"}
+          ],
+          "justification": "Same as BlaBlaCar - paper frames the organization-specific ontology as the intended instrument to drive software development as conceptual design."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "Furthermore, this BM-specific knowledge needs to be communicated amongst the stakeholders to guarantee a shared understanding of the intended platform and its BM choices [7].", "section": "3.2. DSRM Cycle 2"}
+          ],
+          "justification": "Paper explicitly aims for shared understanding of the intended platform's BM choices."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "By modifying each design choice, the organization-specific ontology can also be used as a documentation artifact of what has been accomplished and in what direction the project is going.", "section": "6. Discussion"},
+            {"quote": "An organization-specific ontology can document software development in an easy, structural, and flexible manner.", "section": "7. Limitations and Future Research"}
+          ],
+          "justification": "Paper explicitly names the organization-specific ontology as a documentation artifact for software development."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "The modular design makes it possible to analyze the influence of BM decisions on the organization-specific ontology, improving the flexibility, decision-making, and adaptability during the development of the intended software.", "section": "8. Conclusions"}
+          ],
+          "justification": "Paper frames the model as supporting analysis of BM decision influence and improving decision-making."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "Furthermore, this BM-specific knowledge needs to be communicated amongst the stakeholders to guarantee a shared understanding of the intended platform and its BM choices [7].", "section": "3.2. DSRM Cycle 2"},
+            {"quote": "An ontology can be seen as a common language all stakeholders can use to improve communication and software development.", "section": "8. Conclusions"}
+          ],
+          "justification": "Paper explicitly states the model communicates BM-specific knowledge between stakeholders."
+        }
+      ],
+      "uncertain_goals": []
+    }
+  ],
+  "outside_taxonomy": []
+}

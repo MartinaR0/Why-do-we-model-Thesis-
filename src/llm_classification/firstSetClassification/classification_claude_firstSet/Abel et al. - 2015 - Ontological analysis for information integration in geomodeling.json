@@ -1,0 +1,88 @@
+{
+  "paper_id": "Abel et al. - 2015 - Ontological analysis for information integration in geomodeling",
+  "annotator": "claude-opus-4",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Ontological conceptual model of the Petroleum System (in OntoUML, based on UFO)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "We showed that few ontological properties inhered to concepts - identity, rigidity, essentiality and unity -are enough to clarify the meaning of the modeled entities and to define the similarities and identities between models and data.",
+              "section": "Discussion and Conclusion"
+            },
+            {
+              "quote": "Our focus is to use ontologies for making explicit (a) the set of categories of entities that are supposed to exist in a given domain, and (b) the meaning that is assigned to each of these categories.",
+              "section": "Conceptualization, knowledge models and ontologies"
+            },
+            {
+              "quote": "The goal of ontologies is to characterize the meaning of the basic ontological categories used to describe the domain and to restrict the number of possible interpretations of knowledge models in the epistemological level (Guarino 1995).",
+              "section": "Conceptualization, knowledge models and ontologies"
+            }
+          ],
+          "justification": "The model is explicitly built to clarify the meaning of geological concepts and make ontological categories explicit — matching the 'clarify', 'define', 'conceptualize' positive signals for For Understanding."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "This allows solving the difficulties due to the heterogeneity of modeling languages by identifying, among the many entities and properties considered by the geologists, those that are eligible for being mapped from one model to another, not considering the name that they bear or the format in which they are represented.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "The goal of the present paper is to provide to the Geosciences field some tools for dealing with the issues related to data heterogeneity and notably those related to conceptualization and to representation formalisms.",
+              "section": "Introduction"
+            },
+            {
+              "quote": "This directive is critical to guarantee model integration since rigid sortals are those that are effectively found in all geological models even under different representations.",
+              "section": "Rigid sortals and roles"
+            },
+            {
+              "quote": "Our claim is that interoperability among earth models built and manipulated by different professionals and systems, can be achieved by making apparent the intended meaning of the geological entities represented in the models.",
+              "section": "Discussion and Conclusion"
+            }
+          ],
+          "justification": "The model is explicitly framed as an instrument for enabling information integration and interoperability across geological models and systems — matching the 'used to enable interoperability' positive signal for For Intervening."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "This paper also discusses how to build good models for further integration, avoiding some common misuse of hierarchical and partonomy relationships, and the limitations of the current available representation languages.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "In addition, the understanding of the modeling principles can lead to clean the future models of the entities that have no proper existence in reality (i.e., that have no instances).",
+              "section": "Discussion and Conclusion"
+            },
+            {
+              "quote": "The misuse of subclass and part-of relations are mostly a consequence of the lack of understanding of the ontological properties of the entities.",
+              "section": "Subsumption relationships"
+            }
+          ],
+          "justification": "The ontological analysis is used to identify shortcomings and misuses (subsumption, part-of) in existing modeling practices and to guide modelers in deciding what should change — matching 'identify shortcomings' and 'what should change' signals for For Problem-solving, separate from the implementation/integration claim."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Conceptualizations and models are abstract entities that only exist in geologists ' mind. In order to be documented, communicated and analyzed, they need to be externalized in specifications, using a representation language that is acknowledged by the community that will use the model.",
+              "section": "Conceptualization, knowledge models and ontologies"
+            }
+          ],
+          "reason": "The statement is a general claim about models in principle rather than evidence that the authors' Petroleum System model was actually used to support communication between distinct stakeholder groups."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

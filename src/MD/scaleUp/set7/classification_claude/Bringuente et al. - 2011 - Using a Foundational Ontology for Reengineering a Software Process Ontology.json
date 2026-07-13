@@ -1,0 +1,64 @@
+{
+  "paper_id": "Bringuente et al. - 2011 - Using a Foundational Ontology for Reengineering a Software Process Ontology",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Reengineered Software Process Ontology (SPO) based on UFO",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "Our focus is directed towards concepts involved in management activities that are related to process definition, scheduling and resource allocation, since we intend to use the reengineered version of this ontology as basis for integrating tools supporting these activities.", "section": "Section 1. INTRODUCTION"},
+            {"quote": "The new version of the SPO is now being used as the basis for integrating software tools for supporting software project planning.", "section": "Section 7. FINAL CONSIDERATIONS"},
+            {"quote": "Our approach is to use the new version of the SPO as an interlingua to align the concepts and relations from their conceptual models.", "section": "Section 7. FINAL CONSIDERATIONS"},
+            {"quote": "These mappings are being used to integrate the tools.", "section": "Section 7. FINAL CONSIDERATIONS"}
+          ],
+          "justification": "The paper explicitly states that the SPO is being used as the basis to integrate software tools (DefPro, ControlPro, AlocaODE, Endeavour) and serves as an interlingua to align conceptual models. This is active implementation use of the model, matching the For Intervening signal pattern (e.g., 'used to enable interoperability')."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "The main goal is to help modelers externalize their knowledge about the domain, to make their ontological commitments explicit to support meaning negotiation, and to improve the tasks of domain communication, learning and problem solving [Guizzardi et al. 2010].", "section": "Section 1. INTRODUCTION"},
+            {"quote": "This corroborates the fact that using UFO as basis for ontology reengineering helped us to externalize the knowledge about the domain, making the ontological commitments explicit, as pointed in [Guizzardi et al. 2010].", "section": "Section 5.5 / Section 5"},
+            {"quote": "For a good understanding of these tasks, we need a shared conceptualization regarding software processes.", "section": "Section 4. THE SOFTWARE PROCESS ONTOLOGY"}
+          ],
+          "justification": "The authors explicitly frame the model's purpose as supporting meaning negotiation, externalizing domain knowledge, and making ontological commitments explicit. This matches the For Understanding positive signals ('meaning negotiation', 'shared understanding', 'clarify', 'conceptualize')."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "The use of UFO proved to be useful for identifying problems and for driving the ontology reengineering, especially expliciting the ontological commitments that differs between standard process, project process, scheduled process and process occurrence.", "section": "Section 7. FINAL CONSIDERATIONS"},
+            {"quote": "Although an important ontological analysis was done in [Guizzardi et al. 2008], there are many aspects that remained open. What is a standard process? What is the difference from an activity that is defined in the project process and the one that is scheduled and performed? How can we treat people allocation? To answer these and other questions, we go a step ahead in the SPO reengineered process.", "section": "Section 4. THE SOFTWARE PROCESS ONTOLOGY"}
+          ],
+          "justification": "Beyond implementation, the paper describes using the prior model to identify shortcomings and problems (e.g., 'identifying problems', open questions about distinctions) that drove the reengineering. This matches the For Problem-solving signals ('identify shortcomings', 'what should change') and constitutes separate evidence from the implementation use."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "The Software Process Ontology (SPO) originally developed in [Falbo and Bertollo 2009] was built aiming at establishing a common conceptualization for software organizations to talk about software process.", "section": "Section 4. THE SOFTWARE PROCESS ONTOLOGY"},
+            {"quote": "Ideally, people and tools should share a common conceptualization regarding this domain for allowing interoperability, and correct use of the tools.", "section": "Abstract"},
+            {"quote": "The main goal is to help modelers externalize their knowledge about the domain, to make their ontological commitments explicit to support meaning negotiation, and to improve the tasks of domain communication, learning and problem solving [Guizzardi et al. 2010].", "section": "Section 1. INTRODUCTION"}
+          ],
+          "justification": "The paper explicitly states the ontology is built to allow organizations to 'talk about software process' and supports 'domain communication' between people sharing a common conceptualization, matching the For Communicating positive signals ('communicate', 'align stakeholders')."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Learning",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "The main goal is to help modelers externalize their knowledge about the domain, to make their ontological commitments explicit to support meaning negotiation, and to improve the tasks of domain communication, learning and problem solving [Guizzardi et al. 2010].", "section": "Section 1. INTRODUCTION"}
+          ],
+          "reason": "The word 'learning' appears in a quoted statement of general benefits of reference ontologies, but it refers to domain learning (about software processes), not learning modeling methods/notations — which the disambiguation rule excludes from For Learning."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

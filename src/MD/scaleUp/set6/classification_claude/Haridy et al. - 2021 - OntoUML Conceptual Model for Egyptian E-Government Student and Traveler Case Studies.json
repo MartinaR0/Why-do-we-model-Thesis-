@@ -1,0 +1,113 @@
+{
+  "paper_id": "Haridy et al. - 2021 - OntoUML Conceptual Model for Egyptian E-Government Student and Traveler Case Studies",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "OntoUML conceptual model of Egyptian E-Government - Student case study",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Conceptual models were developed to help stakeholders better understand and communicate about a system or domain.",
+              "section": "I. Introduction"
+            },
+            {
+              "quote": "The model has the potential to improve knowledge of crucial issues, particularly in Egypt's e-government development process.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "This model enhances the understanding of important issues in eGovernment development process in Egypt.",
+              "section": "VI. Conclusion"
+            }
+          ],
+          "justification": "Authors explicitly frame the conceptual model's purpose as improving understanding/knowledge of the Egyptian e-government domain, which is a domain-understanding goal."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "It is also expected to be used to assess the adoption of ICT in government institutions.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "Moreover, it is expected to be used as an evaluation in government institutions.",
+              "section": "VI. Conclusion"
+            }
+          ],
+          "reason": "Assessment/evaluation use is stated only as future/expected use, not as an actualized purpose, so evidence is hypothetical."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "This model has been implemented using OLED [25]. It is a model-based environment that supports the task of formalization, implementation, verification and validation of OntoUML models.",
+              "section": "V. Proposed Conceptual Model"
+            }
+          ],
+          "reason": "'Implemented using OLED' refers to formalizing the model in a modeling environment rather than deploying a real-world system; no artifact/system generation is demonstrated."
+        }
+      ]
+    },
+    {
+      "model_label": "OntoUML conceptual model of Egyptian E-Government - Traveler case study",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Conceptual models were developed to help stakeholders better understand and communicate about a system or domain.",
+              "section": "I. Introduction"
+            },
+            {
+              "quote": "The model has the potential to improve knowledge of crucial issues, particularly in Egypt's e-government development process.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "This model enhances the understanding of important issues in eGovernment development process in Egypt.",
+              "section": "VI. Conclusion"
+            }
+          ],
+          "justification": "The Traveler portion is presented as another fragment of the same OntoUML conceptual model whose stated purpose is to enhance domain understanding of the Egyptian e-government."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "It is also expected to be used to assess the adoption of ICT in government institutions.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "Moreover, it is expected to be used as an evaluation in government institutions.",
+              "section": "VI. Conclusion"
+            }
+          ],
+          "reason": "Assessment/evaluation is described only as an expected future application, not something demonstrated in this paper."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "This model has been implemented using OLED [25]. It is a model-based environment that supports the task of formalization, implementation, verification and validation of OntoUML models.",
+              "section": "V. Proposed Conceptual Model"
+            }
+          ],
+          "reason": "'Implemented' here means formalized in the OntoUML editor rather than used to build/deploy a system; no downstream artifact generation is shown."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

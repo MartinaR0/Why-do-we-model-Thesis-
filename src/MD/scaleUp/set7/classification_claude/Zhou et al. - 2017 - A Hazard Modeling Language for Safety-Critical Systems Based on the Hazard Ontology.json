@@ -1,0 +1,52 @@
+{
+  "paper_id": "Zhou et al. - 2017 - A Hazard Modeling Language for Safety-Critical Systems Based on the Hazard Ontology",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": ["Figures (e.g., Figures 1-6) are referenced but not visible in the extracted text; classification relies on the surrounding prose."],
+  "models": [
+    {
+      "model_label": "Hazard Modeling Language (HML) based on the Hazard Ontology",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "However, since various stakeholders will be involved in the identification process, a  common  understanding  of  the  nature  of  hazards  among stakeholders, such as what a hazard consists of and how to describe it without ambiguities, is of crucial importance to achieve the goal of  PHA.", "section": "Abstract"},
+            {"quote": "The HO aims to achieve a better understanding of the concept of hazard from modelers and model users point of view.", "section": "I. INTRODUCTION"},
+            {"quote": "it suffers from a lack of hazard conceptualization that underpins the negotiation of hazards for various stakeholders", "section": "I. INTRODUCTION"}
+          ],
+          "justification": "The model is explicitly framed as supporting a 'common understanding of the nature of hazards' and 'hazard conceptualization', which matches the For Understanding signals ('understand', 'conceptualize', 'shared understanding')."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "In this way, we aim to provide  a  structured  and  unambiguous  hazard  specification which can facilitate the communication and negotiation between various stakeholders in the PHA.", "section": "VI. CONCLUSION AND FUTURE WORK"},
+            {"quote": "The main drawbacks of using such tabular hazard descriptions to serve as a communication basis, lie in that: 1) it suffers from a lack of hazard conceptualization that underpins the negotiation of hazards for various stakeholders", "section": "I. INTRODUCTION"}
+          ],
+          "justification": "The paper explicitly states the HML specification is intended to 'facilitate the communication and negotiation between various stakeholders', which bridges distinct groups (developers, organizations, authorities) — matching the Communicating signals ('communicate', 'align stakeholders', 'bridge between')."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "In addition, we present an approach to guide the  transformation  from  natural  language  hazard  descriptions into the HML specification.", "section": "Abstract"},
+            {"quote": "it will be of great interest to explore the possibility of  using  a  formal  hazard  specification  as  a  starting  point  to facilitate the process of defining hazard mitigation mechanisms.", "section": "VI. CONCLUSION AND FUTURE WORK"}
+          ],
+          "reason": "Although the HML enables transformation/formalization of NL descriptions, the further use to build hazard mitigation mechanisms is framed as future exploratory work, not a present intervention; the transformation itself produces a specification but not a deployed artifact or system."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "NL hazard descriptions (NLHD) cannot efficiently highlight the information  that  are  of  paramount  importance  for  subsequent risk  reduction  activities", "section": "I. INTRODUCTION"}
+          ],
+          "reason": "The link to decision-making or option analysis is indirect; the paper hints the HML supports subsequent risk reduction but does not explicitly describe the model as guiding decisions or identifying shortcomings."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

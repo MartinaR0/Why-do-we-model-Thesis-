@@ -1,0 +1,36 @@
+{
+  "paper_id": "Porello_2020",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": ["Figures referenced (Fig. 1-4) are not rendered in the markdown extraction; classification is based on the textual descriptions of the OntoUML model."],
+  "models": [
+    {
+      "model_label": "OntoUML model of economic exchanges based on the Action Theory of Exchanges (ATE) in UFO",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "An ontological analysis of economic exchanges has to provide an understanding of what economic exchanges are, of what is exchanged in transactions, and of the reasons that explains why the exchange happens.", "section": "1 Introduction"},
+            {"quote": "The goal of this paper is to use ATE as a guide to lay down the main foundational aspects for modelling economic exchanges.", "section": "1 Introduction"},
+            {"quote": "In the subsequent sections, we shall develop an ontological understanding of economic exchanges according to ATE.", "section": "1 Introduction"},
+            {"quote": "We provided the first elements for a well-founded ontological analysis of economic exchanges based on the action theory of exchanges proposed by [17].", "section": "5 Conclusion and Future Work"}
+          ],
+          "justification": "The paper explicitly frames the model's purpose as providing an ontological understanding/analysis of the domain (economic exchanges) — clarifying what they are, what is exchanged, and why exchanges happen. This matches the For Understanding signals 'understand', 'clarify', 'conceptualize'."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "So to put the theory at work in possible modelling applications, we present a simplified version of a OntoUML model of economic exchanges.", "section": "1 Introduction"},
+            {"quote": "For this reason, we plan to use this framework to provide a general ontology of economic phenomena in a future dedicated paper.", "section": "5 Conclusion and Future Work"}
+          ],
+          "reason": "The model is presented as a foundational/simplified illustration with 'possible modelling applications' and implementation uses are deferred to future work; no system, artifact, or implementation is built from the model in this paper, matching the negative signal 'future work'."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

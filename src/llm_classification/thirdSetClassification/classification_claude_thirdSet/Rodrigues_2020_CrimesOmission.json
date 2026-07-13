@@ -1,0 +1,55 @@
+{
+  "paper_id": "Rodrigues_2020_CrimesOmission",
+  "annotator": "claude-opus-4",
+  "no_codable_model": false,
+  "input_limitations": ["Several figures and DL axiom blocks are rendered as [FIGURE] placeholders or empty lines in the extracted markdown, but the surrounding prose still describes the model's purpose and use clearly."],
+  "models": [
+    {
+      "model_label": "OntoCrime: Criminal Core Ontology grounded on UFO (covering Crimes of Omission)",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "The goal of this paper is to engineer a concise core ontology that does not over-constrain reality with unneeded axioms, focusing on tackling the challenges surrounding the Criminal and Positive Legal Theory.", "section": "Section 1. Introduction"},
+            {"quote": "AI & LAW focuses on tackling the challenges surrounding the development of legal ontologies to assign meaning to legal provisions.", "section": "Abstract"},
+            {"quote": "Secondly, the inaction of an agent when there is a legal obligation to prevent an undesirable result against a legal right protected by the state is an event that until has not heretofore been properly conceptualized given the difficulties and lack of consensus among the underlying philosophical theories.", "section": "Section 8. Conclusion"},
+            {"quote": "In this paper, the assumptions and commitments surrounding the criminal law system are made explicit, through the use of ontological models", "section": "Section 8. Conclusion"}
+          ],
+          "justification": "The paper explicitly frames the ontology as a means to conceptualize, clarify and assign meaning to criminal-law concepts (especially the under-theorized notion of crimes of omission). This matches the Understanding signal pattern ('conceptualize', 'assign meaning', 'make explicit')."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "A core ontology is justified for indexing domain ontology libraries and providing a standard knowledge skeleton upon which to instantiate other conceptual models.", "section": "Section 1. Introduction"},
+            {"quote": "The full ontology (OntoCrime) can be found at https://github.com/cleytonrodrigues/Tese .", "section": "Section 5.3"}
+          ],
+          "justification": "The authors frame the core ontology as a reusable knowledge skeleton/reference for indexing domain ontology libraries and publish the full ontology as a persistent repository — both fit the Documenting signal pattern ('knowledge base', 'reference', 'repository') as asynchronous reference for others not part of the original modeling process."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "Through these ontologies, it is possible to perform lawsuit simulation, such as the identification of a crime and imposition of penalties. At the end of this paper, we detail these possibilities for future work.", "section": "Abstract"},
+            {"quote": "The goal is to build a framework of criminal ontologies, that are accessible through web-based autonomous services capable of performing legal simulations that aid in decision-making.", "section": "Section 8. Conclusion"},
+            {"quote": "Finally, an ongoing project is the development of a prototype, in which an ordinary user can simulate lawsuits for real or fictitious cases through a user-friendly interface, without needing to deal with the low-level modeling formalisms.", "section": "Section 8. Conclusion"}
+          ],
+          "reason": "Implementation (LEGIS prototype, web-based services) is explicitly framed as future/ongoing work rather than as a use already realized through this model; per the rule against coding hypothetical/future uses, evidence is weak."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "an ontological representation through which the normative code can be formalized in a machine-readable fashion to support decision making in the legal domain was proposed: OntoCrime.", "section": "Section 6. Related work"},
+            {"quote": "The results obtained thus far should improve the juridical understanding of layperson and aid in the labor-intensive task of lawsuits performed by professional jurists.", "section": "Section 8. Conclusion"}
+          ],
+          "reason": "Decision-making support is mentioned only briefly in related-work framing and as anticipated benefits of future systems rather than as a demonstrated use of the present model, so the link to Problem-solving rests on weak/indirect evidence."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

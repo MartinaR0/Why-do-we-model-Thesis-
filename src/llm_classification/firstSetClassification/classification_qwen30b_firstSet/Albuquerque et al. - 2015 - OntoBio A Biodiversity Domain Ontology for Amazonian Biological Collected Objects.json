@@ -1,0 +1,100 @@
+{
+  "paper_file": "Albuquerque et al. - 2015 - OntoBio A Biodiversity Domain Ontology for Amazonian Biological Collected Objects.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "OntoBio_Biodiversity_Ontology",
+    "annotator": "LLM model name",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "OntoBio",
+        "goals": [
+          {
+            "goal": "For Intervening",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "OntoBio has contributed to knowledge organization and has been used in real world situations such as INPA's Biological Collection Program serving as a central object of investigation for the previously mentioned issues.",
+                "section": "Section 3. Conclusions"
+              },
+              {
+                "quote": "The development of OntoBio showed that even when dealing with a complex domain, it is possible to model structured/semistructured knowledge from preexisting databases.",
+                "section": "Section 3. Conclusions"
+              }
+            ],
+            "justification": "The paper explicitly states that OntoBio has been used in real-world situations (INPA's Biological Collection Program) and serves as a central object of investigation, indicating active use in a practical context. This constitutes strong evidence of intervention, as the model is directly enabling or guiding real-world application."
+          },
+          {
+            "goal": "For Problem-solving",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "This is one of the reasons that the integration of biodiversity data and ecological studies is not considered trivial. Solutions for interoperability are needed for research in this field.",
+                "section": "Section 1. Introduction"
+              },
+              {
+                "quote": "The need for integration of the biodiversity informatics community finally converges with environmental science fields, and therefore relies on multi and interdisciplinary data for integrated or holistic understanding.",
+                "section": "Section 3. Conclusions"
+              }
+            ],
+            "justification": "The paper frames OntoBio as a solution to the problem of data integration and interoperability in biodiversity research, which is explicitly described as a key challenge. The model is presented as a means to address this problem, satisfying the definition of For Problem-solving."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "The use of graphical tools to visualize ontologies is important for capturing the ontology concepts and for training professionals for ontology development.",
+                "section": "Section 3. Conclusions"
+              }
+            ],
+            "justification": "The mention of graphical tools for visualization and training suggests that the model is used to facilitate communication and understanding among stakeholders, particularly in training contexts. While not explicitly about stakeholder alignment, the context implies communication between experts and developers."
+          },
+          {
+            "goal": "For Documenting",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "It is available with sub-ontology schemas at http://lis.inpa.gov.br/biodiversityontology/.",
+                "section": "Section 2.4. Competence Questions (CQs)"
+              },
+              {
+                "quote": "The final result was unsatisfactory since the conceptual model used for modelling data was semantically meaningless and the ontology editor itself was just a coding language.",
+                "section": "Section 2.6. Development Details"
+              }
+            ],
+            "justification": "The model is explicitly made publicly available as a resource for future use, and the paper discusses its role in knowledge organization and as a reference for ongoing research. This aligns with the definition of Documenting, as it serves as a persistent, accessible reference for future users."
+          },
+          {
+            "goal": "For Learning",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "The use of graphical tools to visualize ontologies is important for capturing the ontology concepts and for training professionals for ontology development.",
+                "section": "Section 3. Conclusions"
+              }
+            ],
+            "justification": "The paper highlights the importance of graphical tools for training professionals, implying that OntoBio is used as a learning resource for understanding ontology development methods and tools, particularly in the context of domain modeling."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Understanding",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "Ontologies have emerged as tools for representing, organizing and sharing knowledge in a given domain, allowing several areas of application to use them for managing knowledge.",
+                "section": "Section 1. Introduction"
+              }
+            ],
+            "reason": "The statement is general and describes ontologies in general, not the specific purpose of OntoBio. It does not indicate that the model was created to build shared understanding or clarify domain concepts within the team or between stakeholders."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"OntoBio_Biodiversity_Ontology\",\n  \"annotator\": \"LLM model name\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"OntoBio\",\n      \"goals\": [\n        {\n          \"goal\": \"For Intervening\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"OntoBio has contributed to knowledge organization and has been used in real world situations such as INPA's Biological Collection Program serving as a central object of investigation for the previously mentioned issues.\",\n              \"section\": \"Section 3. Conclusions\"\n            },\n            {\n              \"quote\": \"The development of OntoBio showed that even when dealing with a complex domain, it is possible to model structured/semistructured knowledge from preexisting databases.\",\n              \"section\": \"Section 3. Conclusions\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that OntoBio has been used in real-world situations (INPA's Biological Collection Program) and serves as a central object of investigation, indicating active use in a practical context. This constitutes strong evidence of intervention, as the model is directly enabling or guiding real-world application.\"\n        },\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"This is one of the reasons that the integration of biodiversity data and ecological studies is not considered trivial. Solutions for interoperability are needed for research in this field.\",\n              \"section\": \"Section 1. Introduction\"\n            },\n            {\n              \"quote\": \"The need for integration of the biodiversity informatics community finally converges with environmental science fields, and therefore relies on multi and interdisciplinary data for integrated or holistic understanding.\",\n              \"section\": \"Section 3. Conclusions\"\n            }\n          ],\n          \"justification\": \"The paper frames OntoBio as a solution to the problem of data integration and interoperability in biodiversity research, which is explicitly described as a key challenge. The model is presented as a means to address this problem, satisfying the definition of For Problem-solving.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The use of graphical tools to visualize ontologies is important for capturing the ontology concepts and for training professionals for ontology development.\",\n              \"section\": \"Section 3. Conclusions\"\n            }\n          ],\n          \"justification\": \"The mention of graphical tools for visualization and training suggests that the model is used to facilitate communication and understanding among stakeholders, particularly in training contexts. While not explicitly about stakeholder alignment, the context implies communication between experts and developers.\"\n        },\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"It is available with sub-ontology schemas at http://lis.inpa.gov.br/biodiversityontology/.\",\n              \"section\": \"Section 2.4. Competence Questions (CQs)\"\n            },\n            {\n              \"quote\": \"The final result was unsatisfactory since the conceptual model used for modelling data was semantically meaningless and the ontology editor itself was just a coding language.\",\n              \"section\": \"Section 2.6. Development Details\"\n            }\n          ],\n          \"justification\": \"The model is explicitly made publicly available as a resource for future use, and the paper discusses its role in knowledge organization and as a reference for ongoing research. This aligns with the definition of Documenting, as it serves as a persistent, accessible reference for future users.\"\n        },\n        {\n          \"goal\": \"For Learning\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The use of graphical tools to visualize ontologies is important for capturing the ontology concepts and for training professionals for ontology development.\",\n              \"section\": \"Section 3. Conclusions\"\n            }\n          ],\n          \"justification\": \"The paper highlights the importance of graphical tools for training professionals, implying that OntoBio is used as a learning resource for understanding ontology development methods and tools, particularly in the context of domain modeling.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Understanding\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"Ontologies have emerged as tools for representing, organizing and sharing knowledge in a given domain, allowing several areas of application to use them for managing knowledge.\",\n              \"section\": \"Section 1. Introduction\"\n            }\n          ],\n          \"reason\": \"The statement is general and describes ontologies in general, not the specific purpose of OntoBio. It does not indicate that the model was created to build shared understanding or clarify domain concepts within the team or between stakeholders.\"\n        }\n      ]\n    }\n  ],\n  \"outside\\_taxonomy\": []\n}",
+  "seconds": 19.4
+}

@@ -1,0 +1,79 @@
+{
+  "paper_id": "Mario de Oliveira Rodrigues et al. - 2020 - Handling Crimes of Omission by reconciling a criminal core ontology with UFO",
+  "annotator": "GPT-5 Codex",
+  "no_codable_model": false,
+  "input_limitations": [
+    "The extracted paper text contains character encoding artifacts, figures are represented only as [FIGURE], and some formulas are not decoded, but the main sections are readable."
+  ],
+  "models": [
+    {
+      "model_label": "Criminal Core Ontology for Crimes of Omission",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "The goal of this paper is to engineer a concise core ontology that does not over-constrain reality with unneeded axioms, focusing on tackling the challenges surrounding the Criminal and Positive Legal Theory.",
+              "section": "Section 1 Introduction"
+            },
+            {
+              "quote": "In addition, the UFO primitive constructors and restrictions are utilized to explore a crime type that is little discussed in the literature: crimes caused by 'acts of omission'.",
+              "section": "Section 1 Introduction"
+            },
+            {
+              "quote": "In this paper, the assumptions and commitments surrounding the criminal law system are made explicit, through the use of ontological models, due two reasons little explored over the years.",
+              "section": "Section 8 Conclusion"
+            },
+            {
+              "quote": "Secondly, the inaction of an agent when there is a legal obligation to prevent an undesirable result against a legal right protected by the state is an event that until has not heretofore been properly conceptualized given the difficulties and lack of consensus among the underlying philosophical theories.",
+              "section": "Section 8 Conclusion"
+            }
+          ],
+          "justification": "The authors explicitly frame the ontology as making criminal-law assumptions and commitments explicit and as conceptualizing crimes of omission. This directly matches domain understanding and conceptual clarification."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "This paper describes a core legal ontology, built top-down from the UFO foundational ontology, engineered using the positivist legal theory of Hans Kelsen, fostering reusability across a plurality of the criminal field.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "According to our literature review, to the best of our knowledge, the core ontology proposed in this work is the first that brings together a criminal (positivist) legal theory with the underlying philosophical theories of a foundational ontology, in an approach that transcends purely conceptual notion towards the construction of practical applications.",
+              "section": "Section 6 Related work"
+            },
+            {
+              "quote": "In other words, by raising criminal concepts to a foundational ontology, the range of extension possibilities from the core ontology is decreased, while at the same time allowing users to reduce difficulties and errors in the construction of domain and application ontologies for real practical systems.",
+              "section": "Section 6 Related work"
+            }
+          ],
+          "justification": "The paper presents the core ontology as reusable support for constructing domain and application ontologies for practical systems. This fits Intervening as an intended instrument for building or integrating artifacts, although the paper mainly demonstrates the model conceptually rather than reporting a deployed implementation."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Through these ontologies, it is possible to perform lawsuit simulation, such as the identification of a crime and imposition of penalties.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "The goal is to build a framework of criminal ontologies, that are accessible through web-based autonomous services capable of performing legal simulations that aid in decision-making.",
+              "section": "Section 8 Conclusion"
+            },
+            {
+              "quote": "The results obtained thus far should improve the juridical understanding of layperson and aid in the labor-intensive task of lawsuits performed by professional jurists.",
+              "section": "Section 8 Conclusion"
+            }
+          ],
+          "reason": "The paper links the ontologies to lawsuit simulation and decision support, but this is mostly framed as possible, future, or ongoing system work rather than a present use of the presented model for decision-making."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

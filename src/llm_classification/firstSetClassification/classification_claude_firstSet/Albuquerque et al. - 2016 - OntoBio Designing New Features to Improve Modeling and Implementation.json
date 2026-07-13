@@ -1,0 +1,84 @@
+{
+  "paper_id": "Albuquerque et al. - 2016 - OntoBio Designing New Features to Improve Modeling and Implementation",
+  "annotator": "claude-opus-4",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "OntoBio (formal ontology for biodiversity data)",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "OntoBio, a formal ontology applied to biodiversity data, provided important results with already validated technology for the adoption of formal ontologies to knowledge acquisition and integration in biodiversity field.",
+              "section": "1. Introduction"
+            },
+            {
+              "quote": "OntoBio is developed using tools in a sequential order to provide a better code result.",
+              "section": "4. Implementational Issues"
+            },
+            {
+              "quote": "The ontological schema in (.xmi) file format must be imported by Menthor and then can be converted to a (.owl) file format.",
+              "section": "4. Implementational Issues"
+            },
+            {
+              "quote": "The original OntoBio and a trial version of OntoBio with some of these changes can be found at portal.inpa.gov.br/ctin/lis/ontobio/.",
+              "section": "3. OntoBio's Evolution Based on Tacit Knowledge Through a Conceptual Framework"
+            }
+          ],
+          "justification": "The ontology is actually implemented (developed through SABIO method, converted to OWL via Menthor, deployed at a URL) and used to enable knowledge acquisition and integration in biodiversity — matching the For Intervening positive signals 'implemented', 'used to enable interoperability'."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "This paper presents OntoBio's limitations regarding conceptualization and implementational aspects and new features aiming to indicate accurate recommendations for OntoBio's evolution, by emphasizing several aspects that must be considered when designing a new version of the ontology.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "The validation identified recurrent modeling decisions that are error prone and they were presented in [Sales 2012].",
+              "section": "2. OntoBio's New Features"
+            },
+            {
+              "quote": "This research revealed some conceptual misunderstandings and ontology language limitations.",
+              "section": "5. Conclusions"
+            }
+          ],
+          "justification": "The model is used to identify shortcomings, limitations, and recommendations for evolution — matching For Problem-solving signals 'identify shortcomings', 'evaluate', 'what should change'. This is separate evidence from implementation, since the model is examined to surface what needs to change."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "A conceptual framework was proposed to aggregate scientific tacit knowledge into ontologies [Albuquerque et al., 2016]. The new version of OntoBio incorporates more semantics to the model and the availability of a version with features that allow its use in more complex applications (taxonomic classification).",
+              "section": "1. Introduction"
+            },
+            {
+              "quote": "A conceptual framework can be used to integrate specialists' mental models, aiming to map semantic components of attachable structures to formal ontologies.",
+              "section": "3. OntoBio's Evolution Based on Tacit Knowledge Through a Conceptual Framework"
+            }
+          ],
+          "justification": "The model is used to clarify and conceptualize the biodiversity domain, aggregating tacit knowledge and semantic expressiveness — matches For Understanding positive signals 'conceptualize' and supports domain understanding through the ontology."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "The original OntoBio and a trial version of OntoBio with some of these changes can be found at portal.inpa.gov.br/ctin/lis/ontobio/.",
+              "section": "3. OntoBio's Evolution Based on Tacit Knowledge Through a Conceptual Framework"
+            }
+          ],
+          "reason": "The ontology is made available via a portal, hinting at reference/repository use, but the paper does not explicitly frame OntoBio as documentation or knowledge base for absent parties."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

@@ -1,0 +1,80 @@
+{
+  "paper_id": "Lindeberg_Henkel_2024_HumanRights",
+  "annotator": "claude-opus-4",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "OntoRights (ontology for human rights violations documentation, including Full, Easy, and Basic OntoRights versions)",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "To close this gap, the research goal was to design the first ontology for human rights violations documentation, in collaboration with HURIDOCS. Named OntoRights, its primary purpose is to be used by human rights groups for developing case databases.",
+              "section": "1. Introduction"
+            },
+            {
+              "quote": "A human rights group can reuse complete modules or just parts, according to its needs. For instance, as part of the evaluation of OntoRights, an adapted instantiation was developed for Committee for Justice, an Egyptian human rights group focused on arbitrary detentions.",
+              "section": "1. Introduction"
+            },
+            {
+              "quote": "As for the Committee of Justice, OntoRights was used to propose a redesign of the organization's public database Justice Watch Archive.",
+              "section": "3.2 Results from demonstration and evaluation of OntoRights"
+            },
+            {
+              "quote": "The research goal was to design a domain ontology for human rights documentation with the primary purpose of facilitating conceptual modelling of case databases for human rights groups.",
+              "section": "4. Discussion"
+            }
+          ],
+          "justification": "The paper explicitly frames the model's primary purpose as being used by human rights groups to develop/build case databases, and demonstrates an actual instantiation used to propose a database redesign for the Committee for Justice. This matches the For Intervening definition: the model directly guides or enables the creation of a system/artifact (a database)."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "Ontologies can contribute to reducing the problem of semantic heterogeneity , that is the problem that different systems (or people) do not use the same, well-defined, concepts (Uschold and Gruninger 2004). In other words, ontologies help not only machines but also people to acquire a shared understanding of a domain (Uschold and Gruninger 2004).",
+              "section": "1. Introduction"
+            },
+            {
+              "quote": "An ontology can be described as a data model that is shared, generic, and represents consensus about a domain (Nguyen 2011).",
+              "section": "1. Introduction"
+            }
+          ],
+          "justification": "The paper frames ontologies (and by extension OntoRights) as instruments to help people acquire shared understanding of a domain and reduce semantic heterogeneity. Per the Understanding signal patterns ('shared understanding', 'conceptualize'), this supports a domain-understanding purpose, though it is presented as a general benefit of ontologies that motivates OntoRights' design."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "All versions are available at OntoRight's website on Github.",
+              "section": "2.2 Design and development"
+            },
+            {
+              "quote": "However, readers interested in more details can access all three versions, including documentation, user manual, and project files, on GitHub.",
+              "section": "3. Result: the OntoRights ontology"
+            }
+          ],
+          "reason": "Publishing the ontology with documentation on GitHub is about availability/reuse of the artifact rather than the model serving as documentation/knowledge base of the domain for absent parties; evidence is indirect for the documenting goal as defined."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "The Committee for Justice reviewed the proposed instantiation and considered that it would be useful as a starting point if the organization in the future was to make major changes to its database.",
+              "section": "3.2 Results from demonstration and evaluation of OntoRights"
+            }
+          ],
+          "reason": "The same evidence primarily supports For Intervening (database redesign). Per disambiguation rules, if the same evidence only shows implementation, code For Intervening, not Problem-solving. No separate evidence shows the model was used for option comparison or decision analysis distinct from implementation."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

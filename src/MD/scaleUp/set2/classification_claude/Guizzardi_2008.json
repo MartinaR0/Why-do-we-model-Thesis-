@@ -1,0 +1,65 @@
+{
+  "paper_id": "Guizzardi_2008",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "UFO (Unified Foundational Ontology) - UFO-A, UFO-B, UFO-C",
+      "goals": [
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "In this paper, we illustrated the role played by philosophically  grounded foundational ontology in the design of domain  ontologies. In particular, we demonstrate how UFO can be used to evaluate, re-design and give real-world semantics to an ontology in the software engineering domain, namely, the software process ontology which is the core of the ODE Ontology-Centered Software Development Environment.", "section": "Section 6 Final Considerations"},
+            {"quote": "By doing this, we have corrected a number of con- ceptual problems in this software engineering ontology by making it more truthful to the  domain  being  represented  and  by  making  explicit  its  ontological  commitments.", "section": "Section 6 Final Considerations"}
+          ],
+          "justification": "UFO is used as an analytical instrument to evaluate and identify shortcomings in another ontology (ODE), matching the Problem-solving signal patterns 'evaluate' and 'identify shortcomings'. The model guides decision-making about what needs to change in the target ontology."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "Foundational  Ontologies are  theoretically  well-founded  domainindependent systems of categories that have been successfully used to improve the quality of conceptual modeling languages and models.", "section": "Abstract"},
+            {"quote": "UFO has been successfully employed  to  evaluate,  re-design  and  integrate  the  models  of  conceptual  modeling languages  as  well  as  to  provide  real-world  semantics  for  their  modeling  constructs", "section": "Section 1 Introduction"}
+          ],
+          "justification": "UFO is used to provide 'real-world semantics' and clarify the meaning of modeling constructs in domain ontologies, fitting the Understanding signal patterns 'clarify' and 'conceptualize'."
+        }
+      ],
+      "uncertain_goals": []
+    },
+    {
+      "model_label": "Reengineered ODE Software Process Ontology",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "In  [16],  Falbo  and  Bertollo  presented  a  Software  Process  Ontology  that  was  developed for establishing a common conceptualization for software organizations to talk about  software  processes.", "section": "Section 5"},
+            {"quote": "By doing this, we have corrected a number of con- ceptual problems in this software engineering ontology by making it more truthful to the  domain  being  represented  and  by  making  explicit  its  ontological  commitments.", "section": "Section 6 Final Considerations"}
+          ],
+          "justification": "The ODE ontology was explicitly developed for 'establishing a common conceptualization' - matching the Understanding signal pattern of 'conceptualize' and shared meaning negotiation about the software process domain."
+        },
+        {
+          "goal": "For Intervening",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "This ontology is used as basis for the development  of  a process  infrastructure  for  ODE  [3],  a  Process-Centered  Software  Engineering  Environment.", "section": "Section 5"}
+          ],
+          "justification": "The ODE Software Process Ontology is explicitly stated to be 'used as basis for the development of a process infrastructure' - the ontology guides the construction of a concrete software environment, matching the Intervening signal 'used to create'."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "presented  a  Software  Process  Ontology  that  was  developed for establishing a common conceptualization for software organizations to talk about  software  processes.", "section": "Section 5"}
+          ],
+          "reason": "The phrase 'to talk about software processes' weakly suggests communication between organizations, but the primary framing is establishing a common conceptualization (Understanding) rather than explicitly supporting interactive communication between distinct parties."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

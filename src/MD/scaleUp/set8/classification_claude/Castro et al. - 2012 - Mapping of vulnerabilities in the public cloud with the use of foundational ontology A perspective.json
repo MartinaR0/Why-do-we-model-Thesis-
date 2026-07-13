@@ -1,0 +1,63 @@
+{
+  "paper_id": "Castro et al. - 2012 - Mapping of vulnerabilities in the public cloud with the use of foundational ontology A perspective",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": ["Figures are not rendered in the extracted markdown (referenced as [FIGURE] placeholders); some sentences appear awkwardly translated but content is intelligible."],
+  "models": [
+    {
+      "model_label": "Ontology of Vulnerabilities in the Public Cloud (IaaS) modeled with OntoUML/UFO",
+      "goals": [
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "The purpose this modeling, is to provide an effective mechanism, capable  of  handling  two  major  security  issues,  such  as: providing  a  common  vocabulary  to  describe  vulnerabilities unambiguously and resolving the issue of semantic interoperability between the databases of vulnerabilities maintained by various entities", "section": "Abstract"},
+            {"quote": "The purpose of this conceptual model is to allow a common understanding  in  the  shared  conceptualization  of  a  modeled domain among  different stakeholders, such as business, people, processes, tools and technologies.", "section": "VI. Conclusion"},
+            {"quote": "A formal specification in the domain vulnerabilities for IaaS environments, allows the modeled concepts to be understood clearly and explicitly, in order to avoid ambiguity and inconsistent  interpretations.", "section": "VI. Conclusion"}
+          ],
+          "justification": "The paper explicitly states the model's purpose is to provide a common vocabulary and shared conceptualization/common understanding of the vulnerabilities domain, matching the For Understanding signals (\"common vocabulary\", \"shared understanding\", \"clarify\", \"conceptualize\")."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "These  ideas  lead  to  the  identification  of  potential  users  in ontology,  since  this  will  serve  as  coping  mechanisms  for  IT managers in decision making, when planning for adoption of the  Cloud  Computing.", "section": "I. Introduction"},
+            {"quote": "Support for managers in decisions about adherence to Cloud Services.", "section": "VI. Conclusion"},
+            {"quote": "The main objective of this study is to present the description of  a  stage  terminology  for  the  conceptual  modeling  in  an ontology mapping, focused on the possible vulnerabilities of a scenario in the Public Cloud delivery model (IaaS) services, in order to assist the definition of guidelines for the consumption of  Cloud  Services,  having  an  acceptable  level  of  safety  in accordance with the policies for the security of the organization's information.", "section": "I. Introduction"}
+          ],
+          "justification": "The paper explicitly frames the model as a decision-support/coping mechanism for IT managers making decisions about Cloud adoption and defining safety guidelines, matching the For Problem-solving signals (\"decision\", \"decision making\", guiding what should change)."
+        },
+        {
+          "goal": "For Documenting",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "Therefore, the goal is to catalog information about vulnerabilities in these stated environments, in  order  to  allow  automated  tools  making  the  correlation  in various sources of information.", "section": "I. Introduction"},
+            {"quote": "The primary motivation in this proposed ontological model, is to outline an  initiative  towards  the  interoperability of storage and disclosure of the new  vulnerabilities in the computer  environments,  such  as  bases  maintained  by  the Research  Institutes  CERT  (Computer  Emergency  Response Team / Coordination Center) and the CVE  (Common Vulnerabilities and Exposures)", "section": "I. Introduction"},
+            {"quote": "The  creation  of  a  standard  for  structuring  data  on vulnerabilities in computing environments, allowing different terms mapped in the ontology", "section": "VI. Conclusion"}
+          ],
+          "justification": "The model is intended as a cataloging/reference structure for vulnerability information across databases (CERT, CVE) for asynchronous use by others; this matches Documenting signals (\"catalog\", \"reference\", \"storage and disclosure\", knowledge base/repository) rather than live communication."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "Based on its essential purpose, the ontology modeled  herewith,  which  can  also  be  used  by specific applications, as oriented semantic models, duly developed by manufacturers of solutions for the identification and monitoring of vulnerabilities in computer environments.", "section": "I. Introduction"},
+            {"quote": "To promote semantic interoperability between different databases, storage and disclosure of vulnerabilities;", "section": "VI. Conclusion"}
+          ],
+          "reason": "The paper mentions potential future use by manufacturers to build applications and to promote semantic interoperability, but there is no actual implementation, deployment, or artifact generated from the model in this study; the negative signals \"proposed only\" and \"would be implemented\" apply."
+        },
+        {
+          "goal": "For Communicating",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "The purpose of this conceptual model is to allow a common understanding  in  the  shared  conceptualization  of  a  modeled domain among  different stakeholders, such as business, people, processes, tools and technologies.", "section": "VI. Conclusion"}
+          ],
+          "reason": "The mention of shared conceptualization among stakeholders could hint at communication, but there is no evidence of synchronous/live use (meetings, discussion, explanation between distinct groups); the disambiguation rule places internal sense-making/shared conceptualization under Understanding rather than Communicating."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

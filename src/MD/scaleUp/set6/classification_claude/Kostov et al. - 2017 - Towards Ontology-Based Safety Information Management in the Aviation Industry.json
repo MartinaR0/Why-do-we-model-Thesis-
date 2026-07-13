@@ -1,0 +1,69 @@
+{
+  "paper_id": "Kostov et al. - 2017 - Towards Ontology-Based Safety Information Management in the Aviation Industry",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Aviation Safety Ontology (ASO)",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "In this work we propose an ontology-based safety information management for the aviation industry. To achieve this we develop the Aviation Safety Ontology that is modular and covers the contexts of the organization types aerodrome, airline, air traffic management, maintenance and the state civil aviation authority. We test the appropriateness of the proposed ontology by representing safety data in terms of the ontology.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "ASO and our implementation of UFO are distributed as OWL 2 ontologies 1 . Currently the ontology has ontology has 11255 axioms, 3165 classes, 1865 object properties and its expressivity is SHIQ ( D ).",
+              "section": "4 Aviation Safety Ontology"
+            },
+            {
+              "quote": "We import heterogeneous structured data into the ontology using a schema to ontology mapping. The resulting data is then revised by domain experts through the application... Currently the dataset contains over 250 K triples.",
+              "section": "6 Evaluation of ASO"
+            },
+            {
+              "quote": "Specifically we design and develop the Aviation Safety Ontology (ASO) to be used to align diverse aviation safety information.",
+              "section": "7 Conclusion"
+            }
+          ],
+          "justification": "The ontology is implemented as an OWL 2 artifact (11255 axioms, 3165 classes) and actually deployed to represent/import safety data (over 250K triples), enabling interoperability across incompatible terminologies. This is an implemented artifact that enables data integration, matching Intervening signals."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {
+              "quote": "The purpose of this conceptualization is to serve as a definition language for safety aviation application ontologies. This can help define specific application classes in a more compatible fashion across different applications. For example terms for aircraft parts such as engine or fuel system refer to the same meaning regardless of the context, e.g. maintenance or flight operator context.",
+              "section": "5.1 Aviation Ontology"
+            },
+            {
+              "quote": "An ontology is a formal, explicit specification of a shared conceptualisation",
+              "section": "3 Ontology and Ontology Engineering Methodology"
+            },
+            {
+              "quote": "Alignment of terminology found in these documents is done with the help of experts.",
+              "section": "4 Aviation Safety Ontology"
+            }
+          ],
+          "justification": "The ontology explicitly aims to provide a shared conceptualization and align terminology across incompatible frameworks, ensuring consistent meaning of terms regardless of context. This aligns with the Understanding goal (shared understanding / meaning negotiation)."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {
+              "quote": "Improving safety information management in aviation can be achieved by the systematic documentation of safety information and its seamless sharing vertically as well as horizontally through the management hierarchy.",
+              "section": "Abstract"
+            }
+          ],
+          "reason": "Documentation is discussed as a domain problem addressed by the ontology, but the model itself is not framed as async documentation/knowledge base of the modelers' own knowledge; rather it serves as a schema for data integration."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

@@ -1,0 +1,47 @@
+{
+  "paper_id": "Abrahao_Hirakawa_2018",
+  "annotator": "ChatGPT-5",
+  "no_codable_model": false,
+  "input_limitations": [
+    "The extracted text contains encoding artifacts in author names and some words, and figures are represented only as [FIGURE] placeholders."
+  ],
+  "models": [
+    {
+      "model_label": "AGROPTO conceptual models for agriculture operations task ontology",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "An implementation of AGROPTO in the OWL (W3C, 2004) format is available at http://agropto.org.",
+              "section": "Section 3.2"
+            },
+            {
+              "quote": "The solutions proposed were used on the Agriculture Operations Task Ontology, a generic task ontology for the agriculture domain in order to describe structural and behavioural aspects of the task execution and generate a well-founded implementation in OWL format.",
+              "section": "Conclusion"
+            }
+          ],
+          "justification": "The paper states that the proposed model solutions were used to generate an OWL implementation, and that an AGROPTO implementation is available. Under the Intervening rule, use of the model to generate or enable an implemented artifact is sufficient evidence."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "This paper describes the ongoing research on the Agriculture Operations Task Ontology (AGROPTO) where OntoUML is used to develop conceptual models to describe complex task's aspects and possible modelling solutions based on Unified Foundation Ontology (UFO).",
+              "section": "Abstract"
+            },
+            {
+              "quote": "This section describes the methodologies used to develop the task ontology considering the structural and behavioural aspects, the selection of a foundational ontology, ontology reuse, conceptual modelling and architecture design characteristics.",
+              "section": "Methodology"
+            }
+          ],
+          "justification": "The authors explicitly frame the conceptual models as describing complex task aspects and the structural and behavioural aspects of the task ontology. This fits the Understanding goal because the model is used to conceptualize and clarify the domain/task knowledge."
+        }
+      ],
+      "uncertain_goals": []
+    }
+  ],
+  "outside_taxonomy": []
+}

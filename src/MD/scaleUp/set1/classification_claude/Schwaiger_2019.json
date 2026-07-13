@@ -1,0 +1,54 @@
+{
+  "paper_id": "Schwaiger_2019",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": ["Markdown extraction contains OCR artifacts (e.g., 'fi' ligatures rendered as ' fi ', figures replaced with [FIGURE] placeholders); does not affect goal classification."],
+  "models": [
+    {
+      "model_label": "OntoREA© Accounting and Finance Model with Stochastic Extension",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "The applicability of the OntoREA © model ' s stochastic extension was demonstrated via the ERP-CONTROL application where elements of this extension were used to provide the application ' s stochastic production planning and control infrastructure.", "section": "Section 5 Conclusion"},
+            {"quote": "The Plan Events class is implemented -like the other classes in Fig. 7 as well -in the Java Enterprise Edition as a database persisted entity bean.", "section": "Section 4 ERP-CONTROL Application"},
+            {"quote": "After having demonstrated the functioning of the stochastic production planning infrastructure in ERP-CONTROL, it will be shown now which concepts from the OntoREA © accounting and fi nance model ' s stochastic extension are implemented in the application in which way.", "section": "Section 4 ERP-CONTROL Application"}
+          ],
+          "justification": "The model's elements are actually implemented in the ERP-CONTROL application (Java EE entity beans), which is a concrete artifact built using the model. This matches the For Intervening signal pattern ('implemented') with strong evidence of actual implementation guiding system development."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {"quote": "Conceptual modeling provides concise knowledge representations for the domain under investigation.", "section": "Section 1 Introduction"},
+            {"quote": "The ontological turn by switching from UML modeling language to the OntoUML language enhances the expressiveness of the conceptual model by adding to each concept applied in the model its UFO-metaphysical (ontological) nature.", "section": "Section 1 Introduction"},
+            {"quote": "There are fi ve changes (marked in blue color in Fig. 1) in comparison to the original OntoREA © accounting and fi nance model [1] for enhancing understandability.", "section": "Section 2"}
+          ],
+          "justification": "The paper explicitly frames the model as providing knowledge representation for the accounting/finance domain and emphasizes enhancing understandability and ontological expressiveness — matching the For Understanding signal pattern (conceptualize, clarify, define)."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "Medium",
+          "evidence_quotes": [
+            {"quote": "Furthermore, the extension should be that generic so that it can also be applied to other valuation systems as well as planning and control systems like real option pricing and decision analysis [18, 19], stochastic control problems [20, 21], approximate control problems [22] and control problems with augmented states in form of exogenous and endogenous state variables [23].", "section": "Section 1 Introduction"},
+            {"quote": "Due to the generic nature of the stochastic extension it can be applied not only for fi nancial planning and control but also for decision analysis and different kinds of optimal control problems.", "section": "Section 5 Conclusion"},
+            {"quote": "In a double loop management system the variance information can be used either to trigger corrective adjustments at the production process level e.g. by correcting the production policy or adaptive adjustments at the production planning level e.g. by adapting the sample state contingent production volumes for the forthcoming periods.", "section": "Section 4 ERP-CONTROL Application"}
+          ],
+          "justification": "The model is explicitly framed as supporting decision analysis, planning, and control problems — matching the For Problem-solving signal pattern (decision, analyze options, evaluate). Separate from the implementation evidence, the paper frames the model's purpose as guiding decisions in planning and control contexts."
+        }
+      ],
+      "uncertain_goals": [
+        {
+          "goal": "For Documenting",
+          "confidence": "Low",
+          "evidence_quotes": [
+            {"quote": "Conceptual modeling provides concise knowledge representations for the domain under investigation.", "section": "Section 1 Introduction"}
+          ],
+          "reason": "While 'knowledge representations' could weakly hint at documentation/reference use, the paper does not explicitly frame the model as a knowledge base or asynchronous reference for absent parties, making this evidence too weak."
+        }
+      ]
+    }
+  ],
+  "outside_taxonomy": []
+}

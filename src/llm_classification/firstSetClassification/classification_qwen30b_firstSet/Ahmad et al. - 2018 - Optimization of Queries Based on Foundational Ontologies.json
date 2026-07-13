@@ -1,0 +1,90 @@
+{
+  "paper_file": "Ahmad et al. - 2018 - Optimization of Queries Based on Foundational Ontologies.md",
+  "status": "ok",
+  "result": {
+    "paper_id": "Optimization of Queries Based on Foundational Ontologies",
+    "annotator": "LLM model name",
+    "no_codable_model": false,
+    "input_limitations": [],
+    "models": [
+      {
+        "model_label": "UFO-based index design",
+        "goals": [
+          {
+            "goal": "For Intervening",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "This paper presents how proper foundational-ontology-based knowledge can be used to design a generic index, which can help in answering a wide range of queries compliant with the foundational ontology.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "The main contribution of this paper is foundational query patterns analysis and foundational-ontology-based index design to make query evaluation more efficient, tailored to RDF data, see Fig. 1.",
+                "section": "1.1 Contribution"
+              },
+              {
+                "quote": "In particular, this paper proposes: (i) a new RDF indexing approach based on Unified Foundational Ontology (UFO) which is top-level ontology, aimed at answering queries compliant with common query patterns.",
+                "section": "1.1 Contribution"
+              },
+              {
+                "quote": "We tested one of the native triple stores (RDF4J) that physically designed bases on B-Tree indexing triple tables with context, by comparing the execution time of these queries with and without UFO index tables.",
+                "section": "5.2 Benchmark of Queries"
+              }
+            ],
+            "justification": "The paper explicitly states that the UFO-based index design is proposed to answer queries compliant with foundational patterns, and it was tested in a real system (RDF4J) with performance evaluation, indicating active use to build and optimize a query system. The use of 'tested' and 'comparing execution time' confirms implementation and instrumental use."
+          },
+          {
+            "goal": "For Problem-solving",
+            "confidence": "High",
+            "evidence_quotes": [
+              {
+                "quote": "The rationale is that ontologies represent common-sense structures that are reflected also in queries posed by data users and thus can be used for query optimization.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "We discuss several indexing techniques and evaluate our proposal for different UFO-based queries extracted from different query sets.",
+                "section": "Abstract"
+              },
+              {
+                "quote": "The question now is: how can we represent UFO query patterns in different data sources, e.g., Wikidata? How could different data source queries be analyzed with UFO? Or how data source queries could be translated to UFO?",
+                "section": "4.1 UFO Index Tables Approaches Discussion"
+              }
+            ],
+            "justification": "The model is used to analyze and evaluate query patterns, identify shortcomings in generic indexing, and assess how foundational patterns can be applied across data sources. The focus on 'evaluating' and 'analyzing' query patterns aligns with problem-solving, as it involves identifying what needs to change in query processing."
+          },
+          {
+            "goal": "For Communicating",
+            "confidence": "Medium",
+            "evidence_quotes": [
+              {
+                "quote": "The abovedefined questions represent generic foundational query patterns that are inherent to all information systems.",
+                "section": "4.1 UFO Index Tables Approaches Discussion"
+              },
+              {
+                "quote": "For example, customer master data model customers (endurants), their properties like the name (trope). Particular writes into the master data base corresponding to the individual snapshots of the name, resp. customer. Thus, by instantiating Q 3 , we can easily retrieve all properties a master data base contains about a customer.",
+                "section": "4.1 UFO Index Tables Approaches Discussion"
+              }
+            ],
+            "justification": "The paper uses the model to explain how foundational patterns can be applied across domains (e.g., customer data, aviation safety), suggesting it serves to bridge understanding between different stakeholders by showing how the same conceptual structure applies to different systems. The use of 'example' and 'thus' indicates explanation across domains, supporting communication between groups."
+          }
+        ],
+        "uncertain_goals": [
+          {
+            "goal": "For Documenting",
+            "confidence": "Low",
+            "evidence_quotes": [
+              {
+                "quote": "The paper is organized as follows. Section 2 reviews the necessary background of RDF and querying, in Sect. 2.2 we briefly define the notion of the Unified Foundational Ontology (UFO).",
+                "section": "1.1 Contribution"
+              }
+            ],
+            "reason": "The paper introduces the UFO model and its use in indexing, but there is no evidence that the model is intended as a persistent reference or documentation system for future use; the focus is on active use in query optimization."
+          }
+        ]
+      }
+    ],
+    "outside_taxonomy": []
+  },
+  "raw": "{\n  \"paper_id\": \"Optimization of Queries Based on Foundational Ontologies\",\n  \"annotator\": \"LLM model name\",\n  \"no_codable_model\": false,\n  \"input_limitations\": [],\n  \"models\": [\n    {\n      \"model_label\": \"UFO-based index design\",\n      \"goals\": [\n        {\n          \"goal\": \"For Intervening\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"This paper presents how proper foundational-ontology-based knowledge can be used to design a generic index, which can help in answering a wide range of queries compliant with the foundational ontology.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"The main contribution of this paper is foundational query patterns analysis and foundational-ontology-based index design to make query evaluation more efficient, tailored to RDF data, see Fig. 1.\",\n              \"section\": \"1.1 Contribution\"\n            },\n            {\n              \"quote\": \"In particular, this paper proposes: (i) a new RDF indexing approach based on Unified Foundational Ontology (UFO) which is top-level ontology, aimed at answering queries compliant with common query patterns.\",\n              \"section\": \"1.1 Contribution\"\n            },\n            {\n              \"quote\": \"We tested one of the native triple stores (RDF4J) that physically designed bases on B-Tree indexing triple tables with context, by comparing the execution time of these queries with and without UFO index tables.\",\n              \"section\": \"5.2 Benchmark of Queries\"\n            }\n          ],\n          \"justification\": \"The paper explicitly states that the UFO-based index design is proposed to answer queries compliant with foundational patterns, and it was tested in a real system (RDF4J) with performance evaluation, indicating active use to build and optimize a query system. The use of 'tested' and 'comparing execution time' confirms implementation and instrumental use.\"\n        },\n        {\n          \"goal\": \"For Problem-solving\",\n          \"confidence\": \"High\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The rationale is that ontologies represent common-sense structures that are reflected also in queries posed by data users and thus can be used for query optimization.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"We discuss several indexing techniques and evaluate our proposal for different UFO-based queries extracted from different query sets.\",\n              \"section\": \"Abstract\"\n            },\n            {\n              \"quote\": \"The question now is: how can we represent UFO query patterns in different data sources, e.g., Wikidata? How could different data source queries be analyzed with UFO? Or how data source queries could be translated to UFO?\",\n              \"section\": \"4.1 UFO Index Tables Approaches Discussion\"\n            }\n          ],\n          \"justification\": \"The model is used to analyze and evaluate query patterns, identify shortcomings in generic indexing, and assess how foundational patterns can be applied across data sources. The focus on 'evaluating' and 'analyzing' query patterns aligns with problem-solving, as it involves identifying what needs to change in query processing.\"\n        },\n        {\n          \"goal\": \"For Communicating\",\n          \"confidence\": \"Medium\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The abovedefined questions represent generic foundational query patterns that are inherent to all information systems.\",\n              \"section\": \"4.1 UFO Index Tables Approaches Discussion\"\n            },\n            {\n              \"quote\": \"For example, customer master data model customers (endurants), their properties like the name (trope). Particular writes into the master data base corresponding to the individual snapshots of the name, resp. customer. Thus, by instantiating Q 3 , we can easily retrieve all properties a master data base contains about a customer.\",\n              \"section\": \"4.1 UFO Index Tables Approaches Discussion\"\n            }\n          ],\n          \"justification\": \"The paper uses the model to explain how foundational patterns can be applied across domains (e.g., customer data, aviation safety), suggesting it serves to bridge understanding between different stakeholders by showing how the same conceptual structure applies to different systems. The use of 'example' and 'thus' indicates explanation across domains, supporting communication between groups.\"\n        }\n      ],\n      \"uncertain_goals\": [\n        {\n          \"goal\": \"For Documenting\",\n          \"confidence\": \"Low\",\n          \"evidence_quotes\": [\n            {\n              \"quote\": \"The paper is organized as follows. Section 2 reviews the necessary background of RDF and querying, in Sect. 2.2 we briefly define the notion of the Unified Foundational Ontology (UFO).\",\n              \"section\": \"1.1 Contribution\"\n            }\n          ],\n          \"reason\": \"The paper introduces the UFO model and its use in indexing, but there is no evidence that the model is intended as a persistent reference or documentation system for future use; the focus is on active use in query optimization.\"\n        }\n      ]\n    }\n  ],\n  \"outside_taxonomy\": []\n}",
+  "seconds": 18.2
+}

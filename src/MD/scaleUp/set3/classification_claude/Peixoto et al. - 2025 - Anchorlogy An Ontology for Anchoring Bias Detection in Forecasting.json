@@ -1,0 +1,72 @@
+{
+  "paper_id": "Peixoto et al. - 2025 - Anchorlogy An Ontology for Anchoring Bias Detection in Forecasting",
+  "annotator": "claude-opus-4-7",
+  "no_codable_model": false,
+  "input_limitations": [],
+  "models": [
+    {
+      "model_label": "Anchorlogy ontology for anchoring bias detection in forecasting",
+      "goals": [
+        {
+          "goal": "For Intervening",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "In this work, we present Anchorlogy, an ontology devised to explicitly provide the required context to detect and mitigate anchoring bias during a decision-making process, and a metrological approach to measure it while addressing the deficiencies found in other metrics in the current psychological literature.",
+              "section": "Abstract"
+            },
+            {
+              "quote": "Second, this paper proposes a new measurement for anchoring bias to be used as a detection mechanism while explicitly considering the context. This mechanism allows for automatic detection, thus mitigating the effect of bias on the behavioral component of the decision-making process.",
+              "section": "Section 1 Introduction"
+            },
+            {
+              "quote": "Our proposal was validated by applying it to two case studies in the forecasting domain, and the results show that it effectively prevents the bullwhip effect in real-world scenarios.",
+              "section": "Abstract"
+            }
+          ],
+          "justification": "The ontology is explicitly used as the basis for a detection mechanism (Algorithm 1) that is implemented and applied to real-world case studies (Walmart COVID-19 scenario; Haag et al. XAI experiment), generating artifacts (algorithm, detection system) that act upon the world. Matches 'For Intervening' positive signals ('used to create', 'generated artifact')."
+        },
+        {
+          "goal": "For Understanding",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "Anchorlogy defines what an anchor is, represents different types of anchors, and details how the anchoring bias interacts with the belief formation process.",
+              "section": "Section 1 Introduction"
+            },
+            {
+              "quote": "In this work, we propose an ontology to precisely define the subtle notions that give rise to the Anchoring Effect and apply the ontology to help detect and mitigate the anchoring bias.",
+              "section": "Section 6 Conclusion"
+            },
+            {
+              "quote": "Anchorlogy plays a crucial role in conciliating the concepts from forecasting and behavioral economics research since bias definitions can diverge, considering the context associated with the process.",
+              "section": "Section 3 Anchor and Related Concepts"
+            }
+          ],
+          "justification": "The ontology is explicitly framed as defining, clarifying, and conceptualizing the domain notions of anchors, anchoring bias, and belief formation, reconciling concepts across forecasting and behavioral economics. Matches 'For Understanding' positive signals ('define', 'conceptualize', 'clarify')."
+        },
+        {
+          "goal": "For Problem-solving",
+          "confidence": "High",
+          "evidence_quotes": [
+            {
+              "quote": "In this work, we present Anchorlogy, an ontology devised to explicitly provide the required context to detect and mitigate anchoring bias during a decision-making process",
+              "section": "Abstract"
+            },
+            {
+              "quote": "biased decisions, when detected by the proposed mechanism, indicate the belief distortion and the most likely anchor candidates for said bias.",
+              "section": "Section 6 Conclusion"
+            },
+            {
+              "quote": "Due to our precise definitions of these subtypes of cognitive biases, our proposed approach is capable of automatically detecting not only anchoring but also overconfidence and algorithm aversion biases.",
+              "section": "Section 5.2 Anchorlogy x XAI"
+            }
+          ],
+          "justification": "Separate from implementation, the ontology supports decision-making by enabling stakeholders to detect biases, identify likely anchors, and evaluate distortions in forecasts. Matches 'For Problem-solving' positive signals ('decision', 'identify', 'evaluate')."
+        }
+      ],
+      "uncertain_goals": []
+    }
+  ],
+  "outside_taxonomy": []
+}
