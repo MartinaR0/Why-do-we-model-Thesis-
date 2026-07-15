@@ -10,18 +10,16 @@ The study tests whether the six functional goals of modeling identified by Sousa
 ## Dataset
 
 The Excel workbooks the analysis was built on:
+- `llm_evaluation_40_papers` : the LLM-vs-human evaluation on the 40-paper reference set (per-model KPIs, per-goal accuracy, per-paper agreement, disagreements, and a combined per-model view against the gold reference)
 
-
-the comparison workbook — the LLM-vs-human evaluation on the 40-paper reference set (per-model KPIs, per-goal accuracy, per-paper agreement, disagreements, and a combined per-model view against the gold reference)
-
-
-the scale-up workbook — the goal-frequency counts from Claude's classification of the full corpus;
-the manual classification workbook — the human reference: two coders (coder1, coder2) and the reconciled agreed/gold column.
-
+- `scale-up` : the goal-frequency counts from Claude's classification of the full corpus
 
 ## MD
 
 Every paper in the revised OntoUML/UFO catalog, converted from PDF to Markdown with Docling. Image content is removed, since classification is based on text rather than diagrams.
+The papers that where manually classified by the human coders are:
+ - `firstSet` contains 10 papers;
+ - `secondSet` and `thirdSet` contain 15 papers each
 
 ## llm_classification
 
